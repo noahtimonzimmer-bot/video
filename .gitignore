@@ -3,3 +3,4 @@ aitrends-2d-studio/projects/*/build/
 aitrends-2d-studio/examples/*/build/
 voice/tmp/
 *.mp4
+__pycache__/
