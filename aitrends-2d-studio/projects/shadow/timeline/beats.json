@@ -1,0 +1,994 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 1.2,
+  "speechEnd": 3.331,
+  "text": "You're standing on the roof of a forty-story building.",
+  "end": 3.351
+ },
+ {
+  "i": 1,
+  "start": 3.351,
+  "speechStart": 3.501,
+  "speechEnd": 6.315,
+  "text": "Your girlfriend is hanging from the edge. You're holding her hand.",
+  "end": 6.326
+ },
+ {
+  "i": 2,
+  "start": 6.326,
+  "speechStart": 6.476,
+  "speechEnd": 8.04,
+  "text": "And your shadow is holding a knife.",
+  "end": 8.054
+ },
+ {
+  "i": 3,
+  "start": 8.054,
+  "speechStart": 8.204,
+  "speechEnd": 9.688,
+  "text": "But here's the terrifying part.",
+  "end": 9.701
+ },
+ {
+  "i": 4,
+  "start": 9.701,
+  "speechStart": 9.851,
+  "speechEnd": 13.603,
+  "text": "Your shadow isn't pointing the knife at her. It's pointing it at YOU. You scream.",
+  "end": 13.627
+ },
+ {
+  "i": 5,
+  "start": 13.627,
+  "speechStart": 13.777,
+  "speechEnd": 16.311,
+  "text": "And your shadow raises its arm. THREE DAYS EARLIER.",
+  "end": 17.043
+ },
+ {
+  "i": 6,
+  "start": 17.043,
+  "speechStart": 17.193,
+  "speechEnd": 22.986,
+  "text": "You wake up late for work. You brush your teeth. Put on your shoes. And walk outside. Everything seems normal.",
+  "end": 23.004
+ },
+ {
+  "i": 7,
+  "start": 23.004,
+  "speechStart": 23.154,
+  "speechEnd": 28.843,
+  "text": "Until you notice something strange. Your shadow is waving. But you're not. You stop walking. It stops too.",
+  "end": 28.855
+ },
+ {
+  "i": 8,
+  "start": 28.855,
+  "speechStart": 29.005,
+  "speechEnd": 30.2,
+  "text": "You raise your right hand.",
+  "end": 30.211
+ },
+ {
+  "i": 9,
+  "start": 30.211,
+  "speechStart": 30.361,
+  "speechEnd": 35.158,
+  "text": "Your shadow raises its left. You laugh. Maybe you're just tired. Then you turn around.",
+  "end": 35.176
+ },
+ {
+  "i": 10,
+  "start": 35.176,
+  "speechStart": 35.326,
+  "speechEnd": 41.037,
+  "text": "And your shadow stays where it is. You stare at it. It stares back. Well... It doesn't have eyes.",
+  "end": 41.047
+ },
+ {
+  "i": 11,
+  "start": 41.047,
+  "speechStart": 41.197,
+  "speechEnd": 42.827,
+  "text": "But somehow, you know it's watching you.",
+  "end": 42.833
+ },
+ {
+  "i": 12,
+  "start": 42.833,
+  "speechStart": 42.983,
+  "speechEnd": 44.333,
+  "text": "You take one step backward.",
+  "end": 44.36
+ },
+ {
+  "i": 13,
+  "start": 44.36,
+  "speechStart": 44.51,
+  "speechEnd": 47.735,
+  "text": "Your shadow takes one step forward. You run. It follows.",
+  "end": 47.766
+ },
+ {
+  "i": 14,
+  "start": 47.766,
+  "speechStart": 47.916,
+  "speechEnd": 50.439,
+  "text": "But not the way a shadow should. It runs beside you.",
+  "end": 50.909
+ },
+ {
+  "i": 15,
+  "start": 50.909,
+  "speechStart": 51.059,
+  "speechEnd": 57.126,
+  "text": "You rush into your apartment. Lock the door. And turn off every light. Your shadow disappears. You finally relax.",
+  "end": 57.148
+ },
+ {
+  "i": 16,
+  "start": 57.148,
+  "speechStart": 57.298,
+  "speechEnd": 58.499,
+  "text": "Then your phone lights up.",
+  "end": 58.504
+ },
+ {
+  "i": 17,
+  "start": 58.504,
+  "speechStart": 58.654,
+  "speechEnd": 65.306,
+  "text": "And your shadow appears on the wall. Except now... It's knocking. Three times. You turn off your phone. Silence.",
+  "end": 65.35
+ },
+ {
+  "i": 18,
+  "start": 65.35,
+  "speechStart": 65.5,
+  "speechEnd": 69.599,
+  "text": "Then you hear three knocks on your front door. You look through the peephole. Nobody's there.",
+  "end": 69.62
+ },
+ {
+  "i": 19,
+  "start": 69.62,
+  "speechStart": 69.77,
+  "speechEnd": 72.719,
+  "text": "But something has been scratched into the wood. DON'T GO TO WORK.",
+  "end": 73.443
+ },
+ {
+  "i": 20,
+  "start": 73.443,
+  "speechStart": 73.593,
+  "speechEnd": 76.28,
+  "text": "You think someone's playing a prank. So you ignore it.",
+  "end": 76.287
+ },
+ {
+  "i": 21,
+  "start": 76.287,
+  "speechStart": 76.437,
+  "speechEnd": 78.57,
+  "text": "Twenty minutes later, you arrive at your office.",
+  "end": 78.587
+ },
+ {
+  "i": 22,
+  "start": 78.587,
+  "speechStart": 78.737,
+  "speechEnd": 79.964,
+  "text": "You step into the elevator.",
+  "end": 79.988
+ },
+ {
+  "i": 23,
+  "start": 79.988,
+  "speechStart": 80.138,
+  "speechEnd": 81.549,
+  "text": "Your shadow stays outside.",
+  "end": 81.576
+ },
+ {
+  "i": 24,
+  "start": 81.576,
+  "speechStart": 81.726,
+  "speechEnd": 83.143,
+  "text": "It grabs the elevator doors.",
+  "end": 83.16
+ },
+ {
+  "i": 25,
+  "start": 83.16,
+  "speechStart": 83.31,
+  "speechEnd": 90.311,
+  "text": "And refuses to let them close. You pull your foot back. The doors shut. The elevator rises. Then... A deafening crash.",
+  "end": 90.33
+ },
+ {
+  "i": 26,
+  "start": 90.33,
+  "speechStart": 90.48,
+  "speechEnd": 94.061,
+  "text": "The elevator falls. Straight to the basement. You would have been inside.",
+  "end": 94.075
+ },
+ {
+  "i": 27,
+  "start": 94.075,
+  "speechStart": 94.225,
+  "speechEnd": 95.811,
+  "text": "Your shadow just saved your life.",
+  "end": 96.534
+ },
+ {
+  "i": 28,
+  "start": 96.534,
+  "speechStart": 96.684,
+  "speechEnd": 98.176,
+  "text": "That night, you decide to test it.",
+  "end": 98.18
+ },
+ {
+  "i": 29,
+  "start": 98.18,
+  "speechStart": 98.33,
+  "speechEnd": 99.567,
+  "text": "You put a lamp on the floor.",
+  "end": 99.579
+ },
+ {
+  "i": 30,
+  "start": 99.579,
+  "speechStart": 99.729,
+  "speechEnd": 106.398,
+  "text": "Your shadow appears on the wall. You ask: \"Can you understand me?\" It nods. You freeze. \"Can you see the future?\"",
+  "end": 106.417
+ },
+ {
+  "i": 31,
+  "start": 106.417,
+  "speechStart": 106.567,
+  "speechEnd": 109.575,
+  "text": "It nods again. You grab a piece of paper. \"Write something.\"",
+  "end": 109.603
+ },
+ {
+  "i": 32,
+  "start": 109.603,
+  "speechStart": 109.753,
+  "speechEnd": 112.31,
+  "text": "Your shadow points toward the kitchen. You follow it.",
+  "end": 112.318
+ },
+ {
+  "i": 33,
+  "start": 112.318,
+  "speechStart": 112.468,
+  "speechEnd": 115.326,
+  "text": "On the refrigerator is a photograph of you and your girlfriend, Emma.",
+  "end": 115.336
+ },
+ {
+  "i": 34,
+  "start": 115.336,
+  "speechStart": 115.486,
+  "speechEnd": 116.724,
+  "text": "Your shadow points at Emma.",
+  "end": 116.735
+ },
+ {
+  "i": 35,
+  "start": 116.735,
+  "speechStart": 116.885,
+  "speechEnd": 120.683,
+  "text": "Then slowly draws a line across its own throat. You stumble backward. \"No.\"",
+  "end": 120.697
+ },
+ {
+  "i": 36,
+  "start": 120.697,
+  "speechStart": 120.847,
+  "speechEnd": 122.337,
+  "text": "Your shadow points at the clock.",
+  "end": 122.352
+ },
+ {
+  "i": 37,
+  "start": 122.352,
+  "speechStart": 122.502,
+  "speechEnd": 127.101,
+  "text": "Eleven fifty-nine P.M. You call Emma. No answer. You call again. Still nothing.",
+  "end": 127.125
+ },
+ {
+  "i": 38,
+  "start": 127.125,
+  "speechStart": 127.275,
+  "speechEnd": 128.71,
+  "text": "Then you receive a message from her.",
+  "end": 128.716
+ },
+ {
+  "i": 39,
+  "start": 128.716,
+  "speechStart": 128.866,
+  "speechEnd": 132.382,
+  "text": "\"Someone is standing outside my window.\" You grab your keys. And run.",
+  "end": 132.853
+ },
+ {
+  "i": 40,
+  "start": 132.853,
+  "speechStart": 133.003,
+  "speechEnd": 138.595,
+  "text": "You reach Emma's apartment. Her door is open. The lights are flickering. \"Emma?\" No answer. You enter the bedroom.",
+  "end": 138.614
+ },
+ {
+  "i": 41,
+  "start": 138.614,
+  "speechStart": 138.764,
+  "speechEnd": 143.031,
+  "text": "And find her hiding beneath the bed. She's shaking. You help her up. \"What happened?\"",
+  "end": 143.058
+ },
+ {
+  "i": 42,
+  "start": 143.058,
+  "speechStart": 143.208,
+  "speechEnd": 144.487,
+  "text": "She points toward the wall.",
+  "end": 144.499
+ },
+ {
+  "i": 43,
+  "start": 144.499,
+  "speechStart": 144.649,
+  "speechEnd": 147.163,
+  "text": "There's a shadow standing there. A human-shaped shadow.",
+  "end": 147.184
+ },
+ {
+  "i": 44,
+  "start": 147.184,
+  "speechStart": 147.334,
+  "speechEnd": 148.704,
+  "text": "But nobody is casting it.",
+  "end": 148.712
+ },
+ {
+  "i": 45,
+  "start": 148.712,
+  "speechStart": 148.862,
+  "speechEnd": 151.764,
+  "text": "Your own shadow moves in front of you. Like it's protecting you.",
+  "end": 151.773
+ },
+ {
+  "i": 46,
+  "start": 151.773,
+  "speechStart": 151.923,
+  "speechEnd": 155.357,
+  "text": "The other shadow tilts its head. Then smiles. Not with a mouth.",
+  "end": 155.372
+ },
+ {
+  "i": 47,
+  "start": 155.372,
+  "speechStart": 155.522,
+  "speechEnd": 157.316,
+  "text": "With a thin white crack across its face.",
+  "end": 157.327
+ },
+ {
+  "i": 48,
+  "start": 157.327,
+  "speechStart": 157.477,
+  "speechEnd": 158.845,
+  "text": "Your shadow grabs your arm.",
+  "end": 158.855
+ },
+ {
+  "i": 49,
+  "start": 158.855,
+  "speechStart": 159.005,
+  "speechEnd": 160.869,
+  "text": "And pulls you toward the door. You run.",
+  "end": 160.88
+ },
+ {
+  "i": 50,
+  "start": 160.88,
+  "speechStart": 161.03,
+  "speechEnd": 164.903,
+  "text": "Behind you, the other shadow begins crawling across the ceiling. You reach the stairs.",
+  "end": 164.922
+ },
+ {
+  "i": 51,
+  "start": 164.922,
+  "speechStart": 165.072,
+  "speechEnd": 170.835,
+  "text": "And suddenly every light in the building goes out. The creature disappears. But so does your shadow. And for the first time...",
+  "end": 171.311
+ },
+ {
+  "i": 52,
+  "start": 171.311,
+  "speechStart": 171.461,
+  "speechEnd": 172.554,
+  "text": "You realize you need it.",
+  "end": 173.269
+ },
+ {
+  "i": 53,
+  "start": 173.269,
+  "speechStart": 173.419,
+  "speechEnd": 174.985,
+  "text": "You and Emma escape into the street.",
+  "end": 175.001
+ },
+ {
+  "i": 54,
+  "start": 175.001,
+  "speechStart": 175.151,
+  "speechEnd": 179.208,
+  "text": "Under the streetlights, your shadow returns. It looks exhausted. Almost smaller.",
+  "end": 179.239
+ },
+ {
+  "i": 55,
+  "start": 179.239,
+  "speechStart": 179.389,
+  "speechEnd": 180.76,
+  "text": "You ask it what that thing was.",
+  "end": 180.767
+ },
+ {
+  "i": 56,
+  "start": 180.767,
+  "speechStart": 180.917,
+  "speechEnd": 185.166,
+  "text": "Your shadow points at the ground. Then at Emma. Then at you. You don't understand.",
+  "end": 185.201
+ },
+ {
+  "i": 57,
+  "start": 185.201,
+  "speechStart": 185.351,
+  "speechEnd": 186.623,
+  "text": "So Emma takes out her phone.",
+  "end": 186.637
+ },
+ {
+  "i": 58,
+  "start": 186.637,
+  "speechStart": 186.787,
+  "speechEnd": 188.33,
+  "text": "She opens an old photograph.",
+  "end": 188.369
+ },
+ {
+  "i": 59,
+  "start": 188.369,
+  "speechStart": 188.519,
+  "speechEnd": 193.534,
+  "text": "It's a picture of you from five years ago. You're standing beside her. Smiling. But there's something wrong.",
+  "end": 193.545
+ },
+ {
+  "i": 60,
+  "start": 193.545,
+  "speechStart": 193.695,
+  "speechEnd": 195.171,
+  "text": "Your shadow is facing the camera.",
+  "end": 195.188
+ },
+ {
+  "i": 61,
+  "start": 195.188,
+  "speechStart": 195.338,
+  "speechEnd": 197.291,
+  "text": "Even though you're facing away. You zoom in.",
+  "end": 197.295
+ },
+ {
+  "i": 62,
+  "start": 197.295,
+  "speechStart": 197.445,
+  "speechEnd": 204.047,
+  "text": "Your shadow is holding something. A small black key. Emma whispers: \"I remember that day.\" You look at her. \"What happened?\"",
+  "end": 204.074
+ },
+ {
+  "i": 63,
+  "start": 204.074,
+  "speechStart": 204.224,
+  "speechEnd": 210.179,
+  "text": "She swallows. \"You were in an accident.\" You laugh nervously. \"What accident?\" Her eyes fill with tears. \"You died.\"",
+  "end": 210.905
+ },
+ {
+  "i": 64,
+  "start": 210.905,
+  "speechStart": 211.055,
+  "speechEnd": 212.791,
+  "text": "Five years ago, you were hit by a car.",
+  "end": 212.799
+ },
+ {
+  "i": 65,
+  "start": 212.799,
+  "speechStart": 212.949,
+  "speechEnd": 215.752,
+  "text": "Your heart stopped for four minutes. Doctors brought you back.",
+  "end": 215.764
+ },
+ {
+  "i": 66,
+  "start": 215.764,
+  "speechStart": 215.914,
+  "speechEnd": 218.277,
+  "text": "But Emma tells you something she never mentioned before.",
+  "end": 218.293
+ },
+ {
+  "i": 67,
+  "start": 218.293,
+  "speechStart": 218.443,
+  "speechEnd": 220.718,
+  "text": "When you woke up, you kept saying the same sentence.",
+  "end": 220.74
+ },
+ {
+  "i": 68,
+  "start": 220.74,
+  "speechStart": 220.89,
+  "speechEnd": 222.126,
+  "text": "\"Something followed me back.\"",
+  "end": 222.14
+ },
+ {
+  "i": 69,
+  "start": 222.14,
+  "speechStart": 222.29,
+  "speechEnd": 223.572,
+  "text": "You don't remember any of it.",
+  "end": 223.576
+ },
+ {
+  "i": 70,
+  "start": 223.576,
+  "speechStart": 223.726,
+  "speechEnd": 227.723,
+  "text": "Your shadow suddenly begins moving. It points at your chest. Then at the ground.",
+  "end": 227.741
+ },
+ {
+  "i": 71,
+  "start": 227.741,
+  "speechStart": 227.891,
+  "speechEnd": 230.312,
+  "text": "Then it lies perfectly still. You understand.",
+  "end": 230.353
+ },
+ {
+  "i": 72,
+  "start": 230.353,
+  "speechStart": 230.503,
+  "speechEnd": 233.595,
+  "text": "It isn't predicting your death. It's remembering it. You ask:",
+  "end": 234.072
+ },
+ {
+  "i": 73,
+  "start": 234.072,
+  "speechStart": 234.222,
+  "speechEnd": 235.469,
+  "text": "\"Are you the thing that followed me?\"",
+  "end": 235.472
+ },
+ {
+  "i": 74,
+  "start": 235.472,
+  "speechStart": 235.622,
+  "speechEnd": 238.829,
+  "text": "Your shadow shakes its head. Then points behind Emma. You turn.",
+  "end": 238.842
+ },
+ {
+  "i": 75,
+  "start": 238.842,
+  "speechStart": 238.992,
+  "speechEnd": 242.827,
+  "text": "Under the streetlight, Emma has two shadows. One moves with her. The other doesn't.",
+  "end": 242.845
+ },
+ {
+  "i": 76,
+  "start": 242.845,
+  "speechStart": 242.995,
+  "speechEnd": 246.723,
+  "text": "The second shadow slowly stands up. Emma screams. And both of you run.",
+  "end": 247.19
+ },
+ {
+  "i": 77,
+  "start": 247.19,
+  "speechStart": 247.34,
+  "speechEnd": 248.57,
+  "text": "You race through the streets.",
+  "end": 248.589
+ },
+ {
+  "i": 78,
+  "start": 248.589,
+  "speechStart": 248.739,
+  "speechEnd": 250.294,
+  "text": "But now you notice them everywhere.",
+  "end": 250.323
+ },
+ {
+  "i": 79,
+  "start": 250.323,
+  "speechStart": 250.473,
+  "speechEnd": 252.404,
+  "text": "A man waiting for a bus has three shadows.",
+  "end": 252.424
+ },
+ {
+  "i": 80,
+  "start": 252.424,
+  "speechStart": 252.574,
+  "speechEnd": 253.939,
+  "text": "A woman walking her dog has none.",
+  "end": 253.948
+ },
+ {
+  "i": 81,
+  "start": 253.948,
+  "speechStart": 254.098,
+  "speechEnd": 257.037,
+  "text": "A child standing beneath a streetlight has a shadow twice his size.",
+  "end": 257.048
+ },
+ {
+  "i": 82,
+  "start": 257.048,
+  "speechStart": 257.198,
+  "speechEnd": 258.951,
+  "text": "Something is happening to the entire city.",
+  "end": 258.961
+ },
+ {
+  "i": 83,
+  "start": 258.961,
+  "speechStart": 259.111,
+  "speechEnd": 261.231,
+  "text": "Your shadow pulls you toward an abandoned building.",
+  "end": 261.253
+ },
+ {
+  "i": 84,
+  "start": 261.253,
+  "speechStart": 261.403,
+  "speechEnd": 265.84,
+  "text": "Inside is a staircase. You climb. Floor after floor. Until you reach the roof.",
+  "end": 265.85
+ },
+ {
+  "i": 85,
+  "start": 265.85,
+  "speechStart": 266.0,
+  "speechEnd": 268.715,
+  "text": "Your shadow points toward the horizon. The sun is setting.",
+  "end": 268.733
+ },
+ {
+  "i": 86,
+  "start": 268.733,
+  "speechStart": 268.883,
+  "speechEnd": 273.47,
+  "text": "And every shadow in the city is getting longer. Emma asks: \"Why did it bring us here?\"",
+  "end": 273.482
+ },
+ {
+  "i": 87,
+  "start": 273.482,
+  "speechStart": 273.632,
+  "speechEnd": 276.12,
+  "text": "Then you notice the black key. It's lying on the roof.",
+  "end": 276.131
+ },
+ {
+  "i": 88,
+  "start": 276.131,
+  "speechStart": 276.281,
+  "speechEnd": 278.324,
+  "text": "Exactly like the one in the old photograph.",
+  "end": 278.356
+ },
+ {
+  "i": 89,
+  "start": 278.356,
+  "speechStart": 278.506,
+  "speechEnd": 282.095,
+  "text": "Beside it is a locked metal door. You open it. Inside is a single mirror.",
+  "end": 282.112
+ },
+ {
+  "i": 90,
+  "start": 282.112,
+  "speechStart": 282.262,
+  "speechEnd": 283.739,
+  "text": "And written above it are five words:",
+  "end": 284.211
+ },
+ {
+  "i": 91,
+  "start": 284.211,
+  "speechStart": 284.361,
+  "speechEnd": 290.114,
+  "text": "ONLY ONE OF YOU BELONGS HERE. You look into the mirror. You see yourself. Emma. And your shadow.",
+  "end": 290.134
+ },
+ {
+  "i": 92,
+  "start": 290.134,
+  "speechStart": 290.284,
+  "speechEnd": 295.67,
+  "text": "But in the reflection, your shadow is standing upright. Like a real person. It steps forward. And speaks.",
+  "end": 295.697
+ },
+ {
+  "i": 93,
+  "start": 295.697,
+  "speechStart": 295.847,
+  "speechEnd": 300.435,
+  "text": "\"You were never supposed to survive that accident.\" You stumble backward. Your shadow continues.",
+  "end": 300.47
+ },
+ {
+  "i": 94,
+  "start": 300.47,
+  "speechStart": 300.62,
+  "speechEnd": 304.141,
+  "text": "\"When your heart stopped, something tried to take your place.\" You look at Emma.",
+  "end": 304.15
+ },
+ {
+  "i": 95,
+  "start": 304.15,
+  "speechStart": 304.3,
+  "speechEnd": 306.205,
+  "text": "Her second shadow is crawling up the wall.",
+  "end": 306.216
+ },
+ {
+  "i": 96,
+  "start": 306.216,
+  "speechStart": 306.366,
+  "speechEnd": 307.609,
+  "text": "Your shadow points at it.",
+  "end": 307.615
+ },
+ {
+  "i": 97,
+  "start": 307.615,
+  "speechStart": 307.765,
+  "speechEnd": 311.081,
+  "text": "\"That thing has been waiting five years.\" You whisper: \"Why?\"",
+  "end": 311.101
+ },
+ {
+  "i": 98,
+  "start": 311.101,
+  "speechStart": 311.251,
+  "speechEnd": 314.784,
+  "text": "\"Because it cannot enter the living world without a body.\" Emma grabs your hand.",
+  "end": 314.798
+ },
+ {
+  "i": 99,
+  "start": 314.798,
+  "speechStart": 314.948,
+  "speechEnd": 317.214,
+  "text": "Then her second shadow suddenly pulls her backward.",
+  "end": 317.238
+ },
+ {
+  "i": 100,
+  "start": 317.238,
+  "speechStart": 317.388,
+  "speechEnd": 321.884,
+  "text": "Straight toward the edge of the roof. You catch her wrist. She slips over the side. And now...",
+  "end": 322.358
+ },
+ {
+  "i": 101,
+  "start": 322.358,
+  "speechStart": 322.508,
+  "speechEnd": 324.639,
+  "text": "You're standing on the roof of a forty-story building.",
+  "end": 324.659
+ },
+ {
+  "i": 102,
+  "start": 324.659,
+  "speechStart": 324.809,
+  "speechEnd": 327.623,
+  "text": "Your girlfriend is hanging from the edge. You're holding her hand.",
+  "end": 327.634
+ },
+ {
+  "i": 103,
+  "start": 327.634,
+  "speechStart": 327.784,
+  "speechEnd": 329.348,
+  "text": "And your shadow is holding a knife.",
+  "end": 329.822
+ },
+ {
+  "i": 104,
+  "start": 329.822,
+  "speechStart": 329.972,
+  "speechEnd": 335.7,
+  "text": "Your shadow raises the knife. You scream: \"STOP!\" But it doesn't stop. It brings the blade down.",
+  "end": 335.71
+ },
+ {
+  "i": 105,
+  "start": 335.71,
+  "speechStart": 335.86,
+  "speechEnd": 340.371,
+  "text": "Straight toward your hand. You close your eyes. And hear a sharp crack. You open them.",
+  "end": 340.384
+ },
+ {
+  "i": 106,
+  "start": 340.384,
+  "speechStart": 340.534,
+  "speechEnd": 341.959,
+  "text": "Your shadow hasn't stabbed you.",
+  "end": 341.968
+ },
+ {
+  "i": 107,
+  "start": 341.968,
+  "speechStart": 342.118,
+  "speechEnd": 345.48,
+  "text": "It has cut through the black shape wrapped around your wrist. The second shadow.",
+  "end": 345.5
+ },
+ {
+  "i": 108,
+  "start": 345.5,
+  "speechStart": 345.65,
+  "speechEnd": 349.824,
+  "text": "It was using Emma to pull you over the edge. The creature screams. Your shadow grabs it.",
+  "end": 349.831
+ },
+ {
+  "i": 109,
+  "start": 349.831,
+  "speechStart": 349.981,
+  "speechEnd": 351.339,
+  "text": "And drags it toward the mirror.",
+  "end": 351.355
+ },
+ {
+  "i": 110,
+  "start": 351.355,
+  "speechStart": 351.505,
+  "speechEnd": 352.74,
+  "text": "The mirror begins to crack.",
+  "end": 352.754
+ },
+ {
+  "i": 111,
+  "start": 352.754,
+  "speechStart": 352.904,
+  "speechEnd": 354.143,
+  "text": "You pull Emma onto the roof.",
+  "end": 354.153
+ },
+ {
+  "i": 112,
+  "start": 354.153,
+  "speechStart": 354.303,
+  "speechEnd": 360.17,
+  "text": "The two shadows disappear into the glass. Then the mirror shatters. Silence. You look down. Your shadow is gone.",
+  "end": 360.183
+ },
+ {
+  "i": 113,
+  "start": 360.183,
+  "speechStart": 360.333,
+  "speechEnd": 365.132,
+  "text": "For the first time in your life... You don't cast one. Three weeks pass.",
+  "end": 365.147
+ },
+ {
+  "i": 114,
+  "start": 365.147,
+  "speechStart": 365.297,
+  "speechEnd": 366.875,
+  "text": "You and Emma move to a new apartment.",
+  "end": 366.899
+ },
+ {
+  "i": 115,
+  "start": 366.899,
+  "speechStart": 367.049,
+  "speechEnd": 368.347,
+  "text": "Everything feels normal again.",
+  "end": 368.361
+ },
+ {
+  "i": 116,
+  "start": 368.361,
+  "speechStart": 368.511,
+  "speechEnd": 369.753,
+  "text": "One morning, you wake up.",
+  "end": 369.759
+ },
+ {
+  "i": 117,
+  "start": 369.759,
+  "speechStart": 369.909,
+  "speechEnd": 375.872,
+  "text": "Sunlight fills the bedroom. You look at the floor. Your shadow is back. You smile. \"You're alive.\" It waves.",
+  "end": 375.895
+ },
+ {
+  "i": 118,
+  "start": 375.895,
+  "speechStart": 376.045,
+  "speechEnd": 381.171,
+  "text": "You wave back. Then Emma walks into the room. She kisses you. And leaves for work. You watch her go.",
+  "end": 381.176
+ },
+ {
+  "i": 119,
+  "start": 381.176,
+  "speechStart": 381.326,
+  "speechEnd": 382.955,
+  "text": "Your shadow slowly turns toward you.",
+  "end": 382.963
+ },
+ {
+  "i": 120,
+  "start": 382.963,
+  "speechStart": 383.113,
+  "speechEnd": 385.248,
+  "text": "Then points at the bedroom mirror. You look.",
+  "end": 385.265
+ },
+ {
+  "i": 121,
+  "start": 385.265,
+  "speechStart": 385.415,
+  "speechEnd": 388.279,
+  "text": "In the reflection, Emma is still standing behind you. Smiling.",
+  "end": 388.315
+ },
+ {
+  "i": 122,
+  "start": 388.315,
+  "speechStart": 388.465,
+  "speechEnd": 391.732,
+  "text": "Even though she just left. You turn around. Nobody's there.",
+  "end": 391.753
+ },
+ {
+  "i": 123,
+  "start": 391.753,
+  "speechStart": 391.903,
+  "speechEnd": 394.777,
+  "text": "Then the reflection whispers: \"You saved the wrong one.\"",
+  "end": 396.795
+ }
+]

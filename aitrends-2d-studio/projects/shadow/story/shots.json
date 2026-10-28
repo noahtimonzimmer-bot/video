@@ -1,0 +1,5711 @@
+{
+ "title": "My Shadow Started Living Its Own Life",
+ "duration": 398.295,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 3.381,
+   "line": "You're standing on the roof of a forty-story building.",
+   "scene": "roof wide at sunset: you kneel at the edge holding Emma, a black shape behind",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "wind",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c001",
+   "start": 3.381,
+   "end": 5.128,
+   "line": "Your girlfriend is hanging from the edge.",
+   "scene": "medium at the edge: Emma dangling over 40 floors",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c002",
+   "start": 5.128,
+   "end": 6.356,
+   "line": "You're holding her hand.",
+   "scene": "insert: two hands gripping over the abyss",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -16,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c003",
+   "start": 6.356,
+   "end": 8.084,
+   "line": "And your shadow is holding a knife.",
+   "scene": "pull back: your shadow stands behind you holding a knife",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c004",
+   "start": 8.084,
+   "end": 9.731,
+   "line": "But here's the terrifying part.",
+   "scene": "big face: you, terrified",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c005",
+   "start": 9.731,
+   "end": 11.624,
+   "line": "Your shadow isn't pointing the knife at her.",
+   "scene": "the knife is not aimed at Emma",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c006",
+   "start": 11.624,
+   "end": 12.85,
+   "line": "It's pointing it at YOU.",
+   "scene": "it turns: the blade points at YOU",
+   "bars": "scope",
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c007",
+   "start": 12.85,
+   "end": 13.657,
+   "line": "You scream.",
+   "scene": "big face scream",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "stinger",
+     "gain": -5
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c008",
+   "start": 13.657,
+   "end": 15.3,
+   "line": "And your shadow raises its arm.",
+   "scene": "low angle: the shadow raises its knife against the sun",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -8
+    },
+    {
+     "at": 1.25,
+     "name": "flash",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c009",
+   "start": 15.3,
+   "end": 17.073,
+   "line": "THREE DAYS EARLIER.",
+   "scene": "title: THREE DAYS EARLIER",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c010",
+   "start": 17.073,
+   "end": 18.472,
+   "line": "You wake up late for work.",
+   "scene": "bedroom morning: you jerk awake, alarm ringing",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "phonering",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c011",
+   "start": 18.472,
+   "end": 19.643,
+   "line": "You brush your teeth.",
+   "scene": "bathroom mirror: brushing teeth, shadow copies on the wall",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c012",
+   "start": 19.643,
+   "end": 20.707,
+   "line": "Put on your shoes.",
+   "scene": "putting on shoes by the door",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c013",
+   "start": 20.707,
+   "end": 21.787,
+   "line": "And walk outside.",
+   "scene": "street morning: you walk out of your building",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 0.75,
+     "name": "footstep",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c014",
+   "start": 21.787,
+   "end": 23.034,
+   "line": "Everything seems normal.",
+   "scene": "everything seems normal: walking, long morning shadow",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c015",
+   "start": 23.034,
+   "end": 24.778,
+   "line": "Until you notice something strange.",
+   "scene": "something strange: you glance down",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c016",
+   "start": 24.778,
+   "end": 26.006,
+   "line": "Your shadow is waving.",
+   "scene": "on the pavement: your shadow WAVES while you walk",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c017",
+   "start": 26.006,
+   "end": 26.936,
+   "line": "But you're not.",
+   "scene": "you are not waving",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c018",
+   "start": 26.936,
+   "end": 27.956,
+   "line": "You stop walking.",
+   "scene": "you stop walking",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c019",
+   "start": 27.956,
+   "end": 28.885,
+   "line": "It stops too.",
+   "scene": "it stops too \u2014 a beat late",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c020",
+   "start": 28.885,
+   "end": 30.241,
+   "line": "You raise your right hand.",
+   "scene": "test: you raise your right hand",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c021",
+   "start": 30.241,
+   "end": 31.883,
+   "line": "Your shadow raises its left.",
+   "scene": "the shadow raises its LEFT \u2014 the wrong one",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c022",
+   "start": 31.883,
+   "end": 32.688,
+   "line": "You laugh.",
+   "scene": "you laugh it off",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c023",
+   "start": 32.688,
+   "end": 34.045,
+   "line": "Maybe you're just tired.",
+   "scene": "just tired: rubbing your eyes",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c024",
+   "start": 34.045,
+   "end": 35.206,
+   "line": "Then you turn around.",
+   "scene": "you turn around",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c025",
+   "start": 35.206,
+   "end": 36.85,
+   "line": "And your shadow stays where it is.",
+   "scene": "you walk away \u2014 your shadow stays where it is",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c026",
+   "start": 36.85,
+   "end": 37.87,
+   "line": "You stare at it.",
+   "scene": "big face: you stare at it",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c027",
+   "start": 37.87,
+   "end": 38.927,
+   "line": "It stares back.",
+   "scene": "it stares back: the shadow peels up onto the wall and tilts its head",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c028",
+   "start": 38.927,
+   "end": 41.077,
+   "line": "Well... It doesn't have eyes.",
+   "scene": "close on its head: no eyes at all",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c030",
+   "start": 41.077,
+   "end": 42.863,
+   "line": "But somehow, you know it's watching you.",
+   "scene": "big face: you know it's watching",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c031",
+   "start": 42.863,
+   "end": 44.39,
+   "line": "You take one step backward.",
+   "scene": "you take one step back",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c032",
+   "start": 44.39,
+   "end": 46.302,
+   "line": "Your shadow takes one step forward.",
+   "scene": "it takes one step forward",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "footstep",
+     "gain": -10,
+     "pitch": 0.7
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c033",
+   "start": 46.302,
+   "end": 46.931,
+   "line": "You run.",
+   "scene": "you RUN",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c034",
+   "start": 46.931,
+   "end": 49.324,
+   "line": "It follows. But not the way a shadow should.",
+   "scene": "it follows \u2014 sliding along the walls, unnatural",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 1.2,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c036",
+   "start": 49.324,
+   "end": 50.939,
+   "line": "It runs beside you.",
+   "scene": "tracking: it runs right beside you",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c037",
+   "start": 50.939,
+   "end": 52.466,
+   "line": "You rush into your apartment.",
+   "scene": "you burst into your dark apartment",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 0.8
+    },
+    {
+     "at": 0.5,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c038",
+   "start": 52.466,
+   "end": 53.275,
+   "line": "Lock the door.",
+   "scene": "insert: hand turns the deadbolt",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "hit",
+     "gain": -8,
+     "pitch": 1.8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c039",
+   "start": 53.275,
+   "end": 54.628,
+   "line": "And turn off every light.",
+   "scene": "click \u2014 every light goes off",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "tick",
+     "gain": -6
+    },
+    {
+     "at": 0.9,
+     "name": "tick",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c040",
+   "start": 54.628,
+   "end": 55.95,
+   "line": "Your shadow disappears.",
+   "scene": "moonlight only \u2014 no shadow anywhere",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c041",
+   "start": 55.95,
+   "end": 57.178,
+   "line": "You finally relax.",
+   "scene": "you sink onto the couch and breathe out",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c042",
+   "start": 57.178,
+   "end": 58.534,
+   "line": "Then your phone lights up.",
+   "scene": "insert: your phone lights up in the dark",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "phonebuzz",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c043",
+   "start": 58.534,
+   "end": 60.279,
+   "line": "And your shadow appears on the wall.",
+   "scene": "phone glow throws your shadow up the wall",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c044",
+   "start": 60.279,
+   "end": 61.605,
+   "line": "Except now...",
+   "scene": "except now\u2026 it stands up",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c045",
+   "start": 61.605,
+   "end": 63.343,
+   "line": "It's knocking. Three times.",
+   "scene": "it KNOCKS on the wall from inside \u2014 three times",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "hit",
+     "gain": -4,
+     "pitch": 0.55
+    },
+    {
+     "at": 0.58,
+     "name": "hit",
+     "gain": -4,
+     "pitch": 0.55
+    },
+    {
+     "at": 0.91,
+     "name": "hit",
+     "gain": -4,
+     "pitch": 0.55
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c047",
+   "start": 63.343,
+   "end": 64.57,
+   "line": "You turn off your phone.",
+   "scene": "insert: thumb kills the phone screen",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c048",
+   "start": 64.57,
+   "end": 65.38,
+   "line": "Silence.",
+   "scene": "silence: a black room, just the window",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "c049",
+   "start": 65.38,
+   "end": 67.273,
+   "line": "Then you hear three knocks on your front door.",
+   "scene": "three knocks on the front door",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.85,
+     "name": "hit",
+     "gain": -3,
+     "pitch": 0.45
+    },
+    {
+     "at": 1.2,
+     "name": "hit",
+     "gain": -3,
+     "pitch": 0.45
+    },
+    {
+     "at": 1.55,
+     "name": "hit",
+     "gain": -3,
+     "pitch": 0.45
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "c050",
+   "start": 67.273,
+   "end": 68.629,
+   "line": "You look through the peephole.",
+   "scene": "POV through the peephole: the hallway, fish-eyed",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "footstep",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "c051",
+   "start": 68.629,
+   "end": 69.65,
+   "line": "Nobody's there.",
+   "scene": "nobody's there",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "c052",
+   "start": 69.65,
+   "end": 71.699,
+   "line": "But something has been scratched into the wood.",
+   "scene": "outside: something carved into the door",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c053",
+   "start": 71.699,
+   "end": 73.473,
+   "line": "DON'T GO TO WORK.",
+   "scene": "close: DON'T GO TO WORK, gouged into the wood",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -5
+    }
+   ]
+  },
+  {
+   "id": "c054",
+   "start": 73.473,
+   "end": 75.254,
+   "line": "You think someone's playing a prank.",
+   "scene": "big face: a prank\u2026 right?",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c055",
+   "start": 75.254,
+   "end": 76.317,
+   "line": "So you ignore it.",
+   "scene": "you shrug and walk off",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c056",
+   "start": 76.317,
+   "end": 78.617,
+   "line": "Twenty minutes later, you arrive at your office.",
+   "scene": "office lobby, morning: 20 minutes later",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c057",
+   "start": 78.617,
+   "end": 80.018,
+   "line": "You step into the elevator.",
+   "scene": "you step into the elevator",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c058",
+   "start": 80.018,
+   "end": 81.606,
+   "line": "Your shadow stays outside.",
+   "scene": "inside the cabin \u2014 your shadow stays OUTSIDE",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c059",
+   "start": 81.606,
+   "end": 83.19,
+   "line": "It grabs the elevator doors.",
+   "scene": "the doors slide \u2014 it GRABS them",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -8,
+     "pitch": 0.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c060",
+   "start": 83.19,
+   "end": 84.918,
+   "line": "And refuses to let them close.",
+   "scene": "it refuses to let them close \u2014 doors shudder",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "hum",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c061",
+   "start": 84.918,
+   "end": 86.24,
+   "line": "You pull your foot back.",
+   "scene": "you pull your foot back out",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c062",
+   "start": 86.24,
+   "end": 87.111,
+   "line": "The doors shut.",
+   "scene": "the doors shut",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "hit",
+     "gain": -6,
+     "pitch": 0.9
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c063",
+   "start": 87.111,
+   "end": 88.282,
+   "line": "The elevator rises.",
+   "scene": "the empty elevator rises: 2, 3, 4\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c064",
+   "start": 88.282,
+   "end": 89.208,
+   "line": "Then...",
+   "scene": "then\u2026 a cable groans",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c065",
+   "start": 89.208,
+   "end": 90.36,
+   "line": "A deafening crash.",
+   "scene": "CRASH \u2014 lights blow, everything shakes",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -2
+    },
+    {
+     "at": 0.1,
+     "name": "glitch",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c066",
+   "start": 90.36,
+   "end": 91.608,
+   "line": "The elevator falls.",
+   "scene": "cutaway: the cabin plummets down the shaft",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c067",
+   "start": 91.608,
+   "end": 92.857,
+   "line": "Straight to the basement.",
+   "scene": "BASEMENT: it smashes into the floor, sparks",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "impact",
+     "gain": -1
+    }
+   ]
+  },
+  {
+   "id": "c068",
+   "start": 92.857,
+   "end": 94.105,
+   "line": "You would have been inside.",
+   "scene": "big face: you would have been inside",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c069",
+   "start": 94.105,
+   "end": 96.564,
+   "line": "Your shadow just saved your life.",
+   "scene": "you and your shadow side by side \u2014 it nods",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c070",
+   "start": 96.564,
+   "end": 98.21,
+   "line": "That night, you decide to test it.",
+   "scene": "that night: you sit on the floor in the dark, lamp beside you",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c071",
+   "start": 98.21,
+   "end": 99.609,
+   "line": "You put a lamp on the floor.",
+   "scene": "insert: you set the lamp down \u2014 click, on",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "tick",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c072",
+   "start": 99.609,
+   "end": 101.2,
+   "line": "Your shadow appears on the wall.",
+   "scene": "a giant shadow blooms up the wall",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c073",
+   "start": 101.2,
+   "end": 103.672,
+   "line": "You ask: \"Can you understand me?\"",
+   "scene": "you ask it: \"Can you understand me?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c075",
+   "start": 103.672,
+   "end": 104.433,
+   "line": "It nods.",
+   "scene": "it NODS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c076",
+   "start": 104.433,
+   "end": 105.198,
+   "line": "You freeze.",
+   "scene": "freeze: big face, eyes wide",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "freeze",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c077",
+   "start": 105.198,
+   "end": 106.447,
+   "line": "\"Can you see the future?\"",
+   "scene": "\"Can you see the future?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c078",
+   "start": 106.447,
+   "end": 107.375,
+   "line": "It nods again.",
+   "scene": "it nods again",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c079",
+   "start": 107.375,
+   "end": 108.732,
+   "line": "You grab a piece of paper.",
+   "scene": "you grab a piece of paper",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c080",
+   "start": 108.732,
+   "end": 109.633,
+   "line": "\"Write something.\"",
+   "scene": "\"Write something.\" \u2014 you hold the paper up",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c081",
+   "start": 109.633,
+   "end": 111.419,
+   "line": "Your shadow points toward the kitchen.",
+   "scene": "the shadow turns and points toward the kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c082",
+   "start": 111.419,
+   "end": 112.348,
+   "line": "You follow it.",
+   "scene": "you follow it \u2014 it glides along the wall ahead of you",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c083",
+   "start": 112.348,
+   "end": 115.366,
+   "line": "On the refrigerator is a photograph of you and your girlfriend, Emma.",
+   "scene": "kitchen: on the fridge, a photo of you and Emma",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hum",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c084",
+   "start": 115.366,
+   "end": 116.765,
+   "line": "Your shadow points at Emma.",
+   "scene": "close: a shadow finger lands on Emma",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c085",
+   "start": 116.765,
+   "end": 119.058,
+   "line": "Then slowly draws a line across its own throat.",
+   "scene": "it slowly draws a line across its own throat",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -6
+    },
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c086",
+   "start": 119.058,
+   "end": 120.286,
+   "line": "You stumble backward.",
+   "scene": "you stumble backward into the counter",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c087",
+   "start": 120.286,
+   "end": 122.382,
+   "line": "\"No.\" Your shadow points at the clock.",
+   "scene": "\"No.\" \u2014 the shadow points at the clock",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "clock",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c089",
+   "start": 122.382,
+   "end": 123.779,
+   "line": "Eleven fifty-nine P.M.",
+   "scene": "close: 11:59 PM",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c090",
+   "start": 123.779,
+   "end": 124.588,
+   "line": "You call Emma.",
+   "scene": "you call Emma",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonering",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c091",
+   "start": 124.588,
+   "end": 125.354,
+   "line": "No answer.",
+   "scene": "phone: calling\u2026 NO ANSWER",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "phonering",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c092",
+   "start": 125.354,
+   "end": 127.155,
+   "line": "You call again. Still nothing.",
+   "scene": "big face, phone at ear: still nothing",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "phonering",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "phonering",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "c094",
+   "start": 127.155,
+   "end": 128.746,
+   "line": "Then you receive a message from her.",
+   "scene": "a message from Emma",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "phonebuzz",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c095",
+   "start": 128.746,
+   "end": 130.642,
+   "line": "\"Someone is standing outside my window.\"",
+   "scene": "\"Someone is standing outside my window.\"",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c096",
+   "start": 130.642,
+   "end": 131.797,
+   "line": "You grab your keys.",
+   "scene": "insert: you snatch your keys",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -8
+    },
+    {
+     "at": 0.35,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 1.6
+    }
+   ]
+  },
+  {
+   "id": "c097",
+   "start": 131.797,
+   "end": 132.883,
+   "line": "And run.",
+   "scene": "and you run out into the night",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c098",
+   "start": 132.883,
+   "end": 134.282,
+   "line": "You reach Emma's apartment.",
+   "scene": "Emma's hallway \u2014 her door hangs open, light flickering",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -12
+    },
+    {
+     "at": 0.5,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c099",
+   "start": 134.282,
+   "end": 135.269,
+   "line": "Her door is open.",
+   "scene": "close: the open door, darkness inside",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c100",
+   "start": 135.269,
+   "end": 136.333,
+   "line": "The lights are flickering.",
+   "scene": "the lights stutter",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "buzz",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c101",
+   "start": 136.333,
+   "end": 136.775,
+   "line": "\"Emma?\"",
+   "scene": "\"Emma?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c102",
+   "start": 136.775,
+   "end": 137.54,
+   "line": "No answer.",
+   "scene": "no answer: the empty bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c103",
+   "start": 137.54,
+   "end": 138.644,
+   "line": "You enter the bedroom.",
+   "scene": "you step into the bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c104",
+   "start": 138.644,
+   "end": 140.295,
+   "line": "And find her hiding beneath the bed.",
+   "scene": "low angle: Emma curled under the bed, eyes wide",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c105",
+   "start": 140.295,
+   "end": 141.197,
+   "line": "She's shaking.",
+   "scene": "big face: Emma shaking",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c106",
+   "start": 141.197,
+   "end": 142.217,
+   "line": "You help her up.",
+   "scene": "you help her up",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c107",
+   "start": 142.217,
+   "end": 143.088,
+   "line": "\"What happened?\"",
+   "scene": "\"What happened?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c108",
+   "start": 143.088,
+   "end": 144.529,
+   "line": "She points toward the wall.",
+   "scene": "she points at the wall",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c109",
+   "start": 144.529,
+   "end": 145.969,
+   "line": "There's a shadow standing there.",
+   "scene": "on the wall: a shadow, standing there",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c110",
+   "start": 145.969,
+   "end": 147.214,
+   "line": "A human-shaped shadow.",
+   "scene": "push in: human-shaped",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c111",
+   "start": 147.214,
+   "end": 148.742,
+   "line": "But nobody is casting it.",
+   "scene": "the light hits the wall \u2014 nobody is in between",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c112",
+   "start": 148.742,
+   "end": 150.489,
+   "line": "Your own shadow moves in front of you.",
+   "scene": "your own shadow slides in front of you",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c113",
+   "start": 150.489,
+   "end": 151.803,
+   "line": "Like it's protecting you.",
+   "scene": "face-off: your shadow shields you, arms spread",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c114",
+   "start": 151.803,
+   "end": 153.394,
+   "line": "The other shadow tilts its head.",
+   "scene": "the other shadow tilts its head",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c115",
+   "start": 153.394,
+   "end": 154.415,
+   "line": "Then smiles.",
+   "scene": "then it SMILES",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c116",
+   "start": 154.415,
+   "end": 155.402,
+   "line": "Not with a mouth.",
+   "scene": "not with a mouth",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c117",
+   "start": 155.402,
+   "end": 157.357,
+   "line": "With a thin white crack across its face.",
+   "scene": "extreme close: a thin white crack across its face",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c118",
+   "start": 157.357,
+   "end": 158.885,
+   "line": "Your shadow grabs your arm.",
+   "scene": "your shadow grabs your arm",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c119",
+   "start": 158.885,
+   "end": 160.281,
+   "line": "And pulls you toward the door.",
+   "scene": "it drags you both toward the door",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c120",
+   "start": 160.281,
+   "end": 160.91,
+   "line": "You run.",
+   "scene": "you run down the hallway",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "footstep",
+     "gain": -10
+    },
+    {
+     "at": 0.35,
+     "name": "footstep",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c121",
+   "start": 160.91,
+   "end": 163.782,
+   "line": "Behind you, the other shadow begins crawling across the ceiling.",
+   "scene": "behind you it scuttles across the CEILING",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c122",
+   "start": 163.782,
+   "end": 164.952,
+   "line": "You reach the stairs.",
+   "scene": "the stairwell \u2014 you fly down the steps",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "footstep",
+     "gain": -10
+    },
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -10
+    },
+    {
+     "at": 0.5,
+     "name": "footstep",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c123",
+   "start": 164.952,
+   "end": 167.052,
+   "line": "And suddenly every light in the building goes out.",
+   "scene": "every light in the building dies",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "impact",
+     "gain": -6,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c124",
+   "start": 167.052,
+   "end": 168.279,
+   "line": "The creature disappears.",
+   "scene": "in the dark: the crack-smile fades away",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c125",
+   "start": 168.279,
+   "end": 169.635,
+   "line": "But so does your shadow.",
+   "scene": "only the green EXIT glow \u2014 and you cast nothing",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c126",
+   "start": 169.635,
+   "end": 171.341,
+   "line": "And for the first time...",
+   "scene": "you, alone in the dark",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c127",
+   "start": 171.341,
+   "end": 173.299,
+   "line": "You realize you need it.",
+   "scene": "big face: you realise you NEED it",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c128",
+   "start": 173.299,
+   "end": 175.031,
+   "line": "You and Emma escape into the street.",
+   "scene": "you and Emma burst out into the night street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -12
+    },
+    {
+     "at": 0.5,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c129",
+   "start": 175.031,
+   "end": 177.131,
+   "line": "Under the streetlights, your shadow returns.",
+   "scene": "under the lamp, your shadow flickers back onto the wall",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c130",
+   "start": 177.131,
+   "end": 178.212,
+   "line": "It looks exhausted.",
+   "scene": "it looks exhausted",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c131",
+   "start": 178.212,
+   "end": 179.269,
+   "line": "Almost smaller.",
+   "scene": "almost smaller",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c132",
+   "start": 179.269,
+   "end": 180.797,
+   "line": "You ask it what that thing was.",
+   "scene": "you ask it what that thing was",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c133",
+   "start": 180.797,
+   "end": 182.476,
+   "line": "Your shadow points at the ground.",
+   "scene": "it points at the ground\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c134",
+   "start": 182.476,
+   "end": 183.241,
+   "line": "Then at Emma.",
+   "scene": "\u2026then at Emma\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c135",
+   "start": 183.241,
+   "end": 184.003,
+   "line": "Then at you.",
+   "scene": "\u2026then at you",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c136",
+   "start": 184.003,
+   "end": 185.231,
+   "line": "You don't understand.",
+   "scene": "you don't understand",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c137",
+   "start": 185.231,
+   "end": 186.667,
+   "line": "So Emma takes out her phone.",
+   "scene": "Emma takes out her phone",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c138",
+   "start": 186.667,
+   "end": 188.399,
+   "line": "She opens an old photograph.",
+   "scene": "she opens an old photograph",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c139",
+   "start": 188.399,
+   "end": 190.291,
+   "line": "It's a picture of you from five years ago.",
+   "scene": "you, five years ago",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "c140",
+   "start": 190.291,
+   "end": 192.327,
+   "line": "You're standing beside her. Smiling.",
+   "scene": "standing beside her\u2026 smiling",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "c142",
+   "start": 192.327,
+   "end": 193.575,
+   "line": "But there's something wrong.",
+   "scene": "but something is wrong",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c143",
+   "start": 193.575,
+   "end": 196.615,
+   "line": "Your shadow is facing the camera. Even though you're facing away.",
+   "scene": "your shadow faces the camera \u2014 you face away",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c145",
+   "start": 196.615,
+   "end": 197.325,
+   "line": "You zoom in.",
+   "scene": "you zoom in",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c146",
+   "start": 197.325,
+   "end": 199.999,
+   "line": "Your shadow is holding something. A small black key.",
+   "scene": "its hand holds something: a small black key",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c148",
+   "start": 199.999,
+   "end": 201.362,
+   "line": "Emma whispers:",
+   "scene": "Emma whispers",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c149",
+   "start": 201.362,
+   "end": 202.424,
+   "line": "\"I remember that day.\"",
+   "scene": "\"I remember that day.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c150",
+   "start": 202.424,
+   "end": 203.233,
+   "line": "You look at her.",
+   "scene": "you look at her",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c151",
+   "start": 203.233,
+   "end": 204.104,
+   "line": "\"What happened?\"",
+   "scene": "\"What happened?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c152",
+   "start": 204.104,
+   "end": 205.035,
+   "line": "She swallows.",
+   "scene": "she swallows",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c153",
+   "start": 205.035,
+   "end": 206.196,
+   "line": "\"You were in an accident.\"",
+   "scene": "\"You were in an accident.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c154",
+   "start": 206.196,
+   "end": 207.261,
+   "line": "You laugh nervously.",
+   "scene": "you laugh nervously",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c155",
+   "start": 207.261,
+   "end": 208.191,
+   "line": "\"What accident?\"",
+   "scene": "\"What accident?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c156",
+   "start": 208.191,
+   "end": 209.514,
+   "line": "Her eyes fill with tears.",
+   "scene": "her eyes fill with tears",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c157",
+   "start": 209.514,
+   "end": 210.935,
+   "line": "\"You died.\"",
+   "scene": "\"You died.\"",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.35,
+     "name": "stinger",
+     "gain": -4
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c158",
+   "start": 210.935,
+   "end": 212.829,
+   "line": "Five years ago, you were hit by a car.",
+   "scene": "flashback: a car \u2014 headlights \u2014 impact",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "carpass",
+     "gain": -6
+    },
+    {
+     "at": 1.1,
+     "name": "impact",
+     "gain": -4
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c159",
+   "start": 212.829,
+   "end": 214.472,
+   "line": "Your heart stopped for four minutes.",
+   "scene": "the heart monitor flatlines \u2014 0:00 counting to 4:00",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hum",
+     "gain": -6,
+     "pitch": 1.6
+    }
+   ]
+  },
+  {
+   "id": "c160",
+   "start": 214.472,
+   "end": 215.794,
+   "line": "Doctors brought you back.",
+   "scene": "flashback hospital: the doctors shock you back",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "flash",
+     "gain": -6
+    },
+    {
+     "at": 0.8,
+     "name": "heartbeat",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c161",
+   "start": 215.794,
+   "end": 218.323,
+   "line": "But Emma tells you something she never mentioned before.",
+   "scene": "back on the street: Emma tells you what she never said",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c162",
+   "start": 218.323,
+   "end": 220.77,
+   "line": "When you woke up, you kept saying the same sentence.",
+   "scene": "flashback: you wake, sit bolt upright, mumbling",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c163",
+   "start": 220.77,
+   "end": 222.17,
+   "line": "\"Something followed me back.\"",
+   "scene": "\"Something followed me back.\" \u2014 a dark shape on the wall behind the bed",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c164",
+   "start": 222.17,
+   "end": 223.606,
+   "line": "You don't remember any of it.",
+   "scene": "big face: you don't remember any of it",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c165",
+   "start": 223.606,
+   "end": 225.354,
+   "line": "Your shadow suddenly begins moving.",
+   "scene": "your shadow suddenly starts moving",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c166",
+   "start": 225.354,
+   "end": 226.709,
+   "line": "It points at your chest.",
+   "scene": "it points at your chest",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c167",
+   "start": 226.709,
+   "end": 227.771,
+   "line": "Then at the ground.",
+   "scene": "then at the ground",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c168",
+   "start": 227.771,
+   "end": 229.363,
+   "line": "Then it lies perfectly still.",
+   "scene": "then it lies down, perfectly still",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c169",
+   "start": 229.363,
+   "end": 230.383,
+   "line": "You understand.",
+   "scene": "big face: you understand",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c170",
+   "start": 230.383,
+   "end": 232.879,
+   "line": "It isn't predicting your death. It's remembering it.",
+   "scene": "it isn't predicting your death \u2014 the still shadow, and a flash of the flatline",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -10
+    },
+    {
+     "at": 1.1,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c172",
+   "start": 232.879,
+   "end": 235.502,
+   "line": "You ask: \"Are you the thing that followed me?\"",
+   "scene": "\"Are you the thing that followed me?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c174",
+   "start": 235.502,
+   "end": 236.92,
+   "line": "Your shadow shakes its head.",
+   "scene": "it shakes its head",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c175",
+   "start": 236.92,
+   "end": 238.242,
+   "line": "Then points behind Emma.",
+   "scene": "then points behind Emma",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c176",
+   "start": 238.242,
+   "end": 238.872,
+   "line": "You turn.",
+   "scene": "you turn",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c177",
+   "start": 238.872,
+   "end": 240.969,
+   "line": "Under the streetlight, Emma has two shadows.",
+   "scene": "under the streetlight Emma has TWO shadows",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c178",
+   "start": 240.969,
+   "end": 241.956,
+   "line": "One moves with her.",
+   "scene": "one moves with her\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c179",
+   "start": 241.956,
+   "end": 242.875,
+   "line": "The other doesn't.",
+   "scene": "\u2026the other doesn't",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c180",
+   "start": 242.875,
+   "end": 244.768,
+   "line": "The second shadow slowly stands up.",
+   "scene": "the second shadow slowly stands up \u2014 and grins",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -8
+    },
+    {
+     "at": 1.4,
+     "name": "glitch",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c181",
+   "start": 244.768,
+   "end": 245.7,
+   "line": "Emma screams.",
+   "scene": "big face: Emma screams",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "stinger",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c182",
+   "start": 245.7,
+   "end": 247.22,
+   "line": "And both of you run.",
+   "scene": "and you both run",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c183",
+   "start": 247.22,
+   "end": 248.619,
+   "line": "You race through the streets.",
+   "scene": "you race through the night streets",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c184",
+   "start": 248.619,
+   "end": 250.353,
+   "line": "But now you notice them everywhere.",
+   "scene": "wide: people everywhere with WRONG shadows",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c185",
+   "start": 250.353,
+   "end": 252.454,
+   "line": "A man waiting for a bus has three shadows.",
+   "scene": "a man at the bus stop with THREE shadows",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c186",
+   "start": 252.454,
+   "end": 253.978,
+   "line": "A woman walking her dog has none.",
+   "scene": "a woman walking her dog \u2014 neither casts anything",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c187",
+   "start": 253.978,
+   "end": 257.078,
+   "line": "A child standing beneath a streetlight has a shadow twice his size.",
+   "scene": "a child under a streetlight \u2014 a shadow twice his size",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c188",
+   "start": 257.078,
+   "end": 258.991,
+   "line": "Something is happening to the entire city.",
+   "scene": "high over the city: shadows crawl out of every street",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c189",
+   "start": 258.991,
+   "end": 261.283,
+   "line": "Your shadow pulls you toward an abandoned building.",
+   "scene": "your shadow drags you toward an abandoned building",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c190",
+   "start": 261.283,
+   "end": 262.68,
+   "line": "Inside is a staircase.",
+   "scene": "inside: a staircase in the dark",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c191",
+   "start": 262.68,
+   "end": 264.633,
+   "line": "You climb. Floor after floor.",
+   "scene": "you climb, floor after floor: 12\u2026 23\u2026 38\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "footstep",
+     "gain": -12
+    },
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -12
+    },
+    {
+     "at": 0.5,
+     "name": "footstep",
+     "gain": -12
+    },
+    {
+     "at": 0.7,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c193",
+   "start": 264.633,
+   "end": 265.88,
+   "line": "Until you reach the roof.",
+   "scene": "the door bangs open onto the roof \u2014 sunset",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "hit",
+     "gain": -6,
+     "pitch": 0.8
+    },
+    {
+     "at": 0.3,
+     "name": "wind",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c194",
+   "start": 265.88,
+   "end": 267.777,
+   "line": "Your shadow points toward the horizon.",
+   "scene": "your shadow points to the horizon",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c195",
+   "start": 267.777,
+   "end": 268.763,
+   "line": "The sun is setting.",
+   "scene": "wide: the sun sinks into the city",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c196",
+   "start": 268.763,
+   "end": 270.864,
+   "line": "And every shadow in the city is getting longer.",
+   "scene": "your shadows stretch longer and longer across the roof",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c197",
+   "start": 270.864,
+   "end": 273.512,
+   "line": "Emma asks: \"Why did it bring us here?\"",
+   "scene": "Emma: \"Why did it bring us here?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c199",
+   "start": 273.512,
+   "end": 274.914,
+   "line": "Then you notice the black key.",
+   "scene": "then you notice it: the black key",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c200",
+   "start": 274.914,
+   "end": 276.161,
+   "line": "It's lying on the roof.",
+   "scene": "insert: the key lying on the roof",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c201",
+   "start": 276.161,
+   "end": 278.386,
+   "line": "Exactly like the one in the old photograph.",
+   "scene": "exactly like the one in the old photograph",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c202",
+   "start": 278.386,
+   "end": 279.978,
+   "line": "Beside it is a locked metal door.",
+   "scene": "beside it: a locked metal door",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c203",
+   "start": 279.978,
+   "end": 280.787,
+   "line": "You open it.",
+   "scene": "you unlock it \u2014 the door swings open",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -12,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c204",
+   "start": 280.787,
+   "end": 282.142,
+   "line": "Inside is a single mirror.",
+   "scene": "inside: a single mirror",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c205",
+   "start": 282.142,
+   "end": 284.241,
+   "line": "And written above it are five words:",
+   "scene": "words written above it\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c206",
+   "start": 284.241,
+   "end": 286.413,
+   "line": "ONLY ONE OF YOU BELONGS HERE.",
+   "scene": "ONLY ONE OF YOU BELONGS HERE.",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c207",
+   "start": 286.413,
+   "end": 287.569,
+   "line": "You look into the mirror.",
+   "scene": "you look into the mirror",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c208",
+   "start": 287.569,
+   "end": 288.739,
+   "line": "You see yourself.",
+   "scene": "you see yourself",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c209",
+   "start": 288.739,
+   "end": 289.181,
+   "line": "Emma.",
+   "scene": "Emma",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c210",
+   "start": 289.181,
+   "end": 290.164,
+   "line": "And your shadow.",
+   "scene": "and your shadow \u2014 standing beside you in the glass",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c211",
+   "start": 290.164,
+   "end": 293.707,
+   "line": "But in the reflection, your shadow is standing upright. Like a real person.",
+   "scene": "in the reflection it stands upright like a real person \u2014 and opens eyes",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c213",
+   "start": 293.707,
+   "end": 295.727,
+   "line": "It steps forward. And speaks.",
+   "scene": "it steps forward\u2026 and speaks",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -10,
+     "pitch": 0.7
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c215",
+   "start": 295.727,
+   "end": 297.916,
+   "line": "\"You were never supposed to survive that accident.\"",
+   "scene": "\"You were never supposed to survive that accident.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c216",
+   "start": 297.916,
+   "end": 299.144,
+   "line": "You stumble backward.",
+   "scene": "you stumble backward",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -10,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c217",
+   "start": 299.144,
+   "end": 303.309,
+   "line": "Your shadow continues. \"When your heart stopped, something tried to take your place.\"",
+   "scene": "your shadow goes on: \"\u2026something tried to take your place.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c219",
+   "start": 303.309,
+   "end": 304.18,
+   "line": "You look at Emma.",
+   "scene": "you look at Emma",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c220",
+   "start": 304.18,
+   "end": 306.246,
+   "line": "Her second shadow is crawling up the wall.",
+   "scene": "her second shadow crawls up the wall behind her",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c221",
+   "start": 306.246,
+   "end": 309.397,
+   "line": "Your shadow points at it. \"That thing has been waiting five years.\"",
+   "scene": "your shadow points at it: \"That thing has been waiting five years.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c223",
+   "start": 309.397,
+   "end": 311.131,
+   "line": "You whisper: \"Why?\"",
+   "scene": "you whisper: \"Why?\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c225",
+   "start": 311.131,
+   "end": 313.578,
+   "line": "\"Because it cannot enter the living world without a body.\"",
+   "scene": "\"Because it cannot enter the living world without a body.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c226",
+   "start": 313.578,
+   "end": 314.828,
+   "line": "Emma grabs your hand.",
+   "scene": "insert: Emma grabs your hand",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c227",
+   "start": 314.828,
+   "end": 317.268,
+   "line": "Then her second shadow suddenly pulls her backward.",
+   "scene": "on the roof: the second shadow yanks Emma backward",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c228",
+   "start": 317.268,
+   "end": 318.916,
+   "line": "Straight toward the edge of the roof.",
+   "scene": "straight toward the edge",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c229",
+   "start": 318.916,
+   "end": 319.979,
+   "line": "You catch her wrist.",
+   "scene": "you dive \u2014 and catch her wrist",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 0.35,
+     "name": "hit",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c230",
+   "start": 319.979,
+   "end": 321.302,
+   "line": "She slips over the side.",
+   "scene": "she slips over the side",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "slowmo",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c231",
+   "start": 321.302,
+   "end": 322.388,
+   "line": "And now...",
+   "scene": "and now\u2026 (wide)",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c232",
+   "start": 322.388,
+   "end": 324.689,
+   "line": "You're standing on the roof of a forty-story building.",
+   "scene": "the roof of a forty-story building",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c233",
+   "start": 324.689,
+   "end": 326.436,
+   "line": "Your girlfriend is hanging from the edge.",
+   "scene": "your girlfriend hanging from the edge",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c234",
+   "start": 326.436,
+   "end": 327.664,
+   "line": "You're holding her hand.",
+   "scene": "insert: your hands locked together",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c235",
+   "start": 327.664,
+   "end": 329.852,
+   "line": "And your shadow is holding a knife.",
+   "scene": "your shadow, holding the knife",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c236",
+   "start": 329.852,
+   "end": 331.287,
+   "line": "Your shadow raises the knife.",
+   "scene": "low angle: the shadow raises the knife",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c237",
+   "start": 331.287,
+   "end": 333.265,
+   "line": "You scream: \"STOP!\"",
+   "scene": "big face: you scream \"STOP!\"",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "stinger",
+     "gain": -4
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c239",
+   "start": 333.265,
+   "end": 334.493,
+   "line": "But it doesn't stop.",
+   "scene": "it doesn't stop",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c240",
+   "start": 334.493,
+   "end": 337.139,
+   "line": "It brings the blade down. Straight toward your hand.",
+   "scene": "the blade comes down \u2014 toward your hand",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -4
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c242",
+   "start": 337.139,
+   "end": 338.3,
+   "line": "You close your eyes.",
+   "scene": "you close your eyes",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c243",
+   "start": 338.3,
+   "end": 339.547,
+   "line": "And hear a sharp crack.",
+   "scene": "black \u2014 a sharp CRACK",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -3
+    },
+    {
+     "at": 0.05,
+     "name": "glitch",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c244",
+   "start": 339.547,
+   "end": 340.414,
+   "line": "You open them.",
+   "scene": "you open them",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c245",
+   "start": 340.414,
+   "end": 341.998,
+   "line": "Your shadow hasn't stabbed you.",
+   "scene": "the knife missed you completely",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c246",
+   "start": 341.998,
+   "end": 344.467,
+   "line": "It has cut through the black shape wrapped around your wrist.",
+   "scene": "insert: the severed black tendril around your wrist falls away",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c247",
+   "start": 344.467,
+   "end": 345.53,
+   "line": "The second shadow.",
+   "scene": "the second shadow \u2014 clinging below Emma",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c248",
+   "start": 345.53,
+   "end": 347.441,
+   "line": "It was using Emma to pull you over the edge.",
+   "scene": "it was using Emma to pull you over",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c249",
+   "start": 347.441,
+   "end": 348.612,
+   "line": "The creature screams.",
+   "scene": "the creature SCREAMS \u2014 its crack rips wide",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -2
+    },
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c250",
+   "start": 348.612,
+   "end": 351.385,
+   "line": "Your shadow grabs it. And drags it toward the mirror.",
+   "scene": "your shadow seizes it and drags it toward the mirror room",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c252",
+   "start": 351.385,
+   "end": 352.784,
+   "line": "The mirror begins to crack.",
+   "scene": "the mirror begins to crack",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -10,
+     "pitch": 1.6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c253",
+   "start": 352.784,
+   "end": 354.183,
+   "line": "You pull Emma onto the roof.",
+   "scene": "you haul Emma back onto the roof",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c254",
+   "start": 354.183,
+   "end": 356.139,
+   "line": "The two shadows disappear into the glass.",
+   "scene": "both shadows are sucked into the glass",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -6
+    },
+    {
+     "at": 1.0,
+     "name": "whoosh",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -18
+   }
+  },
+  {
+   "id": "c255",
+   "start": 356.139,
+   "end": 357.365,
+   "line": "Then the mirror shatters.",
+   "scene": "the mirror SHATTERS",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -2
+    },
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c256",
+   "start": 357.365,
+   "end": 358.175,
+   "line": "Silence.",
+   "scene": "silence. The sun is down. Wide roof.",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c257",
+   "start": 358.175,
+   "end": 359.042,
+   "line": "You look down.",
+   "scene": "you look down",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c258",
+   "start": 359.042,
+   "end": 360.213,
+   "line": "Your shadow is gone.",
+   "scene": "low on the roof floor: Emma has a shadow \u2014 you have none",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c259",
+   "start": 360.213,
+   "end": 362.32,
+   "line": "For the first time in your life...",
+   "scene": "big face: for the first time in your life\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c260",
+   "start": 362.32,
+   "end": 364.113,
+   "line": "You don't cast one.",
+   "scene": "you don't cast one \u2014 a lone white figure against the last light",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c261",
+   "start": 364.113,
+   "end": 365.177,
+   "line": "Three weeks pass.",
+   "scene": "THREE WEEKS LATER",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c262",
+   "start": 365.177,
+   "end": 366.929,
+   "line": "You and Emma move to a new apartment.",
+   "scene": "a new apartment: you and Emma carrying boxes, sunlight",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c263",
+   "start": 366.929,
+   "end": 368.391,
+   "line": "Everything feels normal again.",
+   "scene": "everything feels normal again: dinner, laughter",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c264",
+   "start": 368.391,
+   "end": 369.789,
+   "line": "One morning, you wake up.",
+   "scene": "one morning, you wake up",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c265",
+   "start": 369.789,
+   "end": 371.191,
+   "line": "Sunlight fills the bedroom.",
+   "scene": "sunlight floods the bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c266",
+   "start": 371.191,
+   "end": 372.255,
+   "line": "You look at the floor.",
+   "scene": "you look at the floor",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c267",
+   "start": 372.255,
+   "end": 373.482,
+   "line": "Your shadow is back.",
+   "scene": "your shadow is BACK",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c268",
+   "start": 373.482,
+   "end": 375.162,
+   "line": "You smile. \"You're alive.\"",
+   "scene": "big face: you smile \u2014 \"You're alive.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c270",
+   "start": 375.162,
+   "end": 376.854,
+   "line": "It waves. You wave back.",
+   "scene": "it waves. You wave back.",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c272",
+   "start": 376.854,
+   "end": 379.141,
+   "line": "Then Emma walks into the room. She kisses you.",
+   "scene": "Emma walks in, kisses you",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c274",
+   "start": 379.141,
+   "end": 381.206,
+   "line": "And leaves for work. You watch her go.",
+   "scene": "she leaves for work \u2014 you watch her go",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 1.6,
+     "name": "hit",
+     "gain": -16,
+     "pitch": 1.2
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c276",
+   "start": 381.206,
+   "end": 382.993,
+   "line": "Your shadow slowly turns toward you.",
+   "scene": "your shadow slowly turns toward you",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "glitch",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c277",
+   "start": 382.993,
+   "end": 384.584,
+   "line": "Then points at the bedroom mirror.",
+   "scene": "it points at the bedroom mirror",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c278",
+   "start": 384.584,
+   "end": 385.295,
+   "line": "You look.",
+   "scene": "you look",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c279",
+   "start": 385.295,
+   "end": 387.632,
+   "line": "In the reflection, Emma is still standing behind you.",
+   "scene": "in the reflection, Emma still stands behind you",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "c280",
+   "start": 387.632,
+   "end": 388.345,
+   "line": "Smiling.",
+   "scene": "smiling",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "c281",
+   "start": 388.345,
+   "end": 389.743,
+   "line": "Even though she just left.",
+   "scene": "even though she just left \u2014 the empty doorway",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "c282",
+   "start": 389.743,
+   "end": 390.762,
+   "line": "You turn around.",
+   "scene": "you spin around",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "c283",
+   "start": 390.762,
+   "end": 391.783,
+   "line": "Nobody's there.",
+   "scene": "nobody's there",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "c284",
+   "start": 391.783,
+   "end": 393.643,
+   "line": "Then the reflection whispers:",
+   "scene": "then the reflection whispers\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "c285",
+   "start": 393.643,
+   "end": 398.295,
+   "line": "\"You saved the wrong one.\"",
+   "scene": "\"You saved the wrong one.\" \u2014 Emma's reflection grins with the crack, then CUT TO BLACK",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -3
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 16.5,
+   "mood": "tension",
+   "intensity": 0.75
+  },
+  {
+   "start": 16.5,
+   "end": 50.5,
+   "mood": "mystery",
+   "intensity": 0.35
+  },
+  {
+   "start": 50.5,
+   "end": 96.3,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 96.3,
+   "end": 132.8,
+   "mood": "dark",
+   "intensity": 0.45
+  },
+  {
+   "start": 132.8,
+   "end": 173.2,
+   "mood": "tension",
+   "intensity": 0.7
+  },
+  {
+   "start": 173.2,
+   "end": 210.8,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 210.8,
+   "end": 247,
+   "mood": "dark",
+   "intensity": 0.5
+  },
+  {
+   "start": 247,
+   "end": 286.3,
+   "mood": "mystery",
+   "intensity": 0.55
+  },
+  {
+   "start": 286.3,
+   "end": 329.7,
+   "mood": "tension",
+   "intensity": 0.75
+  },
+  {
+   "start": 329.7,
+   "end": 363.9,
+   "mood": "epic",
+   "intensity": 0.8
+  },
+  {
+   "start": 363.9,
+   "end": 384.5,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 384.5,
+   "end": 398.295,
+   "mood": "dark",
+   "intensity": 0.6
+  }
+ ],
+ "sfx": []
+}
