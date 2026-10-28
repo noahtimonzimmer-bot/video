@@ -4,7 +4,7 @@
  "resolution": "1080p",
  "fps": 24,
  "style": "pale",
- "voiceover": "input/voiceover.wav",
+ "voiceover": "input/voiceover_kokoro.wav",
  "script": null,
  "duration": 396.795,
  "captions": false,
