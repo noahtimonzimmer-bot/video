@@ -4,3 +4,4 @@ aitrends-2d-studio/examples/*/build/
 voice/tmp/
 *.mp4
 __pycache__/
+voice/voice_kokoro_raw.wav
