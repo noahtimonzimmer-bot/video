@@ -24,7 +24,8 @@ export function terrain(T, o = {}) {
     c.offsetHSL(0, 0, jitter); cols.push(c.r, c.g, c.b);
   }
   geo.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3)); geo.computeVertexNormals();
-  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: 0.95 })); m.receiveShadow = true; m.castShadow = true; m.userData.noOutline = true; return m;
+  if (o.map) { const uv = geo.attributes.uv; for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * (o.rep || 40), uv.getY(i) * (o.rep || 40)); }
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: !o.map || !!o.tintMap, map: o.map || null, flatShading: !o.map, roughness: 0.95 })); m.receiveShadow = true; m.castShadow = true; m.userData.noOutline = true; return m;
 }
 // water surface (slightly emissive so it glows under bloom)
 export function water(T, w, d, y = 0.15, color = '#3a8cc8') { const { THREE } = T; const m = new THREE.Mesh(new THREE.PlaneGeometry(w, d, 1, 1), new THREE.MeshStandardMaterial({ color, roughness: 0.15, metalness: 0.4, emissive: color, emissiveIntensity: 0.25, transparent: true, opacity: 0.92 })); m.rotation.x = -Math.PI / 2; m.position.y = y; m.receiveShadow = true; m.userData.noOutline = true; return m; }

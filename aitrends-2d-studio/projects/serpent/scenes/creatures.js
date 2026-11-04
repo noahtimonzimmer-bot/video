@@ -7,11 +7,11 @@ import * as FX from '/engine/fx2d.js';
 export function snake(g, x, y, s, t, o = {}) {
   const n = 40, pts = [], len = (o.len || 520) * s, amp = (o.amp ?? 40) * s, dir = o.dir ?? 1, col = o.color || '#4a9a3a', belly = o.belly || '#c8d86a';
   for (let i = 0; i <= n; i++) { const u = i / n; pts.push([x + dir * u * len, y + Math.sin(u * 9 - t * 3) * amp * (0.3 + 0.7 * (1 - u)) - (o.rise || 0) * u * u * s]); }
-  for (let i = 0; i < n; i++) { const w = (6 + 20 * Math.sin(Math.min(1, (i / n) * 1.3) * Math.PI * 0.9)) * s; seg(g, [pts[i], pts[i + 1]], w + 6 * s, shade(col, -0.35)); }
+  for (let i = 0; i < n; i++) { const w = (6 + 20 * Math.sin(Math.min(1, (i / n) * 1.3) * Math.PI * 0.9)) * s; seg(g, [pts[i], pts[i + 1]], w + 7 * s, '#3a2a22'); }
   for (let i = 0; i < n; i++) { const w = (6 + 20 * Math.sin(Math.min(1, (i / n) * 1.3) * Math.PI * 0.9)) * s; seg(g, [pts[i], pts[i + 1]], w, i % 4 < 2 ? col : shade(col, 0.12)); }
   const [hx, hy] = pts[n]; g.save(); g.translate(hx, hy); g.scale(dir, 1);
-  g.fillStyle = col; g.beginPath(); g.ellipse(18 * s, 0, 34 * s, 22 * s, 0, 0, 7); g.fill();
-  circle(g, 30 * s, -9 * s, 8 * s, '#fff6c8'); g.fillStyle = '#120a06'; g.beginPath(); g.ellipse(32 * s, -9 * s, 2.4 * s, 7 * s, 0, 0, 7); g.fill();
+  g.fillStyle = col; g.beginPath(); g.ellipse(18 * s, 0, 36 * s, 24 * s, 0, 0, 7); g.fill(); g.lineWidth = 3.5 * s; g.strokeStyle = '#3a2a22'; g.stroke();
+  circle(g, 30 * s, -12 * s, 11 * s, '#3a2a22'); circle(g, 30 * s, -12 * s, 9 * s, '#fffbe8'); g.fillStyle = '#120a06'; g.beginPath(); g.ellipse(33 * s, -12 * s, 3 * s, 7 * s, 0, 0, 7); g.fill(); seg(g, [[20 * s, -26 * s], [42 * s, -22 * s + (o.brow || 0) * s]], 4 * s, '#3a2a22');
   if (o.tongue !== false && Math.sin(t * 6) > 0.2) { seg(g, [[50 * s, 4 * s], [72 * s, 6 * s]], 3 * s, '#d83a3a'); seg(g, [[72 * s, 6 * s], [80 * s, 0]], 2.5 * s, '#d83a3a'); seg(g, [[72 * s, 6 * s], [80 * s, 12 * s]], 2.5 * s, '#d83a3a'); }
   if (o.talk) { seg(g, [[36 * s, 8 * s], [50 * s, 8 * s + o.talk * 10 * s]], 3 * s, '#120a06'); }
   g.restore(); return pts[n];

@@ -1,1 +1,2418 @@
-{"title":"t","duration":8,"shots":[{"id":"st1","start":0,"end":4,"line":"","scene":"","bars":null,"in":{"type":"cut"}},{"id":"st2","start":4,"end":8,"line":"","scene":"","bars":null,"in":{"type":"cut"}}]}
+{
+ "title": "The Serpent in Eden WASN'T a Snake",
+ "duration": 364.553,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 3.038,
+   "line": "Everyone knows the story.",
+   "scene": "storybook Eden: Adam and Eve, the tree, the snake \u2014 'everyone knows the story'",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c001",
+   "start": 3.038,
+   "end": 6.546,
+   "line": "A garden. A tree. A woman. And a talking snake.",
+   "scene": "A garden. A tree. A woman. A talking snake \u2014 quick labelled beats",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 2.4,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c002",
+   "start": 6.546,
+   "end": 10.148,
+   "line": "But what if the creature in Eden was never a snake at all?",
+   "scene": "the snake flickers \u2014 a shining shape shows through",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "glitch",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c003",
+   "start": 10.148,
+   "end": 14.03,
+   "line": "What if the Bible has been telling us something much stranger...",
+   "scene": "in the dark: something stranger \u2014 a radiant serpent-being",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c004",
+   "start": 14.03,
+   "end": 17.331,
+   "line": "and we have been picturing it wrong for thousands of years?",
+   "scene": "classic paintings of a snake in a tree on a museum wall \u2014 a giant question mark",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c005",
+   "start": 17.331,
+   "end": 21.187,
+   "line": "Today, we are going back to the very first pages of Scripture.",
+   "scene": "an ancient scroll unrolls: GENESIS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c006",
+   "start": 21.187,
+   "end": 25.45,
+   "line": "And by the end, you will never read Genesis the same way again.",
+   "scene": "close: Adam's face lit by a strange light \u2014 you'll never read it the same",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c007",
+   "start": 25.45,
+   "end": 27.737,
+   "line": "THE SERPENT IN EDEN.",
+   "scene": "aerial Eden, title THE SERPENT IN EDEN",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c008",
+   "start": 27.737,
+   "end": 31.573,
+   "line": "In the beginning, God planted a garden in the east, in Eden.",
+   "scene": "aerial: glide from the mountains down into the garden",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c009",
+   "start": 31.573,
+   "end": 34.774,
+   "line": "A river flowed out of Eden to water the garden.",
+   "scene": "aerial: skim low along the river through the orchard",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c010",
+   "start": 34.774,
+   "end": 37.331,
+   "line": "And from there it split into four rivers.",
+   "scene": "top-down: the river splits into four, names appear",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c011",
+   "start": 37.331,
+   "end": 41.729,
+   "line": "Trees of every kind grew there, pleasant to the eye and good for food.",
+   "scene": "low drift through fruit trees and palms",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c012",
+   "start": 41.729,
+   "end": 43.66,
+   "line": "In the middle stood two trees.",
+   "scene": "orbit the two great trees in the middle",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c013",
+   "start": 43.66,
+   "end": 45.038,
+   "line": "The tree of life.",
+   "scene": "the Tree of Life, glowing, sparkling fruit",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c014",
+   "start": 45.038,
+   "end": 47.801,
+   "line": "And the tree of the knowledge of good and evil.",
+   "scene": "the Tree of the Knowledge of Good and Evil, dark red fruit",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c015",
+   "start": 47.801,
+   "end": 51.389,
+   "line": "God placed the man in the garden to work it and to keep it.",
+   "scene": "Adam tends the garden: kneels, plants, waters",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c016",
+   "start": 51.389,
+   "end": 53.233,
+   "line": "And He gave him one command.",
+   "scene": "light from heaven: Adam looks up as God speaks",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c017",
+   "start": 53.233,
+   "end": 56.446,
+   "line": "\"You may freely eat of every tree of the garden...",
+   "scene": "\"You may freely eat of every tree\u2026\" \u2014 Adam among laden trees",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c018",
+   "start": 56.446,
+   "end": 60.443,
+   "line": "but of the tree of the knowledge of good and evil you shall not eat.\"",
+   "scene": "\"\u2026but of the tree of the knowledge of good and evil you shall not eat.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c019",
+   "start": 60.443,
+   "end": 62.154,
+   "line": "Then God made the woman.",
+   "scene": "in a burst of light, the woman \u2014 Adam turns, amazed",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c020",
+   "start": 62.154,
+   "end": 66.7,
+   "line": "And for a short time, everything was exactly as it should be.",
+   "scene": "golden hour: Adam and Eve walk hand in hand, birds, the river",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c021",
+   "start": 66.7,
+   "end": 70.815,
+   "line": "Then, in Genesis chapter three, something walks into the story.",
+   "scene": "the grass parts: something slides through the meadow toward the tree",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c022",
+   "start": 70.815,
+   "end": 76.417,
+   "line": "\"Now the serpent was more crafty than any beast of the field which the Lord God had made.\"",
+   "scene": "\"Now the serpent was more crafty than any beast of the field\u2026\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c023",
+   "start": 76.417,
+   "end": 77.532,
+   "line": "It speaks.",
+   "scene": "it SPEAKS \u2014 the snake's mouth moves, sound rings",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "glitch",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c024",
+   "start": 77.532,
+   "end": 78.702,
+   "line": "It reasons.",
+   "scene": "it REASONS \u2014 Eve listens, the snake gestures with its tail",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c025",
+   "start": 78.702,
+   "end": 80.896,
+   "line": "It knows exactly what God said.",
+   "scene": "close: the serpent's knowing eye",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c026",
+   "start": 80.896,
+   "end": 82.723,
+   "line": "And it knows how to twist it.",
+   "scene": "it knows how to twist it \u2014 the words of God curl into a knot",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c027",
+   "start": 82.723,
+   "end": 86.838,
+   "line": "\"Did God actually say, you shall not eat of any tree in the garden?\"",
+   "scene": "\"Did God actually say\u2026?\" \u2014 the serpent hangs before Eve",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c028",
+   "start": 86.838,
+   "end": 88.491,
+   "line": "Snakes do not talk.",
+   "scene": "a normal snake in the grass \u2014 big red \u2717 over a speech bubble",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c029",
+   "start": 88.491,
+   "end": 90.929,
+   "line": "Snakes do not argue about theology.",
+   "scene": "comic beat: a snake can't hold a scroll \u2014 it flops in the grass",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c030",
+   "start": 90.929,
+   "end": 92.969,
+   "line": "So what is this thing?",
+   "scene": "push into the serpent's eye \u2014 a radiant shape reflected inside",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c031",
+   "start": 92.969,
+   "end": 96.557,
+   "line": "To answer that, we have to look at the original Hebrew.",
+   "scene": "the Hebrew text of Genesis 3:1 on parchment; one word lights up",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c032",
+   "start": 96.557,
+   "end": 99.493,
+   "line": "The word translated as serpent is nachash.",
+   "scene": "NACHASH \u2014 the word fills the screen",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c033",
+   "start": 99.493,
+   "end": 101.483,
+   "line": "And here is where it gets strange.",
+   "scene": "the letters pulse \u2014 something strange",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c034",
+   "start": 101.483,
+   "end": 105.968,
+   "line": "The same three letters appear in other words across the Old Testament.",
+   "scene": "the three root letters \u05e0 \u05d7 \u05e9 split into three glowing scrolls",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c035",
+   "start": 105.968,
+   "end": 111.569,
+   "line": "In Genesis forty-four, Joseph's silver cup is the cup he uses for divination.",
+   "scene": "aerial Egypt: the Nile, fields, palms, town, pyramids",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c036",
+   "start": 111.569,
+   "end": 114.253,
+   "line": "The verb for divination there is nachash.",
+   "scene": "Joseph in his Egyptian hall raises the silver cup \u2014 'divination'",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c037",
+   "start": 114.253,
+   "end": 118.339,
+   "line": "In other places, the related word nechoshet means bronze.",
+   "scene": "polished bronze ingots glow on a forge table: \u05e0\u05b0\u05d7\u05b9\u05e9\u05b6\u05c1\u05ea = BRONZE",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c038",
+   "start": 118.339,
+   "end": 120.678,
+   "line": "Shining. Gleaming. Polished metal.",
+   "scene": "a bronze mirror catches the light \u2014 a bright sweep: SHINING, GLEAMING",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c039",
+   "start": 120.678,
+   "end": 125.371,
+   "line": "So the word that describes this creature is connected to three ideas.",
+   "scene": "the word card: three meanings about to branch out",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c040",
+   "start": 125.371,
+   "end": 126.443,
+   "line": "A serpent.",
+   "scene": "branch 1: SERPENT",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c041",
+   "start": 126.443,
+   "end": 128.691,
+   "line": "A diviner who knows hidden things.",
+   "scene": "branch 2: DIVINATION \u2014 a diviner who knows hidden things",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c042",
+   "start": 128.691,
+   "end": 130.42,
+   "line": "And something that shines.",
+   "scene": "branch 3: BRONZE \u00b7 SHINING",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c043",
+   "start": 130.42,
+   "end": 134.214,
+   "line": "Some scholars believe the author chose this word on purpose.",
+   "scene": "an ancient scribe writes by lamplight \u2014 choosing the word on purpose",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c044",
+   "start": 134.214,
+   "end": 135.717,
+   "line": "Not just a snake.",
+   "scene": "NOT JUST A SNAKE \u2014 a plain snake fades to grey",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c045",
+   "start": 135.717,
+   "end": 137.456,
+   "line": "A shining one.",
+   "scene": "A SHINING ONE \u2014 the radiant being unfolds its six wings",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -8
+    },
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c046",
+   "start": 137.456,
+   "end": 140.633,
+   "line": "And that idea is not as wild as it sounds.",
+   "scene": "a scholar raises an eyebrow: not as wild as it sounds",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c047",
+   "start": 140.633,
+   "end": 146.415,
+   "line": "In Numbers twenty-one, the people of Israel are bitten in the desert by fiery serpents.",
+   "scene": "aerial: Israel's tent camp spread across the desert",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "wind",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -20
+   }
+  },
+  {
+   "id": "c048",
+   "start": 146.415,
+   "end": 148.587,
+   "line": "In Hebrew, they are called seraphim.",
+   "scene": "fiery serpents in the camp; people flee \u2014 SERAPHIM",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c049",
+   "start": 148.587,
+   "end": 149.834,
+   "line": "Burning ones.",
+   "scene": "close: a burning serpent, flames along its back \u2014 BURNING ONES",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c050",
+   "start": 149.834,
+   "end": 154.565,
+   "line": "God tells Moses to make a serpent of bronze and lift it up on a pole.",
+   "scene": "Moses lifts the bronze serpent on a pole; the people look up",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c051",
+   "start": 154.565,
+   "end": 157.621,
+   "line": "A bronze serpent. A nachash of nechoshet.",
+   "scene": "close on the bronze serpent: 'a nachash of nechoshet'",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c052",
+   "start": 157.621,
+   "end": 159.843,
+   "line": "Now turn to Isaiah chapter six.",
+   "scene": "a scroll unrolls: ISAIAH 6",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c053",
+   "start": 159.843,
+   "end": 162.129,
+   "line": "Isaiah sees the Lord on His throne.",
+   "scene": "the heavenly throne room \u2014 tiny Isaiah kneels before the blazing throne",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c054",
+   "start": 162.129,
+   "end": 164.463,
+   "line": "And above Him stand... seraphim.",
+   "scene": "above the throne: two seraphim, six wings each",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c055",
+   "start": 164.463,
+   "end": 166.599,
+   "line": "The same word. Burning ones.",
+   "scene": "label: SERAPHIM \u2014 the same word: BURNING ONES",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c056",
+   "start": 166.599,
+   "end": 170.336,
+   "line": "Heavenly beings, standing in the very presence of God.",
+   "scene": "wide: seraphim circling the throne, light everywhere",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c057",
+   "start": 170.336,
+   "end": 177.078,
+   "line": "So in the Bible, serpent language and divine beings are closer than most people realize.",
+   "scene": "split: the bronze serpent on its pole \u2248 the seraph before God",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c058",
+   "start": 177.078,
+   "end": 180.142,
+   "line": "And then there is one passage that changes everything.",
+   "scene": "one passage glows on the scroll: EZEKIEL 28",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c059",
+   "start": 180.142,
+   "end": 187.685,
+   "line": "Ezekiel chapter twenty-eight. It begins as a lament over the king of Tyre, a rich island city of ships and trade.",
+   "scene": "aerial Tyre at sunset: island city, walls, causeway bridge, ships",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c061",
+   "start": 187.685,
+   "end": 190.791,
+   "line": "But then the words go far beyond any human king.",
+   "scene": "on the docks of Tyre, the proud king among his treasure",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c062",
+   "start": 190.791,
+   "end": 193.42,
+   "line": "\"You were in Eden, the garden of God.",
+   "scene": "\"You were in Eden, the garden of God\" \u2014 a radiant cherub among the trees",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c063",
+   "start": 193.42,
+   "end": 195.778,
+   "line": "Every precious stone was your covering.",
+   "scene": "close: every precious stone was his covering \u2014 gems glint",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c064",
+   "start": 195.778,
+   "end": 198.162,
+   "line": "You were an anointed guardian cherub.",
+   "scene": "the anointed guardian cherub spreads its wings before the Tree of Life",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c065",
+   "start": 198.162,
+   "end": 200.647,
+   "line": "You were on the holy mountain of God.",
+   "scene": "aerial: the holy mountain of God, light pouring from its summit",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    },
+    {
+     "at": 0.4,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c066",
+   "start": 200.647,
+   "end": 204.473,
+   "line": "You were blameless in your ways from the day you were created...",
+   "scene": "blameless from the day it was created \u2014 the cherub in full glory",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c067",
+   "start": 204.473,
+   "end": 207.007,
+   "line": "till unrighteousness was found in you.\"",
+   "scene": "\"\u2026till unrighteousness was found in you\" \u2014 the light curdles, eyes turn red",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c068",
+   "start": 207.007,
+   "end": 208.465,
+   "line": "A being in Eden.",
+   "scene": "recap: A BEING IN EDEN",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c069",
+   "start": 208.465,
+   "end": 210.331,
+   "line": "Covered in shining stones.",
+   "scene": "recap: COVERED IN SHINING STONES",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c070",
+   "start": 210.331,
+   "end": 212.521,
+   "line": "A cherub on the mountain of God.",
+   "scene": "recap: A CHERUB ON THE MOUNTAIN OF GOD",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c071",
+   "start": 212.521,
+   "end": 214.439,
+   "line": "Who fell because of his pride.",
+   "scene": "recap: WHO FELL BECAUSE OF HIS PRIDE \u2014 the cherub turns dark",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c072",
+   "start": 214.439,
+   "end": 216.612,
+   "line": "\"I cast you to the ground.\"",
+   "scene": "\"I cast you to the ground\" \u2014 the dark cherub plummets and smashes into the earth",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -6
+    },
+    {
+     "at": 0.9,
+     "name": "impact",
+     "gain": -2
+    }
+   ]
+  },
+  {
+   "id": "c073",
+   "start": 216.612,
+   "end": 219.651,
+   "line": "Now go back to the curse in Genesis three.",
+   "scene": "dusk in Eden: Adam and Eve in garments of skin, the serpent before them",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c074",
+   "start": 219.651,
+   "end": 224.538,
+   "line": "\"On your belly you shall go, and dust you shall eat all the days of your life.\"",
+   "scene": "\"On your belly you shall go, and dust you shall eat\" \u2014 the serpent pressed into the dust",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -10,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c075",
+   "start": 224.538,
+   "end": 228.028,
+   "line": "Many readers take this to mean the snake lost its legs.",
+   "scene": "the popular picture: a lizard-like serpent with legs \u2014 the legs vanish",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "glitch",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c076",
+   "start": 228.028,
+   "end": 229.314,
+   "line": "But look closely.",
+   "scene": "magnifying glass over the Hebrew of Genesis 3:14",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c077",
+   "start": 229.314,
+   "end": 232.182,
+   "line": "The Bible never says the serpent had legs.",
+   "scene": "stamp: LEGS? \u2014 NOT IN THE TEXT",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c078",
+   "start": 232.182,
+   "end": 237.954,
+   "line": "In Scripture, eating dust and lying in the dust are pictures of total humiliation.",
+   "scene": "a defeated enemy bows face-down in the dust \u2014 humiliation",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c079",
+   "start": 237.954,
+   "end": 241.947,
+   "line": "In Psalm seventy-two, the enemies of the king lick the dust.",
+   "scene": "aerial kingdom: river, arched stone bridge, patchwork fields, red-roofed town",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c080",
+   "start": 241.947,
+   "end": 245.835,
+   "line": "In Micah seven, the nations lick the dust like a serpent.",
+   "scene": "nations bow low in the dust like a serpent (Micah 7)",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c081",
+   "start": 245.835,
+   "end": 248.946,
+   "line": "So the curse may not be about biology at all.",
+   "scene": "NOT BIOLOGY \u2014 the DNA strand fades, a crown falls",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c082",
+   "start": 248.946,
+   "end": 252.817,
+   "line": "It is about a proud being brought down to the lowest place there is.",
+   "scene": "a proud radiant being sinks, dimming, down to the lowest place",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c083",
+   "start": 252.817,
+   "end": 256.624,
+   "line": "From the mountain of God... to the dust of the earth.",
+   "scene": "camera tilts from the glowing mountain summit down to the dust of the earth",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "impact",
+     "gain": -8,
+     "pitch": 0.7
+    }
+   ]
+  },
+  {
+   "id": "c084",
+   "start": 256.624,
+   "end": 258.153,
+   "line": "So who was the serpent?",
+   "scene": "silhouette of the serpent in shadow, a question mark",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c085",
+   "start": 258.153,
+   "end": 260.373,
+   "line": "The Bible does not leave us guessing.",
+   "scene": "a scroll unrolls fast: the Bible answers",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c086",
+   "start": 260.373,
+   "end": 263.931,
+   "line": "In Revelation chapter twelve, John writes it plainly.",
+   "scene": "aerial: rocky Patmos in a dusk sea, a small white village",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "wind",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c087",
+   "start": 263.931,
+   "end": 269.65,
+   "line": "\"That ancient serpent, who is called the devil and Satan, the deceiver of the whole world.\"",
+   "scene": "John writes in the cave on Patmos \u2014 Revelation 12:9 appears",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c088",
+   "start": 269.65,
+   "end": 274.087,
+   "line": "And Paul warns that Satan disguises himself as an angel of light.",
+   "scene": "Paul writes his letter by lamplight \u2014 2 Corinthians 11:14",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c089",
+   "start": 274.087,
+   "end": 275.688,
+   "line": "An angel of light.",
+   "scene": "AN ANGEL OF LIGHT \u2014 beautiful, radiant, calm",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "shimmer",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c090",
+   "start": 275.688,
+   "end": 277.427,
+   "line": "A shining one.",
+   "scene": "A SHINING ONE \u2014 its eyes turn red, the light darkens",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c091",
+   "start": 277.427,
+   "end": 281.41,
+   "line": "So let's separate what the Bible confirms from what is speculation.",
+   "scene": "BIBLE vs MYTH board appears",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c092",
+   "start": 281.41,
+   "end": 284.9,
+   "line": "Confirmed. The serpent was not just an animal.",
+   "scene": "row 1: not just an animal \u2014 CONFIRMED",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c094",
+   "start": 284.9,
+   "end": 287.819,
+   "line": "Scripture itself identifies it as Satan.",
+   "scene": "Scripture identifies it as Satan \u2014 Revelation 12:9 stamp",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": []
+  },
+  {
+   "id": "c095",
+   "start": 287.819,
+   "end": 291.879,
+   "line": "Confirmed. It was intelligent, it spoke, and it deceived.",
+   "scene": "row 2: intelligent, spoke, deceived \u2014 CONFIRMED",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c097",
+   "start": 291.879,
+   "end": 297.493,
+   "line": "Not confirmed. That the serpent once walked on legs. The text simply does not say it.",
+   "scene": "row 3: legs \u2014 NOT CONFIRMED",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c100",
+   "start": 297.493,
+   "end": 302.499,
+   "line": "And possible, but debated. That nachash points to a shining, divine being.",
+   "scene": "row 4: nachash = shining being \u2014 POSSIBLE, DEBATED",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c102",
+   "start": 302.499,
+   "end": 309.808,
+   "line": "Many scholars hold this view, and the language supports it. But others read it as Satan speaking through a real serpent.",
+   "scene": "two scholars debate: one points to the Hebrew, the other to a real serpent",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c104",
+   "start": 309.808,
+   "end": 316.073,
+   "line": "Either way, the conclusion is the same. The enemy in Eden was no ordinary snake.",
+   "scene": "either way: NO ORDINARY SNAKE",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c106",
+   "start": 316.073,
+   "end": 318.61,
+   "line": "But the story does not end with the serpent.",
+   "scene": "Eden at dusk: Adam and Eve walk away from the garden, the serpent watches",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c107",
+   "start": 318.61,
+   "end": 321.87,
+   "line": "In the very same chapter, God makes a promise.",
+   "scene": "light breaks through the dusk clouds \u2014 God speaks a promise",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c108",
+   "start": 321.87,
+   "end": 327.293,
+   "line": "\"I will put enmity between you and the woman, and between your offspring and her offspring.",
+   "scene": "\"I will put enmity between you and the woman\u2026\" \u2014 Eve and the serpent face each other",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c109",
+   "start": 327.293,
+   "end": 330.457,
+   "line": "He shall bruise your head, and you shall bruise his heel.\"",
+   "scene": "\"He shall bruise your head, and you shall bruise his heel\" \u2014 a heel comes down on the serpent's head",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "hit",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c110",
+   "start": 330.457,
+   "end": 333.941,
+   "line": "One day, a son of the woman would crush the serpent's head.",
+   "scene": "a son of the woman \u2014 a small glowing figure under a star, the serpent recoils",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c111",
+   "start": 333.941,
+   "end": 338.069,
+   "line": "Christians have read this as the first announcement of the gospel.",
+   "scene": "scroll: GENESIS 3:15 \u2014 THE FIRST GOSPEL",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c112",
+   "start": 338.069,
+   "end": 341.674,
+   "line": "And thousands of years later, Jesus said these words.",
+   "scene": "aerial Jerusalem on its hill at golden hour: walls, houses, the temple",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c113",
+   "start": 341.674,
+   "end": 347.395,
+   "line": "\"As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up.\"",
+   "scene": "\"As Moses lifted up the serpent in the wilderness\u2026\" \u2014 the bronze serpent at sunset",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c114",
+   "start": 347.395,
+   "end": 349.559,
+   "line": "The bronze serpent on the pole...",
+   "scene": "close: the bronze serpent on its pole, gleaming",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c115",
+   "start": 349.559,
+   "end": 350.979,
+   "line": "pointed to the cross.",
+   "scene": "the pole dissolves into the cross on a hill at sunrise",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c116",
+   "start": 350.979,
+   "end": 352.748,
+   "line": "The serpent struck the heel.",
+   "scene": "the serpent strikes at a heel \u2014 a small dark bite",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c117",
+   "start": 352.748,
+   "end": 354.291,
+   "line": "But the head was crushed.",
+   "scene": "BUT THE HEAD WAS CRUSHED \u2014 impact, light bursts, the serpent turns to dust",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -2
+    }
+   ]
+  },
+  {
+   "id": "c118",
+   "start": 354.291,
+   "end": 358.067,
+   "line": "The shining one fell. The Son was lifted up.",
+   "scene": "sunrise over the cross: THE SHINING ONE FELL. THE SON WAS LIFTED UP.",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -6
+    },
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -10,
+     "pitch": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c119",
+   "start": 358.067,
+   "end": 364.553,
+   "line": "And that is the real story of the serpent in Eden.",
+   "scene": "final: Eden in golden light, title returns \u2014 THE SERPENT IN EDEN",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 24.5,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 24.5,
+   "end": 65,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 65,
+   "end": 93,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 93,
+   "end": 140,
+   "mood": "mystery",
+   "intensity": 0.35
+  },
+  {
+   "start": 140,
+   "end": 177,
+   "mood": "wonder",
+   "intensity": 0.5
+  },
+  {
+   "start": 177,
+   "end": 216,
+   "mood": "epic",
+   "intensity": 0.55
+  },
+  {
+   "start": 216,
+   "end": 256,
+   "mood": "dark",
+   "intensity": 0.45
+  },
+  {
+   "start": 256,
+   "end": 276,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 276,
+   "end": 315,
+   "mood": "mystery",
+   "intensity": 0.35
+  },
+  {
+   "start": 315,
+   "end": 345,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 345,
+   "end": 364.553,
+   "mood": "triumph",
+   "intensity": 0.6
+  }
+ ],
+ "sfx": []
+}
