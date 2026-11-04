@@ -60,7 +60,7 @@ S('076', {"in": "dip", "amb": ["wind", -22], "sfx": [["shimmer", 0.3, -10]], "sc
   const M = { seed: 101, mount: 0, flat: 9999, rough: 2 };
   const hf = (x, z) => Math.max(0, 150 - Math.hypot(x, z) * 0.7) + W.heightAt(x, z, M) * 3 + Math.max(0, 90 - Math.hypot(x - 200, z + 120) * 0.8);
   st.add(W.terrain(T, { size: 1400, seg: 260, height: hf, map: W.grassTex(T, '#8aa860', [1, 1]), rep: 70 }));
-  st.add(W.terrain(T, { size: 240, seg: 140, height: (x, z) => hf(x, z) + 0.5, map: A.rockTex(T, '#f2f0ec', [1, 1]), rep: 14 }));
+  st.add(W.terrain(T, { size: 110, seg: 80, height: (x, z) => hf(x, z) + 0.5, map: A.rockTex(T, '#d8d4cc', [1, 1]), rep: 8 }));
   const water = A.flatGround(st, 2000, A.seaTex(T, [90, 90]), 40);
   st.add(T.box(30, 5, 7, T.mat('#ffffff', { map: T.planks('#8a5a32', 14, [3, 1]) }), 18, hf(18, 10) + 2, 10)); st.add(T.box(18, 4, 5, T.mat('#a0703e'), 18, hf(18, 10) + 6, 10));
   A.addTrees(st, 160, (r) => { const a = r() * Math.PI * 2, d = 120 + r() * 200, x = Math.cos(a) * d, z = Math.sin(a) * d, h = hf(x, z); return h > 42 && h < 120 ? [x, h, z] : null; }, { size: 9 });

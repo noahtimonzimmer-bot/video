@@ -1,0 +1,2428 @@
+{
+ "title": "Did People in the Bible Really Live 900 Years",
+ "duration": 323.43,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 5.035,
+   "line": "Methuselah lived nine hundred and sixty-nine years.",
+   "scene": "ancient Methuselah, bent over his cane in a pre-flood valley; 969 burns into the sky",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c001",
+   "start": 5.035,
+   "end": 7.968,
+   "line": "And if you add up the numbers in Genesis...",
+   "scene": "on parchment the numbers add up: 187 + 182 + 600 = 969",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c002",
+   "start": 7.968,
+   "end": 10.883,
+   "line": "he died in the very same year the Flood came.",
+   "scene": "the Flood: the ark in towering waves \u2014 'the very same year'",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "thunder",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -14
+   }
+  },
+  {
+   "id": "c003",
+   "start": 10.883,
+   "end": 13.58,
+   "line": "Adam lived nine hundred and thirty years.",
+   "scene": "old Adam, white beard, outside Eden \u2014 930",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c004",
+   "start": 13.58,
+   "end": 15.78,
+   "line": "Noah, nine hundred and fifty.",
+   "scene": "Noah before the ark on the mountain \u2014 950",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c005",
+   "start": 15.78,
+   "end": 18.799,
+   "line": "Today, almost no one reaches one hundred.",
+   "scene": "today: an old man blows at a cake with 100 candles \u2014 a modern room",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c006",
+   "start": 18.799,
+   "end": 21.753,
+   "line": "So either the Bible got its numbers wrong...",
+   "scene": "the numbers on the scroll flicker \u2014 a red question mark",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "glitch",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c007",
+   "start": 21.753,
+   "end": 24.25,
+   "line": "or something happened to the human race.",
+   "scene": "dusk: generations walking into the distance, each smaller than the last",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c008",
+   "start": 24.25,
+   "end": 26.028,
+   "line": "Something we have forgotten.",
+   "scene": "close: Methuselah's ancient eyes look up \u2014 something forgotten",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c009",
+   "start": 26.028,
+   "end": 29.343,
+   "line": "DID THEY REALLY LIVE 900 YEARS?",
+   "scene": "aerial of the pre-flood world, title DID THEY REALLY LIVE 900 YEARS?",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c010",
+   "start": 29.343,
+   "end": 32.146,
+   "line": "It is all written in Genesis chapter five.",
+   "scene": "aerial: glide over the villages of the first generations",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c011",
+   "start": 32.146,
+   "end": 45.045,
+   "line": "A family tree that reads like a list of impossible birthdays. Adam, nine hundred and thirty. Seth, nine hundred and twelve. Enosh, nine hundred and five. Jared, nine hundred and sixty-two.",
+   "scene": "the Genesis 5 family tree unrolls, ages appearing line by line",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c016",
+   "start": 45.045,
+   "end": 48.377,
+   "line": "And Methuselah, the oldest man who ever lived.",
+   "scene": "Methuselah close-up: 969 \u2014 THE OLDEST MAN WHO EVER LIVED",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c017",
+   "start": 48.377,
+   "end": 50.897,
+   "line": "Every name comes with an exact age.",
+   "scene": "every name \u2014 an exact age (scroll, names highlighted)",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c018",
+   "start": 50.897,
+   "end": 52.891,
+   "line": "The age he became a father.",
+   "scene": "the age he became a father (column highlighted)",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c019",
+   "start": 52.891,
+   "end": 54.462,
+   "line": "And the age he died.",
+   "scene": "and the age he died (column highlighted)",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c020",
+   "start": 54.462,
+   "end": 56.948,
+   "line": "This is not written like a fairy tale.",
+   "scene": "a storybook opens 'ONCE UPON A TIME\u2026' \u2014 stamped \u2717",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "glitch",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c021",
+   "start": 56.948,
+   "end": 58.784,
+   "line": "It is written like a record.",
+   "scene": "the family tree with a seal: A RECORD",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c022",
+   "start": 58.784,
+   "end": 60.912,
+   "line": "So what is going on?",
+   "scene": "Adam (old) scratches his head \u2014 so what is going on?",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c023",
+   "start": 60.912,
+   "end": 63.588,
+   "line": "The most popular answer online is simple.",
+   "scene": "a phone full of comments: 'they counted months!'",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c024",
+   "start": 63.588,
+   "end": 65.258,
+   "line": "It is a mistranslation.",
+   "scene": "MISTRANSLATION?",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c025",
+   "start": 65.258,
+   "end": 67.704,
+   "line": "They were counting months, not years.",
+   "scene": "calendar pages flip: MONTHS, not years",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c026",
+   "start": 67.704,
+   "end": 71.768,
+   "line": "Nine hundred and thirty months is about seventy-seven years.",
+   "scene": "930 MONTHS \u2192 77 YEARS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c027",
+   "start": 71.768,
+   "end": 73.138,
+   "line": "Perfectly normal.",
+   "scene": "a perfectly normal 77-year-old Adam, smiling",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c028",
+   "start": 73.138,
+   "end": 74.531,
+   "line": "Problem solved?",
+   "scene": "green stamp: SOLVED?",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c029",
+   "start": 74.531,
+   "end": 75.882,
+   "line": "Not so fast.",
+   "scene": "record scratch \u2014 the stamp cracks and turns red: NOT SO FAST",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -6
+    },
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c030",
+   "start": 75.882,
+   "end": 77.319,
+   "line": "Look at Enoch.",
+   "scene": "meet Enoch, walking in the hills",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c031",
+   "start": 77.319,
+   "end": 80.923,
+   "line": "Genesis says Enoch became a father at sixty-five.",
+   "scene": "Enoch holds his newborn son \u2014 father at 65",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c032",
+   "start": 80.923,
+   "end": 82.67,
+   "line": "If those are months...",
+   "scene": "IF those are months: calendar 65 MONTHS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c033",
+   "start": 82.67,
+   "end": 84.587,
+   "line": "Enoch was five years old.",
+   "scene": "Enoch shrinks into a five-year-old boy holding a baby",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 0.5,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c034",
+   "start": 84.587,
+   "end": 85.872,
+   "line": "And Mahalalel?",
+   "scene": "and Mahalalel?",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c035",
+   "start": 85.872,
+   "end": 88.101,
+   "line": "Also a father at sixty-five.",
+   "scene": "Mahalalel \u2014 also a father at 65",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c036",
+   "start": 88.101,
+   "end": 89.793,
+   "line": "A five-year-old dad.",
+   "scene": "two five-year-old dads, each holding a baby, looking at each other",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c037",
+   "start": 89.793,
+   "end": 92.365,
+   "line": "The month theory doesn't fix the problem.",
+   "scene": "the calendar gets a big red \u2717",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c038",
+   "start": 92.365,
+   "end": 94.033,
+   "line": "It creates a bigger one.",
+   "scene": "cracks spread across the calendar \u2014 a bigger problem",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c039",
+   "start": 94.033,
+   "end": 96.436,
+   "line": "And the Hebrew word used here is shanah.",
+   "scene": "the Hebrew word: \u05e9\u05b8\u05c1\u05e0\u05b8\u05d4 SHANAH",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c040",
+   "start": 96.436,
+   "end": 97.677,
+   "line": "It means year.",
+   "scene": "SHANAH = YEAR",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c041",
+   "start": 97.677,
+   "end": 100.956,
+   "line": "The same word used for every other year in the Bible.",
+   "scene": "the same word glowing again and again across a long scroll",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c042",
+   "start": 100.956,
+   "end": 103.655,
+   "line": "Myth number one. Busted.",
+   "scene": "MYTH #1: BUSTED \u2014 big stamp",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c043",
+   "start": 103.655,
+   "end": 106.076,
+   "line": "So maybe the numbers were borrowed.",
+   "scene": "numbers float from a clay tablet onto the scroll \u2014 borrowed?",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c044",
+   "start": 106.076,
+   "end": 109.933,
+   "line": "Skeptics point to an ancient clay tablet from Mesopotamia.",
+   "scene": "aerial Mesopotamia: the Euphrates, a stepped ziggurat, a mud-brick city, palms",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c045",
+   "start": 109.933,
+   "end": 111.68,
+   "line": "The Sumerian King List.",
+   "scene": "the clay tablet: THE SUMERIAN KING LIST",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c046",
+   "start": 111.68,
+   "end": 114.776,
+   "line": "It names eight kings who ruled before a great flood.",
+   "scene": "eight Sumerian kings with tall golden hats line up before a ziggurat",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c047",
+   "start": 114.776,
+   "end": 116.527,
+   "line": "And their reigns are insane.",
+   "scene": "close: a Sumerian king, very pleased with himself \u2014 INSANE reigns",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c048",
+   "start": 116.527,
+   "end": 120.494,
+   "line": "One king ruled for twenty-eight thousand, eight hundred years.",
+   "scene": "tablet row lights up: ALULIM \u2014 28,800 YEARS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c049",
+   "start": 120.494,
+   "end": 122.643,
+   "line": "Another, for thirty-six thousand.",
+   "scene": "ALALNGAR \u2014 36,000 YEARS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c050",
+   "start": 122.643,
+   "end": 127.638,
+   "line": "Together, those eight kings ruled for over two hundred and forty thousand years.",
+   "scene": "all eight rows fill in; a counter races to 241,200 years",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "counter",
+     "gain": -6
+    },
+    {
+     "at": 2.0,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c051",
+   "start": 127.638,
+   "end": 129.183,
+   "line": "And then the flood came.",
+   "scene": "aerial: the whole world is water \u2014 the ark alone under storm clouds",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "thunder",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -16
+   }
+  },
+  {
+   "id": "c052",
+   "start": 129.183,
+   "end": 131.817,
+   "line": "After the flood, the reigns suddenly shrink.",
+   "scene": "after the flood the tablet's numbers shrink: 1,500 \u2026 420 \u2026 126",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c053",
+   "start": 131.817,
+   "end": 133.085,
+   "line": "Sound familiar?",
+   "scene": "split: the clay tablet beside the Genesis scroll \u2014 sound familiar?",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c054",
+   "start": 133.085,
+   "end": 135.237,
+   "line": "Two completely different cultures.",
+   "scene": "a Sumerian scribe and a Hebrew elder face each other across a river",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c055",
+   "start": 135.237,
+   "end": 137.788,
+   "line": "Both remember long-lived ancestors.",
+   "scene": "both remember long-lived ancestors \u2014 ancient elders appear behind each",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c056",
+   "start": 137.788,
+   "end": 139.451,
+   "line": "Both remember a flood.",
+   "scene": "both remember a flood \u2014 the storm sea rises",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "thunder",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -16
+   }
+  },
+  {
+   "id": "c057",
+   "start": 139.451,
+   "end": 142.522,
+   "line": "And both remember lifespans collapsing after it.",
+   "scene": "both remember lifespans collapsing \u2014 a quick chart drop",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c058",
+   "start": 142.522,
+   "end": 144.24,
+   "line": "But notice the difference.",
+   "scene": "push in between tablet and scroll: notice the difference",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c059",
+   "start": 144.24,
+   "end": 146.653,
+   "line": "The Sumerian numbers are fantasy.",
+   "scene": "the tablet's giant numbers \u2014 stamped FANTASY",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c060",
+   "start": 146.653,
+   "end": 149.598,
+   "line": "The Bible's numbers are strangely restrained.",
+   "scene": "the Genesis scroll by comparison: calm, restrained numbers",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c061",
+   "start": 149.598,
+   "end": 151.38,
+   "line": "Not thousands of years.",
+   "scene": "NOT THOUSANDS OF YEARS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c062",
+   "start": 151.38,
+   "end": 153.14,
+   "line": "Not tens of thousands.",
+   "scene": "NOT TENS OF THOUSANDS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c063",
+   "start": 153.14,
+   "end": 155.808,
+   "line": "Under one thousand, every single time.",
+   "scene": "chart: every pre-flood bar stays under a glowing 1,000 line",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c064",
+   "start": 155.808,
+   "end": 158.933,
+   "line": "Maybe this is not one story copying another.",
+   "scene": "a copying arrow from tablet to scroll gets crossed out",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c065",
+   "start": 158.933,
+   "end": 162.158,
+   "line": "Maybe it is two memories of the same event.",
+   "scene": "both the tablet and the scroll point to one image: the ark on the waters",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c066",
+   "start": 162.158,
+   "end": 164.053,
+   "line": "So what was different back then?",
+   "scene": "the pre-flood valley at dawn, giant trees, mist",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c067",
+   "start": 164.053,
+   "end": 167.536,
+   "line": "Genesis describes a world we would not recognize.",
+   "scene": "a world we would not recognize: enormous trees, strange light, a shimmering sky",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c068",
+   "start": 167.536,
+   "end": 169.27,
+   "line": "Waters above the sky.",
+   "scene": "WATERS ABOVE THE SKY \u2014 a shimmering water layer arches over the clouds",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c069",
+   "start": 169.27,
+   "end": 171.998,
+   "line": "The fountains of the great deep, still sealed.",
+   "scene": "cross-section of the earth: sealed underground water chambers",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c070",
+   "start": 171.998,
+   "end": 176.275,
+   "line": "Some believe a thick layer of water vapor once shielded the earth.",
+   "scene": "the earth from space wrapped in a shimmering vapor canopy",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c071",
+   "start": 176.275,
+   "end": 179.022,
+   "line": "Less radiation. A gentler climate.",
+   "scene": "radiation rays strike the canopy and bounce off \u2014 gentler climate",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 0.7,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c072",
+   "start": 179.022,
+   "end": 183.273,
+   "line": "Others believe the first humans simply had near-perfect genes.",
+   "scene": "a glowing golden DNA helix \u2014 near-perfect genes",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c073",
+   "start": 183.273,
+   "end": 188.027,
+   "line": "Fewer mutations. Bodies that could repair themselves for centuries.",
+   "scene": "tiny repair sparks fix the helix \u2014 fewer mutations, bodies that repair themselves",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c074",
+   "start": 188.027,
+   "end": 191.554,
+   "line": "These ideas are debated, even among believers.",
+   "scene": "two scholars argue over the theories by lamplight",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c075",
+   "start": 191.554,
+   "end": 193.735,
+   "line": "But one thing is not debated.",
+   "scene": "BUT ONE THING IS NOT DEBATED",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c076",
+   "start": 193.735,
+   "end": 196.404,
+   "line": "The numbers change after the Flood.",
+   "scene": "aerial: the ark resting high on snowy mountains as the water recedes",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c077",
+   "start": 196.404,
+   "end": 197.91,
+   "line": "Watch what happens.",
+   "scene": "an empty chart: watch what happens",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c078",
+   "start": 197.91,
+   "end": 200.109,
+   "line": "Noah, nine hundred and fifty.",
+   "scene": "bar: NOAH 950",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c079",
+   "start": 200.109,
+   "end": 202.079,
+   "line": "His son Shem, six hundred.",
+   "scene": "bar: SHEM 600",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c080",
+   "start": 202.079,
+   "end": 204.852,
+   "line": "A few generations later, four hundred.",
+   "scene": "bars: ~400",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c081",
+   "start": 204.852,
+   "end": 206.727,
+   "line": "Then two hundred and thirty.",
+   "scene": "bars: ~230",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c082",
+   "start": 206.727,
+   "end": 209.644,
+   "line": "Abraham, one hundred and seventy-five.",
+   "scene": "aerial Canaan: rolling hills, Abraham's tent camp, flocks of sheep",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c083",
+   "start": 209.644,
+   "end": 211.757,
+   "line": "Joseph, one hundred and ten.",
+   "scene": "aerial Egypt: the Nile, fields, palms, pyramids",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c084",
+   "start": 211.757,
+   "end": 213.901,
+   "line": "Moses, one hundred and twenty.",
+   "scene": "aerial from Mount Nebo over the Jordan valley and the promised land",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "c085",
+   "start": 213.901,
+   "end": 216.784,
+   "line": "And a few centuries later, the psalm says...",
+   "scene": "old Moses writes a psalm by lamplight (Psalm 90 is 'a prayer of Moses')",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "tick",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c086",
+   "start": 216.784,
+   "end": 221.558,
+   "line": "\"The years of our life are seventy, or even by reason of strength eighty.\"",
+   "scene": "\"The years of our life are seventy, or even by reason of strength eighty\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c087",
+   "start": 221.558,
+   "end": 223.046,
+   "line": "That is not random.",
+   "scene": "the full chart with all bars: not random",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c088",
+   "start": 223.046,
+   "end": 224.339,
+   "line": "It is a curve.",
+   "scene": "a red dashed curve draws across the tops of the bars: IT'S A CURVE",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c089",
+   "start": 224.339,
+   "end": 226.326,
+   "line": "A steady, downward decline.",
+   "scene": "the curve glows: a steady, downward decline",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "slowmo",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c090",
+   "start": 226.326,
+   "end": 231.564,
+   "line": "Exactly what you would expect if something in humanity was breaking down.",
+   "scene": "an hourglass running out, cracks spreading in the glass \u2014 something breaking down",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "glitch",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c091",
+   "start": 231.564,
+   "end": 234.515,
+   "line": "And there is one more verse that changes everything.",
+   "scene": "the scroll glows: one more verse",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c092",
+   "start": 234.515,
+   "end": 236.553,
+   "line": "Genesis six, verse three.",
+   "scene": "GENESIS 6:3",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c093",
+   "start": 236.553,
+   "end": 238.772,
+   "line": "Before the Flood, God says...",
+   "scene": "before the flood: light breaks over the dark pre-flood world as God speaks",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c094",
+   "start": 238.772,
+   "end": 244.834,
+   "line": "\"My Spirit shall not abide in man forever... his days shall be one hundred and twenty years.\"",
+   "scene": "\"My Spirit shall not abide in man forever\u2026 his days shall be 120 years\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c095",
+   "start": 244.834,
+   "end": 247.662,
+   "line": "Many read this as a countdown to the Flood.",
+   "scene": "Noah hammers at the half-built ark; an hourglass labelled 120 YEARS",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -16
+    },
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c096",
+   "start": 247.662,
+   "end": 250.982,
+   "line": "Others read it as a new limit on human life.",
+   "scene": "or a new limit: a red 120 line across the lifespan chart",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c097",
+   "start": 250.982,
+   "end": 253.053,
+   "line": "Now here is the strange part.",
+   "scene": "NOW HERE IS THE STRANGE PART",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c098",
+   "start": 253.053,
+   "end": 257.082,
+   "line": "The oldest person ever verified by modern science...",
+   "scene": "a certificate: OLDEST VERIFIED HUMAN",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c099",
+   "start": 257.082,
+   "end": 259.601,
+   "line": "was a French woman named Jeanne Calment.",
+   "scene": "Jeanne Calment, white hair and glasses, smiling in her armchair-room",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c100",
+   "start": 259.601,
+   "end": 261.98,
+   "line": "She died at one hundred and twenty-two.",
+   "scene": "her cake reads 122",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c101",
+   "start": 261.98,
+   "end": 264.582,
+   "line": "In thousands of years of records...",
+   "scene": "chart: the 120 line, record-holders clustered just below it",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c102",
+   "start": 264.582,
+   "end": 268.225,
+   "line": "no one has broken the limit by more than a breath.",
+   "scene": "the 120 limit line glows \u2014 no one has broken it by more than a breath",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c103",
+   "start": 268.225,
+   "end": 271.125,
+   "line": "So, did they really live nine hundred years?",
+   "scene": "the verdict board",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c104",
+   "start": 271.125,
+   "end": 276.1,
+   "line": "Mistranslation? The text says years, and the math breaks if it does not.",
+   "scene": "row 1: mistranslation \u2014 BUSTED",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c106",
+   "start": 276.1,
+   "end": 281.698,
+   "line": "Copied from a myth? The Bible's account is far more restrained than the myths around it.",
+   "scene": "row 2: copied myth \u2014 far more restrained",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c108",
+   "start": 281.698,
+   "end": 285.356,
+   "line": "Literal? The text certainly presents itself that way.",
+   "scene": "row 3: literal \u2014 the text presents itself that way",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c110",
+   "start": 285.356,
+   "end": 288.862,
+   "line": "And the steady decline after the Flood fits that story.",
+   "scene": "row 4: the decline fits the story",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c111",
+   "start": 288.862,
+   "end": 292.15,
+   "line": "But the real question is not how long they lived.",
+   "scene": "BUT THE REAL QUESTION\u2026",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c112",
+   "start": 292.15,
+   "end": 294.52,
+   "line": "It is why they died at all.",
+   "scene": "close: old Adam, eyes heavy \u2014 why did they die at all?",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c113",
+   "start": 294.52,
+   "end": 297.533,
+   "line": "In the beginning, death was not part of the plan.",
+   "scene": "Eden in perfect light: death was never part of the plan",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c114",
+   "start": 297.533,
+   "end": 299.212,
+   "line": "Adam was made to live.",
+   "scene": "young Adam stands beside the tree of life, glowing",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c115",
+   "start": 299.212,
+   "end": 301.984,
+   "line": "The tree of life stood in the middle of the garden.",
+   "scene": "aerial: Eden, the great tree of life at the centre of the four rivers",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c116",
+   "start": 301.984,
+   "end": 304.92,
+   "line": "But when sin entered the world, death came with it.",
+   "scene": "dusk: the bitten fruit falls, leaves wither, Adam and Eve walk away",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "c117",
+   "start": 304.92,
+   "end": 308.509,
+   "line": "Nine hundred and thirty years was not a superpower.",
+   "scene": "old Adam on his cane: 930 was not a superpower",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c118",
+   "start": 308.509,
+   "end": 311.211,
+   "line": "It was what remained of something much greater.",
+   "scene": "behind old Adam, a ghostly glowing tree of life fades \u2014 what remained of something greater",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c119",
+   "start": 311.211,
+   "end": 313.349,
+   "line": "And the Bible ends where it began.",
+   "scene": "a great book turns from Genesis to Revelation",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c120",
+   "start": 313.349,
+   "end": 314.823,
+   "line": "With a tree of life.",
+   "scene": "the heavenly city: a radiant tree of life beside a crystal river",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c121",
+   "start": 314.823,
+   "end": 316.034,
+   "line": "And a promise.",
+   "scene": "light pours down: a promise",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c122",
+   "start": 316.034,
+   "end": 317.565,
+   "line": "\"Death shall be no more.\"",
+   "scene": "\"Death shall be no more.\"",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "c123",
+   "start": 317.565,
+   "end": 323.43,
+   "line": "Not nine hundred years. Forever.",
+   "scene": "final: the tree of life in golden light \u2014 NOT 900 YEARS. FOREVER.",
+   "bars": "scope",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -8
+    },
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -6
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 25.5,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 25.5,
+   "end": 62,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 62,
+   "end": 104,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 104,
+   "end": 160,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 160,
+   "end": 195,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 195,
+   "end": 232,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 232,
+   "end": 268,
+   "mood": "dark",
+   "intensity": 0.45
+  },
+  {
+   "start": 268,
+   "end": 292,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 292,
+   "end": 310,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 310,
+   "end": 323.43,
+   "mood": "triumph",
+   "intensity": 0.6
+  }
+ ],
+ "sfx": []
+}

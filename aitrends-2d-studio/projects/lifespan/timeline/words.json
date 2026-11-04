@@ -1,0 +1,4045 @@
+{
+ "source": "script:script.json",
+ "words": [
+  {
+   "word": "Methuselah",
+   "start": 1.4,
+   "end": 2.043
+  },
+  {
+   "word": "lived",
+   "start": 2.099,
+   "end": 2.474
+  },
+  {
+   "word": "nine",
+   "start": 2.506,
+   "end": 2.828
+  },
+  {
+   "word": "hundred",
+   "start": 2.856,
+   "end": 3.338
+  },
+  {
+   "word": "and",
+   "start": 3.379,
+   "end": 3.647
+  },
+  {
+   "word": "sixty-nine",
+   "start": 3.671,
+   "end": 4.313
+  },
+  {
+   "word": "years.",
+   "start": 4.369,
+   "end": 4.798
+  },
+  {
+   "word": "And",
+   "start": 5.155,
+   "end": 5.362
+  },
+  {
+   "word": "if",
+   "start": 5.38,
+   "end": 5.545
+  },
+  {
+   "word": "you",
+   "start": 5.56,
+   "end": 5.766
+  },
+  {
+   "word": "add",
+   "start": 5.784,
+   "end": 5.991
+  },
+  {
+   "word": "up",
+   "start": 6.009,
+   "end": 6.175
+  },
+  {
+   "word": "the",
+   "start": 6.189,
+   "end": 6.396
+  },
+  {
+   "word": "numbers",
+   "start": 6.414,
+   "end": 6.786
+  },
+  {
+   "word": "in",
+   "start": 6.819,
+   "end": 6.984
+  },
+  {
+   "word": "Genesis...",
+   "start": 6.998,
+   "end": 7.495
+  },
+  {
+   "word": "he",
+   "start": 8.088,
+   "end": 8.259
+  },
+  {
+   "word": "died",
+   "start": 8.273,
+   "end": 8.529
+  },
+  {
+   "word": "in",
+   "start": 8.551,
+   "end": 8.722
+  },
+  {
+   "word": "the",
+   "start": 8.737,
+   "end": 8.95
+  },
+  {
+   "word": "very",
+   "start": 8.968,
+   "end": 9.224
+  },
+  {
+   "word": "same",
+   "start": 9.246,
+   "end": 9.502
+  },
+  {
+   "word": "year",
+   "start": 9.525,
+   "end": 9.78
+  },
+  {
+   "word": "the",
+   "start": 9.803,
+   "end": 10.016
+  },
+  {
+   "word": "Flood",
+   "start": 10.034,
+   "end": 10.333
+  },
+  {
+   "word": "came.",
+   "start": 10.359,
+   "end": 10.657
+  },
+  {
+   "word": "Adam",
+   "start": 11.003,
+   "end": 11.271
+  },
+  {
+   "word": "lived",
+   "start": 11.294,
+   "end": 11.606
+  },
+  {
+   "word": "nine",
+   "start": 11.634,
+   "end": 11.901
+  },
+  {
+   "word": "hundred",
+   "start": 11.925,
+   "end": 12.326
+  },
+  {
+   "word": "and",
+   "start": 12.361,
+   "end": 12.584
+  },
+  {
+   "word": "thirty",
+   "start": 12.604,
+   "end": 12.961
+  },
+  {
+   "word": "years.",
+   "start": 12.992,
+   "end": 13.349
+  },
+  {
+   "word": "Noah,",
+   "start": 13.7,
+   "end": 14.046
+  },
+  {
+   "word": "nine",
+   "start": 14.076,
+   "end": 14.373
+  },
+  {
+   "word": "hundred",
+   "start": 14.398,
+   "end": 14.843
+  },
+  {
+   "word": "and",
+   "start": 14.882,
+   "end": 15.129
+  },
+  {
+   "word": "fifty.",
+   "start": 15.15,
+   "end": 15.546
+  },
+  {
+   "word": "Today,",
+   "start": 15.9,
+   "end": 16.305
+  },
+  {
+   "word": "almost",
+   "start": 16.341,
+   "end": 16.746
+  },
+  {
+   "word": "no",
+   "start": 16.781,
+   "end": 16.984
+  },
+  {
+   "word": "one",
+   "start": 17.002,
+   "end": 17.255
+  },
+  {
+   "word": "reaches",
+   "start": 17.277,
+   "end": 17.733
+  },
+  {
+   "word": "one",
+   "start": 17.773,
+   "end": 18.026
+  },
+  {
+   "word": "hundred.",
+   "start": 18.048,
+   "end": 18.555
+  },
+  {
+   "word": "So",
+   "start": 18.919,
+   "end": 19.086
+  },
+  {
+   "word": "either",
+   "start": 19.1,
+   "end": 19.434
+  },
+  {
+   "word": "the",
+   "start": 19.463,
+   "end": 19.672
+  },
+  {
+   "word": "Bible",
+   "start": 19.69,
+   "end": 19.982
+  },
+  {
+   "word": "got",
+   "start": 20.008,
+   "end": 20.216
+  },
+  {
+   "word": "its",
+   "start": 20.234,
+   "end": 20.443
+  },
+  {
+   "word": "numbers",
+   "start": 20.461,
+   "end": 20.837
+  },
+  {
+   "word": "wrong...",
+   "start": 20.869,
+   "end": 21.287
+  },
+  {
+   "word": "or",
+   "start": 21.873,
+   "end": 22.04
+  },
+  {
+   "word": "something",
+   "start": 22.054,
+   "end": 22.513
+  },
+  {
+   "word": "happened",
+   "start": 22.553,
+   "end": 22.971
+  },
+  {
+   "word": "to",
+   "start": 23.007,
+   "end": 23.174
+  },
+  {
+   "word": "the",
+   "start": 23.188,
+   "end": 23.397
+  },
+  {
+   "word": "human",
+   "start": 23.415,
+   "end": 23.707
+  },
+  {
+   "word": "race.",
+   "start": 23.733,
+   "end": 24.025
+  },
+  {
+   "word": "Something",
+   "start": 24.37,
+   "end": 24.817
+  },
+  {
+   "word": "we",
+   "start": 24.856,
+   "end": 25.019
+  },
+  {
+   "word": "have",
+   "start": 25.033,
+   "end": 25.277
+  },
+  {
+   "word": "forgotten.",
+   "start": 25.298,
+   "end": 25.786
+  },
+  {
+   "word": "DID",
+   "start": 26.148,
+   "end": 26.428
+  },
+  {
+   "word": "THEY",
+   "start": 26.453,
+   "end": 26.789
+  },
+  {
+   "word": "REALLY",
+   "start": 26.818,
+   "end": 27.267
+  },
+  {
+   "word": "LIVE",
+   "start": 27.306,
+   "end": 27.642
+  },
+  {
+   "word": "900",
+   "start": 27.671,
+   "end": 27.951
+  },
+  {
+   "word": "YEARS?",
+   "start": 27.976,
+   "end": 28.424
+  },
+  {
+   "word": "It",
+   "start": 29.463,
+   "end": 29.642
+  },
+  {
+   "word": "is",
+   "start": 29.658,
+   "end": 29.837
+  },
+  {
+   "word": "all",
+   "start": 29.852,
+   "end": 30.076
+  },
+  {
+   "word": "written",
+   "start": 30.096,
+   "end": 30.499
+  },
+  {
+   "word": "in",
+   "start": 30.534,
+   "end": 30.713
+  },
+  {
+   "word": "Genesis",
+   "start": 30.729,
+   "end": 31.132
+  },
+  {
+   "word": "chapter",
+   "start": 31.167,
+   "end": 31.57
+  },
+  {
+   "word": "five.",
+   "start": 31.605,
+   "end": 31.919
+  },
+  {
+   "word": "A",
+   "start": 32.266,
+   "end": 32.414
+  },
+  {
+   "word": "family",
+   "start": 32.426,
+   "end": 32.82
+  },
+  {
+   "word": "tree",
+   "start": 32.854,
+   "end": 33.15
+  },
+  {
+   "word": "that",
+   "start": 33.175,
+   "end": 33.471
+  },
+  {
+   "word": "reads",
+   "start": 33.496,
+   "end": 33.841
+  },
+  {
+   "word": "like",
+   "start": 33.871,
+   "end": 34.166
+  },
+  {
+   "word": "a",
+   "start": 34.192,
+   "end": 34.339
+  },
+  {
+   "word": "list",
+   "start": 34.352,
+   "end": 34.648
+  },
+  {
+   "word": "of",
+   "start": 34.673,
+   "end": 34.87
+  },
+  {
+   "word": "impossible",
+   "start": 34.887,
+   "end": 35.478
+  },
+  {
+   "word": "birthdays.",
+   "start": 35.529,
+   "end": 36.12
+  },
+  {
+   "word": "Adam,",
+   "start": 36.491,
+   "end": 36.807
+  },
+  {
+   "word": "nine",
+   "start": 36.835,
+   "end": 37.106
+  },
+  {
+   "word": "hundred",
+   "start": 37.129,
+   "end": 37.535
+  },
+  {
+   "word": "and",
+   "start": 37.571,
+   "end": 37.797
+  },
+  {
+   "word": "thirty.",
+   "start": 37.816,
+   "end": 38.223
+  },
+  {
+   "word": "Seth,",
+   "start": 38.578,
+   "end": 38.898
+  },
+  {
+   "word": "nine",
+   "start": 38.925,
+   "end": 39.199
+  },
+  {
+   "word": "hundred",
+   "start": 39.223,
+   "end": 39.634
+  },
+  {
+   "word": "and",
+   "start": 39.67,
+   "end": 39.898
+  },
+  {
+   "word": "twelve.",
+   "start": 39.918,
+   "end": 40.329
+  },
+  {
+   "word": "Enosh,",
+   "start": 40.685,
+   "end": 41.057
+  },
+  {
+   "word": "nine",
+   "start": 41.089,
+   "end": 41.368
+  },
+  {
+   "word": "hundred",
+   "start": 41.393,
+   "end": 41.811
+  },
+  {
+   "word": "and",
+   "start": 41.847,
+   "end": 42.08
+  },
+  {
+   "word": "five.",
+   "start": 42.1,
+   "end": 42.426
+  },
+  {
+   "word": "Jared,",
+   "start": 42.774,
+   "end": 43.155
+  },
+  {
+   "word": "nine",
+   "start": 43.188,
+   "end": 43.474
+  },
+  {
+   "word": "hundred",
+   "start": 43.499,
+   "end": 43.928
+  },
+  {
+   "word": "and",
+   "start": 43.965,
+   "end": 44.203
+  },
+  {
+   "word": "sixty-two.",
+   "start": 44.224,
+   "end": 44.795
+  },
+  {
+   "word": "And",
+   "start": 45.165,
+   "end": 45.417
+  },
+  {
+   "word": "Methuselah,",
+   "start": 45.439,
+   "end": 46.094
+  },
+  {
+   "word": "the",
+   "start": 46.151,
+   "end": 46.403
+  },
+  {
+   "word": "oldest",
+   "start": 46.425,
+   "end": 46.828
+  },
+  {
+   "word": "man",
+   "start": 46.863,
+   "end": 47.115
+  },
+  {
+   "word": "who",
+   "start": 47.136,
+   "end": 47.388
+  },
+  {
+   "word": "ever",
+   "start": 47.41,
+   "end": 47.713
+  },
+  {
+   "word": "lived.",
+   "start": 47.739,
+   "end": 48.142
+  },
+  {
+   "word": "Every",
+   "start": 48.497,
+   "end": 48.826
+  },
+  {
+   "word": "name",
+   "start": 48.855,
+   "end": 49.138
+  },
+  {
+   "word": "comes",
+   "start": 49.162,
+   "end": 49.492
+  },
+  {
+   "word": "with",
+   "start": 49.52,
+   "end": 49.803
+  },
+  {
+   "word": "an",
+   "start": 49.827,
+   "end": 50.016
+  },
+  {
+   "word": "exact",
+   "start": 50.032,
+   "end": 50.361
+  },
+  {
+   "word": "age.",
+   "start": 50.39,
+   "end": 50.672
+  },
+  {
+   "word": "The",
+   "start": 51.017,
+   "end": 51.243
+  },
+  {
+   "word": "age",
+   "start": 51.263,
+   "end": 51.49
+  },
+  {
+   "word": "he",
+   "start": 51.509,
+   "end": 51.691
+  },
+  {
+   "word": "became",
+   "start": 51.706,
+   "end": 52.069
+  },
+  {
+   "word": "a",
+   "start": 52.1,
+   "end": 52.236
+  },
+  {
+   "word": "father.",
+   "start": 52.248,
+   "end": 52.656
+  },
+  {
+   "word": "And",
+   "start": 53.011,
+   "end": 53.232
+  },
+  {
+   "word": "the",
+   "start": 53.252,
+   "end": 53.473
+  },
+  {
+   "word": "age",
+   "start": 53.492,
+   "end": 53.713
+  },
+  {
+   "word": "he",
+   "start": 53.733,
+   "end": 53.91
+  },
+  {
+   "word": "died.",
+   "start": 53.925,
+   "end": 54.235
+  },
+  {
+   "word": "This",
+   "start": 54.582,
+   "end": 54.836
+  },
+  {
+   "word": "is",
+   "start": 54.859,
+   "end": 55.028
+  },
+  {
+   "word": "not",
+   "start": 55.043,
+   "end": 55.255
+  },
+  {
+   "word": "written",
+   "start": 55.273,
+   "end": 55.655
+  },
+  {
+   "word": "like",
+   "start": 55.688,
+   "end": 55.942
+  },
+  {
+   "word": "a",
+   "start": 55.965,
+   "end": 56.092
+  },
+  {
+   "word": "fairy",
+   "start": 56.103,
+   "end": 56.4
+  },
+  {
+   "word": "tale.",
+   "start": 56.425,
+   "end": 56.722
+  },
+  {
+   "word": "It",
+   "start": 57.068,
+   "end": 57.227
+  },
+  {
+   "word": "is",
+   "start": 57.241,
+   "end": 57.401
+  },
+  {
+   "word": "written",
+   "start": 57.415,
+   "end": 57.773
+  },
+  {
+   "word": "like",
+   "start": 57.804,
+   "end": 58.043
+  },
+  {
+   "word": "a",
+   "start": 58.064,
+   "end": 58.184
+  },
+  {
+   "word": "record.",
+   "start": 58.194,
+   "end": 58.553
+  },
+  {
+   "word": "So",
+   "start": 58.904,
+   "end": 59.092
+  },
+  {
+   "word": "what",
+   "start": 59.108,
+   "end": 59.39
+  },
+  {
+   "word": "is",
+   "start": 59.415,
+   "end": 59.603
+  },
+  {
+   "word": "going",
+   "start": 59.619,
+   "end": 59.948
+  },
+  {
+   "word": "on?",
+   "start": 59.977,
+   "end": 60.212
+  },
+  {
+   "word": "The",
+   "start": 61.032,
+   "end": 61.253
+  },
+  {
+   "word": "most",
+   "start": 61.272,
+   "end": 61.538
+  },
+  {
+   "word": "popular",
+   "start": 61.561,
+   "end": 61.959
+  },
+  {
+   "word": "answer",
+   "start": 61.994,
+   "end": 62.348
+  },
+  {
+   "word": "online",
+   "start": 62.378,
+   "end": 62.732
+  },
+  {
+   "word": "is",
+   "start": 62.763,
+   "end": 62.94
+  },
+  {
+   "word": "simple.",
+   "start": 62.955,
+   "end": 63.353
+  },
+  {
+   "word": "It",
+   "start": 63.708,
+   "end": 63.885
+  },
+  {
+   "word": "is",
+   "start": 63.901,
+   "end": 64.078
+  },
+  {
+   "word": "a",
+   "start": 64.094,
+   "end": 64.227
+  },
+  {
+   "word": "mistranslation.",
+   "start": 64.238,
+   "end": 64.992
+  },
+  {
+   "word": "They",
+   "start": 65.378,
+   "end": 65.645
+  },
+  {
+   "word": "were",
+   "start": 65.668,
+   "end": 65.935
+  },
+  {
+   "word": "counting",
+   "start": 65.958,
+   "end": 66.402
+  },
+  {
+   "word": "months,",
+   "start": 66.441,
+   "end": 66.841
+  },
+  {
+   "word": "not",
+   "start": 66.876,
+   "end": 67.098
+  },
+  {
+   "word": "years.",
+   "start": 67.117,
+   "end": 67.473
+  },
+  {
+   "word": "Nine",
+   "start": 67.824,
+   "end": 68.119
+  },
+  {
+   "word": "hundred",
+   "start": 68.145,
+   "end": 68.588
+  },
+  {
+   "word": "and",
+   "start": 68.626,
+   "end": 68.872
+  },
+  {
+   "word": "thirty",
+   "start": 68.894,
+   "end": 69.287
+  },
+  {
+   "word": "months",
+   "start": 69.322,
+   "end": 69.715
+  },
+  {
+   "word": "is",
+   "start": 69.749,
+   "end": 69.946
+  },
+  {
+   "word": "about",
+   "start": 69.963,
+   "end": 70.308
+  },
+  {
+   "word": "seventy-seven",
+   "start": 70.338,
+   "end": 71.076
+  },
+  {
+   "word": "years.",
+   "start": 71.14,
+   "end": 71.534
+  },
+  {
+   "word": "Perfectly",
+   "start": 71.888,
+   "end": 72.419
+  },
+  {
+   "word": "normal.",
+   "start": 72.466,
+   "end": 72.9
+  },
+  {
+   "word": "Problem",
+   "start": 73.258,
+   "end": 73.752
+  },
+  {
+   "word": "solved?",
+   "start": 73.794,
+   "end": 74.288
+  },
+  {
+   "word": "Not",
+   "start": 74.651,
+   "end": 74.947
+  },
+  {
+   "word": "so",
+   "start": 74.973,
+   "end": 75.21
+  },
+  {
+   "word": "fast.",
+   "start": 75.231,
+   "end": 75.646
+  },
+  {
+   "word": "Look",
+   "start": 76.002,
+   "end": 76.345
+  },
+  {
+   "word": "at",
+   "start": 76.374,
+   "end": 76.603
+  },
+  {
+   "word": "Enoch.",
+   "start": 76.623,
+   "end": 77.079
+  },
+  {
+   "word": "Genesis",
+   "start": 77.439,
+   "end": 77.908
+  },
+  {
+   "word": "says",
+   "start": 77.949,
+   "end": 78.261
+  },
+  {
+   "word": "Enoch",
+   "start": 78.288,
+   "end": 78.653
+  },
+  {
+   "word": "became",
+   "start": 78.685,
+   "end": 79.101
+  },
+  {
+   "word": "a",
+   "start": 79.138,
+   "end": 79.294
+  },
+  {
+   "word": "father",
+   "start": 79.307,
+   "end": 79.724
+  },
+  {
+   "word": "at",
+   "start": 79.76,
+   "end": 79.969
+  },
+  {
+   "word": "sixty-five.",
+   "start": 79.987,
+   "end": 80.664
+  },
+  {
+   "word": "If",
+   "start": 81.043,
+   "end": 81.206
+  },
+  {
+   "word": "those",
+   "start": 81.22,
+   "end": 81.506
+  },
+  {
+   "word": "are",
+   "start": 81.531,
+   "end": 81.735
+  },
+  {
+   "word": "months...",
+   "start": 81.752,
+   "end": 82.201
+  },
+  {
+   "word": "Enoch",
+   "start": 82.79,
+   "end": 83.122
+  },
+  {
+   "word": "was",
+   "start": 83.151,
+   "end": 83.388
+  },
+  {
+   "word": "five",
+   "start": 83.408,
+   "end": 83.693
+  },
+  {
+   "word": "years",
+   "start": 83.717,
+   "end": 84.049
+  },
+  {
+   "word": "old.",
+   "start": 84.078,
+   "end": 84.362
+  },
+  {
+   "word": "And",
+   "start": 84.707,
+   "end": 84.968
+  },
+  {
+   "word": "Mahalalel?",
+   "start": 84.991,
+   "end": 85.618
+  },
+  {
+   "word": "Also",
+   "start": 85.992,
+   "end": 86.302
+  },
+  {
+   "word": "a",
+   "start": 86.329,
+   "end": 86.484
+  },
+  {
+   "word": "father",
+   "start": 86.497,
+   "end": 86.911
+  },
+  {
+   "word": "at",
+   "start": 86.947,
+   "end": 87.153
+  },
+  {
+   "word": "sixty-five.",
+   "start": 87.171,
+   "end": 87.843
+  },
+  {
+   "word": "A",
+   "start": 88.221,
+   "end": 88.379
+  },
+  {
+   "word": "five-year-old",
+   "start": 88.392,
+   "end": 89.181
+  },
+  {
+   "word": "dad.",
+   "start": 89.25,
+   "end": 89.566
+  },
+  {
+   "word": "The",
+   "start": 89.913,
+   "end": 90.124
+  },
+  {
+   "word": "month",
+   "start": 90.143,
+   "end": 90.439
+  },
+  {
+   "word": "theory",
+   "start": 90.465,
+   "end": 90.803
+  },
+  {
+   "word": "doesn't",
+   "start": 90.832,
+   "end": 91.213
+  },
+  {
+   "word": "fix",
+   "start": 91.246,
+   "end": 91.457
+  },
+  {
+   "word": "the",
+   "start": 91.476,
+   "end": 91.687
+  },
+  {
+   "word": "problem.",
+   "start": 91.705,
+   "end": 92.128
+  },
+  {
+   "word": "It",
+   "start": 92.485,
+   "end": 92.65
+  },
+  {
+   "word": "creates",
+   "start": 92.665,
+   "end": 93.037
+  },
+  {
+   "word": "a",
+   "start": 93.069,
+   "end": 93.193
+  },
+  {
+   "word": "bigger",
+   "start": 93.204,
+   "end": 93.535
+  },
+  {
+   "word": "one.",
+   "start": 93.563,
+   "end": 93.811
+  },
+  {
+   "word": "And",
+   "start": 94.153,
+   "end": 94.349
+  },
+  {
+   "word": "the",
+   "start": 94.366,
+   "end": 94.561
+  },
+  {
+   "word": "Hebrew",
+   "start": 94.578,
+   "end": 94.891
+  },
+  {
+   "word": "word",
+   "start": 94.918,
+   "end": 95.153
+  },
+  {
+   "word": "used",
+   "start": 95.173,
+   "end": 95.408
+  },
+  {
+   "word": "here",
+   "start": 95.428,
+   "end": 95.663
+  },
+  {
+   "word": "is",
+   "start": 95.683,
+   "end": 95.84
+  },
+  {
+   "word": "shanah.",
+   "start": 95.853,
+   "end": 96.205
+  },
+  {
+   "word": "It",
+   "start": 96.556,
+   "end": 96.744
+  },
+  {
+   "word": "means",
+   "start": 96.761,
+   "end": 97.09
+  },
+  {
+   "word": "year.",
+   "start": 97.119,
+   "end": 97.448
+  },
+  {
+   "word": "The",
+   "start": 97.797,
+   "end": 98.006
+  },
+  {
+   "word": "same",
+   "start": 98.025,
+   "end": 98.276
+  },
+  {
+   "word": "word",
+   "start": 98.298,
+   "end": 98.549
+  },
+  {
+   "word": "used",
+   "start": 98.571,
+   "end": 98.822
+  },
+  {
+   "word": "for",
+   "start": 98.844,
+   "end": 99.053
+  },
+  {
+   "word": "every",
+   "start": 99.072,
+   "end": 99.365
+  },
+  {
+   "word": "other",
+   "start": 99.39,
+   "end": 99.683
+  },
+  {
+   "word": "year",
+   "start": 99.709,
+   "end": 99.96
+  },
+  {
+   "word": "in",
+   "start": 99.982,
+   "end": 100.15
+  },
+  {
+   "word": "the",
+   "start": 100.164,
+   "end": 100.374
+  },
+  {
+   "word": "Bible.",
+   "start": 100.392,
+   "end": 100.727
+  },
+  {
+   "word": "Myth",
+   "start": 101.076,
+   "end": 101.399
+  },
+  {
+   "word": "number",
+   "start": 101.428,
+   "end": 101.859
+  },
+  {
+   "word": "one.",
+   "start": 101.896,
+   "end": 102.22
+  },
+  {
+   "word": "Busted.",
+   "start": 102.248,
+   "end": 102.733
+  },
+  {
+   "word": "So",
+   "start": 103.775,
+   "end": 103.959
+  },
+  {
+   "word": "maybe",
+   "start": 103.975,
+   "end": 104.297
+  },
+  {
+   "word": "the",
+   "start": 104.325,
+   "end": 104.555
+  },
+  {
+   "word": "numbers",
+   "start": 104.575,
+   "end": 104.99
+  },
+  {
+   "word": "were",
+   "start": 105.026,
+   "end": 105.302
+  },
+  {
+   "word": "borrowed.",
+   "start": 105.326,
+   "end": 105.832
+  },
+  {
+   "word": "Skeptics",
+   "start": 106.196,
+   "end": 106.675
+  },
+  {
+   "word": "point",
+   "start": 106.716,
+   "end": 107.051
+  },
+  {
+   "word": "to",
+   "start": 107.08,
+   "end": 107.272
+  },
+  {
+   "word": "an",
+   "start": 107.288,
+   "end": 107.48
+  },
+  {
+   "word": "ancient",
+   "start": 107.496,
+   "end": 107.927
+  },
+  {
+   "word": "clay",
+   "start": 107.965,
+   "end": 108.252
+  },
+  {
+   "word": "tablet",
+   "start": 108.277,
+   "end": 108.659
+  },
+  {
+   "word": "from",
+   "start": 108.693,
+   "end": 108.98
+  },
+  {
+   "word": "Mesopotamia.",
+   "start": 109.005,
+   "end": 109.675
+  },
+  {
+   "word": "The",
+   "start": 110.053,
+   "end": 110.287
+  },
+  {
+   "word": "Sumerian",
+   "start": 110.308,
+   "end": 110.777
+  },
+  {
+   "word": "King",
+   "start": 110.817,
+   "end": 111.099
+  },
+  {
+   "word": "List.",
+   "start": 111.123,
+   "end": 111.451
+  },
+  {
+   "word": "It",
+   "start": 111.8,
+   "end": 111.962
+  },
+  {
+   "word": "names",
+   "start": 111.976,
+   "end": 112.26
+  },
+  {
+   "word": "eight",
+   "start": 112.285,
+   "end": 112.568
+  },
+  {
+   "word": "kings",
+   "start": 112.593,
+   "end": 112.877
+  },
+  {
+   "word": "who",
+   "start": 112.902,
+   "end": 113.104
+  },
+  {
+   "word": "ruled",
+   "start": 113.122,
+   "end": 113.406
+  },
+  {
+   "word": "before",
+   "start": 113.43,
+   "end": 113.755
+  },
+  {
+   "word": "a",
+   "start": 113.783,
+   "end": 113.904
+  },
+  {
+   "word": "great",
+   "start": 113.915,
+   "end": 114.199
+  },
+  {
+   "word": "flood.",
+   "start": 114.223,
+   "end": 114.548
+  },
+  {
+   "word": "And",
+   "start": 114.896,
+   "end": 115.09
+  },
+  {
+   "word": "their",
+   "start": 115.106,
+   "end": 115.377
+  },
+  {
+   "word": "reigns",
+   "start": 115.401,
+   "end": 115.711
+  },
+  {
+   "word": "are",
+   "start": 115.738,
+   "end": 115.931
+  },
+  {
+   "word": "insane.",
+   "start": 115.948,
+   "end": 116.297
+  },
+  {
+   "word": "One",
+   "start": 116.647,
+   "end": 116.88
+  },
+  {
+   "word": "king",
+   "start": 116.9,
+   "end": 117.18
+  },
+  {
+   "word": "ruled",
+   "start": 117.204,
+   "end": 117.53
+  },
+  {
+   "word": "for",
+   "start": 117.559,
+   "end": 117.792
+  },
+  {
+   "word": "twenty-eight",
+   "start": 117.812,
+   "end": 118.464
+  },
+  {
+   "word": "thousand,",
+   "start": 118.521,
+   "end": 119.034
+  },
+  {
+   "word": "eight",
+   "start": 119.078,
+   "end": 119.405
+  },
+  {
+   "word": "hundred",
+   "start": 119.433,
+   "end": 119.852
+  },
+  {
+   "word": "years.",
+   "start": 119.889,
+   "end": 120.262
+  },
+  {
+   "word": "Another,",
+   "start": 120.614,
+   "end": 121.057
+  },
+  {
+   "word": "for",
+   "start": 121.095,
+   "end": 121.317
+  },
+  {
+   "word": "thirty-six",
+   "start": 121.336,
+   "end": 121.867
+  },
+  {
+   "word": "thousand.",
+   "start": 121.914,
+   "end": 122.401
+  },
+  {
+   "word": "Together,",
+   "start": 122.763,
+   "end": 123.266
+  },
+  {
+   "word": "those",
+   "start": 123.31,
+   "end": 123.63
+  },
+  {
+   "word": "eight",
+   "start": 123.658,
+   "end": 123.978
+  },
+  {
+   "word": "kings",
+   "start": 124.006,
+   "end": 124.327
+  },
+  {
+   "word": "ruled",
+   "start": 124.354,
+   "end": 124.675
+  },
+  {
+   "word": "for",
+   "start": 124.703,
+   "end": 124.931
+  },
+  {
+   "word": "over",
+   "start": 124.951,
+   "end": 125.226
+  },
+  {
+   "word": "two",
+   "start": 125.25,
+   "end": 125.478
+  },
+  {
+   "word": "hundred",
+   "start": 125.498,
+   "end": 125.91
+  },
+  {
+   "word": "and",
+   "start": 125.946,
+   "end": 126.175
+  },
+  {
+   "word": "forty",
+   "start": 126.195,
+   "end": 126.515
+  },
+  {
+   "word": "thousand",
+   "start": 126.543,
+   "end": 127.0
+  },
+  {
+   "word": "years.",
+   "start": 127.04,
+   "end": 127.406
+  },
+  {
+   "word": "And",
+   "start": 127.758,
+   "end": 127.946
+  },
+  {
+   "word": "then",
+   "start": 127.962,
+   "end": 128.188
+  },
+  {
+   "word": "the",
+   "start": 128.207,
+   "end": 128.395
+  },
+  {
+   "word": "flood",
+   "start": 128.411,
+   "end": 128.674
+  },
+  {
+   "word": "came.",
+   "start": 128.697,
+   "end": 128.96
+  },
+  {
+   "word": "After",
+   "start": 129.303,
+   "end": 129.59
+  },
+  {
+   "word": "the",
+   "start": 129.614,
+   "end": 129.819
+  },
+  {
+   "word": "flood,",
+   "start": 129.837,
+   "end": 130.165
+  },
+  {
+   "word": "the",
+   "start": 130.193,
+   "end": 130.398
+  },
+  {
+   "word": "reigns",
+   "start": 130.415,
+   "end": 130.743
+  },
+  {
+   "word": "suddenly",
+   "start": 130.771,
+   "end": 131.181
+  },
+  {
+   "word": "shrink.",
+   "start": 131.216,
+   "end": 131.585
+  },
+  {
+   "word": "Sound",
+   "start": 131.937,
+   "end": 132.276
+  },
+  {
+   "word": "familiar?",
+   "start": 132.306,
+   "end": 132.839
+  },
+  {
+   "word": "Two",
+   "start": 133.205,
+   "end": 133.421
+  },
+  {
+   "word": "completely",
+   "start": 133.44,
+   "end": 133.958
+  },
+  {
+   "word": "different",
+   "start": 134.004,
+   "end": 134.479
+  },
+  {
+   "word": "cultures.",
+   "start": 134.52,
+   "end": 134.996
+  },
+  {
+   "word": "Both",
+   "start": 135.357,
+   "end": 135.665
+  },
+  {
+   "word": "remember",
+   "start": 135.692,
+   "end": 136.205
+  },
+  {
+   "word": "long-lived",
+   "start": 136.249,
+   "end": 136.865
+  },
+  {
+   "word": "ancestors.",
+   "start": 136.919,
+   "end": 137.534
+  },
+  {
+   "word": "Both",
+   "start": 137.908,
+   "end": 138.183
+  },
+  {
+   "word": "remember",
+   "start": 138.206,
+   "end": 138.664
+  },
+  {
+   "word": "a",
+   "start": 138.704,
+   "end": 138.841
+  },
+  {
+   "word": "flood.",
+   "start": 138.853,
+   "end": 139.219
+  },
+  {
+   "word": "And",
+   "start": 139.571,
+   "end": 139.797
+  },
+  {
+   "word": "both",
+   "start": 139.817,
+   "end": 140.088
+  },
+  {
+   "word": "remember",
+   "start": 140.111,
+   "end": 140.563
+  },
+  {
+   "word": "lifespans",
+   "start": 140.603,
+   "end": 141.1
+  },
+  {
+   "word": "collapsing",
+   "start": 141.143,
+   "end": 141.685
+  },
+  {
+   "word": "after",
+   "start": 141.733,
+   "end": 142.049
+  },
+  {
+   "word": "it.",
+   "start": 142.076,
+   "end": 142.302
+  },
+  {
+   "word": "But",
+   "start": 142.642,
+   "end": 142.849
+  },
+  {
+   "word": "notice",
+   "start": 142.867,
+   "end": 143.199
+  },
+  {
+   "word": "the",
+   "start": 143.228,
+   "end": 143.436
+  },
+  {
+   "word": "difference.",
+   "start": 143.454,
+   "end": 143.993
+  },
+  {
+   "word": "The",
+   "start": 144.36,
+   "end": 144.607
+  },
+  {
+   "word": "Sumerian",
+   "start": 144.628,
+   "end": 145.122
+  },
+  {
+   "word": "numbers",
+   "start": 145.165,
+   "end": 145.609
+  },
+  {
+   "word": "are",
+   "start": 145.648,
+   "end": 145.895
+  },
+  {
+   "word": "fantasy.",
+   "start": 145.916,
+   "end": 146.41
+  },
+  {
+   "word": "The",
+   "start": 146.773,
+   "end": 147.005
+  },
+  {
+   "word": "Bible's",
+   "start": 147.025,
+   "end": 147.443
+  },
+  {
+   "word": "numbers",
+   "start": 147.48,
+   "end": 147.898
+  },
+  {
+   "word": "are",
+   "start": 147.934,
+   "end": 148.166
+  },
+  {
+   "word": "strangely",
+   "start": 148.186,
+   "end": 148.697
+  },
+  {
+   "word": "restrained.",
+   "start": 148.742,
+   "end": 149.345
+  },
+  {
+   "word": "Not",
+   "start": 149.718,
+   "end": 149.958
+  },
+  {
+   "word": "thousands",
+   "start": 149.979,
+   "end": 150.507
+  },
+  {
+   "word": "of",
+   "start": 150.553,
+   "end": 150.746
+  },
+  {
+   "word": "years.",
+   "start": 150.762,
+   "end": 151.147
+  },
+  {
+   "word": "Not",
+   "start": 151.5,
+   "end": 151.745
+  },
+  {
+   "word": "tens",
+   "start": 151.767,
+   "end": 152.061
+  },
+  {
+   "word": "of",
+   "start": 152.087,
+   "end": 152.283
+  },
+  {
+   "word": "thousands.",
+   "start": 152.3,
+   "end": 152.889
+  },
+  {
+   "word": "Under",
+   "start": 153.26,
+   "end": 153.596
+  },
+  {
+   "word": "one",
+   "start": 153.625,
+   "end": 153.865
+  },
+  {
+   "word": "thousand,",
+   "start": 153.886,
+   "end": 154.414
+  },
+  {
+   "word": "every",
+   "start": 154.46,
+   "end": 154.796
+  },
+  {
+   "word": "single",
+   "start": 154.825,
+   "end": 155.209
+  },
+  {
+   "word": "time.",
+   "start": 155.243,
+   "end": 155.579
+  },
+  {
+   "word": "Maybe",
+   "start": 155.928,
+   "end": 156.269
+  },
+  {
+   "word": "this",
+   "start": 156.298,
+   "end": 156.591
+  },
+  {
+   "word": "is",
+   "start": 156.616,
+   "end": 156.811
+  },
+  {
+   "word": "not",
+   "start": 156.828,
+   "end": 157.071
+  },
+  {
+   "word": "one",
+   "start": 157.092,
+   "end": 157.336
+  },
+  {
+   "word": "story",
+   "start": 157.357,
+   "end": 157.698
+  },
+  {
+   "word": "copying",
+   "start": 157.727,
+   "end": 158.166
+  },
+  {
+   "word": "another.",
+   "start": 158.204,
+   "end": 158.691
+  },
+  {
+   "word": "Maybe",
+   "start": 159.053,
+   "end": 159.348
+  },
+  {
+   "word": "it",
+   "start": 159.373,
+   "end": 159.542
+  },
+  {
+   "word": "is",
+   "start": 159.556,
+   "end": 159.725
+  },
+  {
+   "word": "two",
+   "start": 159.739,
+   "end": 159.95
+  },
+  {
+   "word": "memories",
+   "start": 159.968,
+   "end": 160.389
+  },
+  {
+   "word": "of",
+   "start": 160.426,
+   "end": 160.594
+  },
+  {
+   "word": "the",
+   "start": 160.609,
+   "end": 160.819
+  },
+  {
+   "word": "same",
+   "start": 160.837,
+   "end": 161.09
+  },
+  {
+   "word": "event.",
+   "start": 161.112,
+   "end": 161.449
+  },
+  {
+   "word": "So",
+   "start": 162.278,
+   "end": 162.427
+  },
+  {
+   "word": "what",
+   "start": 162.44,
+   "end": 162.662
+  },
+  {
+   "word": "was",
+   "start": 162.682,
+   "end": 162.868
+  },
+  {
+   "word": "different",
+   "start": 162.884,
+   "end": 163.292
+  },
+  {
+   "word": "back",
+   "start": 163.328,
+   "end": 163.551
+  },
+  {
+   "word": "then?",
+   "start": 163.57,
+   "end": 163.83
+  },
+  {
+   "word": "Genesis",
+   "start": 164.173,
+   "end": 164.625
+  },
+  {
+   "word": "describes",
+   "start": 164.664,
+   "end": 165.216
+  },
+  {
+   "word": "a",
+   "start": 165.264,
+   "end": 165.414
+  },
+  {
+   "word": "world",
+   "start": 165.427,
+   "end": 165.778
+  },
+  {
+   "word": "we",
+   "start": 165.809,
+   "end": 166.01
+  },
+  {
+   "word": "would",
+   "start": 166.027,
+   "end": 166.378
+  },
+  {
+   "word": "not",
+   "start": 166.409,
+   "end": 166.66
+  },
+  {
+   "word": "recognize.",
+   "start": 166.682,
+   "end": 167.284
+  },
+  {
+   "word": "Waters",
+   "start": 167.656,
+   "end": 168.056
+  },
+  {
+   "word": "above",
+   "start": 168.091,
+   "end": 168.441
+  },
+  {
+   "word": "the",
+   "start": 168.472,
+   "end": 168.722
+  },
+  {
+   "word": "sky.",
+   "start": 168.744,
+   "end": 169.044
+  },
+  {
+   "word": "The",
+   "start": 169.39,
+   "end": 169.591
+  },
+  {
+   "word": "fountains",
+   "start": 169.609,
+   "end": 170.052
+  },
+  {
+   "word": "of",
+   "start": 170.091,
+   "end": 170.252
+  },
+  {
+   "word": "the",
+   "start": 170.266,
+   "end": 170.467
+  },
+  {
+   "word": "great",
+   "start": 170.485,
+   "end": 170.767
+  },
+  {
+   "word": "deep,",
+   "start": 170.791,
+   "end": 171.073
+  },
+  {
+   "word": "still",
+   "start": 171.097,
+   "end": 171.379
+  },
+  {
+   "word": "sealed.",
+   "start": 171.404,
+   "end": 171.766
+  },
+  {
+   "word": "Some",
+   "start": 172.118,
+   "end": 172.394
+  },
+  {
+   "word": "believe",
+   "start": 172.419,
+   "end": 172.833
+  },
+  {
+   "word": "a",
+   "start": 172.869,
+   "end": 173.008
+  },
+  {
+   "word": "thick",
+   "start": 173.02,
+   "end": 173.342
+  },
+  {
+   "word": "layer",
+   "start": 173.37,
+   "end": 173.693
+  },
+  {
+   "word": "of",
+   "start": 173.721,
+   "end": 173.905
+  },
+  {
+   "word": "water",
+   "start": 173.921,
+   "end": 174.244
+  },
+  {
+   "word": "vapor",
+   "start": 174.272,
+   "end": 174.594
+  },
+  {
+   "word": "once",
+   "start": 174.622,
+   "end": 174.899
+  },
+  {
+   "word": "shielded",
+   "start": 174.923,
+   "end": 175.384
+  },
+  {
+   "word": "the",
+   "start": 175.424,
+   "end": 175.654
+  },
+  {
+   "word": "earth.",
+   "start": 175.674,
+   "end": 176.043
+  },
+  {
+   "word": "Less",
+   "start": 176.395,
+   "end": 176.73
+  },
+  {
+   "word": "radiation.",
+   "start": 176.759,
+   "end": 177.429
+  },
+  {
+   "word": "A",
+   "start": 177.487,
+   "end": 177.655
+  },
+  {
+   "word": "gentler",
+   "start": 177.669,
+   "end": 178.172
+  },
+  {
+   "word": "climate.",
+   "start": 178.215,
+   "end": 178.773
+  },
+  {
+   "word": "Others",
+   "start": 179.142,
+   "end": 179.544
+  },
+  {
+   "word": "believe",
+   "start": 179.579,
+   "end": 180.031
+  },
+  {
+   "word": "the",
+   "start": 180.07,
+   "end": 180.321
+  },
+  {
+   "word": "first",
+   "start": 180.343,
+   "end": 180.695
+  },
+  {
+   "word": "humans",
+   "start": 180.725,
+   "end": 181.127
+  },
+  {
+   "word": "simply",
+   "start": 181.162,
+   "end": 181.564
+  },
+  {
+   "word": "had",
+   "start": 181.599,
+   "end": 181.85
+  },
+  {
+   "word": "near-perfect",
+   "start": 181.872,
+   "end": 182.575
+  },
+  {
+   "word": "genes.",
+   "start": 182.636,
+   "end": 183.038
+  },
+  {
+   "word": "Fewer",
+   "start": 183.393,
+   "end": 183.764
+  },
+  {
+   "word": "mutations.",
+   "start": 183.796,
+   "end": 184.432
+  },
+  {
+   "word": "Bodies",
+   "start": 184.487,
+   "end": 184.911
+  },
+  {
+   "word": "that",
+   "start": 184.948,
+   "end": 185.266
+  },
+  {
+   "word": "could",
+   "start": 185.293,
+   "end": 185.664
+  },
+  {
+   "word": "repair",
+   "start": 185.696,
+   "end": 186.12
+  },
+  {
+   "word": "themselves",
+   "start": 186.157,
+   "end": 186.793
+  },
+  {
+   "word": "for",
+   "start": 186.848,
+   "end": 187.113
+  },
+  {
+   "word": "centuries.",
+   "start": 187.136,
+   "end": 187.772
+  },
+  {
+   "word": "These",
+   "start": 188.147,
+   "end": 188.529
+  },
+  {
+   "word": "ideas",
+   "start": 188.563,
+   "end": 188.945
+  },
+  {
+   "word": "are",
+   "start": 188.978,
+   "end": 189.252
+  },
+  {
+   "word": "debated,",
+   "start": 189.275,
+   "end": 189.822
+  },
+  {
+   "word": "even",
+   "start": 189.869,
+   "end": 190.197
+  },
+  {
+   "word": "among",
+   "start": 190.226,
+   "end": 190.608
+  },
+  {
+   "word": "believers.",
+   "start": 190.641,
+   "end": 191.297
+  },
+  {
+   "word": "But",
+   "start": 191.674,
+   "end": 191.912
+  },
+  {
+   "word": "one",
+   "start": 191.932,
+   "end": 192.17
+  },
+  {
+   "word": "thing",
+   "start": 192.191,
+   "end": 192.524
+  },
+  {
+   "word": "is",
+   "start": 192.553,
+   "end": 192.743
+  },
+  {
+   "word": "not",
+   "start": 192.76,
+   "end": 192.997
+  },
+  {
+   "word": "debated.",
+   "start": 193.018,
+   "end": 193.494
+  },
+  {
+   "word": "The",
+   "start": 193.855,
+   "end": 194.06
+  },
+  {
+   "word": "numbers",
+   "start": 194.077,
+   "end": 194.446
+  },
+  {
+   "word": "change",
+   "start": 194.478,
+   "end": 194.806
+  },
+  {
+   "word": "after",
+   "start": 194.834,
+   "end": 195.121
+  },
+  {
+   "word": "the",
+   "start": 195.145,
+   "end": 195.35
+  },
+  {
+   "word": "Flood.",
+   "start": 195.368,
+   "end": 195.696
+  },
+  {
+   "word": "Watch",
+   "start": 196.524,
+   "end": 196.856
+  },
+  {
+   "word": "what",
+   "start": 196.885,
+   "end": 197.17
+  },
+  {
+   "word": "happens.",
+   "start": 197.194,
+   "end": 197.669
+  },
+  {
+   "word": "Noah,",
+   "start": 198.03,
+   "end": 198.376
+  },
+  {
+   "word": "nine",
+   "start": 198.406,
+   "end": 198.702
+  },
+  {
+   "word": "hundred",
+   "start": 198.728,
+   "end": 199.172
+  },
+  {
+   "word": "and",
+   "start": 199.211,
+   "end": 199.458
+  },
+  {
+   "word": "fifty.",
+   "start": 199.48,
+   "end": 199.875
+  },
+  {
+   "word": "His",
+   "start": 200.229,
+   "end": 200.466
+  },
+  {
+   "word": "son",
+   "start": 200.487,
+   "end": 200.724
+  },
+  {
+   "word": "Shem,",
+   "start": 200.745,
+   "end": 201.077
+  },
+  {
+   "word": "six",
+   "start": 201.106,
+   "end": 201.343
+  },
+  {
+   "word": "hundred.",
+   "start": 201.363,
+   "end": 201.838
+  },
+  {
+   "word": "A",
+   "start": 202.199,
+   "end": 202.349
+  },
+  {
+   "word": "few",
+   "start": 202.363,
+   "end": 202.613
+  },
+  {
+   "word": "generations",
+   "start": 202.635,
+   "end": 203.287
+  },
+  {
+   "word": "later,",
+   "start": 203.344,
+   "end": 203.745
+  },
+  {
+   "word": "four",
+   "start": 203.78,
+   "end": 204.081
+  },
+  {
+   "word": "hundred.",
+   "start": 204.107,
+   "end": 204.608
+  },
+  {
+   "word": "Then",
+   "start": 204.972,
+   "end": 205.224
+  },
+  {
+   "word": "two",
+   "start": 205.246,
+   "end": 205.457
+  },
+  {
+   "word": "hundred",
+   "start": 205.475,
+   "end": 205.854
+  },
+  {
+   "word": "and",
+   "start": 205.887,
+   "end": 206.097
+  },
+  {
+   "word": "thirty.",
+   "start": 206.115,
+   "end": 206.494
+  },
+  {
+   "word": "Abraham,",
+   "start": 206.847,
+   "end": 207.39
+  },
+  {
+   "word": "one",
+   "start": 207.437,
+   "end": 207.709
+  },
+  {
+   "word": "hundred",
+   "start": 207.732,
+   "end": 208.221
+  },
+  {
+   "word": "and",
+   "start": 208.264,
+   "end": 208.535
+  },
+  {
+   "word": "seventy-five.",
+   "start": 208.559,
+   "end": 209.373
+  },
+  {
+   "word": "Joseph,",
+   "start": 209.764,
+   "end": 210.201
+  },
+  {
+   "word": "one",
+   "start": 210.239,
+   "end": 210.481
+  },
+  {
+   "word": "hundred",
+   "start": 210.502,
+   "end": 210.939
+  },
+  {
+   "word": "and",
+   "start": 210.977,
+   "end": 211.219
+  },
+  {
+   "word": "ten.",
+   "start": 211.241,
+   "end": 211.532
+  },
+  {
+   "word": "Moses,",
+   "start": 211.877,
+   "end": 212.25
+  },
+  {
+   "word": "one",
+   "start": 212.282,
+   "end": 212.515
+  },
+  {
+   "word": "hundred",
+   "start": 212.536,
+   "end": 212.955
+  },
+  {
+   "word": "and",
+   "start": 212.992,
+   "end": 213.225
+  },
+  {
+   "word": "twenty.",
+   "start": 213.245,
+   "end": 213.665
+  },
+  {
+   "word": "And",
+   "start": 214.021,
+   "end": 214.223
+  },
+  {
+   "word": "a",
+   "start": 214.241,
+   "end": 214.363
+  },
+  {
+   "word": "few",
+   "start": 214.373,
+   "end": 214.576
+  },
+  {
+   "word": "centuries",
+   "start": 214.593,
+   "end": 215.039
+  },
+  {
+   "word": "later,",
+   "start": 215.077,
+   "end": 215.401
+  },
+  {
+   "word": "the",
+   "start": 215.43,
+   "end": 215.632
+  },
+  {
+   "word": "psalm",
+   "start": 215.65,
+   "end": 215.933
+  },
+  {
+   "word": "says...",
+   "start": 215.958,
+   "end": 216.322
+  },
+  {
+   "word": "\"The",
+   "start": 216.904,
+   "end": 217.18
+  },
+  {
+   "word": "years",
+   "start": 217.204,
+   "end": 217.527
+  },
+  {
+   "word": "of",
+   "start": 217.555,
+   "end": 217.739
+  },
+  {
+   "word": "our",
+   "start": 217.755,
+   "end": 217.985
+  },
+  {
+   "word": "life",
+   "start": 218.005,
+   "end": 218.281
+  },
+  {
+   "word": "are",
+   "start": 218.305,
+   "end": 218.535
+  },
+  {
+   "word": "seventy,",
+   "start": 218.555,
+   "end": 219.016
+  },
+  {
+   "word": "or",
+   "start": 219.056,
+   "end": 219.24
+  },
+  {
+   "word": "even",
+   "start": 219.256,
+   "end": 219.532
+  },
+  {
+   "word": "by",
+   "start": 219.556,
+   "end": 219.741
+  },
+  {
+   "word": "reason",
+   "start": 219.757,
+   "end": 220.125
+  },
+  {
+   "word": "of",
+   "start": 220.157,
+   "end": 220.341
+  },
+  {
+   "word": "strength",
+   "start": 220.357,
+   "end": 220.818
+  },
+  {
+   "word": "eighty.\"",
+   "start": 220.858,
+   "end": 221.318
+  },
+  {
+   "word": "That",
+   "start": 221.678,
+   "end": 221.947
+  },
+  {
+   "word": "is",
+   "start": 221.97,
+   "end": 222.149
+  },
+  {
+   "word": "not",
+   "start": 222.165,
+   "end": 222.389
+  },
+  {
+   "word": "random.",
+   "start": 222.408,
+   "end": 222.811
+  },
+  {
+   "word": "It",
+   "start": 223.166,
+   "end": 223.354
+  },
+  {
+   "word": "is",
+   "start": 223.371,
+   "end": 223.559
+  },
+  {
+   "word": "a",
+   "start": 223.576,
+   "end": 223.717
+  },
+  {
+   "word": "curve.",
+   "start": 223.729,
+   "end": 224.106
+  },
+  {
+   "word": "A",
+   "start": 224.459,
+   "end": 224.603
+  },
+  {
+   "word": "steady,",
+   "start": 224.615,
+   "end": 225.047
+  },
+  {
+   "word": "downward",
+   "start": 225.084,
+   "end": 225.563
+  },
+  {
+   "word": "decline.",
+   "start": 225.605,
+   "end": 226.084
+  },
+  {
+   "word": "Exactly",
+   "start": 226.446,
+   "end": 226.873
+  },
+  {
+   "word": "what",
+   "start": 226.91,
+   "end": 227.195
+  },
+  {
+   "word": "you",
+   "start": 227.22,
+   "end": 227.457
+  },
+  {
+   "word": "would",
+   "start": 227.478,
+   "end": 227.81
+  },
+  {
+   "word": "expect",
+   "start": 227.839,
+   "end": 228.219
+  },
+  {
+   "word": "if",
+   "start": 228.252,
+   "end": 228.442
+  },
+  {
+   "word": "something",
+   "start": 228.459,
+   "end": 228.981
+  },
+  {
+   "word": "in",
+   "start": 229.026,
+   "end": 229.216
+  },
+  {
+   "word": "humanity",
+   "start": 229.233,
+   "end": 229.707
+  },
+  {
+   "word": "was",
+   "start": 229.749,
+   "end": 229.986
+  },
+  {
+   "word": "breaking",
+   "start": 230.007,
+   "end": 230.481
+  },
+  {
+   "word": "down.",
+   "start": 230.523,
+   "end": 230.855
+  },
+  {
+   "word": "And",
+   "start": 231.684,
+   "end": 231.879
+  },
+  {
+   "word": "there",
+   "start": 231.896,
+   "end": 232.169
+  },
+  {
+   "word": "is",
+   "start": 232.193,
+   "end": 232.349
+  },
+  {
+   "word": "one",
+   "start": 232.363,
+   "end": 232.558
+  },
+  {
+   "word": "more",
+   "start": 232.575,
+   "end": 232.809
+  },
+  {
+   "word": "verse",
+   "start": 232.83,
+   "end": 233.103
+  },
+  {
+   "word": "that",
+   "start": 233.127,
+   "end": 233.361
+  },
+  {
+   "word": "changes",
+   "start": 233.381,
+   "end": 233.733
+  },
+  {
+   "word": "everything.",
+   "start": 233.763,
+   "end": 234.271
+  },
+  {
+   "word": "Genesis",
+   "start": 234.635,
+   "end": 235.109
+  },
+  {
+   "word": "six,",
+   "start": 235.15,
+   "end": 235.467
+  },
+  {
+   "word": "verse",
+   "start": 235.494,
+   "end": 235.863
+  },
+  {
+   "word": "three.",
+   "start": 235.895,
+   "end": 236.316
+  },
+  {
+   "word": "Before",
+   "start": 236.673,
+   "end": 237.024
+  },
+  {
+   "word": "the",
+   "start": 237.054,
+   "end": 237.274
+  },
+  {
+   "word": "Flood,",
+   "start": 237.293,
+   "end": 237.644
+  },
+  {
+   "word": "God",
+   "start": 237.674,
+   "end": 237.894
+  },
+  {
+   "word": "says...",
+   "start": 237.913,
+   "end": 238.308
+  },
+  {
+   "word": "\"My",
+   "start": 238.892,
+   "end": 239.13
+  },
+  {
+   "word": "Spirit",
+   "start": 239.151,
+   "end": 239.531
+  },
+  {
+   "word": "shall",
+   "start": 239.564,
+   "end": 239.898
+  },
+  {
+   "word": "not",
+   "start": 239.927,
+   "end": 240.165
+  },
+  {
+   "word": "abide",
+   "start": 240.185,
+   "end": 240.518
+  },
+  {
+   "word": "in",
+   "start": 240.547,
+   "end": 240.738
+  },
+  {
+   "word": "man",
+   "start": 240.754,
+   "end": 240.992
+  },
+  {
+   "word": "forever...",
+   "start": 241.013,
+   "end": 241.584
+  },
+  {
+   "word": "his",
+   "start": 241.634,
+   "end": 241.872
+  },
+  {
+   "word": "days",
+   "start": 241.892,
+   "end": 242.178
+  },
+  {
+   "word": "shall",
+   "start": 242.203,
+   "end": 242.536
+  },
+  {
+   "word": "be",
+   "start": 242.565,
+   "end": 242.755
+  },
+  {
+   "word": "one",
+   "start": 242.772,
+   "end": 243.01
+  },
+  {
+   "word": "hundred",
+   "start": 243.03,
+   "end": 243.459
+  },
+  {
+   "word": "and",
+   "start": 243.496,
+   "end": 243.734
+  },
+  {
+   "word": "twenty",
+   "start": 243.755,
+   "end": 244.135
+  },
+  {
+   "word": "years.\"",
+   "start": 244.168,
+   "end": 244.597
+  },
+  {
+   "word": "Many",
+   "start": 244.954,
+   "end": 245.215
+  },
+  {
+   "word": "read",
+   "start": 245.238,
+   "end": 245.499
+  },
+  {
+   "word": "this",
+   "start": 245.522,
+   "end": 245.783
+  },
+  {
+   "word": "as",
+   "start": 245.806,
+   "end": 245.98
+  },
+  {
+   "word": "a",
+   "start": 245.995,
+   "end": 246.126
+  },
+  {
+   "word": "countdown",
+   "start": 246.137,
+   "end": 246.616
+  },
+  {
+   "word": "to",
+   "start": 246.658,
+   "end": 246.832
+  },
+  {
+   "word": "the",
+   "start": 246.847,
+   "end": 247.065
+  },
+  {
+   "word": "Flood.",
+   "start": 247.083,
+   "end": 247.432
+  },
+  {
+   "word": "Others",
+   "start": 247.782,
+   "end": 248.183
+  },
+  {
+   "word": "read",
+   "start": 248.218,
+   "end": 248.519
+  },
+  {
+   "word": "it",
+   "start": 248.546,
+   "end": 248.746
+  },
+  {
+   "word": "as",
+   "start": 248.764,
+   "end": 248.965
+  },
+  {
+   "word": "a",
+   "start": 248.982,
+   "end": 249.133
+  },
+  {
+   "word": "new",
+   "start": 249.146,
+   "end": 249.397
+  },
+  {
+   "word": "limit",
+   "start": 249.418,
+   "end": 249.77
+  },
+  {
+   "word": "on",
+   "start": 249.8,
+   "end": 250.001
+  },
+  {
+   "word": "human",
+   "start": 250.018,
+   "end": 250.37
+  },
+  {
+   "word": "life.",
+   "start": 250.4,
+   "end": 250.751
+  },
+  {
+   "word": "Now",
+   "start": 251.102,
+   "end": 251.326
+  },
+  {
+   "word": "here",
+   "start": 251.345,
+   "end": 251.614
+  },
+  {
+   "word": "is",
+   "start": 251.637,
+   "end": 251.816
+  },
+  {
+   "word": "the",
+   "start": 251.832,
+   "end": 252.055
+  },
+  {
+   "word": "strange",
+   "start": 252.075,
+   "end": 252.478
+  },
+  {
+   "word": "part.",
+   "start": 252.513,
+   "end": 252.826
+  },
+  {
+   "word": "The",
+   "start": 253.173,
+   "end": 253.435
+  },
+  {
+   "word": "oldest",
+   "start": 253.458,
+   "end": 253.878
+  },
+  {
+   "word": "person",
+   "start": 253.914,
+   "end": 254.334
+  },
+  {
+   "word": "ever",
+   "start": 254.371,
+   "end": 254.686
+  },
+  {
+   "word": "verified",
+   "start": 254.713,
+   "end": 255.238
+  },
+  {
+   "word": "by",
+   "start": 255.283,
+   "end": 255.493
+  },
+  {
+   "word": "modern",
+   "start": 255.511,
+   "end": 255.931
+  },
+  {
+   "word": "science...",
+   "start": 255.968,
+   "end": 256.597
+  },
+  {
+   "word": "was",
+   "start": 257.202,
+   "end": 257.413
+  },
+  {
+   "word": "a",
+   "start": 257.431,
+   "end": 257.558
+  },
+  {
+   "word": "French",
+   "start": 257.568,
+   "end": 257.906
+  },
+  {
+   "word": "woman",
+   "start": 257.935,
+   "end": 258.23
+  },
+  {
+   "word": "named",
+   "start": 258.256,
+   "end": 258.551
+  },
+  {
+   "word": "Jeanne",
+   "start": 258.576,
+   "end": 258.914
+  },
+  {
+   "word": "Calment.",
+   "start": 258.943,
+   "end": 259.364
+  },
+  {
+   "word": "She",
+   "start": 259.721,
+   "end": 259.923
+  },
+  {
+   "word": "died",
+   "start": 259.94,
+   "end": 260.182
+  },
+  {
+   "word": "at",
+   "start": 260.203,
+   "end": 260.364
+  },
+  {
+   "word": "one",
+   "start": 260.378,
+   "end": 260.58
+  },
+  {
+   "word": "hundred",
+   "start": 260.597,
+   "end": 260.96
+  },
+  {
+   "word": "and",
+   "start": 260.991,
+   "end": 261.193
+  },
+  {
+   "word": "twenty-two.",
+   "start": 261.21,
+   "end": 261.734
+  },
+  {
+   "word": "In",
+   "start": 262.1,
+   "end": 262.28
+  },
+  {
+   "word": "thousands",
+   "start": 262.295,
+   "end": 262.79
+  },
+  {
+   "word": "of",
+   "start": 262.833,
+   "end": 263.013
+  },
+  {
+   "word": "years",
+   "start": 263.028,
+   "end": 263.343
+  },
+  {
+   "word": "of",
+   "start": 263.37,
+   "end": 263.55
+  },
+  {
+   "word": "records...",
+   "start": 263.566,
+   "end": 264.105
+  },
+  {
+   "word": "no",
+   "start": 264.702,
+   "end": 264.871
+  },
+  {
+   "word": "one",
+   "start": 264.885,
+   "end": 265.096
+  },
+  {
+   "word": "has",
+   "start": 265.115,
+   "end": 265.326
+  },
+  {
+   "word": "broken",
+   "start": 265.344,
+   "end": 265.681
+  },
+  {
+   "word": "the",
+   "start": 265.711,
+   "end": 265.922
+  },
+  {
+   "word": "limit",
+   "start": 265.94,
+   "end": 266.235
+  },
+  {
+   "word": "by",
+   "start": 266.261,
+   "end": 266.43
+  },
+  {
+   "word": "more",
+   "start": 266.444,
+   "end": 266.698
+  },
+  {
+   "word": "than",
+   "start": 266.72,
+   "end": 266.973
+  },
+  {
+   "word": "a",
+   "start": 266.995,
+   "end": 267.121
+  },
+  {
+   "word": "breath.",
+   "start": 267.132,
+   "end": 267.512
+  },
+  {
+   "word": "So,",
+   "start": 268.345,
+   "end": 268.569
+  },
+  {
+   "word": "did",
+   "start": 268.588,
+   "end": 268.812
+  },
+  {
+   "word": "they",
+   "start": 268.832,
+   "end": 269.101
+  },
+  {
+   "word": "really",
+   "start": 269.124,
+   "end": 269.482
+  },
+  {
+   "word": "live",
+   "start": 269.513,
+   "end": 269.782
+  },
+  {
+   "word": "nine",
+   "start": 269.805,
+   "end": 270.074
+  },
+  {
+   "word": "hundred",
+   "start": 270.097,
+   "end": 270.501
+  },
+  {
+   "word": "years?",
+   "start": 270.536,
+   "end": 270.894
+  },
+  {
+   "word": "Mistranslation?",
+   "start": 271.245,
+   "end": 272.258
+  },
+  {
+   "word": "The",
+   "start": 272.666,
+   "end": 272.882
+  },
+  {
+   "word": "text",
+   "start": 272.9,
+   "end": 273.159
+  },
+  {
+   "word": "says",
+   "start": 273.182,
+   "end": 273.44
+  },
+  {
+   "word": "years,",
+   "start": 273.463,
+   "end": 273.808
+  },
+  {
+   "word": "and",
+   "start": 273.838,
+   "end": 274.053
+  },
+  {
+   "word": "the",
+   "start": 274.072,
+   "end": 274.288
+  },
+  {
+   "word": "math",
+   "start": 274.306,
+   "end": 274.565
+  },
+  {
+   "word": "breaks",
+   "start": 274.588,
+   "end": 274.933
+  },
+  {
+   "word": "if",
+   "start": 274.963,
+   "end": 275.135
+  },
+  {
+   "word": "it",
+   "start": 275.15,
+   "end": 275.323
+  },
+  {
+   "word": "does",
+   "start": 275.338,
+   "end": 275.596
+  },
+  {
+   "word": "not.",
+   "start": 275.619,
+   "end": 275.878
+  },
+  {
+   "word": "Copied",
+   "start": 276.22,
+   "end": 276.557
+  },
+  {
+   "word": "from",
+   "start": 276.587,
+   "end": 276.84
+  },
+  {
+   "word": "a",
+   "start": 276.862,
+   "end": 276.988
+  },
+  {
+   "word": "myth?",
+   "start": 276.999,
+   "end": 277.294
+  },
+  {
+   "word": "The",
+   "start": 277.64,
+   "end": 277.859
+  },
+  {
+   "word": "Bible's",
+   "start": 277.878,
+   "end": 278.273
+  },
+  {
+   "word": "account",
+   "start": 278.307,
+   "end": 278.701
+  },
+  {
+   "word": "is",
+   "start": 278.735,
+   "end": 278.911
+  },
+  {
+   "word": "far",
+   "start": 278.926,
+   "end": 279.145
+  },
+  {
+   "word": "more",
+   "start": 279.164,
+   "end": 279.427
+  },
+  {
+   "word": "restrained",
+   "start": 279.45,
+   "end": 279.976
+  },
+  {
+   "word": "than",
+   "start": 280.021,
+   "end": 280.284
+  },
+  {
+   "word": "the",
+   "start": 280.307,
+   "end": 280.526
+  },
+  {
+   "word": "myths",
+   "start": 280.545,
+   "end": 280.852
+  },
+  {
+   "word": "around",
+   "start": 280.879,
+   "end": 281.229
+  },
+  {
+   "word": "it.",
+   "start": 281.26,
+   "end": 281.479
+  },
+  {
+   "word": "Literal?",
+   "start": 281.818,
+   "end": 282.386
+  },
+  {
+   "word": "The",
+   "start": 282.755,
+   "end": 282.967
+  },
+  {
+   "word": "text",
+   "start": 282.986,
+   "end": 283.241
+  },
+  {
+   "word": "certainly",
+   "start": 283.263,
+   "end": 283.73
+  },
+  {
+   "word": "presents",
+   "start": 283.771,
+   "end": 284.196
+  },
+  {
+   "word": "itself",
+   "start": 284.233,
+   "end": 284.572
+  },
+  {
+   "word": "that",
+   "start": 284.602,
+   "end": 284.857
+  },
+  {
+   "word": "way.",
+   "start": 284.879,
+   "end": 285.134
+  },
+  {
+   "word": "And",
+   "start": 285.476,
+   "end": 285.698
+  },
+  {
+   "word": "the",
+   "start": 285.717,
+   "end": 285.939
+  },
+  {
+   "word": "steady",
+   "start": 285.959,
+   "end": 286.314
+  },
+  {
+   "word": "decline",
+   "start": 286.345,
+   "end": 286.745
+  },
+  {
+   "word": "after",
+   "start": 286.779,
+   "end": 287.09
+  },
+  {
+   "word": "the",
+   "start": 287.117,
+   "end": 287.339
+  },
+  {
+   "word": "Flood",
+   "start": 287.359,
+   "end": 287.67
+  },
+  {
+   "word": "fits",
+   "start": 287.697,
+   "end": 287.963
+  },
+  {
+   "word": "that",
+   "start": 287.986,
+   "end": 288.253
+  },
+  {
+   "word": "story.",
+   "start": 288.276,
+   "end": 288.631
+  },
+  {
+   "word": "But",
+   "start": 288.982,
+   "end": 289.21
+  },
+  {
+   "word": "the",
+   "start": 289.229,
+   "end": 289.457
+  },
+  {
+   "word": "real",
+   "start": 289.477,
+   "end": 289.75
+  },
+  {
+   "word": "question",
+   "start": 289.773,
+   "end": 290.229
+  },
+  {
+   "word": "is",
+   "start": 290.268,
+   "end": 290.45
+  },
+  {
+   "word": "not",
+   "start": 290.466,
+   "end": 290.694
+  },
+  {
+   "word": "how",
+   "start": 290.713,
+   "end": 290.941
+  },
+  {
+   "word": "long",
+   "start": 290.961,
+   "end": 291.234
+  },
+  {
+   "word": "they",
+   "start": 291.257,
+   "end": 291.531
+  },
+  {
+   "word": "lived.",
+   "start": 291.554,
+   "end": 291.918
+  },
+  {
+   "word": "It",
+   "start": 292.27,
+   "end": 292.435
+  },
+  {
+   "word": "is",
+   "start": 292.449,
+   "end": 292.615
+  },
+  {
+   "word": "why",
+   "start": 292.629,
+   "end": 292.835
+  },
+  {
+   "word": "they",
+   "start": 292.853,
+   "end": 293.101
+  },
+  {
+   "word": "died",
+   "start": 293.122,
+   "end": 293.37
+  },
+  {
+   "word": "at",
+   "start": 293.391,
+   "end": 293.557
+  },
+  {
+   "word": "all.",
+   "start": 293.571,
+   "end": 293.818
+  },
+  {
+   "word": "In",
+   "start": 294.64,
+   "end": 294.805
+  },
+  {
+   "word": "the",
+   "start": 294.82,
+   "end": 295.026
+  },
+  {
+   "word": "beginning,",
+   "start": 295.044,
+   "end": 295.539
+  },
+  {
+   "word": "death",
+   "start": 295.583,
+   "end": 295.872
+  },
+  {
+   "word": "was",
+   "start": 295.897,
+   "end": 296.103
+  },
+  {
+   "word": "not",
+   "start": 296.121,
+   "end": 296.328
+  },
+  {
+   "word": "part",
+   "start": 296.346,
+   "end": 296.593
+  },
+  {
+   "word": "of",
+   "start": 296.615,
+   "end": 296.78
+  },
+  {
+   "word": "the",
+   "start": 296.794,
+   "end": 297.001
+  },
+  {
+   "word": "plan.",
+   "start": 297.019,
+   "end": 297.308
+  },
+  {
+   "word": "Adam",
+   "start": 297.653,
+   "end": 297.921
+  },
+  {
+   "word": "was",
+   "start": 297.944,
+   "end": 298.167
+  },
+  {
+   "word": "made",
+   "start": 298.187,
+   "end": 298.455
+  },
+  {
+   "word": "to",
+   "start": 298.478,
+   "end": 298.657
+  },
+  {
+   "word": "live.",
+   "start": 298.672,
+   "end": 298.985
+  },
+  {
+   "word": "The",
+   "start": 299.332,
+   "end": 299.511
+  },
+  {
+   "word": "tree",
+   "start": 299.527,
+   "end": 299.741
+  },
+  {
+   "word": "of",
+   "start": 299.76,
+   "end": 299.903
+  },
+  {
+   "word": "life",
+   "start": 299.916,
+   "end": 300.131
+  },
+  {
+   "word": "stood",
+   "start": 300.149,
+   "end": 300.4
+  },
+  {
+   "word": "in",
+   "start": 300.422,
+   "end": 300.565
+  },
+  {
+   "word": "the",
+   "start": 300.577,
+   "end": 300.756
+  },
+  {
+   "word": "middle",
+   "start": 300.772,
+   "end": 301.059
+  },
+  {
+   "word": "of",
+   "start": 301.083,
+   "end": 301.227
+  },
+  {
+   "word": "the",
+   "start": 301.239,
+   "end": 301.418
+  },
+  {
+   "word": "garden.",
+   "start": 301.434,
+   "end": 301.756
+  },
+  {
+   "word": "But",
+   "start": 302.104,
+   "end": 302.298
+  },
+  {
+   "word": "when",
+   "start": 302.315,
+   "end": 302.548
+  },
+  {
+   "word": "sin",
+   "start": 302.568,
+   "end": 302.762
+  },
+  {
+   "word": "entered",
+   "start": 302.779,
+   "end": 303.128
+  },
+  {
+   "word": "the",
+   "start": 303.159,
+   "end": 303.353
+  },
+  {
+   "word": "world,",
+   "start": 303.37,
+   "end": 303.68
+  },
+  {
+   "word": "death",
+   "start": 303.707,
+   "end": 303.979
+  },
+  {
+   "word": "came",
+   "start": 304.003,
+   "end": 304.236
+  },
+  {
+   "word": "with",
+   "start": 304.256,
+   "end": 304.489
+  },
+  {
+   "word": "it.",
+   "start": 304.509,
+   "end": 304.703
+  },
+  {
+   "word": "Nine",
+   "start": 305.04,
+   "end": 305.336
+  },
+  {
+   "word": "hundred",
+   "start": 305.362,
+   "end": 305.805
+  },
+  {
+   "word": "and",
+   "start": 305.844,
+   "end": 306.09
+  },
+  {
+   "word": "thirty",
+   "start": 306.112,
+   "end": 306.506
+  },
+  {
+   "word": "years",
+   "start": 306.541,
+   "end": 306.886
+  },
+  {
+   "word": "was",
+   "start": 306.916,
+   "end": 307.162
+  },
+  {
+   "word": "not",
+   "start": 307.184,
+   "end": 307.43
+  },
+  {
+   "word": "a",
+   "start": 307.452,
+   "end": 307.599
+  },
+  {
+   "word": "superpower.",
+   "start": 307.612,
+   "end": 308.253
+  },
+  {
+   "word": "It",
+   "start": 308.629,
+   "end": 308.786
+  },
+  {
+   "word": "was",
+   "start": 308.799,
+   "end": 308.995
+  },
+  {
+   "word": "what",
+   "start": 309.012,
+   "end": 309.247
+  },
+  {
+   "word": "remained",
+   "start": 309.267,
+   "end": 309.658
+  },
+  {
+   "word": "of",
+   "start": 309.692,
+   "end": 309.849
+  },
+  {
+   "word": "something",
+   "start": 309.863,
+   "end": 310.293
+  },
+  {
+   "word": "much",
+   "start": 310.33,
+   "end": 310.565
+  },
+  {
+   "word": "greater.",
+   "start": 310.586,
+   "end": 310.977
+  },
+  {
+   "word": "And",
+   "start": 311.331,
+   "end": 311.53
+  },
+  {
+   "word": "the",
+   "start": 311.547,
+   "end": 311.747
+  },
+  {
+   "word": "Bible",
+   "start": 311.764,
+   "end": 312.043
+  },
+  {
+   "word": "ends",
+   "start": 312.067,
+   "end": 312.306
+  },
+  {
+   "word": "where",
+   "start": 312.327,
+   "end": 312.605
+  },
+  {
+   "word": "it",
+   "start": 312.63,
+   "end": 312.789
+  },
+  {
+   "word": "began.",
+   "start": 312.803,
+   "end": 313.121
+  },
+  {
+   "word": "With",
+   "start": 313.469,
+   "end": 313.714
+  },
+  {
+   "word": "a",
+   "start": 313.735,
+   "end": 313.858
+  },
+  {
+   "word": "tree",
+   "start": 313.868,
+   "end": 314.113
+  },
+  {
+   "word": "of",
+   "start": 314.135,
+   "end": 314.298
+  },
+  {
+   "word": "life.",
+   "start": 314.312,
+   "end": 314.598
+  },
+  {
+   "word": "And",
+   "start": 314.943,
+   "end": 315.171
+  },
+  {
+   "word": "a",
+   "start": 315.19,
+   "end": 315.327
+  },
+  {
+   "word": "promise.",
+   "start": 315.339,
+   "end": 315.794
+  },
+  {
+   "word": "\"Death",
+   "start": 316.154,
+   "end": 316.442
+  },
+  {
+   "word": "shall",
+   "start": 316.467,
+   "end": 316.718
+  },
+  {
+   "word": "be",
+   "start": 316.74,
+   "end": 316.884
+  },
+  {
+   "word": "no",
+   "start": 316.896,
+   "end": 317.04
+  },
+  {
+   "word": "more.\"",
+   "start": 317.052,
+   "end": 317.34
+  },
+  {
+   "word": "Not",
+   "start": 317.685,
+   "end": 317.957
+  },
+  {
+   "word": "nine",
+   "start": 317.98,
+   "end": 318.307
+  },
+  {
+   "word": "hundred",
+   "start": 318.335,
+   "end": 318.824
+  },
+  {
+   "word": "years.",
+   "start": 318.867,
+   "end": 319.301
+  },
+  {
+   "word": "Forever.",
+   "start": 319.339,
+   "end": 319.883
+  }
+ ]
+}
