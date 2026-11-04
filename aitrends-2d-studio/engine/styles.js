@@ -54,5 +54,11 @@ export const STYLES = {
     grade: { contrast: 1.08, sat: 0.85, lift: [0.0, 0.01, 0.05], gamma: [0.95, 0.98, 1.06], gain: [0.95, 0.97, 1.08], vignette: 0.7, grain: 0.065, bloom: 0.6 },
     moods: { dusk: { sky: ['#1c1838', '#4a3060', '#a0485a', '#e8885a'] } },
   },
+  eden: {
+    name: 'Golden Scripture', desc: 'Yellow stick figures with dark features, warm golden grade, rich 3D landscapes.',
+    ink: '#f2c21a', inkFar: '#c4920c', feature: '#1a1206', rimWidth: 4, ui: { ...UI, gold: '#ffd47e', accent: '#ff5a3a', cream: '#fff1dc' },
+    grade: { contrast: 1.05, sat: 1.08, lift: [0.02, 0.012, 0.0], gamma: [1.02, 1.0, 0.97], gain: [1.05, 1.0, 0.92], vignette: 0.5, grain: 0.045, bloom: 0.65 },
+    moods: { night: { sky: ['#0b1028', '#1d2550', '#3a3570'], rim: '#ffe2a8' } },
+  },
 };
 export const STYLE_IDS = Object.keys(STYLES);
