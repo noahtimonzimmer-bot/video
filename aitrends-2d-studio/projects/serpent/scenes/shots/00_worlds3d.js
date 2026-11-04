@@ -2,6 +2,7 @@
 import { E, V, mood, ease, prog, clamp, lerp, text, alpha } from '/engine/core.js';
 import * as UI from '/engine/ui2d.js';
 import * as W from '../world3d.js';
+const toon = (T, st) => { W.toonify(T, st.scene); return st; };
 import { S } from '../lib.js';
 import { verse } from '../creatures.js';
 
@@ -19,16 +20,15 @@ function edenWorld(T) {
   st.add(W.forest(T, 0, 0, 260, 110, { inner: 14, palms: 0.25, terrain: EDEN, seed: 7, maxH: 20 }));
   st.add(W.fruitTree(T, -7, 0, 7, 2.0, { fruit: '#fff2a8', glow: true, leaf: '#4fa04a', seed: 11 }));
   st.add(W.fruitTree(T, 8, 0, -5, 1.8, { fruit: '#c8202a', leaf: '#2f6a2a', seed: 12 }));
-  const halo = T.sphere(5, T.basic('#fff6c8', { transparent: true, opacity: 0.25 }), -7, 8, 7); st.add(halo);
   return st;
 }
 const titleOverlay = (str, sub) => (g, t, info) => { const a = clamp(Math.min((t - 0.2) / 0.5, (info.dur - t) / 0.4)); if (a <= 0) return; g.save(); g.globalAlpha = a; g.fillStyle = 'rgba(0,0,0,.25)'; g.fillRect(0, E.H * 0.36, E.W, 230); text(g, str, E.W / 2, E.H * 0.47, { size: 110, color: '#ffe2a8', font: 'Fredoka', weight: 700, spacing: 10, glow: 40, glowColor: 'rgba(255,140,40,.9)' }); if (sub) text(g, sub, E.W / 2, E.H * 0.57, { size: 36, color: '#fff1dc', font: 'Nunito', weight: 900, spacing: 8 }); g.restore(); };
-S('007', {"in": "dip", "bars": "scope", "sfx": [["impact", 0.1, -6], ["shimmer", 0.3, -10]], "scene": "3D Eden from above, title THE SERPENT IN EDEN"}, { kind: '3d', init: (T) => ({ stage: edenWorld(T) }), draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 6, 0], radius: [150, 135], height: [95, 85], from: -0.4, to: -0.1, dur: info.dur }), overlay: titleOverlay('THE SERPENT IN EDEN', 'GENESIS 3') });
-S('008', {"in": "dip", "amb": ["wind", -26], "scene": "3D: fly over the mountains down into the valley of Eden"}, { kind: '3d', init: (T) => ({ stage: edenWorld(T) }), draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [70, 60, 230], look: [0, 10, 0] }], [info.dur, { pos: [45, 26, 90], look: [0, 6, 0] }]]), overlay: (g, t, info) => verse(g, t, 'GENESIS 2:8', { dur: info.dur }) });
-S('009', {"amb": ["wind", -26], "sfx": [["whoosh", 0.1, -16]], "scene": "3D: skim low along the river"}, { kind: '3d', init: (T) => ({ stage: edenWorld(T) }), draw: (s, t, info, T) => { const u = ease.inOut(t / info.dur); T.dolly(s.stage.camera, t, [[0, { pos: [120, 9, 60], look: [60, 3, 32] }], [info.dur, { pos: [40, 7, 32], look: [0, 3, 0] }]]); } });
-S('010', {"amb": ["wind", -26], "sfx": [["shimmer", 0.2, -14]], "scene": "3D high aerial: the river splits into four"}, { kind: '3d', init: (T) => ({ stage: edenWorld(T) }), draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [0, 260, 60], look: [0, 0, 0], fov: 46 }], [info.dur, { pos: [10, 220, 50], look: [0, 0, 0], fov: 46 }]]), overlay: (g, t, info) => { ['PISHON', 'GIHON', 'TIGRIS', 'EUPHRATES'].forEach((n, i) => { const a = clamp((t - 0.3 - i * 0.3) / 0.3); const p = [[E.W * 0.78, E.H * 0.42], [E.W * 0.3, E.H * 0.85], [E.W * 0.12, E.H * 0.4], [E.W * 0.62, E.H * 0.1]][i]; text(g, n, p[0], p[1], { size: 30, color: '#ffffff', font: 'Nunito', weight: 900, spacing: 4, alpha: a, stroke: 6, strokeColor: 'rgba(0,0,0,.5)' }); }); } });
-S('011', {"amb": ["wind", -26], "sfx": [["shimmer", 0.3, -16]], "scene": "3D: drift through the orchard, fruit trees and palms"}, { kind: '3d', init: (T) => ({ stage: edenWorld(T) }), draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [-60, 6, 40], look: [-20, 5, 10] }], [info.dur, { pos: [-30, 5, 26], look: [0, 6, 4] }]]) });
-S('012', {"amb": ["wind", -26], "sfx": [["riser", 0.2, -14]], "scene": "3D orbit: the two trees in the middle"}, { kind: '3d', init: (T) => ({ stage: edenWorld(T) }), draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 6, 1], radius: [30, 24], height: [10, 8], from: 0.6, to: 1.2, dur: info.dur }) });
+S('007', {"in": "dip", "bars": "scope", "sfx": [["impact", 0.1, -6], ["shimmer", 0.3, -10]], "scene": "3D Eden from above, title THE SERPENT IN EDEN"}, { kind: '3d', init: (T) => ({ stage: toon(T, edenWorld(T)) }), draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 6, 0], radius: [150, 135], height: [95, 85], from: -0.4, to: -0.1, dur: info.dur }), overlay: titleOverlay('THE SERPENT IN EDEN', 'GENESIS 3') });
+S('008', {"in": "dip", "amb": ["wind", -26], "scene": "3D: fly over the mountains down into the valley of Eden"}, { kind: '3d', init: (T) => ({ stage: toon(T, edenWorld(T)) }), draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [70, 60, 230], look: [0, 10, 0] }], [info.dur, { pos: [45, 26, 90], look: [0, 6, 0] }]]), overlay: (g, t, info) => verse(g, t, 'GENESIS 2:8', { dur: info.dur }) });
+S('009', {"amb": ["wind", -26], "sfx": [["whoosh", 0.1, -16]], "scene": "3D: skim low along the river"}, { kind: '3d', init: (T) => ({ stage: toon(T, edenWorld(T)) }), draw: (s, t, info, T) => { const u = ease.inOut(t / info.dur); T.dolly(s.stage.camera, t, [[0, { pos: [120, 9, 60], look: [60, 3, 32] }], [info.dur, { pos: [40, 7, 32], look: [0, 3, 0] }]]); } });
+S('010', {"amb": ["wind", -26], "sfx": [["shimmer", 0.2, -14]], "scene": "3D high aerial: the river splits into four"}, { kind: '3d', init: (T) => ({ stage: toon(T, edenWorld(T)) }), draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [0, 260, 60], look: [0, 0, 0], fov: 46 }], [info.dur, { pos: [10, 220, 50], look: [0, 0, 0], fov: 46 }]]), overlay: (g, t, info) => { ['PISHON', 'GIHON', 'TIGRIS', 'EUPHRATES'].forEach((n, i) => { const a = clamp((t - 0.3 - i * 0.3) / 0.3); const p = [[E.W * 0.78, E.H * 0.42], [E.W * 0.3, E.H * 0.85], [E.W * 0.12, E.H * 0.4], [E.W * 0.62, E.H * 0.1]][i]; text(g, n, p[0], p[1], { size: 30, color: '#ffffff', font: 'Nunito', weight: 900, spacing: 4, alpha: a, stroke: 6, strokeColor: 'rgba(0,0,0,.5)' }); }); } });
+S('011', {"amb": ["wind", -26], "sfx": [["shimmer", 0.3, -16]], "scene": "3D: drift through the orchard, fruit trees and palms"}, { kind: '3d', init: (T) => ({ stage: toon(T, edenWorld(T)) }), draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [-60, 6, 40], look: [-20, 5, 10] }], [info.dur, { pos: [-30, 5, 26], look: [0, 6, 4] }]]) });
+S('012', {"amb": ["wind", -26], "sfx": [["riser", 0.2, -14]], "scene": "3D orbit: the two trees in the middle"}, { kind: '3d', init: (T) => ({ stage: toon(T, edenWorld(T)) }), draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 6, 1], radius: [30, 24], height: [10, 8], from: 0.6, to: 1.2, dur: info.dur }) });
 
 // ---------- EGYPT (Joseph's cup) ----------
 const EGY = { seed: 41, mount: 30, flat: 160, rough: 0.5, desert: true, sand: '#e0c08a', snowLine: 999 };
@@ -43,7 +43,7 @@ S('035', {"in": "dip", "amb": ["wind", -24], "scene": "3D Egypt: the Nile, palms
   st.add(pyramid(T, -60, -190, 40), pyramid(T, 20, -230, 30), pyramid(T, -130, -250, 24));
   for (let i = 0; i < 40; i++) st.add(W.palm(T, -200 + i * 10 + (i % 3) * 3, 0, 14 + (i % 2) * 6 * (i % 4 ? 1 : -4), 0.9, { lean: (i % 5 - 2) * 0.1 }));
   st.add(W.ship(T, 30, 0, 0.1, { sail: '#f2e6c8' }));
-  return { stage: st };
+  return { stage: toon(T, st) };
 }, draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [130, 30, 70], look: [0, 6, -60] }], [info.dur, { pos: [90, 24, 50], look: [-20, 6, -80] }]]), overlay: (g, t, info) => verse(g, t, 'GENESIS 44:5', { dur: info.dur }) });
 
 // ---------- DESERT CAMP (Numbers 21) ----------
@@ -54,7 +54,7 @@ S('047', {"in": "dip", "amb": ["wind", -20], "sfx": [["wind", 0.2, -12]], "scene
   const { THREE } = T; const r = (i) => (Math.sin(i * 91.7) * 43758.5) % 1;
   for (let i = 0; i < 160; i++) { const a = i * 2.39996, d = 8 + Math.sqrt(i) * 5.5, x = Math.cos(a) * d, z = Math.sin(a) * d; st.add(W.tent(T, x, W.heightAt(x, z, DES) - 0.2, z, 0.8 + Math.abs(r(i)) * 0.4, ['#a87a4a', '#8a5a3a', '#c89a6a', '#e8d8b8', '#6a4a3a'][i % 5])); }
   st.add(T.cyl(0.3, 0.35, 14, T.mat('#6a4a2a'), 0, 7, 0, 8)); const coil = T.sphere(1.4, T.mat('#c8843a', { metalness: 0.7, roughness: 0.3, emissive: '#8a4a10', emissiveIntensity: 0.4 }), 0, 13.5, 0); st.add(coil);
-  return { stage: st };
+  return { stage: toon(T, st) };
 }, draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 6, 0], radius: [110, 90], height: [40, 30], from: 2.0, to: 2.5, dur: info.dur }), overlay: (g, t, info) => verse(g, t, 'NUMBERS 21:6', { dur: info.dur }) });
 
 // ---------- TYRE (island city, causeway bridge, ships) ----------
@@ -69,7 +69,7 @@ S('059', {"in": "dip", "amb": ["wind", -22], "sfx": [["whoosh", 0.1, -14]], "sce
   st.add(W.ziggurat(T, 6, 3.6, -26, 0.5, '#d8b08a'));
   for (let i = 0; i < 6; i++) st.add(W.bridge(T, -80 - i * 28, -2.5, -20, 28, 0, { arches: 4, color: '#c8b088' }));
   [[60, 30, 0.4], [80, -60, 1.2], [40, 60, 2.0], [-40, 60, -0.3], [110, 10, 0.8], [70, 80, 2.4]].forEach(([x, z, r]) => st.add(W.ship(T, x, z, r, { sail: ['#f2e6c8', '#b84a3a', '#6a3a9a'][Math.abs(Math.round(x)) % 3] })));
-  return { stage: st };
+  return { stage: toon(T, st) };
 }, draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [-20, 4, -20], radius: [170, 140], height: [60, 45], from: 0.9, to: 1.35, dur: info.dur }), overlay: (g, t, info) => verse(g, t, 'EZEKIEL 28', { dur: info.dur }) });
 
 // ---------- THE HOLY MOUNTAIN OF GOD ----------
@@ -81,7 +81,7 @@ S('065', {"amb": ["wind", -22], "sfx": [["shimmer", 0.2, -10], ["riser", 0.4, -1
   st.add(W.forest(T, 0, 0, 120, 260, { inner: 140, palms: 0, height: hf, maxH: 40, seed: 5 }));
   const { THREE } = T; const beam = T.shaft(30, 400, '#fff6d8', 0.12); beam.position.set(0, 300, 0); st.add(beam);
   st.add(T.sphere(10, T.basic('#ffffff', { transparent: true, opacity: 0.9 }), 0, 158, 0)); st.add(T.sphere(30, T.basic('#fff2c8', { transparent: true, opacity: 0.2 }), 0, 158, 0));
-  return { stage: st };
+  return { stage: toon(T, st) };
 }, draw: (s, t, info, T) => T.dolly(s.stage.camera, t, [[0, { pos: [260, 60, 300], look: [0, 110, 0], fov: 38 }], [info.dur, { pos: [200, 80, 230], look: [0, 130, 0], fov: 38 }]]) });
 
 // ---------- A KINGDOM: fields, bridge, houses (Psalm 72) ----------
@@ -95,7 +95,7 @@ S('079', {"in": "dip", "amb": ["wind", -24], "scene": "3D kingdom: river, stone 
   st.add(W.village(T, -10, -40, 30, { radius: 30, terrain: VIL, seed: 3 }));
   st.add(W.fields(T, 25, 15, 7, 4, 14, { seed: 4 })); st.add(W.fields(T, -120, 14, 6, 3, 14, { seed: 9 })); st.add(W.fields(T, 40, -120, 5, 3, 14, { seed: 12 }));
   st.add(W.ziggurat(T, -60, 0, -90, 1.1)); st.add(W.forest(T, 40, -60, 50, 40, { palms: 0.7, terrain: VIL, seed: 3 }));
-  return { stage: st };
+  return { stage: toon(T, st) };
 }, draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 2, -20], radius: [100, 80], height: [40, 30], from: 0.3, to: 0.75, dur: info.dur }), overlay: (g, t, info) => verse(g, t, 'PSALM 72:9', { dur: info.dur }) });
 
 // ---------- PATMOS ----------
@@ -106,7 +106,7 @@ S('086', {"in": "dip", "amb": ["wind", -22], "sfx": [["wind", 0.1, -14]], "scene
   st.add(W.terrain(T, { size: 1200, seg: 260, height: hf, grass: '#7a8a4a', rock: '#8a7a6a', seed: 81 }));
   st.add(W.water(T, 1400, 1400, 0.2, '#2a4a7a'));
   st.add(W.village(T, 30, 40, 10, { radius: 14, height: hf, seed: 2, lit: true, color: '#f2ece0' }));
-  return { stage: st };
+  return { stage: toon(T, st) };
 }, draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 10, 0], radius: [230, 200], height: [55, 45], from: -0.6, to: -0.2, dur: info.dur }), overlay: (g, t, info) => verse(g, t, 'REVELATION 12:9', { dur: info.dur }) });
 
 // ---------- JERUSALEM ----------
@@ -119,5 +119,5 @@ S('112', {"in": "dip", "amb": ["wind", -24], "sfx": [["shimmer", 0.2, -14]], "sc
   st.add(W.village(T, 0, 0, 70, { radius: 52, height: hf, seed: 14, color: '#e8dcc0', lit: true }));
   st.add(T.box(26, 12, 16, T.mat('#f2ead8', { flat: true }), -10, 28, -20), T.box(10, 22, 10, T.mat('#f2ead8'), -10, 33, -20));
   st.add(W.forest(T, 0, 0, 90, 80, { inner: 70, palms: 0.2, height: hf, seed: 8, maxH: 40 }));
-  return { stage: st };
+  return { stage: toon(T, st) };
 }, draw: (s, t, info, T) => T.orbit(s.stage.camera, t, { target: [0, 22, 0], radius: [170, 140], height: [70, 55], from: 2.6, to: 3.0, dur: info.dur }), overlay: (g, t, info) => verse(g, t, 'JOHN 3:14', { dur: info.dur }) });

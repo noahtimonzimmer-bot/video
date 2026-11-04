@@ -24,16 +24,16 @@ export function terrain(T, o = {}) {
     c.offsetHSL(0, 0, jitter); cols.push(c.r, c.g, c.b);
   }
   geo.setAttribute('color', new THREE.Float32BufferAttribute(cols, 3)); geo.computeVertexNormals();
-  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: 0.95 })); m.receiveShadow = true; m.castShadow = true; return m;
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ vertexColors: true, flatShading: true, roughness: 0.95 })); m.receiveShadow = true; m.castShadow = true; m.userData.noOutline = true; return m;
 }
 // water surface (slightly emissive so it glows under bloom)
-export function water(T, w, d, y = 0.15, color = '#3a8cc8') { const { THREE } = T; const m = new THREE.Mesh(new THREE.PlaneGeometry(w, d, 1, 1), new THREE.MeshStandardMaterial({ color, roughness: 0.15, metalness: 0.4, emissive: color, emissiveIntensity: 0.25, transparent: true, opacity: 0.92 })); m.rotation.x = -Math.PI / 2; m.position.y = y; m.receiveShadow = true; return m; }
+export function water(T, w, d, y = 0.15, color = '#3a8cc8') { const { THREE } = T; const m = new THREE.Mesh(new THREE.PlaneGeometry(w, d, 1, 1), new THREE.MeshStandardMaterial({ color, roughness: 0.15, metalness: 0.4, emissive: color, emissiveIntensity: 0.25, transparent: true, opacity: 0.92 })); m.rotation.x = -Math.PI / 2; m.position.y = y; m.receiveShadow = true; m.userData.noOutline = true; return m; }
 // river ribbon along a polyline [[x,z],...] carved slightly above terrain
 export function river(T, pts, width = 8, color = '#3f95d0', o = {}) {
   const { THREE } = T, v = [], idx = []; const hf = o.height || ((x, z) => heightAt(x, z, o));
   for (let i = 0; i < pts.length; i++) { const [x, z] = pts[i], [x2, z2] = pts[Math.min(pts.length - 1, i + 1)], [x0, z0] = pts[Math.max(0, i - 1)]; let dx = x2 - x0, dz = z2 - z0; const L = Math.hypot(dx, dz) || 1; const nx = -dz / L * width / 2, nz = dx / L * width / 2; const y = Math.max(hf(x, z), 0) + 0.35; v.push(x + nx, y, z + nz, x - nx, y, z - nz); if (i) { const a = (i - 1) * 2; idx.push(a, a + 1, a + 2, a + 1, a + 3, a + 2); } }
   const geo = new THREE.BufferGeometry(); geo.setAttribute('position', new THREE.Float32BufferAttribute(v, 3)); geo.setIndex(idx); geo.computeVertexNormals();
-  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color, emissive: color, emissiveIntensity: 0.35, roughness: 0.2, metalness: 0.3, side: THREE.DoubleSide })); m.receiveShadow = true; return m;
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color, emissive: color, emissiveIntensity: 0.35, roughness: 0.2, metalness: 0.3, side: THREE.DoubleSide })); m.receiveShadow = true; m.userData.noOutline = true; return m;
 }
 // patchwork fields with furrows (canvas texture), laid on a flat area
 export function fields(T, x0, z0, cols = 4, rows = 3, cell = 14, o = {}) {
@@ -41,7 +41,7 @@ export function fields(T, x0, z0, cols = 4, rows = 3, cell = 14, o = {}) {
   for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) {
     const col = palette[Math.floor(r() * palette.length)], rot = r() < 0.5;
     const tex = T.canvasTex(128, 128, (c, W, H) => { c.fillStyle = col; c.fillRect(0, 0, W, H); c.strokeStyle = 'rgba(0,0,0,.18)'; c.lineWidth = 3; for (let k = 4; k < W; k += 10) { c.beginPath(); rot ? (c.moveTo(k, 0), c.lineTo(k, H)) : (c.moveTo(0, k), c.lineTo(W, k)); c.stroke(); } });
-    const p = T.plane(cell - 0.8, cell - 0.8, T.mat('#ffffff', { map: tex })); p.rotation.x = -Math.PI / 2; p.position.set(x0 + i * cell, (o.y ?? 0.2) + r() * 0.05, z0 + j * cell); g.add(p);
+    const p = T.plane(cell - 0.8, cell - 0.8, T.mat('#ffffff', { map: tex })); p.userData.noOutline = true; p.rotation.x = -Math.PI / 2; p.position.set(x0 + i * cell, (o.y ?? 0.2) + r() * 0.05, z0 + j * cell); g.add(p);
     if (r() < 0.35) for (let k = 0; k < 6; k++) { const s = T.cone(0.35, 1.0, shade(col, -0.2), x0 + i * cell - cell / 3 + k * 1.6, (o.y ?? 0.2) + 0.5, z0 + j * cell + (r() - 0.5) * 6, 6); g.add(s); }
   }
   return g;
@@ -80,3 +80,48 @@ export function ship(T, x, z, rot = 0, o = {}) { const { THREE } = T, g = new TH
 export function cityWall(T, cx, cz, rad = 40, o = {}) { const { THREE } = T, g = new THREE.Group(), stone = T.mat(o.color || '#c8b088', { flat: true }); const n = 22; for (let i = 0; i < n; i++) { const a = i / n * Math.PI * 2, a2 = (i + 1) / n * Math.PI * 2; const x = cx + Math.cos(a) * rad, z = cz + Math.sin(a) * rad, x2 = cx + Math.cos(a2) * rad, z2 = cz + Math.sin(a2) * rad; const L = Math.hypot(x2 - x, z2 - z); const w = T.box(L, 6, 1.6, stone, (x + x2) / 2, 3 + (o.y || 0), (z + z2) / 2); w.rotation.y = -Math.atan2(z2 - z, x2 - x); g.add(w); if (i % 3 === 0) g.add(T.box(3.2, 9, 3.2, stone, x, 4.5 + (o.y || 0), z)); } return g; }
 // desert tents
 export function tent(T, x, y, z, s = 1, col = '#a87a4a') { const { THREE } = T; const m = new THREE.Mesh(new THREE.ConeGeometry(2.6 * s, 2.4 * s, 4), T.mat(col, { flat: true })); m.position.set(x, y + 1.2 * s, z); m.rotation.y = Math.PI / 4; m.castShadow = true; return m; }
+
+// ---------- toon look: makes any 3D stage read like the 2D style ----------
+// stepped (cel) lighting via MeshToonMaterial + a 3-tone gradient, dark inverted-hull outlines on objects
+// (not on terrain/water), and flat bright colours. Call once at the end of init: toonify(T, st.scene).
+let _ramp = null;
+export function toonify(T, scene, o = {}) {
+  const { THREE } = T, outline = o.outline ?? 0.06, ink = new THREE.Color(o.ink || '#2a1a10');
+  if (!_ramp) { const d = new Uint8Array([90, 170, 255]); _ramp = new THREE.DataTexture(d, 3, 1, THREE.RedFormat); _ramp.minFilter = _ramp.magFilter = THREE.NearestFilter; _ramp.needsUpdate = true; }
+  const hullMat = new THREE.MeshBasicMaterial({ color: ink, side: THREE.BackSide });
+  const toMesh = []; scene.traverse((m) => { if (m.isMesh) toMesh.push(m); });
+  for (const m of toMesh) {
+    const old = m.material; if (!old || Array.isArray(old) || !old.isMeshStandardMaterial) continue;
+    const tm = new THREE.MeshToonMaterial({ color: old.color, map: old.map, vertexColors: old.vertexColors, gradientMap: _ramp, emissive: old.emissive, emissiveIntensity: old.emissiveIntensity * 0.6, emissiveMap: old.emissiveMap, transparent: old.transparent, opacity: old.opacity, side: old.side });
+    m.material = tm; old.dispose();
+    if (outline && !m.userData.noOutline && m.geometry) {
+      const big = m.geometry.boundingSphere || (m.geometry.computeBoundingSphere(), m.geometry.boundingSphere);
+      if (big && big.radius < (o.maxOutline || 40)) { const h = new THREE.Mesh(m.geometry, hullMat); h.scale.setScalar(1 + outline / Math.max(0.3, big.radius)); h.castShadow = false; h.receiveShadow = false; m.add(h); }
+    }
+  }
+}
+
+// ---------- painted mixed 2D/3D: billboards + hand-painted textures ----------
+// sprite: a 2D drawing (drawn by fn(g, W, H) on a canvas) standing in the 3D world, bottom-centre anchored,
+// always facing the camera. Used for clouds, trees, bushes, flowers and every character.
+const _spriteCache = new Map();
+export function sprite(T, key, w, h, fn, o = {}) {
+  const { THREE } = T; let tex = _spriteCache.get(key);
+  if (!tex) { const px = o.px || 256; tex = T.canvasTex(px, Math.round(px * h / w), (g, W, H) => fn(g, W, H)); _spriteCache.set(key, tex); }
+  const m = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, alphaTest: 0.08, depthWrite: true, fog: o.fog ?? true }));
+  m.center.set(0.5, o.cy ?? 0); m.scale.set(w, h, 1); m.userData.noOutline = true; return m;
+}
+// painted textures (repeatable)
+export const grassTex = (T, base = '#7ab84a', rep = [40, 40], seed = 1) => T.canvasTex(512, 512, (g, W, H) => { g.fillStyle = base; g.fillRect(0, 0, W, H); const r = rng(seed); for (let i = 0; i < 2600; i++) { const x = r() * W, y = r() * H, h = 4 + r() * 9; g.strokeStyle = ['#5a9a32', '#8ac85a', '#6aa83a', '#4a8a2a', '#9ad86a'][Math.floor(r() * 5)]; g.lineWidth = 1.5; g.beginPath(); g.moveTo(x, y); g.lineTo(x + (r() - 0.5) * 4, y - h); g.stroke(); } for (let i = 0; i < 60; i++) { g.fillStyle = ['#e04a3a', '#ffffff', '#4a7ae0', '#ffd84a'][i % 4]; g.beginPath(); g.arc(r() * W, r() * H, 2 + r() * 2, 0, 7); g.fill(); } }, rep);
+export const fieldTex = (T, base, rows = 'h', seed = 2) => T.canvasTex(256, 256, (g, W, H) => { g.fillStyle = base; g.fillRect(0, 0, W, H); const r = rng(seed); for (let k = 6; k < W; k += 14) { g.strokeStyle = shade(base, -0.18); g.lineWidth = 5; g.beginPath(); rows === 'h' ? (g.moveTo(0, k), g.lineTo(W, k)) : (g.moveTo(k, 0), g.lineTo(k, H)); g.stroke(); g.strokeStyle = shade(base, 0.15); g.lineWidth = 2; g.beginPath(); rows === 'h' ? (g.moveTo(0, k + 5), g.lineTo(W, k + 5)) : (g.moveTo(k + 5, 0), g.lineTo(k + 5, H)); g.stroke(); } for (let i = 0; i < 300; i++) { g.fillStyle = shade(base, (r() - 0.5) * 0.3); g.fillRect(r() * W, r() * H, 3, 3); } g.strokeStyle = '#5a3a22'; g.lineWidth = 6; g.strokeRect(0, 0, W, H); });
+export const waterTex = (T, rep = [4, 40]) => T.canvasTex(256, 256, (g, W, H) => { g.fillStyle = '#7ac8e8'; g.fillRect(0, 0, W, H); const r = rng(4); for (let i = 0; i < 80; i++) { const x = r() * W, y = r() * H, l = 10 + r() * 30; g.strokeStyle = r() < 0.5 ? 'rgba(255,255,255,.6)' : 'rgba(60,140,190,.5)'; g.lineWidth = 2.5; g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(x + 4, y + l / 2, x, y + l); g.stroke(); } }, rep);
+export const stoneTex = (T, base = '#d8c4a0', rep = [4, 1]) => T.canvasTex(512, 256, (g, W, H) => { g.fillStyle = base; g.fillRect(0, 0, W, H); const r = rng(6); for (let row = 0; row < 8; row++) { const y = row * 32, off = row % 2 ? 24 : 0; for (let x = -off; x < W; x += 48) { g.fillStyle = shade(base, (r() - 0.5) * 0.18); g.fillRect(x + 2, y + 2, 44, 28); g.strokeStyle = '#6a4a32'; g.lineWidth = 2.5; g.strokeRect(x + 2, y + 2, 44, 28); g.fillStyle = 'rgba(255,255,255,.18)'; g.fillRect(x + 4, y + 4, 40, 4); } } }, rep);
+export const plasterTex = (T, base = '#ead6b0') => T.canvasTex(256, 256, (g, W, H) => { g.fillStyle = base; g.fillRect(0, 0, W, H); const r = rng(9); for (let i = 0; i < 40; i++) { g.fillStyle = shade(base, -0.06 - r() * 0.06); g.beginPath(); g.ellipse(r() * W, r() * H, 6 + r() * 14, 3 + r() * 6, r(), 0, 7); g.fill(); } g.strokeStyle = '#6a4a32'; g.lineWidth = 6; g.strokeRect(0, 0, W, H); });
+// soft painted lighting (Lambert) instead of hard toon steps; outlines stay on objects
+export function paintify(T, scene, o = {}) {
+  const { THREE } = T, ink = new THREE.Color(o.ink || '#3a2a22'), hullMat = new THREE.MeshBasicMaterial({ color: ink, side: THREE.BackSide });
+  const list = []; scene.traverse((m) => { if (m.isMesh) list.push(m); });
+  for (const m of list) { const old = m.material; if (!old || Array.isArray(old) || !old.isMeshStandardMaterial) continue;
+    m.material = new THREE.MeshLambertMaterial({ color: old.color, map: old.map, vertexColors: old.vertexColors, emissive: old.emissive, emissiveIntensity: old.emissiveIntensity * 0.5, transparent: old.transparent, opacity: old.opacity, side: old.side }); old.dispose();
+    if (!m.userData.noOutline && o.outline !== false) { m.geometry.computeBoundingSphere(); const R = m.geometry.boundingSphere.radius; if (R < 40) { const h = new THREE.Mesh(m.geometry, hullMat); h.scale.setScalar(1 + 0.12 / Math.max(0.4, R)); h.castShadow = false; m.add(h); } } }
+}
