@@ -187,3 +187,21 @@ Sources:
 - [Wikipedia – Siege of Weinsberg](https://en.wikipedia.org/wiki/Siege_of_Weinsberg)
 - [Facts A Day – Kanizsa 1601](https://factsaday.com/en/fact/4920/in-1601-a-vastly-outnumbered-ottoman-force-used-clever-ruses-to-defeat-the)
 - [Wikipedia – Ruse de guerre](https://en.wikipedia.org/wiki/Ruse_de_guerre)
+---
+
+## Schlaue Moves aus der Geschichte (Recherche 2026-11-05) — alle ⬜
+
+| # | Titel (EN) | Clever Move | Lektion | Format | Vorsicht |
+|---|---|---|---|---|---|
+| 1 | He Faked His Army Shrinking… to Win | Sun Bin lässt jeden Tag weniger Kochfeuer machen (342 v. Chr., Maling); Pang Juan jagt die "fliehende" Armee in den Hinterhalt | Gegner sieht, was er sehen will | Short | Feuerzahlen je Quelle verschieden; Baum-Inschrift = Folklore |
+| 2 | He Sailed Warships Over a Mountain | Mehmed II. zieht ~70–80 Schiffe auf gefetteten Stämmen über den Galata-Hügel, um die Kette am Goldenen Horn zu umgehen (1453) | Wenn der Weg versperrt ist, ändere den Weg | Short/Lang | Schiffszahl schwankt |
+| 3 | Hannibal Escaped a Trap With 2,000 Burning Cows | Fackeln an Rinderhörnern bei Nacht, Römer halten es für die Armee (217 v. Chr.) | Täuschung durch Licht/Lärm | Short (Rom-Kanal) | Ablauf variiert leicht |
+| 4 | The Pirate Who Retired Rich (and Unpunished) | Ching Shih verhandelt 1810 Amnestie, behält Beute und Schiffe | Verhandeln aus Stärke | Short | Datum Jan/Apr 1810 uneinheitlich |
+| 5 | The Man Who Sold the Eiffel Tower… Twice | Victor Lustig "verkauft" ihn 1925 als Schrott an Händler | Wie Betrüger Autorität faken | Short | Details/Dialoge ausgeschmückt |
+| 6 | They Paid for Rat Tails… and Created MORE Rats | Kopfgeld in Hanoi 1902 → Ratten ohne Schwanz, Rattenfarmen | Fehlanreize ("Cobra-Effekt") | Short | Kobra-Indien-Version unbelegt → Hanoi nehmen |
+| 7 | He Lied to the Enemy King… and Saved Greece | Themistokles schickt Sikinnos zu Xerxes ("Griechen fliehen!") → Perser in die Meerenge von Salamis (480 v. Chr.) | Lass den Gegner zu dir kommen | Short/Lang | 2. Botschaft evtl. Legende |
+| 8 | He Took a City by Walking Through a Lake | Scipio: Fischer verraten flache Lagune; 500 Mann waten rein, während Hauptangriff am Tor (209 v. Chr.); "Neptun hat's versprochen" | Lokales Wissen + Ablenkung + Moral | Short (Rom-Kanal) | Ebbe vs. Wind umstritten |
+| 9 | He Drained a River to Conquer Babylon | Cyrus leitet den Euphrat um, Soldaten gehen durchs Flussbett, während die Stadt feiert (539 v. Chr.) | Schwachstelle = was alle für sicher halten | Short/Lang (auch Bibel: Daniel 5!) | Nur Herodot/Xenophon; Babylonische Quellen: kampflos |
+| 10 | A Dead Man Fooled Hitler | Operation Mincemeat 1943: Leiche mit falschen Plänen → Deutsche verlegen Truppen weg von Sizilien | Details machen Lügen glaubwürdig | Lang (gut belegt) | gut bekannt → eigener Twist nötig |
+| 11 | The Army of Balloons | Ghost Army 1944: aufblasbare Panzer, Fake-Funk, Lautsprecher-Lärm | Täuschung mit allen Sinnen | Short/Lang | gut belegt |
+| 12 | How a Man Measured Earth With a Stick | Eratosthenes: Schattenwinkel Syene/Alexandria → Erdumfang (~240 v. Chr.) | Schlau denken statt teure Technik | Short (lernen!) | Genauigkeit hängt von Stadion-Länge ab |
