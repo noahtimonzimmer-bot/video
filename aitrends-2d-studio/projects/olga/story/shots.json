@@ -1,0 +1,703 @@
+{
+ "title": "Olga's Burning Birds",
+ "duration": 63.775,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 3.737,
+   "line": "She asked for three birds from every house...",
+   "scene": "night: hundreds of birds with burning bundles stream over a palisade towards a sleeping wooden town on a rock",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/wings.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/sizzle.wav",
+     "gain": -10
+    },
+    {
+     "at": 0.05,
+     "name": "input/sfx/hit.wav",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c001",
+   "start": 3.737,
+   "end": 6.313,
+   "line": "and burned an entire city with them.",
+   "scene": "the whole town on the rock erupts in flames at once",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/boom.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.1,
+     "name": "input/sfx/fire.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "input/sfx/screams.wav",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c002",
+   "start": 6.313,
+   "end": 8.035,
+   "line": "Kiev, nine forty-five.",
+   "scene": "Kiev 945 by day: a palisaded hill town with the wooden terem of the prince above the wide Dnieper, longboats",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/horn.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "input/sfx/bell.wav",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c003",
+   "start": 8.035,
+   "end": 10.875,
+   "line": "A tribe called the Drevlians murders Prince Igor.",
+   "scene": "a birch forest: Drevlian warriors in fur hats encircle Prince Igor",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "input/sfx/sword.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/hit.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "c004",
+   "start": 10.875,
+   "end": 12.673,
+   "line": "Then they make a fatal mistake.",
+   "scene": "close-up: Mal, prince of the Drevlians, grins \u2014 he will marry the widow",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/laugh.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.9,
+     "name": "input/sfx/thud.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c005",
+   "start": 12.673,
+   "end": 15.281,
+   "line": "They send men to marry his widow... Olga.",
+   "scene": "a longboat full of Drevlian envoys rows up the Dnieper towards Kiev; Olga watches from the bank",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/oars.wav",
+     "gain": -8
+    },
+    {
+     "at": 1.2,
+     "name": "input/sfx/horn.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c006",
+   "start": 15.281,
+   "end": 16.806,
+   "line": "She greets them with honor.",
+   "scene": "Olga's log hall: she smiles graciously from her throne as the Drevlian envoys bow",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/door.wav",
+     "gain": -10
+    },
+    {
+     "at": 0.0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -22
+    }
+   ]
+  },
+  {
+   "id": "c007",
+   "start": 16.806,
+   "end": 19.43,
+   "line": "And buries them alive... in their own boat.",
+   "scene": "the envoys still sit in their boat \u2014 lowered into a deep pit; Olga's men shovel earth over them",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/dig.wav",
+     "gain": -4
+    },
+    {
+     "at": 1.0,
+     "name": "input/sfx/dig.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/screams.wav",
+     "gain": -14
+    },
+    {
+     "at": 1.8,
+     "name": "input/sfx/thud.wav",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c008",
+   "start": 19.43,
+   "end": 21.75,
+   "line": "She asks for their noblest men next.",
+   "scene": "close-up: Olga, sweetly: send me your noblest men",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/quill.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c009",
+   "start": 21.75,
+   "end": 24.737,
+   "line": "They are led to a bathhouse. The doors are locked.",
+   "scene": "dusk: Drevlian nobles step into a steaming log bathhouse; a soldier slams the bar across the door",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/steam.wav",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "input/sfx/door.wav",
+     "gain": -2
+    },
+    {
+     "at": 1.75,
+     "name": "input/sfx/thud.wav",
+     "gain": -2
+    }
+   ]
+  },
+  {
+   "id": "c010",
+   "start": 24.737,
+   "end": 25.982,
+   "line": "Then... the fire.",
+   "scene": "night: the bathhouse burns, flames climbing the straw roof",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/fire.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/screams.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c011",
+   "start": 25.982,
+   "end": 29.635,
+   "line": "At her husband's funeral feast, the Drevlians drink...",
+   "scene": "dusk at Igor's burial mound: long tables, Drevlians drinking and laughing, Olga's men pouring mead",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "input/sfx/laugh.wav",
+     "gain": -10
+    },
+    {
+     "at": 1.4,
+     "name": "input/sfx/cups.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c012",
+   "start": 29.635,
+   "end": 31.788,
+   "line": "until her soldiers draw their swords.",
+   "scene": "Olga's soldiers draw their swords over the drunken Drevlians; red flash",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/sword.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/sword.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.5,
+     "name": "input/sfx/boom.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/screams.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c013",
+   "start": 31.788,
+   "end": 34.508,
+   "line": "Then she besieges their city, Iskorosten.",
+   "scene": "aerial: Iskorosten on its granite rocks by the river, ringed by Olga's siege camp \u2014 tents, banners, campfires",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/drum.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.7,
+     "name": "input/sfx/drum.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.2,
+     "name": "input/sfx/horn.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c014",
+   "start": 34.508,
+   "end": 36.78,
+   "line": "For a whole year... it will not fall.",
+   "scene": "the same siege in winter snow; a calendar flips through a whole year",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/wind.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/tick.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c015",
+   "start": 36.78,
+   "end": 38.541,
+   "line": "So Olga makes an offer.",
+   "scene": "outside Olga's red tent at the camp: an envoy of Iskorosten kneels; the town on its rock behind",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/door.wav",
+     "gain": -14
+    },
+    {
+     "at": 0.0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "c016",
+   "start": 38.541,
+   "end": 41.66,
+   "line": "\"I want no more revenge. Only a small gift.\"",
+   "scene": "close-up: Olga, gentle, almost kind: I want no more revenge",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/choir.wav",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c017",
+   "start": 41.66,
+   "end": 45.062,
+   "line": "\"Three pigeons and three sparrows... from every house.\"",
+   "scene": "parchment card: three pigeons and three sparrows pop in one by one \u2014 x EVERY HOUSE",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "input/sfx/coo.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/chirp.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/pop.wav",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "input/sfx/pop.wav",
+     "gain": -12
+    },
+    {
+     "at": 1.2,
+     "name": "input/sfx/pop.wav",
+     "gain": -12
+    },
+    {
+     "at": 1.7,
+     "name": "input/sfx/pop.wav",
+     "gain": -12
+    },
+    {
+     "at": 2.1,
+     "name": "input/sfx/pop.wav",
+     "gain": -12
+    },
+    {
+     "at": 2.5,
+     "name": "input/sfx/pop.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c018",
+   "start": 45.062,
+   "end": 46.784,
+   "line": "The city laughs. And pays.",
+   "scene": "at the town gate townsfolk laugh and hand over wicker cages of birds to Olga's soldiers",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/laugh.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "input/sfx/coo.wav",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c019",
+   "start": 46.784,
+   "end": 50.195,
+   "line": "That night, her men tie burning sulfur to every bird...",
+   "scene": "night in the camp: soldiers at campfires tie smoking sulfur bundles to the birds' legs; cages everywhere",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/fire.wav",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "input/sfx/sizzle.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "input/sfx/coo.wav",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "input/sfx/sizzle.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c020",
+   "start": 50.195,
+   "end": 51.42,
+   "line": "and set them free.",
+   "scene": "the release: a cloud of burning birds explodes upward from the camp into the night",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/wings.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.1,
+     "name": "input/sfx/whoosh.wav",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c021",
+   "start": 51.42,
+   "end": 55.208,
+   "line": "The birds fly home. Back to their nests. Under the straw roofs.",
+   "scene": "inside the town: the birds fly home and dive into their nests under the straw roofs; first flames lick up",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/wings.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.4,
+     "name": "input/sfx/sizzle.wav",
+     "gain": -6
+    },
+    {
+     "at": 2.4,
+     "name": "input/sfx/fire.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c022",
+   "start": 55.208,
+   "end": 57.33,
+   "line": "Every house catches fire at once.",
+   "scene": "aerial: every house in Iskorosten catches fire at once",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/boom.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.0,
+     "name": "input/sfx/fire.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.3,
+     "name": "input/sfx/screams.wav",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "input/sfx/bell.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c023",
+   "start": 57.33,
+   "end": 59.23,
+   "line": "The woman who did this... was later declared a saint.",
+   "scene": "Olga stands on a rise in front of the burning city, fire light on her face",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/fire.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c023b",
+   "start": 59.23,
+   "end": 63.775,
+   "line": "",
+   "scene": "a golden icon: Saint Olga with a halo \u2014 the flames reflected behind her",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/choir.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/bell.wav",
+     "gain": -8
+    }
+   ]
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

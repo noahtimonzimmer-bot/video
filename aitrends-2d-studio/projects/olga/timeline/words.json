@@ -1,0 +1,855 @@
+{
+ "source": "script:script.json",
+ "words": [
+  {
+   "word": "She",
+   "start": 1.0,
+   "end": 1.197
+  },
+  {
+   "word": "asked",
+   "start": 1.214,
+   "end": 1.489
+  },
+  {
+   "word": "for",
+   "start": 1.513,
+   "end": 1.709
+  },
+  {
+   "word": "three",
+   "start": 1.726,
+   "end": 2.001
+  },
+  {
+   "word": "birds",
+   "start": 2.025,
+   "end": 2.3
+  },
+  {
+   "word": "from",
+   "start": 2.324,
+   "end": 2.56
+  },
+  {
+   "word": "every",
+   "start": 2.581,
+   "end": 2.856
+  },
+  {
+   "word": "house...",
+   "start": 2.88,
+   "end": 3.273
+  },
+  {
+   "word": "and",
+   "start": 3.857,
+   "end": 4.043
+  },
+  {
+   "word": "burned",
+   "start": 4.059,
+   "end": 4.356
+  },
+  {
+   "word": "an",
+   "start": 4.382,
+   "end": 4.53
+  },
+  {
+   "word": "entire",
+   "start": 4.543,
+   "end": 4.84
+  },
+  {
+   "word": "city",
+   "start": 4.866,
+   "end": 5.089
+  },
+  {
+   "word": "with",
+   "start": 5.108,
+   "end": 5.331
+  },
+  {
+   "word": "them.",
+   "start": 5.35,
+   "end": 5.61
+  },
+  {
+   "word": "Kiev,",
+   "start": 6.433,
+   "end": 6.805
+  },
+  {
+   "word": "nine",
+   "start": 6.837,
+   "end": 7.156
+  },
+  {
+   "word": "forty-five.",
+   "start": 7.184,
+   "end": 7.875
+  },
+  {
+   "word": "A",
+   "start": 8.155,
+   "end": 8.28
+  },
+  {
+   "word": "tribe",
+   "start": 8.291,
+   "end": 8.581
+  },
+  {
+   "word": "called",
+   "start": 8.607,
+   "end": 8.939
+  },
+  {
+   "word": "the",
+   "start": 8.968,
+   "end": 9.176
+  },
+  {
+   "word": "Drevlians",
+   "start": 9.194,
+   "end": 9.651
+  },
+  {
+   "word": "murders",
+   "start": 9.691,
+   "end": 10.065
+  },
+  {
+   "word": "Prince",
+   "start": 10.097,
+   "end": 10.43
+  },
+  {
+   "word": "Igor.",
+   "start": 10.459,
+   "end": 10.75
+  },
+  {
+   "word": "Then",
+   "start": 10.995,
+   "end": 11.224
+  },
+  {
+   "word": "they",
+   "start": 11.244,
+   "end": 11.473
+  },
+  {
+   "word": "make",
+   "start": 11.493,
+   "end": 11.723
+  },
+  {
+   "word": "a",
+   "start": 11.742,
+   "end": 11.857
+  },
+  {
+   "word": "fatal",
+   "start": 11.867,
+   "end": 12.134
+  },
+  {
+   "word": "mistake.",
+   "start": 12.158,
+   "end": 12.54
+  },
+  {
+   "word": "They",
+   "start": 12.793,
+   "end": 13.057
+  },
+  {
+   "word": "send",
+   "start": 13.08,
+   "end": 13.343
+  },
+  {
+   "word": "men",
+   "start": 13.366,
+   "end": 13.586
+  },
+  {
+   "word": "to",
+   "start": 13.605,
+   "end": 13.781
+  },
+  {
+   "word": "marry",
+   "start": 13.796,
+   "end": 14.104
+  },
+  {
+   "word": "his",
+   "start": 14.13,
+   "end": 14.35
+  },
+  {
+   "word": "widow...",
+   "start": 14.369,
+   "end": 14.808
+  },
+  {
+   "word": "Olga.",
+   "start": 14.847,
+   "end": 15.154
+  },
+  {
+   "word": "She",
+   "start": 15.401,
+   "end": 15.583
+  },
+  {
+   "word": "greets",
+   "start": 15.599,
+   "end": 15.89
+  },
+  {
+   "word": "them",
+   "start": 15.915,
+   "end": 16.133
+  },
+  {
+   "word": "with",
+   "start": 16.152,
+   "end": 16.371
+  },
+  {
+   "word": "honor.",
+   "start": 16.39,
+   "end": 16.681
+  },
+  {
+   "word": "And",
+   "start": 16.926,
+   "end": 17.139
+  },
+  {
+   "word": "buries",
+   "start": 17.157,
+   "end": 17.497
+  },
+  {
+   "word": "them",
+   "start": 17.527,
+   "end": 17.782
+  },
+  {
+   "word": "alive...",
+   "start": 17.804,
+   "end": 18.23
+  },
+  {
+   "word": "in",
+   "start": 18.267,
+   "end": 18.437
+  },
+  {
+   "word": "their",
+   "start": 18.452,
+   "end": 18.749
+  },
+  {
+   "word": "own",
+   "start": 18.775,
+   "end": 18.988
+  },
+  {
+   "word": "boat.",
+   "start": 19.006,
+   "end": 19.304
+  },
+  {
+   "word": "She",
+   "start": 19.55,
+   "end": 19.77
+  },
+  {
+   "word": "asks",
+   "start": 19.789,
+   "end": 20.052
+  },
+  {
+   "word": "for",
+   "start": 20.075,
+   "end": 20.295
+  },
+  {
+   "word": "their",
+   "start": 20.314,
+   "end": 20.621
+  },
+  {
+   "word": "noblest",
+   "start": 20.648,
+   "end": 21.043
+  },
+  {
+   "word": "men",
+   "start": 21.077,
+   "end": 21.297
+  },
+  {
+   "word": "next.",
+   "start": 21.316,
+   "end": 21.623
+  },
+  {
+   "word": "They",
+   "start": 21.87,
+   "end": 22.12
+  },
+  {
+   "word": "are",
+   "start": 22.142,
+   "end": 22.351
+  },
+  {
+   "word": "led",
+   "start": 22.369,
+   "end": 22.578
+  },
+  {
+   "word": "to",
+   "start": 22.596,
+   "end": 22.763
+  },
+  {
+   "word": "a",
+   "start": 22.777,
+   "end": 22.902
+  },
+  {
+   "word": "bathhouse.",
+   "start": 22.913,
+   "end": 23.414
+  },
+  {
+   "word": "The",
+   "start": 23.458,
+   "end": 23.666
+  },
+  {
+   "word": "doors",
+   "start": 23.684,
+   "end": 23.977
+  },
+  {
+   "word": "are",
+   "start": 24.002,
+   "end": 24.211
+  },
+  {
+   "word": "locked.",
+   "start": 24.229,
+   "end": 24.604
+  },
+  {
+   "word": "Then...",
+   "start": 24.857,
+   "end": 25.261
+  },
+  {
+   "word": "the",
+   "start": 25.296,
+   "end": 25.521
+  },
+  {
+   "word": "fire.",
+   "start": 25.54,
+   "end": 25.855
+  },
+  {
+   "word": "At",
+   "start": 26.102,
+   "end": 26.283
+  },
+  {
+   "word": "her",
+   "start": 26.299,
+   "end": 26.526
+  },
+  {
+   "word": "husband's",
+   "start": 26.545,
+   "end": 27.044
+  },
+  {
+   "word": "funeral",
+   "start": 27.087,
+   "end": 27.495
+  },
+  {
+   "word": "feast,",
+   "start": 27.53,
+   "end": 27.893
+  },
+  {
+   "word": "the",
+   "start": 27.924,
+   "end": 28.151
+  },
+  {
+   "word": "Drevlians",
+   "start": 28.171,
+   "end": 28.669
+  },
+  {
+   "word": "drink...",
+   "start": 28.712,
+   "end": 29.166
+  },
+  {
+   "word": "until",
+   "start": 29.755,
+   "end": 30.038
+  },
+  {
+   "word": "her",
+   "start": 30.063,
+   "end": 30.265
+  },
+  {
+   "word": "soldiers",
+   "start": 30.282,
+   "end": 30.686
+  },
+  {
+   "word": "draw",
+   "start": 30.721,
+   "end": 30.964
+  },
+  {
+   "word": "their",
+   "start": 30.985,
+   "end": 31.268
+  },
+  {
+   "word": "swords.",
+   "start": 31.293,
+   "end": 31.656
+  },
+  {
+   "word": "Then",
+   "start": 31.908,
+   "end": 32.196
+  },
+  {
+   "word": "she",
+   "start": 32.221,
+   "end": 32.46
+  },
+  {
+   "word": "besieges",
+   "start": 32.481,
+   "end": 32.96
+  },
+  {
+   "word": "their",
+   "start": 33.002,
+   "end": 33.337
+  },
+  {
+   "word": "city,",
+   "start": 33.366,
+   "end": 33.702
+  },
+  {
+   "word": "Iskorosten.",
+   "start": 33.731,
+   "end": 34.354
+  },
+  {
+   "word": "For",
+   "start": 34.628,
+   "end": 34.833
+  },
+  {
+   "word": "a",
+   "start": 34.851,
+   "end": 34.974
+  },
+  {
+   "word": "whole",
+   "start": 34.985,
+   "end": 35.272
+  },
+  {
+   "word": "year...",
+   "start": 35.297,
+   "end": 35.666
+  },
+  {
+   "word": "it",
+   "start": 35.699,
+   "end": 35.863
+  },
+  {
+   "word": "will",
+   "start": 35.877,
+   "end": 36.123
+  },
+  {
+   "word": "not",
+   "start": 36.145,
+   "end": 36.35
+  },
+  {
+   "word": "fall.",
+   "start": 36.368,
+   "end": 36.655
+  },
+  {
+   "word": "So",
+   "start": 36.9,
+   "end": 37.096
+  },
+  {
+   "word": "Olga",
+   "start": 37.113,
+   "end": 37.406
+  },
+  {
+   "word": "makes",
+   "start": 37.431,
+   "end": 37.774
+  },
+  {
+   "word": "an",
+   "start": 37.803,
+   "end": 37.999
+  },
+  {
+   "word": "offer.",
+   "start": 38.016,
+   "end": 38.407
+  },
+  {
+   "word": "\"I",
+   "start": 38.661,
+   "end": 38.859
+  },
+  {
+   "word": "want",
+   "start": 38.876,
+   "end": 39.172
+  },
+  {
+   "word": "no",
+   "start": 39.198,
+   "end": 39.395
+  },
+  {
+   "word": "more",
+   "start": 39.413,
+   "end": 39.709
+  },
+  {
+   "word": "revenge.",
+   "start": 39.735,
+   "end": 40.229
+  },
+  {
+   "word": "Only",
+   "start": 40.272,
+   "end": 40.568
+  },
+  {
+   "word": "a",
+   "start": 40.594,
+   "end": 40.742
+  },
+  {
+   "word": "small",
+   "start": 40.755,
+   "end": 41.1
+  },
+  {
+   "word": "gift.\"",
+   "start": 41.131,
+   "end": 41.526
+  },
+  {
+   "word": "\"Three",
+   "start": 41.78,
+   "end": 42.146
+  },
+  {
+   "word": "pigeons",
+   "start": 42.178,
+   "end": 42.589
+  },
+  {
+   "word": "and",
+   "start": 42.625,
+   "end": 42.854
+  },
+  {
+   "word": "three",
+   "start": 42.874,
+   "end": 43.194
+  },
+  {
+   "word": "sparrows...",
+   "start": 43.222,
+   "end": 43.816
+  },
+  {
+   "word": "from",
+   "start": 43.868,
+   "end": 44.143
+  },
+  {
+   "word": "every",
+   "start": 44.166,
+   "end": 44.487
+  },
+  {
+   "word": "house.\"",
+   "start": 44.515,
+   "end": 44.926
+  },
+  {
+   "word": "The",
+   "start": 45.182,
+   "end": 45.398
+  },
+  {
+   "word": "city",
+   "start": 45.417,
+   "end": 45.676
+  },
+  {
+   "word": "laughs.",
+   "start": 45.698,
+   "end": 46.087
+  },
+  {
+   "word": "And",
+   "start": 46.121,
+   "end": 46.337
+  },
+  {
+   "word": "pays.",
+   "start": 46.355,
+   "end": 46.658
+  },
+  {
+   "word": "That",
+   "start": 46.904,
+   "end": 47.143
+  },
+  {
+   "word": "night,",
+   "start": 47.164,
+   "end": 47.483
+  },
+  {
+   "word": "her",
+   "start": 47.511,
+   "end": 47.71
+  },
+  {
+   "word": "men",
+   "start": 47.728,
+   "end": 47.927
+  },
+  {
+   "word": "tie",
+   "start": 47.944,
+   "end": 48.144
+  },
+  {
+   "word": "burning",
+   "start": 48.161,
+   "end": 48.52
+  },
+  {
+   "word": "sulfur",
+   "start": 48.551,
+   "end": 48.87
+  },
+  {
+   "word": "to",
+   "start": 48.898,
+   "end": 49.058
+  },
+  {
+   "word": "every",
+   "start": 49.071,
+   "end": 49.351
+  },
+  {
+   "word": "bird...",
+   "start": 49.375,
+   "end": 49.734
+  },
+  {
+   "word": "and",
+   "start": 50.315,
+   "end": 50.516
+  },
+  {
+   "word": "set",
+   "start": 50.533,
+   "end": 50.734
+  },
+  {
+   "word": "them",
+   "start": 50.752,
+   "end": 50.993
+  },
+  {
+   "word": "free.",
+   "start": 51.014,
+   "end": 51.296
+  },
+  {
+   "word": "The",
+   "start": 51.54,
+   "end": 51.756
+  },
+  {
+   "word": "birds",
+   "start": 51.775,
+   "end": 52.077
+  },
+  {
+   "word": "fly",
+   "start": 52.103,
+   "end": 52.319
+  },
+  {
+   "word": "home.",
+   "start": 52.338,
+   "end": 52.64
+  },
+  {
+   "word": "Back",
+   "start": 52.667,
+   "end": 52.926
+  },
+  {
+   "word": "to",
+   "start": 52.948,
+   "end": 53.121
+  },
+  {
+   "word": "their",
+   "start": 53.136,
+   "end": 53.439
+  },
+  {
+   "word": "nests.",
+   "start": 53.465,
+   "end": 53.81
+  },
+  {
+   "word": "Under",
+   "start": 53.84,
+   "end": 54.143
+  },
+  {
+   "word": "the",
+   "start": 54.169,
+   "end": 54.385
+  },
+  {
+   "word": "straw",
+   "start": 54.404,
+   "end": 54.706
+  },
+  {
+   "word": "roofs.",
+   "start": 54.732,
+   "end": 55.078
+  },
+  {
+   "word": "Every",
+   "start": 55.328,
+   "end": 55.634
+  },
+  {
+   "word": "house",
+   "start": 55.661,
+   "end": 55.967
+  },
+  {
+   "word": "catches",
+   "start": 55.994,
+   "end": 56.387
+  },
+  {
+   "word": "fire",
+   "start": 56.422,
+   "end": 56.684
+  },
+  {
+   "word": "at",
+   "start": 56.707,
+   "end": 56.882
+  },
+  {
+   "word": "once.",
+   "start": 56.897,
+   "end": 57.203
+  },
+  {
+   "word": "The",
+   "start": 57.45,
+   "end": 57.653
+  },
+  {
+   "word": "woman",
+   "start": 57.671,
+   "end": 57.955
+  },
+  {
+   "word": "who",
+   "start": 57.98,
+   "end": 58.183
+  },
+  {
+   "word": "did",
+   "start": 58.2,
+   "end": 58.403
+  },
+  {
+   "word": "this...",
+   "start": 58.421,
+   "end": 58.787
+  },
+  {
+   "word": "was",
+   "start": 58.818,
+   "end": 59.021
+  },
+  {
+   "word": "later",
+   "start": 59.039,
+   "end": 59.323
+  },
+  {
+   "word": "declared",
+   "start": 59.348,
+   "end": 59.754
+  },
+  {
+   "word": "a",
+   "start": 59.789,
+   "end": 59.911
+  },
+  {
+   "word": "saint.",
+   "start": 59.922,
+   "end": 60.247
+  }
+ ]
+}
