@@ -1,0 +1,755 @@
+{
+ "source": "script:script.json",
+ "words": [
+  {
+   "word": "Why",
+   "start": 1.0,
+   "end": 1.265
+  },
+  {
+   "word": "is",
+   "start": 1.288,
+   "end": 1.5
+  },
+  {
+   "word": "Friday",
+   "start": 1.519,
+   "end": 1.943
+  },
+  {
+   "word": "the",
+   "start": 1.98,
+   "end": 2.245
+  },
+  {
+   "word": "thirteenth",
+   "start": 2.268,
+   "end": 2.904
+  },
+  {
+   "word": "unlucky?",
+   "start": 2.96,
+   "end": 3.49
+  },
+  {
+   "word": "It",
+   "start": 3.756,
+   "end": 3.931
+  },
+  {
+   "word": "might",
+   "start": 3.946,
+   "end": 4.251
+  },
+  {
+   "word": "be",
+   "start": 4.278,
+   "end": 4.452
+  },
+  {
+   "word": "because",
+   "start": 4.468,
+   "end": 4.86
+  },
+  {
+   "word": "of",
+   "start": 4.894,
+   "end": 5.069
+  },
+  {
+   "word": "what",
+   "start": 5.084,
+   "end": 5.346
+  },
+  {
+   "word": "one",
+   "start": 5.369,
+   "end": 5.587
+  },
+  {
+   "word": "king",
+   "start": 5.606,
+   "end": 5.868
+  },
+  {
+   "word": "did...",
+   "start": 5.891,
+   "end": 6.24
+  },
+  {
+   "word": "on",
+   "start": 6.27,
+   "end": 6.445
+  },
+  {
+   "word": "that",
+   "start": 6.46,
+   "end": 6.722
+  },
+  {
+   "word": "exact",
+   "start": 6.744,
+   "end": 7.05
+  },
+  {
+   "word": "day.",
+   "start": 7.076,
+   "end": 7.338
+  },
+  {
+   "word": "France,",
+   "start": 7.761,
+   "end": 8.249
+  },
+  {
+   "word": "thirteen-oh-seven.",
+   "start": 8.291,
+   "end": 9.375
+  },
+  {
+   "word": "King",
+   "start": 9.689,
+   "end": 10.006
+  },
+  {
+   "word": "Philip",
+   "start": 10.033,
+   "end": 10.455
+  },
+  {
+   "word": "the",
+   "start": 10.492,
+   "end": 10.756
+  },
+  {
+   "word": "Fourth",
+   "start": 10.779,
+   "end": 11.201
+  },
+  {
+   "word": "is",
+   "start": 11.238,
+   "end": 11.449
+  },
+  {
+   "word": "broke.",
+   "start": 11.467,
+   "end": 11.889
+  },
+  {
+   "word": "And",
+   "start": 12.146,
+   "end": 12.372
+  },
+  {
+   "word": "he",
+   "start": 12.391,
+   "end": 12.572
+  },
+  {
+   "word": "owes",
+   "start": 12.588,
+   "end": 12.859
+  },
+  {
+   "word": "a",
+   "start": 12.882,
+   "end": 13.018
+  },
+  {
+   "word": "fortune",
+   "start": 13.03,
+   "end": 13.436
+  },
+  {
+   "word": "to",
+   "start": 13.471,
+   "end": 13.652
+  },
+  {
+   "word": "the",
+   "start": 13.668,
+   "end": 13.893
+  },
+  {
+   "word": "most",
+   "start": 13.913,
+   "end": 14.184
+  },
+  {
+   "word": "powerful",
+   "start": 14.208,
+   "end": 14.659
+  },
+  {
+   "word": "order",
+   "start": 14.698,
+   "end": 15.014
+  },
+  {
+   "word": "in",
+   "start": 15.042,
+   "end": 15.223
+  },
+  {
+   "word": "Europe.",
+   "start": 15.238,
+   "end": 15.645
+  },
+  {
+   "word": "The",
+   "start": 15.9,
+   "end": 16.118
+  },
+  {
+   "word": "Knights",
+   "start": 16.136,
+   "end": 16.528
+  },
+  {
+   "word": "Templar.",
+   "start": 16.562,
+   "end": 16.997
+  },
+  {
+   "word": "Warrior",
+   "start": 17.255,
+   "end": 17.733
+  },
+  {
+   "word": "monks.",
+   "start": 17.774,
+   "end": 18.199
+  },
+  {
+   "word": "Bankers",
+   "start": 18.236,
+   "end": 18.713
+  },
+  {
+   "word": "to",
+   "start": 18.755,
+   "end": 18.967
+  },
+  {
+   "word": "kings.",
+   "start": 18.986,
+   "end": 19.41
+  },
+  {
+   "word": "Untouchable.",
+   "start": 19.447,
+   "end": 20.19
+  },
+  {
+   "word": "So",
+   "start": 20.475,
+   "end": 20.685
+  },
+  {
+   "word": "Philip",
+   "start": 20.703,
+   "end": 21.123
+  },
+  {
+   "word": "makes",
+   "start": 21.159,
+   "end": 21.526
+  },
+  {
+   "word": "a",
+   "start": 21.558,
+   "end": 21.715
+  },
+  {
+   "word": "plan.",
+   "start": 21.729,
+   "end": 22.096
+  },
+  {
+   "word": "He",
+   "start": 22.348,
+   "end": 22.539
+  },
+  {
+   "word": "sends",
+   "start": 22.556,
+   "end": 22.891
+  },
+  {
+   "word": "sealed",
+   "start": 22.92,
+   "end": 23.302
+  },
+  {
+   "word": "orders",
+   "start": 23.336,
+   "end": 23.718
+  },
+  {
+   "word": "to",
+   "start": 23.752,
+   "end": 23.943
+  },
+  {
+   "word": "every",
+   "start": 23.959,
+   "end": 24.294
+  },
+  {
+   "word": "corner",
+   "start": 24.323,
+   "end": 24.706
+  },
+  {
+   "word": "of",
+   "start": 24.739,
+   "end": 24.931
+  },
+  {
+   "word": "France.",
+   "start": 24.947,
+   "end": 25.378
+  },
+  {
+   "word": "Orders",
+   "start": 25.635,
+   "end": 26.033
+  },
+  {
+   "word": "that",
+   "start": 26.068,
+   "end": 26.367
+  },
+  {
+   "word": "must",
+   "start": 26.393,
+   "end": 26.692
+  },
+  {
+   "word": "not",
+   "start": 26.718,
+   "end": 26.967
+  },
+  {
+   "word": "be",
+   "start": 26.988,
+   "end": 27.187
+  },
+  {
+   "word": "opened...",
+   "start": 27.205,
+   "end": 27.753
+  },
+  {
+   "word": "until",
+   "start": 27.8,
+   "end": 28.149
+  },
+  {
+   "word": "one",
+   "start": 28.179,
+   "end": 28.428
+  },
+  {
+   "word": "exact",
+   "start": 28.45,
+   "end": 28.798
+  },
+  {
+   "word": "morning.",
+   "start": 28.829,
+   "end": 29.327
+  },
+  {
+   "word": "Friday.",
+   "start": 29.59,
+   "end": 30.14
+  },
+  {
+   "word": "October",
+   "start": 30.187,
+   "end": 30.737
+  },
+  {
+   "word": "thirteenth.",
+   "start": 30.785,
+   "end": 31.579
+  },
+  {
+   "word": "At",
+   "start": 31.868,
+   "end": 32.06
+  },
+  {
+   "word": "dawn,",
+   "start": 32.076,
+   "end": 32.412
+  },
+  {
+   "word": "the",
+   "start": 32.441,
+   "end": 32.68
+  },
+  {
+   "word": "seals",
+   "start": 32.701,
+   "end": 33.036
+  },
+  {
+   "word": "break.",
+   "start": 33.065,
+   "end": 33.449
+  },
+  {
+   "word": "And",
+   "start": 33.702,
+   "end": 33.921
+  },
+  {
+   "word": "all",
+   "start": 33.94,
+   "end": 34.159
+  },
+  {
+   "word": "across",
+   "start": 34.178,
+   "end": 34.529
+  },
+  {
+   "word": "the",
+   "start": 34.559,
+   "end": 34.778
+  },
+  {
+   "word": "kingdom,",
+   "start": 34.797,
+   "end": 35.236
+  },
+  {
+   "word": "at",
+   "start": 35.274,
+   "end": 35.449
+  },
+  {
+   "word": "the",
+   "start": 35.464,
+   "end": 35.683
+  },
+  {
+   "word": "same",
+   "start": 35.702,
+   "end": 35.965
+  },
+  {
+   "word": "moment...",
+   "start": 35.988,
+   "end": 36.47
+  },
+  {
+   "word": "the",
+   "start": 36.512,
+   "end": 36.731
+  },
+  {
+   "word": "soldiers",
+   "start": 36.75,
+   "end": 37.188
+  },
+  {
+   "word": "strike.",
+   "start": 37.226,
+   "end": 37.621
+  },
+  {
+   "word": "Hundreds",
+   "start": 37.875,
+   "end": 38.317
+  },
+  {
+   "word": "of",
+   "start": 38.355,
+   "end": 38.532
+  },
+  {
+   "word": "Templars",
+   "start": 38.547,
+   "end": 38.989
+  },
+  {
+   "word": "are",
+   "start": 39.027,
+   "end": 39.248
+  },
+  {
+   "word": "dragged",
+   "start": 39.267,
+   "end": 39.664
+  },
+  {
+   "word": "from",
+   "start": 39.699,
+   "end": 39.964
+  },
+  {
+   "word": "their",
+   "start": 39.987,
+   "end": 40.296
+  },
+  {
+   "word": "beds.",
+   "start": 40.323,
+   "end": 40.632
+  },
+  {
+   "word": "Tortured.",
+   "start": 40.879,
+   "end": 41.401
+  },
+  {
+   "word": "Forced",
+   "start": 41.447,
+   "end": 41.826
+  },
+  {
+   "word": "to",
+   "start": 41.859,
+   "end": 42.049
+  },
+  {
+   "word": "confess",
+   "start": 42.066,
+   "end": 42.493
+  },
+  {
+   "word": "to",
+   "start": 42.53,
+   "end": 42.72
+  },
+  {
+   "word": "crimes",
+   "start": 42.736,
+   "end": 43.116
+  },
+  {
+   "word": "they",
+   "start": 43.149,
+   "end": 43.434
+  },
+  {
+   "word": "never",
+   "start": 43.459,
+   "end": 43.791
+  },
+  {
+   "word": "committed.",
+   "start": 43.82,
+   "end": 44.389
+  },
+  {
+   "word": "Seven",
+   "start": 44.659,
+   "end": 45.013
+  },
+  {
+   "word": "years",
+   "start": 45.044,
+   "end": 45.398
+  },
+  {
+   "word": "later,",
+   "start": 45.429,
+   "end": 45.834
+  },
+  {
+   "word": "their",
+   "start": 45.869,
+   "end": 46.223
+  },
+  {
+   "word": "Grand",
+   "start": 46.254,
+   "end": 46.608
+  },
+  {
+   "word": "Master,",
+   "start": 46.639,
+   "end": 47.094
+  },
+  {
+   "word": "Jacques",
+   "start": 47.134,
+   "end": 47.589
+  },
+  {
+   "word": "de",
+   "start": 47.628,
+   "end": 47.831
+  },
+  {
+   "word": "Molay,",
+   "start": 47.848,
+   "end": 48.253
+  },
+  {
+   "word": "is",
+   "start": 48.288,
+   "end": 48.491
+  },
+  {
+   "word": "burned",
+   "start": 48.508,
+   "end": 48.913
+  },
+  {
+   "word": "alive",
+   "start": 48.948,
+   "end": 49.302
+  },
+  {
+   "word": "in",
+   "start": 49.333,
+   "end": 49.535
+  },
+  {
+   "word": "Paris.",
+   "start": 49.553,
+   "end": 49.958
+  },
+  {
+   "word": "And",
+   "start": 50.213,
+   "end": 50.434
+  },
+  {
+   "word": "legend",
+   "start": 50.453,
+   "end": 50.807
+  },
+  {
+   "word": "says,",
+   "start": 50.838,
+   "end": 51.148
+  },
+  {
+   "word": "from",
+   "start": 51.175,
+   "end": 51.44
+  },
+  {
+   "word": "the",
+   "start": 51.463,
+   "end": 51.684
+  },
+  {
+   "word": "flames...",
+   "start": 51.703,
+   "end": 52.19
+  },
+  {
+   "word": "he",
+   "start": 52.232,
+   "end": 52.409
+  },
+  {
+   "word": "cursed",
+   "start": 52.424,
+   "end": 52.778
+  },
+  {
+   "word": "the",
+   "start": 52.809,
+   "end": 53.03
+  },
+  {
+   "word": "king.",
+   "start": 53.049,
+   "end": 53.359
+  },
+  {
+   "word": "Within",
+   "start": 53.606,
+   "end": 53.939
+  },
+  {
+   "word": "the",
+   "start": 53.968,
+   "end": 54.177
+  },
+  {
+   "word": "year,",
+   "start": 54.195,
+   "end": 54.487
+  },
+  {
+   "word": "King",
+   "start": 54.512,
+   "end": 54.762
+  },
+  {
+   "word": "Philip",
+   "start": 54.784,
+   "end": 55.117
+  },
+  {
+   "word": "was",
+   "start": 55.146,
+   "end": 55.355
+  },
+  {
+   "word": "dead.",
+   "start": 55.373,
+   "end": 55.665
+  },
+  {
+   "word": "Coincidence?",
+   "start": 55.91,
+   "end": 56.579
+  },
+  {
+   "word": "Or",
+   "start": 56.637,
+   "end": 56.828
+  },
+  {
+   "word": "the",
+   "start": 56.844,
+   "end": 57.083
+  },
+  {
+   "word": "reason",
+   "start": 57.104,
+   "end": 57.486
+  },
+  {
+   "word": "we",
+   "start": 57.519,
+   "end": 57.71
+  },
+  {
+   "word": "still",
+   "start": 57.727,
+   "end": 58.061
+  },
+  {
+   "word": "fear",
+   "start": 58.09,
+   "end": 58.377
+  },
+  {
+   "word": "Friday",
+   "start": 58.401,
+   "end": 58.783
+  },
+  {
+   "word": "the",
+   "start": 58.817,
+   "end": 59.055
+  },
+  {
+   "word": "thirteenth?",
+   "start": 59.076,
+   "end": 59.697
+  }
+ ]
+}

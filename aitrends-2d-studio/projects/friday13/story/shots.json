@@ -1,0 +1,488 @@
+{
+ "title": "Friday the 13th",
+ "duration": 63.251,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 3.636,
+   "line": "Why is Friday the thirteenth unlucky?",
+   "scene": "Paris at night under a cold moon \u2014 FRIDAY THE 13TH",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/bell.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/boom.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c001",
+   "start": 3.636,
+   "end": 7.641,
+   "line": "It might be because of what one king did... on that exact day.",
+   "scene": "a dark throne room; King Philip turns on his throne and smirks",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/door.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c002",
+   "start": 7.641,
+   "end": 9.569,
+   "line": "France, thirteen-oh-seven.",
+   "scene": "Paris 1307 by day: the Seine, the cathedral on its island, bridges, timber houses, the Temple tower",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/bell_hi.wav",
+     "gain": -10
+    },
+    {
+     "at": 0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -22
+    }
+   ]
+  },
+  {
+   "id": "c003",
+   "start": 9.569,
+   "end": 12.026,
+   "line": "King Philip the Fourth is broke.",
+   "scene": "the royal treasury: empty chests, a few coins; the king stares into an open chest",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "input/sfx/chains.wav",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "c004",
+   "start": 12.026,
+   "end": 15.78,
+   "line": "And he owes a fortune to the most powerful order in Europe.",
+   "scene": "close: the king unrolls a long scroll of debts, his face falls",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/quill.wav",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c005",
+   "start": 15.78,
+   "end": 17.135,
+   "line": "The Knights Templar.",
+   "scene": "the Temple fortress in Paris: rows of white-mantled knights with red crosses, banners \u2014 THE KNIGHTS TEMPLAR",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/sword.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/drum.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c006",
+   "start": 17.135,
+   "end": 20.355,
+   "line": "Warrior monks. Bankers to kings. Untouchable.",
+   "scene": "three quick beats in a candle-lit chapter hall: a knight prays with his sword, counts gold, stands untouchable",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/sword.wav",
+     "gain": -10
+    },
+    {
+     "at": 1.25,
+     "name": "input/sfx/chains.wav",
+     "gain": -16
+    },
+    {
+     "at": 2.6,
+     "name": "input/sfx/boom.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c007",
+   "start": 20.355,
+   "end": 22.228,
+   "line": "So Philip makes a plan.",
+   "scene": "close: Philip narrows his eyes by torchlight \u2014 a plan",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "input/sfx/drum.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c008",
+   "start": 22.228,
+   "end": 23.928,
+   "line": "He sends sealed orders to every corner of France.",
+   "scene": "the king writes and seals letter after letter at a candle-lit desk",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/quill.wav",
+     "gain": -12
+    },
+    {
+     "at": 1.0,
+     "name": "input/sfx/seal.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c008b",
+   "start": 23.928,
+   "end": 25.515,
+   "line": "",
+   "scene": "riders gallop out along roads to every corner of France, castles on the hills",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/gallop.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.1,
+     "name": "input/sfx/whoosh2.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c009",
+   "start": 25.515,
+   "end": 29.47,
+   "line": "Orders that must not be opened... until one exact morning.",
+   "scene": "insert: a folded letter with a red royal wax seal \u2014 DO NOT OPEN UNTIL\u2026",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "input/sfx/seal.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c010",
+   "start": 29.47,
+   "end": 31.748,
+   "line": "Friday. October thirteenth.",
+   "scene": "a calendar page slams in: FRIDAY 13 OCTOBER 1307",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/bell.wav",
+     "gain": -3
+    },
+    {
+     "at": 0.1,
+     "name": "input/sfx/boom.wav",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c011",
+   "start": 31.748,
+   "end": 33.582,
+   "line": "At dawn, the seals break.",
+   "scene": "dawn: a soldier's thumb cracks the wax seal; light floods in",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "input/sfx/seal.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.7,
+     "name": "input/sfx/seal.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c012",
+   "start": 33.582,
+   "end": 37.755,
+   "line": "And all across the kingdom, at the same moment... the soldiers strike.",
+   "scene": "first light at the Temple: a wave of royal soldiers storms the gate",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/drum.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.8,
+     "name": "input/sfx/drum.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/sword.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/door.wav",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c013",
+   "start": 37.755,
+   "end": 40.759,
+   "line": "Hundreds of Templars are dragged from their beds.",
+   "scene": "a dark dormitory: soldiers drag sleeping Templars from their beds",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/door.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.6,
+     "name": "input/sfx/chains.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c014",
+   "start": 40.759,
+   "end": 44.539,
+   "line": "Tortured. Forced to confess to crimes they never committed.",
+   "scene": "a stone dungeon by torchlight: a chained Templar slumps; a shadowed jailer",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/chains.wav",
+     "gain": -4
+    },
+    {
+     "at": 1.4,
+     "name": "input/sfx/chains.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "input/sfx/drum.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c015",
+   "start": 44.539,
+   "end": 50.093,
+   "line": "Seven years later, their Grand Master, Jacques de Molay, is burned alive in Paris.",
+   "scene": "Paris 1314 at dusk: before the cathedral a crowd watches Jacques de Molay bound to a burning stake",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "input/sfx/fire.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/bell.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c016",
+   "start": 50.093,
+   "end": 53.486,
+   "line": "And legend says, from the flames... he cursed the king.",
+   "scene": "close: de Molay amid the flames raises his eyes and curses the king",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/fire.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.6,
+     "name": "input/sfx/boom.wav",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c017",
+   "start": 53.486,
+   "end": 55.79,
+   "line": "Within the year, King Philip was dead.",
+   "scene": "the dark throne room: an empty throne, the crown lying on the floor",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/bell.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.9,
+     "name": "input/sfx/door.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c018",
+   "start": 55.79,
+   "end": 63.251,
+   "line": "Coincidence? Or the reason we still fear Friday the thirteenth?",
+   "scene": "loop: Paris at night again \u2014 COINCIDENCE? FRIDAY THE 13TH",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/bell.wav",
+     "gain": -3
+    },
+    {
+     "at": 2.6,
+     "name": "input/sfx/boom.wav",
+     "gain": -6
+    }
+   ]
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

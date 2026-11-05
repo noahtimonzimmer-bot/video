@@ -60,5 +60,11 @@ export const STYLES = {
     grade: { contrast: 1.05, sat: 1.08, lift: [0.02, 0.012, 0.0], gamma: [1.02, 1.0, 0.97], gain: [1.05, 1.0, 0.92], vignette: 0.5, grain: 0.045, bloom: 0.65 },
     moods: { night: { sky: ['#0b1028', '#1d2550', '#3a3570'], rim: '#ffe2a8' } },
   },
+  chronicle: {
+    name: 'Dark Chronicle', desc: 'Medieval storybook: warm torchlight, deep shadows, rich contrast.',
+    ink: '#f2c21a', inkFar: '#c4920c', feature: '#1a1206', rimWidth: 4, ui: { ...UI, gold: '#ffd47e', accent: '#e0302a', cream: '#fff1dc' },
+    grade: { contrast: 1.12, sat: 1.05, lift: [0.015, 0.008, 0.02], gamma: [1.0, 0.97, 0.95], gain: [1.06, 0.98, 0.9], vignette: 0.75, grain: 0.05, bloom: 0.7 },
+    moods: {},
+  },
 };
 export const STYLE_IDS = Object.keys(STYLES);
