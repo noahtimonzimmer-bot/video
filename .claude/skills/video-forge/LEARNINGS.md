@@ -1,0 +1,45 @@
+# Learnings — wird nach jedem Video erweitert
+
+## Nutzerin & Kanäle
+- Lana (Deutsch, schreibt schnell/mit Tippfehlern — Sinn erschließen, nicht nachfragen, wenn klar). Antworten auf Deutsch, Videos auf Englisch.
+- Kanäle: **What If** (Strichfiguren), **Römische Geschichte** ("What Romans actually got paid"), **Bibel** (Mythen aufklären/widerlegen, geheimnisvoll, kontroverse Titel), dazu **1-min Shorts** (Gefängnisausbrüche, Verrat, Mittelalter-Strategien).
+- Ihr eigener PC braucht ~3 h für ein 2D-Video; hier im Chat gehen 4 Worker + JPEG deutlich schneller.
+
+## Stil-Vorlieben (wörtliches Feedback → Regel)
+- "die figuren sollen weiss sein" (Horror/What If) → Stil `pale`. Bibel/Geschichte → **gelbe** Figuren (`eden`, `chronicle`).
+- RicksClips-Screenshots: "alles genau in dem style du siehst weniger 3d dafür krass detailliert und die figuren immer 2d" → **Figuren immer 2D**, Umgebung gemalt-3D (Lambert + Outlines + Canvas-Texturen), nie Low-Poly-Look.
+- "wolken sind 2d aber so gezeichnet dass sie wegen den rändern 3d aussehen … schlaue mischung" → Wolken, Bäume, Büsche, Gras, Props, Menschen als **2D-Billboards** in der 3D-Szene.
+- "nicht an den details sparen, ich kann die selben scenen später noch brauchen" → Welten als wiederverwendbare Funktionen bauen, in `templates/` zurückführen.
+- "befor du renderst 3 mal so viele details … gras, bäume, sachen auf den tischen" → **Dichte-Budget** in `reference/style.md` ist Pflicht, BEVOR Stills gezeigt/gerendert werden. Tische nie leer, Böden nie kahl.
+- "verwende andere sounds anstelle deiner typischen wiedererkennbaren sounds" → pro Video eigenes synthetisiertes Sound-Kit + eigene Musik (`templates/sound/`).
+- Hook muss "krass" sein: Satz 1 = Frage oder schockierende Behauptung, erstes Bild sofort spektakulär.
+- Stimme: Kokoro ("etwas mit k") statt RHVoice. Ersetzen ohne Neu-Render geht mit `retime_voice_kokoro.py` (hält Cue-Startzeiten).
+
+## Harte technische Regeln
+- 3D-Shot `init(T)` muss `{ stage: st, ... }` zurückgeben (nicht `{ st }`).
+- Meta in `S('NNN', {...})` muss **strikt JSON** sein (make_shots.py parst es): keine Funktionsaufrufe wie `SX('bell')`, sondern `"input/sfx/bell.wav"`.
+- Chromium: `CHROMIUM_PATH=/opt/pw-browsers/chromium` setzen; nie `playwright install`.
+- Prozesse beenden mit `ps -eo pid,comm` + `kill`; **kein `pkill -f`** mit Mustern, die die eigene Shell treffen.
+- `fftconvolve` in Sound-Synthese → Länge auffüllen (siehe `verb()` in make_sounds).
+- Smoke-/Partikel-Sprites nie über Titel-Labels platzieren (oberes Bilddrittel in 9:16 freihalten). Labels nicht unter Letterbox-Balken.
+- Kamera: in three-kit ist y nach oben; Tiefe von 2D-Sprite-Ebenen mit 3D-Objekten abgleichen (Bäume standen sonst vor/hinter falschen Dingen).
+- Kurze Lambdas für Positionen: kein `reduce`-Trick, explizit `{ const c = …; return [x, y, z]; }`.
+- Netzwerk: HuggingFace, GitHub-Releases, youtube.com, edge-tts, outlierkit **blockiert**. npm + PyPI gehen → Modelle über npm-Pakete holen (siehe pipeline.md). WebSearch geht.
+- Das Studio importiert **jede** `scenes/*.js`-Datei eines Projekts → keine fremden/unpassenden Libs ins Projekt kopieren (Import-Fehler bricht alles). Horror-Vorlagen liegen deshalb separat in `templates/horror/`.
+- `out/` und `*.mp4` sind gitignored → Videos liegen nur im Container; Nutzerin per SendUserFile schicken.
+
+## Fehler-Historie (kurz)
+| Problem | Fix |
+|---|---|
+| edge-tts/HF blockiert | RHVoice → später Kokoro über npm (`kokoro-q8-shards`, `kokoro-js` voices) |
+| Erster Serpent-3D wirkte Low-Poly | Bibliothek neu gebaut: paintify (Lambert), Outline-Hüllen, Canvas-Texturen, 2D-Billboards |
+| Friday-13 zu leer | `props.js` (33 Prop-Typen) + `scatter`/`wallProp`; ~700 Gras, Stände, Tische gedeckt |
+| Rauch verdeckt "JACQUES DE MOLAY" | Rauch hinter Häuser seitlich verschoben |
+| rig2d worried/angry Brauen vertauscht | Vorzeichen getauscht in engine/rig2d.js |
+
+## Changelog
+- 2026-11 · My Shadow Started Living Its Own Life (6:38, 16:9, `pale`, 261 Shots) — erste Pipeline, RHVoice → Kokoro-Ersatz.
+- 2026-11 · The Serpent in Eden WASN'T a Snake (16:9, `eden`) — toon.js, ill.js, aerial.js, world3d.js, creatures.js entstanden.
+- 2026-11 · Did People in the Bible Really Live 900 Years (16:9, `eden`) — Mesopotamien, Arche, Ararat, lifeChart, clayTablet, calendar.
+- 2026-11 · Friday the 13th (1307) Short (63 s, 9:16, `chronicle`, Captions) — props.js, timberHouse, cathedral, templeKeep, livePerson, liveFire, eigenes Mittelalter-Sound-Kit.
+- 2026-11 · Skill `video-forge` angelegt.
