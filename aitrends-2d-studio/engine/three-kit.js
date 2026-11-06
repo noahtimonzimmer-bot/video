@@ -27,6 +27,7 @@ export function canvasTex(w, h, draw, repeat = null) { const c = document.create
 // stage({ mood:'dusk', fov:35, bloom, fog:[near,far], sky:[top,bottom] | colour, shadowSize:14 })
 export function stage(o = {}) {
   const M = mood(o.mood || 'dusk'), st = S();
+  R.toneMapping = st.grade?.tone === 'neutral' ? THREE.NeutralToneMapping : THREE.ACESFilmicToneMapping; R.toneMappingExposure = st.grade?.exposure ?? 1.0;
   const scene = new THREE.Scene(); const sky = o.sky || M.sky;
   scene.background = Array.isArray(sky) ? canvasTex(4, 256, (g, w, h) => { const gr = g.createLinearGradient(0, 0, 0, h); sky.forEach((c, i) => gr.addColorStop(i / (sky.length - 1), c)); g.fillStyle = gr; g.fillRect(0, 0, w, h); }) : C(sky);
   if (o.fog !== false) scene.fog = new THREE.Fog(C(o.fogColor || M.dark), ...(o.fog || [18, 70]));

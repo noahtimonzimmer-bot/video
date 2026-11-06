@@ -66,5 +66,11 @@ export const STYLES = {
     grade: { contrast: 1.12, sat: 1.05, lift: [0.015, 0.008, 0.02], gamma: [1.0, 0.97, 0.95], gain: [1.06, 0.98, 0.9], vignette: 0.75, grain: 0.05, bloom: 0.7 },
     moods: {},
   },
+  vivid: {
+    name: 'Vivid Clean', desc: 'Bright, saturated, clean modern look: neutral tone mapping, high exposure, no grain/paper, glowing sunsets.',
+    ink: '#f2c21a', inkFar: '#c4920c', feature: '#1a1206', rimWidth: 4, ui: { ...UI, gold: '#ffd47e', accent: '#ff5a3a', cream: '#fff1dc' },
+    grade: { contrast: 1.06, sat: 1.28, lift: [0.0, 0.0, 0.0], gamma: [1.06, 1.04, 1.0], gain: [1.08, 1.05, 1.0], vignette: 0.1, grain: 0.0, bloom: 0.75, tone: 'neutral', exposure: 1.3, paper: 0 },
+    moods: {},
+  },
 };
 export const STYLE_IDS = Object.keys(STYLES);

@@ -1,6 +1,8 @@
 # Stil-Regeln
 
 ## Grundlook
+- **Standard-Stil `vivid`** (hell, satt, clean, neutrales Tonemapping, Belichtung 1.3, keine Vignette/Korn/Papier). Düstere Stile (`chronicle`, `pale`) nur auf ausdrücklichen Wunsch.
+- Himmel: `SKY.stage` mit den hellen Presets (sunset = pink/orange/gold leuchtend). Gras: sattes Grün, weiche Büschel.
 - **Figuren immer 2D** (toonFigure: Outline, großer Kopf, Ausdrücke). In 3D-Szenen als Billboard (`A.livePerson` animiert, `A.addPeople` statisch).
 - **Umgebung gemalt-3D**: `W.paintify` (Lambert, flache Schatten), Outline-Hüllen, Canvas-Texturen (Gras, Feld, Stein, Putz, Fachwerk, Dachziegel, Fliesen, Wasser). Kein Low-Poly-, kein Plastik-Look.
 - **2D/3D-Mix**: Wolken, Bäume, Büsche, Gras, Props, Rauch, Vögel = gezeichnete Sprites mit Rand (wirken 3D, kosten nichts).

@@ -3,7 +3,7 @@
 # usage: bash new_project.sh NAME "Title" ASPECT(16:9|9:16) STYLE(pale|eden|chronicle|…) [captions:true|false]
 # erwartet /home/user/video/NAME/{voice.wav,script.json}  (aus templates/voice/build_voice.py)
 set -e
-NAME=$1; TITLE=$2; ASPECT=${3:-16:9}; STYLE=${4:-eden}; CAP=${5:-false}
+NAME=$1; TITLE=$2; ASPECT=${3:-16:9}; STYLE=${4:-vivid}; CAP=${5:-false}
 SK=$(cd "$(dirname "$0")/.." && pwd); ROOT=$(cd "$SK/../../.." && pwd); ST=$ROOT/aitrends-2d-studio; P=$ST/projects/$NAME
 cd "$ST"
 python3 tools/new_project.py --name "$NAME" --voice "$ROOT/$NAME/voice.wav" --aspect "$ASPECT" --resolution 1080p --title "$TITLE" | tail -1

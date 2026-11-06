@@ -89,6 +89,26 @@ Outfit-Definitionen (Studio-Rig).
 - `PAUL = {…}`
 - `ISRAELITE = (i)`
 
+## city.js
+
+Moderne US-Kleinstadt: town() (Straßen, Gehwege, Fassaden, Burger-Laden mit BURGERS-Schild, Parkplatz, Gasse mit Containern, Verkehr), building, car, streetLamp, trafficLight, dumpster, dorm() Studentenzimmer + paintMonitor, japan() (Fuji, Tokio, Pagode, Sakura), plane3D.
+
+- `asphalt = (T, rep = [40, 4])`
+- `pavement = (T, base = '#c8c0b4', rep = [60, 2])`
+- `lotTex = (T, rep = [4, 2])`
+- `facade = (T, o = {})`
+- `building(st, x, z, w, d, h, o = {})`
+- `car(st, x, z, o = {})`
+- `streetLamp(st, x, z, o = {})`
+- `trafficLight(st, x, z)`
+- `burgerJoint(st, x, z, o = {})`
+- `dumpster(st, x, z, o = {})`
+- `town(st, o = {})`
+- `dorm(st, o = {})`
+- `paintMonitor(m, t, phase = 'code', o = {})`
+- `japan(st, o = {})`
+- `plane3D(st, o = {})`
+
 ## creatures.js
 
 Schlange, Seraph, Cherub, Bronzeschlange; Info-Karten: verse, scripture, hebrewCard, verdict, familyScroll, lifeChart, clayTablet, calendar.
@@ -150,7 +170,7 @@ Gezeichnete Props als Billboards: scatter(st, kind, n, place(r,i)->[x,y,z]|null,
 - `PROPS = {…}`
 - `scatter(st, kind, n, place, size, o = {})`
 - `wallProp(st, kind, x, y, z, size, rotY = 0, v = 0)`
-- Prop-Typen: grass, bush, rock, barrel, crate, sack, cart, stall, well, lantern, candle, goblet, bread, fruit, books, scroll, inkwell, coins, shield, swords, armor, shelf, straw, bucket, rat, chicken, dog, horse, smoke, bird, boat, tree, haystack, fence, logpile, shovel, spears, fur, roast, jug, pigeon, sparrow, cage, birch, pine, flowerbed
+- Prop-Typen: grass, bush, rock, barrel, crate, sack, cart, stall, well, lantern, candle, goblet, bread, fruit, books, scroll, inkwell, coins, shield, swords, armor, shelf, straw, bucket, rat, chicken, dog, horse, smoke, bird, boat, tree, haystack, fence, logpile, shovel, spears, fur, roast, jug, pigeon, sparrow, cage, birch, pine, trashbag, cup, hydrant, bench, cone, sakura, petals, bill, flowerbed
 
 ## rus.js
 
@@ -227,7 +247,7 @@ PFLICHT für Außenszenen: SKY.stage(T, preset, {az}) statt A.stage — gemalter
 - `meadow(g, x0, x1, y0, y1, seed = 3, o = {})`
 - `castle(g, x, y, s = 1, o = {})`
 - `paper(g, t, a = 0.06)`
-- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, olga, igor, mal, drevlian, drevlian2, rus, rus2, townsman, townswoman, paul
+- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, olga, igor, mal, drevlian, drevlian2, rus, rus2, townsman, townswoman, chris, cleaner, cleaner2, cashier, guy, girl, dad, paul
 
 ## world3d.js
 
@@ -250,7 +270,7 @@ Low-level 3D: Terrain, Fluss, Felder, Dorf, Palmen, Ziggurat, Schiff, Stadtmauer
 - `tent(T, x, y, z, s = 1, col = '#a87a4a')`
 - `toonify(T, scene, o = {})`
 - `sprite(T, key, w, h, fn, o = {})`
-- `grassTex = (T, base = '#7ab84a', rep = [40, 40], seed = 1)`
+- `grassTex = (T, base = '#6cc84a', rep = [40, 40], seed = 1)`
 - `fieldTex = (T, base, rows = 'h', seed = 2)`
 - `waterTex = (T, rep = [4, 40])`
 - `stoneTex = (T, base = '#d8c4a0', rep = [4, 1])`

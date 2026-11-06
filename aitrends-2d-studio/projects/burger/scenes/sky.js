@@ -6,10 +6,10 @@ import { rng, mix, alpha } from '/engine/core.js';
 import * as A from './aerial.js';
 
 export const PRESETS = {
-  sunset: { stops: ['#2a3a86', '#5a3a8a', '#8a3a6a', '#e8604a', '#ffb060', '#ffe0a0'], sun: '#fff2b8', sunGlow: '#ffb050', elev: 6, cloud: '#5a2a5a', lit: '#ffb070', rim: '#fff0c0', fog: '#e89a78', key: '#ffb880', ki: 1.7, amb: '#e8a0b0', a: 1.5, rays: 0.12, clouds: 70 },
-  golden: { stops: ['#2a5aa8', '#5a8ac8', '#a8c0d8', '#f0d0a0', '#ffd890', '#fff0c8'], sun: '#fffbe0', sunGlow: '#ffd070', elev: 16, cloud: '#c8a0a8', lit: '#fff0d0', rim: '#ffffff', fog: '#f0d8b0', key: '#ffe0b0', ki: 2.0, amb: '#f0e0d0', a: 1.8, rays: 0.1, clouds: 55 },
+  sunset: { stops: ['#3a78e0', '#7a8ae8', '#f08ab0', '#ff9a6a', '#ffc470', '#fff2b0'], sun: '#fffbe8', sunGlow: '#ffc060', elev: 7, cloud: '#e88aa8', lit: '#ffd08a', rim: '#fff8dc', fog: '#ffc8a0', key: '#ffd0a0', ki: 2.2, amb: '#ffe0e8', a: 2.1, rays: 0.16, clouds: 60 },
+  golden: { stops: ['#2a7ae8', '#5aa8f0', '#a8d8f8', '#ffe0a0', '#ffd890', '#fff6d0'], sun: '#ffffff', sunGlow: '#ffe080', elev: 16, cloud: '#f8e0e8', lit: '#fff4dc', rim: '#ffffff', fog: '#f8e8c8', key: '#fff0d0', ki: 2.4, amb: '#f8f4ff', a: 2.3, rays: 0.12, clouds: 45 },
   dusk: { stops: ['#0a0c2a', '#1e1a4a', '#4a2a5a', '#a03a4a', '#e8704a', '#ffb070'], sun: '#ffd8a0', sunGlow: '#ff7a3a', elev: -1, cloud: '#2a1a3a', lit: '#e8604a', rim: '#ffb080', fog: '#8a4a5a', key: '#ff9a70', ki: 1.2, amb: '#a07aa8', a: 1.3, rays: 0.08, clouds: 60, stars: 80 },
-  night: { stops: ['#02030c', '#060a22', '#10183a', '#1e2650', '#3a3a6a', '#6a4a6a'], moon: true, sun: '#f4f0dc', sunGlow: '#8aa0e0', elev: 24, cloud: '#141a34', lit: '#5a6aa0', rim: '#c8d4ff', fog: '#1a1e3a', key: '#a8b8ff', ki: 0.9, amb: '#6a70a8', a: 1.3, rays: 0, clouds: 40, stars: 500 },
+  night: { stops: ['#0a1450', '#1a2a80', '#3a3aa0', '#6a4aa8', '#c86a9a', '#ffa080'], moon: true, sun: '#fffbea', sunGlow: '#a8c0ff', elev: 24, cloud: '#3a3a90', lit: '#a890d8', rim: '#e8e0ff', fog: '#4a4a98', key: '#c0d0ff', ki: 1.4, amb: '#9aa0e0', a: 1.9, rays: 0, clouds: 40, stars: 500 },
   fire: { stops: ['#03020a', '#0a0614', '#2a0a18', '#6a1414', '#c8401a', '#ff8a3a'], moon: true, sun: '#ffe8c8', sunGlow: '#ff8a5a', elev: 30, cloud: '#1a0a10', lit: '#c8401a', rim: '#ff9a50', fog: '#4a1a14', key: '#ff9a50', ki: 1.4, amb: '#c86a4a', a: 1.5, rays: 0, clouds: 50, stars: 260 },
 };
 
@@ -45,8 +45,8 @@ export function stage(T, preset = 'sunset', o = {}) {
   const st = A.stage(T, { sky: P.stops.slice(0, 3), fogColor: P.fog, fog: o.fog || [240, 480], amb: P.amb, key: P.key, keyPos: dir.map((v) => v * 120), ki: P.ki, a: P.a, ss: o.ss });
   st.camera.far = 600; st.camera.updateProjectionMatrix();
   const tex = new THREE.CanvasTexture(paint(P, az, o.seed || 7)); tex.colorSpace = THREE.SRGBColorSpace; tex.wrapS = THREE.RepeatWrapping;
-  const dome = new THREE.Mesh(new THREE.SphereGeometry(520, 48, 24), new THREE.MeshBasicMaterial({ map: tex, side: THREE.BackSide, fog: false, depthWrite: false })); dome.renderOrder = -10; dome.userData.noOutline = true; st.add(dome);
-  const sun = new THREE.Sprite(new THREE.SpriteMaterial({ map: orb(T, P), transparent: true, depthWrite: false, fog: false, blending: THREE.AdditiveBlending })); const sz = P.moon ? 90 : 170; sun.scale.set(sz, sz, 1); sun.renderOrder = -9; sun.userData.noOutline = true; st.add(sun);
+  const dome = new THREE.Mesh(new THREE.SphereGeometry(520, 48, 24), new THREE.MeshBasicMaterial({ map: tex, side: THREE.BackSide, fog: false, depthWrite: false, toneMapped: false })); dome.renderOrder = -10; dome.userData.noOutline = true; st.add(dome);
+  const sun = new THREE.Sprite(new THREE.SpriteMaterial({ map: orb(T, P), transparent: true, depthWrite: false, fog: false, blending: THREE.AdditiveBlending, toneMapped: false })); const sz = P.moon ? 90 : 170; sun.scale.set(sz, sz, 1); sun.renderOrder = -9; sun.userData.noOutline = true; st.add(sun);
   st.skyObj = { dome, tex, sun, dir: [Math.cos(az) * Math.cos(el), Math.sin(el), -Math.sin(az) * Math.cos(el)], drift: o.drift ?? 0.0025 };
   st.scene.background = new THREE.Color(P.stops[2]);
   update(st, 0); return st;

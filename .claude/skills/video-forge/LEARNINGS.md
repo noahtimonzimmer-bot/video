@@ -17,6 +17,15 @@
 - **"zu viele kameraflüge … kamera folgt hauptfiguren, weniger schnitte, wie ein ganzes flüssiges video"** → Sequenzen statt Einzel-Shots: 1 Shot deckt 2–4 Cues ab (Short ≈ 10–12 Shots/min statt 25), Kamera folgt der Hauptfigur (Tracking), Flüge nur für Hook/Reveal/Finale. Texte/Ereignisse innerhalb des Shots per Cue-Zeit (`at(cue)`).
 - **Iskorosten-Hügel "stimmt nicht"** (braune Scheibe mit Stein-Textur) → Hügel/Felsen natürlich bauen: Gras-Hügel + 3D-Findlinge/Felsklippen, keine gestreckte Textur-Kuppel.
 - **Erzählstil (Skript):** "kein meet chris, kein his dream — besser erzählt" → wie ein Freund, der eine Geschichte erzählt: "See, Chris is a broke computer science student who wants to study in Japan. But he's broke as hell. One day, a burger contest caught his attention…" Fließende Sätze mit Verbindungswörtern (See, But, So, And, Because, Then). KEINE Steckbrief-/Schlagwort-Sätze ("Meet X.", "His dream: …", "His bank account: …").
+- **LOOK-REGEL: "zu düster — helle, satte Farben, cleanes Aussehen, Gras wie aus alten Computerspielen, ich will moderne satte Farben, leuchtende Sonnenuntergänge"** → Stil `vivid` (kaum Vignette, kein Korn/Papier, hohe Sättigung, helle Belichtung), helles sattes Gras ohne Pixel-Rauschen, Gras-Büschel als weiche runde Blattformen (kein Strich-Gras), Himmel-Presets leuchtend (Pink/Orange/Gold statt Lila-Dunkel). Düstere Grade nur, wenn ausdrücklich gewünscht.
+- **Übergänge wie im Olga-Video beibehalten** ("die cleanen übergänge wie im olga video sollen bleiben"): Sequenzen mit L.glide-Kamera, weiche dip/fade-Übergänge zwischen Orten, sonst durchgehende Kamerafahrt — gilt auch mit dem neuen hellen `vivid`-Look.
+- **SKRIPT-MUSTER (von Lana als perfekt bestätigt, Burger-Short):**
+  1. HOOK: 1–2 Sätze, direkt die krasse Behauptung, nichts davor ("This guy took $150,000 from a fast food giant… and it was completely legal.").
+  2. Dann sofort "See, <Name> is a … who wants to …. But …" — erzählt wie ein Freund, Verbindungswörter (See / But / One day / Instead / So / And / After …).
+  3. Keine unnötigen Details (keine Kontostände, kein "days passed, nothing", keine Uhrzeiten, kein Technik-Gelaber) — nur was die Geschichte vorantreibt.
+  4. Auflösung (wie es funktioniert hat) erst am Ende, dann Ergebnis + ein starker Schlusssatz.
+  Beispiel: `examples/narration_burger.txt`.
+- **Vorschau NUR als Standbilder** (Contact-Sheet + Einzelbilder). NIEMALS ein Low-Res-Vorschauvideo schicken ("ich will nie das low video sehen").
 - **Skript zuerst zeigen:** Vor Stimme/Szenen das komplette Skript im Chat schicken und auf OK warten.
 - Hook muss "krass" sein: Satz 1 = Frage oder schockierende Behauptung, erstes Bild sofort spektakulär.
 - **Stimmen-Regel:** "die stimme des ersten shorts ist tabu" → `bm_george` (Friday-13-Short) NIE mehr verwenden. Lieblingsstimme: `am_michael` (Serpent-Video, "nimm die stimme aus dem schlangen bibel video") → Standard für neue Videos. Verfügbar: am_eric, am_echo, am_fenrir, am_adam, am_puck, am_liam, am_onyx, am_santa, bm_daniel, bm_lewis, bm_fable. Benutzte Stimme im Changelog notieren.

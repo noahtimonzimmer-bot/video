@@ -54,7 +54,7 @@ export function dumpster(st, x, z, o = {}) { const T = st.T; const m = T.mat(o.c
 // a whole small-town strip around the burger joint; returns {joint, traffic}
 export function town(st, o = {}) {
   const T = st.T, r = rng(o.seed || 4);
-  A.flatGround(st, 2000, W.grassTex(T, '#7a9a4a', [120, 120]));
+  A.flatGround(st, 2000, W.grassTex(T, '#6cc84a', [120, 120]));
   const road = T.ground(1200, 14, '#ffffff', asphalt(T, [60, 1])); road.position.set(0, 0.06, 18); road.userData.noOutline = true; st.add(road);
   for (const sz of [9, 27]) { const sw = T.ground(1200, 4, '#ffffff', pavement(T)); sw.position.set(0, 0.1, sz); sw.userData.noOutline = true; st.add(sw); st.add(T.box(1200, 0.25, 0.3, T.mat('#9a948a'), 0, 0.12, sz + (sz < 18 ? 2 : -2))); }
   const cross = T.ground(14, 400, '#ffffff', asphalt(T, [1, 20])); cross.rotation.y = 0; cross.position.set(-60, 0.07, 18); cross.userData.noOutline = true; st.add(cross);
@@ -101,7 +101,7 @@ export function paintMonitor(m, t, phase = 'code', o = {}) { const g = m.mc.getC
   else { const r = rng(Math.floor(t * 12)); for (let i = 0; i < 12; i++) { g.fillStyle = i === 11 ? '#f2c21a' : '#5ab0ff'; let s = ''; for (let k = 0; k < 3; k++) s += Math.floor(r() * 9000 + 1000) + '-'; g.fillText(s + (r() < 0.5 ? 'A' : 'F') + Math.floor(r() * 90 + 10) + '  ✗', 20, 26 + i * 25); } g.fillStyle = '#f4f0e6'; g.fillText('codes: ' + (o.count || Math.floor(t * 900)), 300, 305); }
   m.mtex.needsUpdate = true; m.glowL.intensity = phase === 'green' ? 30 : 6; m.glowL.color.set(phase === 'green' ? '#3aff6a' : '#8ab8ff'); }
 // Japan finale: Fuji, Tokyo skyline, pagoda, cherry blossoms
-export function japan(st, o = {}) { const T = st.T, { THREE } = T; A.flatGround(st, 2000, W.grassTex(T, '#8ab05a', [120, 120]));
+export function japan(st, o = {}) { const T = st.T, { THREE } = T; A.flatGround(st, 2000, W.grassTex(T, '#6cc84a', [120, 120]));
   const fuji = new THREE.Mesh(new THREE.ConeGeometry(160, 120, 48, 1, true), T.mat('#6a7aa8')); fuji.position.set(0, 60, -420); fuji.userData.noOutline = true; st.add(fuji); const cap = new THREE.Mesh(new THREE.ConeGeometry(54, 41, 48), T.mat('#f4f6fa')); cap.position.set(0, 100, -419); cap.userData.noOutline = true; st.add(cap);
   const r = rng(12); for (let i = 0; i < 70; i++) { const x = -260 + i * 7.5 + r() * 3, h = 10 + r() * 50, z = -150 - r() * 60; const b = T.building(6, h, 6, { color: ['#3a3a5a', '#4a4a6a', '#5a5a7a'][i % 3], win: '#ffd88a', lit: 0.5, seed: i }); b.position.set(x, 0, z); st.add(b); }
   const tower = T.box(4, 70, 4, T.mat('#e8402a'), 60, 35, -170); st.add(tower); st.add(T.box(10, 3, 10, T.mat('#f4f0e6'), 60, 50, -170));

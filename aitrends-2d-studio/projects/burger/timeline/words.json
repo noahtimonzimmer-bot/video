@@ -97,799 +97,829 @@
    "end": 6.823
   },
   {
-   "word": "Meet",
+   "word": "See,",
    "start": 7.55,
-   "end": 7.808
+   "end": 7.801
   },
   {
-   "word": "Chris.",
-   "start": 7.831,
-   "end": 8.175
+   "word": "Chris",
+   "start": 7.823,
+   "end": 8.115
   },
   {
-   "word": "A",
-   "start": 8.205,
-   "end": 8.334
+   "word": "is",
+   "start": 8.141,
+   "end": 8.308
+  },
+  {
+   "word": "a",
+   "start": 8.323,
+   "end": 8.448
   },
   {
    "word": "broke",
-   "start": 8.345,
-   "end": 8.647
+   "start": 8.459,
+   "end": 8.752
   },
   {
    "word": "computer",
-   "start": 8.673,
-   "end": 9.104
+   "start": 8.777,
+   "end": 9.195
   },
   {
    "word": "science",
-   "start": 9.141,
-   "end": 9.528
+   "start": 9.232,
+   "end": 9.608
   },
   {
-   "word": "student.",
-   "start": 9.562,
-   "end": 9.993
+   "word": "student",
+   "start": 9.641,
+   "end": 10.017
   },
   {
-   "word": "His",
-   "start": 10.21,
-   "end": 10.457
+   "word": "who",
+   "start": 10.05,
+   "end": 10.259
   },
   {
-   "word": "dream:",
-   "start": 10.479,
-   "end": 10.874
+   "word": "wants",
+   "start": 10.277,
+   "end": 10.57
   },
   {
-   "word": "one",
-   "start": 10.908,
-   "end": 11.155
+   "word": "to",
+   "start": 10.596,
+   "end": 10.763
   },
   {
-   "word": "semester",
-   "start": 11.177,
-   "end": 11.671
+   "word": "study",
+   "start": 10.777,
+   "end": 11.07
   },
   {
    "word": "in",
-   "start": 11.714,
-   "end": 11.911
+   "start": 11.096,
+   "end": 11.263
   },
   {
    "word": "Japan.",
-   "start": 11.929,
-   "end": 12.324
+   "start": 11.277,
+   "end": 11.612
   },
   {
-   "word": "His",
-   "start": 12.358,
-   "end": 12.605
+   "word": "But",
+   "start": 11.821,
+   "end": 12.007
   },
   {
-   "word": "bank",
-   "start": 12.627,
-   "end": 12.923
+   "word": "he's",
+   "start": 12.023,
+   "end": 12.247
   },
   {
-   "word": "account:",
-   "start": 12.949,
-   "end": 13.443
+   "word": "broke",
+   "start": 12.266,
+   "end": 12.526
   },
   {
-   "word": "forty-two",
-   "start": 13.486,
-   "end": 14.03
+   "word": "as",
+   "start": 12.549,
+   "end": 12.698
   },
   {
-   "word": "dollars.",
-   "start": 14.077,
-   "end": 14.571
+   "word": "hell.",
+   "start": 12.711,
+   "end": 12.971
   },
   {
-   "word": "Then",
-   "start": 14.794,
-   "end": 15.059
+   "word": "One",
+   "start": 13.174,
+   "end": 13.394
+  },
+  {
+   "word": "day,",
+   "start": 13.413,
+   "end": 13.676
   },
   {
    "word": "a",
-   "start": 15.082,
-   "end": 15.214
+   "start": 13.699,
+   "end": 13.831
   },
   {
    "word": "burger",
-   "start": 15.225,
-   "end": 15.578
+   "start": 13.842,
+   "end": 14.194
   },
   {
-   "word": "chain",
-   "start": 15.609,
-   "end": 15.917
+   "word": "contest",
+   "start": 14.224,
+   "end": 14.62
   },
   {
-   "word": "launched",
-   "start": 15.944,
-   "end": 16.385
+   "word": "caught",
+   "start": 14.654,
+   "end": 15.006
   },
   {
-   "word": "a",
-   "start": 16.423,
-   "end": 16.555
+   "word": "his",
+   "start": 15.036,
+   "end": 15.256
   },
   {
-   "word": "contest.",
-   "start": 16.567,
-   "end": 17.008
+   "word": "attention.",
+   "start": 15.275,
+   "end": 15.802
   },
   {
    "word": "Collect",
-   "start": 17.046,
-   "end": 17.443
+   "start": 15.848,
+   "end": 16.243
   },
   {
    "word": "the",
-   "start": 17.477,
-   "end": 17.698
+   "start": 16.278,
+   "end": 16.497
   },
   {
    "word": "codes",
-   "start": 17.717,
-   "end": 18.026
+   "start": 16.516,
+   "end": 16.824
   },
   {
    "word": "on",
-   "start": 18.052,
-   "end": 18.229
+   "start": 16.85,
+   "end": 17.026
   },
   {
    "word": "your",
-   "start": 18.244,
-   "end": 18.509
+   "start": 17.041,
+   "end": 17.305
   },
   {
-   "word": "cups...",
-   "start": 18.532,
-   "end": 18.928
-  },
-  {
-   "word": "win",
-   "start": 18.963,
-   "end": 19.183
-  },
-  {
-   "word": "up",
-   "start": 19.202,
-   "end": 19.379
-  },
-  {
-   "word": "to",
-   "start": 19.394,
-   "end": 19.57
-  },
-  {
-   "word": "a",
-   "start": 19.586,
-   "end": 19.718
-  },
-  {
-   "word": "million",
-   "start": 19.73,
-   "end": 20.126
-  },
-  {
-   "word": "dollars.",
-   "start": 20.161,
-   "end": 20.602
-  },
-  {
-   "word": "Chris",
-   "start": 20.82,
-   "end": 21.094
-  },
-  {
-   "word": "didn't",
-   "start": 21.118,
-   "end": 21.432
-  },
-  {
-   "word": "buy",
-   "start": 21.459,
-   "end": 21.655
-  },
-  {
-   "word": "a",
-   "start": 21.672,
-   "end": 21.79
-  },
-  {
-   "word": "single",
-   "start": 21.8,
-   "end": 22.113
-  },
-  {
-   "word": "burger.",
-   "start": 22.141,
-   "end": 22.493
-  },
-  {
-   "word": "Instead,",
-   "start": 22.704,
-   "end": 23.1
-  },
-  {
-   "word": "he",
-   "start": 23.135,
-   "end": 23.293
-  },
-  {
-   "word": "went",
-   "start": 23.307,
-   "end": 23.545
-  },
-  {
-   "word": "to",
-   "start": 23.565,
-   "end": 23.724
-  },
-  {
-   "word": "the",
-   "start": 23.738,
-   "end": 23.936
-  },
-  {
-   "word": "cleaners",
-   "start": 23.953,
-   "end": 24.349
-  },
-  {
-   "word": "behind",
-   "start": 24.383,
-   "end": 24.7
-  },
-  {
-   "word": "every",
-   "start": 24.728,
-   "end": 25.005
-  },
-  {
-   "word": "restaurant",
-   "start": 25.029,
-   "end": 25.505
-  },
-  {
-   "word": "in",
-   "start": 25.546,
-   "end": 25.705
-  },
-  {
-   "word": "town...",
-   "start": 25.718,
-   "end": 26.075
+   "word": "cups,",
+   "start": 17.328,
+   "end": 17.635
   },
   {
    "word": "and",
-   "start": 26.656,
-   "end": 26.846
+   "start": 17.662,
+   "end": 17.882
   },
   {
-   "word": "offered",
-   "start": 26.863,
-   "end": 27.205
-  },
-  {
-   "word": "to",
-   "start": 27.235,
-   "end": 27.387
-  },
-  {
-   "word": "take",
-   "start": 27.4,
-   "end": 27.629
-  },
-  {
-   "word": "their",
-   "start": 27.648,
-   "end": 27.915
-  },
-  {
-   "word": "trash.",
-   "start": 27.938,
-   "end": 28.242
-  },
-  {
-   "word": "For",
-   "start": 28.269,
-   "end": 28.459
-  },
-  {
-   "word": "free.",
-   "start": 28.476,
-   "end": 28.742
-  },
-  {
-   "word": "Night",
-   "start": 28.945,
-   "end": 29.25
-  },
-  {
-   "word": "after",
-   "start": 29.276,
-   "end": 29.581
-  },
-  {
-   "word": "night,",
-   "start": 29.608,
-   "end": 29.956
-  },
-  {
-   "word": "he",
-   "start": 29.986,
-   "end": 30.16
-  },
-  {
-   "word": "dragged",
-   "start": 30.176,
-   "end": 30.567
-  },
-  {
-   "word": "home",
-   "start": 30.601,
-   "end": 30.863
-  },
-  {
-   "word": "thousands",
-   "start": 30.885,
-   "end": 31.364
-  },
-  {
-   "word": "of",
-   "start": 31.406,
-   "end": 31.58
-  },
-  {
-   "word": "dirty",
-   "start": 31.595,
-   "end": 31.9
-  },
-  {
-   "word": "cups.",
-   "start": 31.927,
-   "end": 32.231
-  },
-  {
-   "word": "He",
-   "start": 32.438,
-   "end": 32.617
-  },
-  {
-   "word": "typed",
-   "start": 32.632,
-   "end": 32.945
-  },
-  {
-   "word": "every",
-   "start": 32.972,
-   "end": 33.285
-  },
-  {
-   "word": "single",
-   "start": 33.312,
-   "end": 33.669
-  },
-  {
-   "word": "code",
-   "start": 33.7,
-   "end": 33.968
-  },
-  {
-   "word": "into",
-   "start": 33.992,
-   "end": 34.26
-  },
-  {
-   "word": "a",
-   "start": 34.283,
-   "end": 34.417
-  },
-  {
-   "word": "program",
-   "start": 34.429,
-   "end": 34.831
-  },
-  {
-   "word": "he",
-   "start": 34.865,
-   "end": 35.044
-  },
-  {
-   "word": "wrote",
-   "start": 35.06,
-   "end": 35.372
-  },
-  {
-   "word": "himself.",
-   "start": 35.4,
-   "end": 35.846
-  },
-  {
-   "word": "Days",
-   "start": 36.065,
-   "end": 36.33
-  },
-  {
-   "word": "passed.",
-   "start": 36.353,
-   "end": 36.749
-  },
-  {
-   "word": "Nothing.",
-   "start": 36.784,
-   "end": 37.225
-  },
-  {
-   "word": "Then,",
-   "start": 37.443,
-   "end": 37.768
-  },
-  {
-   "word": "at",
-   "start": 37.796,
-   "end": 37.982
-  },
-  {
-   "word": "two",
-   "start": 37.998,
-   "end": 38.23
-  },
-  {
-   "word": "a.m.,",
-   "start": 38.25,
-   "end": 38.574
-  },
-  {
-   "word": "his",
-   "start": 38.603,
-   "end": 38.835
-  },
-  {
-   "word": "screen",
-   "start": 38.855,
-   "end": 39.226
-  },
-  {
-   "word": "turned",
-   "start": 39.258,
-   "end": 39.629
-  },
-  {
-   "word": "green.",
-   "start": 39.662,
-   "end": 40.033
-  },
-  {
-   "word": "The",
-   "start": 40.365,
-   "end": 40.555
-  },
-  {
-   "word": "codes",
-   "start": 40.572,
-   "end": 40.839
-  },
-  {
-   "word": "weren't",
-   "start": 40.862,
-   "end": 41.205
-  },
-  {
-   "word": "random.",
-   "start": 41.234,
-   "end": 41.577
-  },
-  {
-   "word": "They",
-   "start": 41.787,
-   "end": 42.023
-  },
-  {
-   "word": "followed",
-   "start": 42.043,
-   "end": 42.436
-  },
-  {
-   "word": "a",
-   "start": 42.47,
-   "end": 42.588
-  },
-  {
-   "word": "formula...",
-   "start": 42.599,
-   "end": 43.07
-  },
-  {
-   "word": "based",
-   "start": 43.111,
-   "end": 43.386
-  },
-  {
-   "word": "on",
-   "start": 43.41,
-   "end": 43.567
-  },
-  {
-   "word": "the",
-   "start": 43.581,
-   "end": 43.778
-  },
-  {
-   "word": "print",
-   "start": 43.795,
-   "end": 44.07
-  },
-  {
-   "word": "date",
-   "start": 44.094,
-   "end": 44.329
-  },
-  {
-   "word": "and",
-   "start": 44.35,
-   "end": 44.546
-  },
-  {
-   "word": "the",
-   "start": 44.564,
-   "end": 44.76
-  },
-  {
-   "word": "factory",
-   "start": 44.777,
-   "end": 45.131
-  },
-  {
-   "word": "number.",
-   "start": 45.162,
-   "end": 45.515
-  },
-  {
-   "word": "Chris",
-   "start": 45.726,
-   "end": 46.039
+   "word": "you",
+   "start": 17.901,
+   "end": 18.121
   },
   {
    "word": "could",
-   "start": 46.067,
-   "end": 46.38
+   "start": 18.14,
+   "end": 18.447
   },
   {
-   "word": "now",
-   "start": 46.407,
-   "end": 46.631
-  },
-  {
-   "word": "predict",
-   "start": 46.651,
-   "end": 47.054
-  },
-  {
-   "word": "which",
-   "start": 47.089,
-   "end": 47.402
-  },
-  {
-   "word": "boxes,",
-   "start": 47.429,
-   "end": 47.788
-  },
-  {
-   "word": "on",
-   "start": 47.819,
-   "end": 47.998
-  },
-  {
-   "word": "which",
-   "start": 48.013,
-   "end": 48.327
-  },
-  {
-   "word": "days,",
-   "start": 48.354,
-   "end": 48.667
-  },
-  {
-   "word": "carried",
-   "start": 48.695,
-   "end": 49.098
-  },
-  {
-   "word": "the",
-   "start": 49.133,
-   "end": 49.357
-  },
-  {
-   "word": "big",
-   "start": 49.376,
-   "end": 49.6
-  },
-  {
-   "word": "winners.",
-   "start": 49.619,
-   "end": 50.067
-  },
-  {
-   "word": "He",
-   "start": 50.286,
-   "end": 50.451
-  },
-  {
-   "word": "drove",
-   "start": 50.466,
-   "end": 50.755
-  },
-  {
-   "word": "to",
-   "start": 50.78,
-   "end": 50.946
-  },
-  {
-   "word": "those",
-   "start": 50.96,
-   "end": 51.249
-  },
-  {
-   "word": "restaurants...",
-   "start": 51.274,
-   "end": 51.936
-  },
-  {
-   "word": "and",
-   "start": 51.993,
-   "end": 52.2
-  },
-  {
-   "word": "bought",
-   "start": 52.218,
-   "end": 52.549
-  },
-  {
-   "word": "one",
-   "start": 52.577,
-   "end": 52.784
-  },
-  {
-   "word": "single",
-   "start": 52.802,
-   "end": 53.133
-  },
-  {
-   "word": "cup",
-   "start": 53.161,
-   "end": 53.368
-  },
-  {
-   "word": "each",
-   "start": 53.386,
-   "end": 53.634
-  },
-  {
-   "word": "time.",
-   "start": 53.656,
-   "end": 53.945
-  },
-  {
-   "word": "Two",
-   "start": 54.15,
-   "end": 54.37
-  },
-  {
-   "word": "weeks",
-   "start": 54.389,
-   "end": 54.697
-  },
-  {
-   "word": "later:",
-   "start": 54.723,
-   "end": 55.075
+   "word": "win",
+   "start": 18.474,
+   "end": 18.693
   },
   {
    "word": "a",
-   "start": 55.106,
-   "end": 55.238
+   "start": 18.713,
+   "end": 18.844
   },
   {
-   "word": "hundred",
-   "start": 55.249,
-   "end": 55.645
-  },
-  {
-   "word": "and",
-   "start": 55.679,
-   "end": 55.899
-  },
-  {
-   "word": "fifty",
-   "start": 55.918,
-   "end": 56.226
-  },
-  {
-   "word": "thousand",
-   "start": 56.252,
-   "end": 56.692
+   "word": "million",
+   "start": 18.856,
+   "end": 19.251
   },
   {
    "word": "dollars.",
-   "start": 56.73,
-   "end": 57.17
+   "start": 19.286,
+   "end": 19.725
   },
   {
-   "word": "No",
-   "start": 57.388,
-   "end": 57.571
+   "word": "But",
+   "start": 19.943,
+   "end": 20.131
   },
   {
-   "word": "rules",
-   "start": 57.586,
-   "end": 57.906
+   "word": "Chris",
+   "start": 20.147,
+   "end": 20.411
   },
   {
-   "word": "broken.",
-   "start": 57.934,
-   "end": 58.345
+   "word": "didn't",
+   "start": 20.434,
+   "end": 20.735
   },
   {
-   "word": "He",
-   "start": 58.38,
-   "end": 58.563
+   "word": "buy",
+   "start": 20.761,
+   "end": 20.949
   },
   {
-   "word": "just",
-   "start": 58.579,
-   "end": 58.853
+   "word": "a",
+   "start": 20.965,
+   "end": 21.078
   },
   {
-   "word": "read",
-   "start": 58.877,
-   "end": 59.151
+   "word": "single",
+   "start": 21.088,
+   "end": 21.389
   },
   {
-   "word": "the",
-   "start": 59.174,
-   "end": 59.403
+   "word": "burger.",
+   "start": 21.415,
+   "end": 21.754
   },
   {
-   "word": "system...",
-   "start": 59.423,
-   "end": 59.925
+   "word": "Instead,",
+   "start": 21.963,
+   "end": 22.399
   },
   {
-   "word": "and",
-   "start": 59.968,
-   "end": 60.197
+   "word": "he",
+   "start": 22.437,
+   "end": 22.611
   },
   {
-   "word": "booked",
-   "start": 60.216,
-   "end": 60.582
+   "word": "walked",
+   "start": 22.626,
+   "end": 22.975
   },
   {
-   "word": "his",
-   "start": 60.613,
-   "end": 60.842
-  },
-  {
-   "word": "flight",
-   "start": 60.862,
-   "end": 61.227
+   "word": "up",
+   "start": 23.005,
+   "end": 23.179
   },
   {
    "word": "to",
-   "start": 61.259,
-   "end": 61.441
+   "start": 23.194,
+   "end": 23.369
+  },
+  {
+   "word": "the",
+   "start": 23.384,
+   "end": 23.602
+  },
+  {
+   "word": "cleaners",
+   "start": 23.621,
+   "end": 24.056
+  },
+  {
+   "word": "behind",
+   "start": 24.094,
+   "end": 24.443
+  },
+  {
+   "word": "every",
+   "start": 24.473,
+   "end": 24.778
+  },
+  {
+   "word": "restaurant",
+   "start": 24.805,
+   "end": 25.327
+  },
+  {
+   "word": "in",
+   "start": 25.373,
+   "end": 25.547
+  },
+  {
+   "word": "town...",
+   "start": 25.562,
+   "end": 25.955
+  },
+  {
+   "word": "and",
+   "start": 25.989,
+   "end": 26.206
+  },
+  {
+   "word": "offered",
+   "start": 26.225,
+   "end": 26.618
+  },
+  {
+   "word": "to",
+   "start": 26.652,
+   "end": 26.826
+  },
+  {
+   "word": "take",
+   "start": 26.841,
+   "end": 27.103
+  },
+  {
+   "word": "their",
+   "start": 27.125,
+   "end": 27.43
+  },
+  {
+   "word": "trash.",
+   "start": 27.457,
+   "end": 27.805
+  },
+  {
+   "word": "For",
+   "start": 27.836,
+   "end": 28.054
+  },
+  {
+   "word": "free.",
+   "start": 28.072,
+   "end": 28.377
+  },
+  {
+   "word": "So",
+   "start": 28.584,
+   "end": 28.765
+  },
+  {
+   "word": "night",
+   "start": 28.781,
+   "end": 29.098
+  },
+  {
+   "word": "after",
+   "start": 29.126,
+   "end": 29.443
+  },
+  {
+   "word": "night,",
+   "start": 29.471,
+   "end": 29.833
+  },
+  {
+   "word": "he",
+   "start": 29.865,
+   "end": 30.046
+  },
+  {
+   "word": "dragged",
+   "start": 30.062,
+   "end": 30.47
+  },
+  {
+   "word": "home",
+   "start": 30.505,
+   "end": 30.777
+  },
+  {
+   "word": "thousands",
+   "start": 30.801,
+   "end": 31.299
+  },
+  {
+   "word": "of",
+   "start": 31.342,
+   "end": 31.524
+  },
+  {
+   "word": "dirty",
+   "start": 31.539,
+   "end": 31.857
+  },
+  {
+   "word": "cups.",
+   "start": 31.884,
+   "end": 32.201
+  },
+  {
+   "word": "And",
+   "start": 32.409,
+   "end": 32.627
+  },
+  {
+   "word": "he",
+   "start": 32.646,
+   "end": 32.821
+  },
+  {
+   "word": "typed",
+   "start": 32.836,
+   "end": 33.141
+  },
+  {
+   "word": "every",
+   "start": 33.168,
+   "end": 33.473
+  },
+  {
+   "word": "single",
+   "start": 33.5,
+   "end": 33.849
+  },
+  {
+   "word": "code",
+   "start": 33.879,
+   "end": 34.141
+  },
+  {
+   "word": "into",
+   "start": 34.164,
+   "end": 34.426
+  },
+  {
+   "word": "a",
+   "start": 34.449,
+   "end": 34.58
+  },
+  {
+   "word": "program",
+   "start": 34.591,
+   "end": 34.984
+  },
+  {
+   "word": "he",
+   "start": 35.018,
+   "end": 35.192
+  },
+  {
+   "word": "wrote",
+   "start": 35.208,
+   "end": 35.513
+  },
+  {
+   "word": "himself.",
+   "start": 35.54,
+   "end": 35.976
+  },
+  {
+   "word": "After",
+   "start": 36.194,
+   "end": 36.47
+  },
+  {
+   "word": "two",
+   "start": 36.494,
+   "end": 36.691
+  },
+  {
+   "word": "weeks...",
+   "start": 36.709,
+   "end": 37.103
+  },
+  {
+   "word": "the",
+   "start": 37.137,
+   "end": 37.334
+  },
+  {
+   "word": "code",
+   "start": 37.352,
+   "end": 37.588
+  },
+  {
+   "word": "was",
+   "start": 37.609,
+   "end": 37.806
+  },
+  {
+   "word": "cracked.",
+   "start": 37.823,
+   "end": 38.218
+  },
+  {
+   "word": "It",
+   "start": 38.552,
+   "end": 38.712
+  },
+  {
+   "word": "followed",
+   "start": 38.725,
+   "end": 39.125
+  },
+  {
+   "word": "a",
+   "start": 39.159,
+   "end": 39.279
+  },
+  {
+   "word": "formula...",
+   "start": 39.289,
+   "end": 39.768
+  },
+  {
+   "word": "based",
+   "start": 39.81,
+   "end": 40.089
+  },
+  {
+   "word": "on",
+   "start": 40.113,
+   "end": 40.273
+  },
+  {
+   "word": "the",
+   "start": 40.287,
+   "end": 40.486
+  },
+  {
+   "word": "print",
+   "start": 40.504,
+   "end": 40.783
+  },
+  {
+   "word": "date",
+   "start": 40.807,
+   "end": 41.047
+  },
+  {
+   "word": "and",
+   "start": 41.068,
+   "end": 41.267
+  },
+  {
+   "word": "the",
+   "start": 41.284,
+   "end": 41.484
+  },
+  {
+   "word": "factory",
+   "start": 41.501,
+   "end": 41.86
+  },
+  {
+   "word": "number.",
+   "start": 41.892,
+   "end": 42.251
+  },
+  {
+   "word": "So",
+   "start": 42.462,
+   "end": 42.648
+  },
+  {
+   "word": "Chris",
+   "start": 42.664,
+   "end": 42.99
+  },
+  {
+   "word": "could",
+   "start": 43.019,
+   "end": 43.344
+  },
+  {
+   "word": "predict",
+   "start": 43.373,
+   "end": 43.792
+  },
+  {
+   "word": "exactly",
+   "start": 43.828,
+   "end": 44.247
+  },
+  {
+   "word": "which",
+   "start": 44.283,
+   "end": 44.609
+  },
+  {
+   "word": "boxes,",
+   "start": 44.637,
+   "end": 45.01
+  },
+  {
+   "word": "on",
+   "start": 45.042,
+   "end": 45.228
+  },
+  {
+   "word": "which",
+   "start": 45.245,
+   "end": 45.57
+  },
+  {
+   "word": "days,",
+   "start": 45.599,
+   "end": 45.925
+  },
+  {
+   "word": "carried",
+   "start": 45.953,
+   "end": 46.372
+  },
+  {
+   "word": "the",
+   "start": 46.408,
+   "end": 46.641
+  },
+  {
+   "word": "big",
+   "start": 46.661,
+   "end": 46.894
+  },
+  {
+   "word": "winners.",
+   "start": 46.914,
+   "end": 47.38
+  },
+  {
+   "word": "He",
+   "start": 47.6,
+   "end": 47.759
+  },
+  {
+   "word": "drove",
+   "start": 47.772,
+   "end": 48.05
+  },
+  {
+   "word": "to",
+   "start": 48.074,
+   "end": 48.233
+  },
+  {
+   "word": "those",
+   "start": 48.247,
+   "end": 48.524
+  },
+  {
+   "word": "restaurants...",
+   "start": 48.548,
+   "end": 49.183
+  },
+  {
+   "word": "and",
+   "start": 49.238,
+   "end": 49.437
+  },
+  {
+   "word": "bought",
+   "start": 49.454,
+   "end": 49.771
+  },
+  {
+   "word": "just",
+   "start": 49.799,
+   "end": 50.037
+  },
+  {
+   "word": "one",
+   "start": 50.057,
+   "end": 50.256
+  },
+  {
+   "word": "cup",
+   "start": 50.273,
+   "end": 50.471
+  },
+  {
+   "word": "each",
+   "start": 50.489,
+   "end": 50.727
+  },
+  {
+   "word": "time.",
+   "start": 50.747,
+   "end": 51.025
+  },
+  {
+   "word": "And",
+   "start": 51.229,
+   "end": 51.429
+  },
+  {
+   "word": "just",
+   "start": 51.446,
+   "end": 51.685
+  },
+  {
+   "word": "like",
+   "start": 51.706,
+   "end": 51.946
+  },
+  {
+   "word": "that,",
+   "start": 51.967,
+   "end": 52.246
+  },
+  {
+   "word": "he",
+   "start": 52.27,
+   "end": 52.43
+  },
+  {
+   "word": "had",
+   "start": 52.444,
+   "end": 52.644
+  },
+  {
+   "word": "a",
+   "start": 52.661,
+   "end": 52.781
+  },
+  {
+   "word": "hundred",
+   "start": 52.791,
+   "end": 53.15
+  },
+  {
+   "word": "and",
+   "start": 53.182,
+   "end": 53.381
+  },
+  {
+   "word": "fifty",
+   "start": 53.398,
+   "end": 53.678
+  },
+  {
+   "word": "thousand",
+   "start": 53.702,
+   "end": 54.101
+  },
+  {
+   "word": "dollars.",
+   "start": 54.136,
+   "end": 54.535
+  },
+  {
+   "word": "He",
+   "start": 54.75,
+   "end": 54.921
+  },
+  {
+   "word": "didn't",
+   "start": 54.936,
+   "end": 55.277
+  },
+  {
+   "word": "break",
+   "start": 55.307,
+   "end": 55.606
+  },
+  {
+   "word": "a",
+   "start": 55.632,
+   "end": 55.76
+  },
+  {
+   "word": "single",
+   "start": 55.771,
+   "end": 56.113
+  },
+  {
+   "word": "rule.",
+   "start": 56.142,
+   "end": 56.441
+  },
+  {
+   "word": "He",
+   "start": 56.467,
+   "end": 56.638
+  },
+  {
+   "word": "just",
+   "start": 56.653,
+   "end": 56.909
+  },
+  {
+   "word": "read",
+   "start": 56.931,
+   "end": 57.188
+  },
+  {
+   "word": "the",
+   "start": 57.21,
+   "end": 57.423
+  },
+  {
+   "word": "system...",
+   "start": 57.442,
+   "end": 57.912
+  },
+  {
+   "word": "and",
+   "start": 57.952,
+   "end": 58.166
+  },
+  {
+   "word": "booked",
+   "start": 58.184,
+   "end": 58.526
+  },
+  {
+   "word": "his",
+   "start": 58.556,
+   "end": 58.769
+  },
+  {
+   "word": "flight",
+   "start": 58.788,
+   "end": 59.129
+  },
+  {
+   "word": "to",
+   "start": 59.159,
+   "end": 59.33
   },
   {
    "word": "Tokyo.",
-   "start": 61.457,
-   "end": 61.822
+   "start": 59.345,
+   "end": 59.686
   }
  ]
 }

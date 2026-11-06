@@ -30,11 +30,11 @@ Baut auf dem **aiTrends 2D Studio** auf (`/home/user/video/aitrends-2d-studio`, 
 
 ## Workflow (Kurzfassung — Details in `reference/pipeline.md`)
 1. **Idee & Titel**: aus `ideas.md` oder Recherche (WebSearch). Prüfen, ob es das Video schon gibt; Titel nah an bekannten Suchtiteln + eigener Twist.
-2. **Skript** schreiben → `<name>/narration.txt` (eine Zeile = ein Cue; `## ABSCHNITT`, `!` = lange Pause danach). Hook in Satz 1 (Frage/Behauptung), offene Schleife, Wow-Ende. Short ≈ 140–160 Wörter für ~60 s; Langvideo ≈ 150 Wörter/Minute.
+2. **Skript** nach dem SKRIPT-MUSTER in LEARNINGS (Hook → "See, …" → Geschichte ohne Ballast → Auflösung am Ende) schreiben, im Chat zeigen und auf OK warten; → `<name>/narration.txt` (eine Zeile = ein Cue; `## ABSCHNITT`, `!` = lange Pause danach). Hook in Satz 1 (Frage/Behauptung), offene Schleife, Wow-Ende. Short ≈ 140–160 Wörter für ~60 s; Langvideo ≈ 150 Wörter/Minute.
 3. **Stimme**: Kokoro `am_michael` (Standard, Serpent-Stimme); `bm_george` ist TABU (siehe LEARNINGS) → `voice.wav` + `script.json`.
 4. **Projekt** anlegen (`scripts/new_project.sh`), Stil wählen/anlegen, Vorlagen kopieren.
 5. **Sound**: eigenes Sound-Kit pro Video synthetisieren (nicht immer die gleichen Standard-Sounds!).
-6. **Shots** bauen in `scenes/shots/*.js` mit `S('NNN', {meta}, …)`. Erst Stills/Contact-Sheet prüfen und selbst kritisch ansehen → nachbessern → **erst dann** voll rendern.
+6. **Shots** bauen (Vorschau an Lana NUR als Standbilder, nie als Low-Res-Video) in `scenes/shots/*.js` mit `S('NNN', {meta}, …)`. Erst Stills/Contact-Sheet prüfen und selbst kritisch ansehen → nachbessern → **erst dann** voll rendern.
 7. **Render** (`--workers 4 --format jpeg`) im Hintergrund, dann `audio/mix.py`.
 8. **QC**: ffprobe + 3 Frames ansehen, nach `/home/user/video/out/` kopieren, mit SendUserFile schicken.
 9. **Metadaten** (Titel-Varianten, Beschreibung mit Kapiteln, Tags, Thumbnail-Idee) nach `reference/metadata.md` anbieten.

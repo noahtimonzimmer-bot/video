@@ -4,12 +4,12 @@
 // and the painted sky (sky.js). Options: st.wind (default 1).
 import * as SKY from './sky.js';
 const KINDS = [
-  ['tree', /^(tree\d|palm\d|prop_tree|prop_birch|prop_pine)/], ['grass', /^prop_(grass|flowerbed)/], ['bush', /^prop_(bush|haystack)/],
+  ['tree', /^(tree\d|palm\d|prop_tree|prop_birch|prop_pine|prop_sakura)/], ['flutter', /^prop_(bill|petals)/], ['grass', /^prop_(grass|flowerbed)/], ['bush', /^prop_(bush|haystack)/],
   ['cloud', /^cloud/], ['smoke', /^prop_smoke/], ['bird', /^prop_bird/], ['person', /^person_/], ['small', /^prop_(chicken|dog|rat)/], ['horse', /^prop_horse/],
 ];
 const hash = (x, z) => { const s = Math.sin(x * 12.9898 + z * 78.233) * 43758.5453; return s - Math.floor(s); };
 function index(st) {
-  const L = st.life = { tree: [], grass: [], bush: [], cloud: [], smoke: [], bird: [], person: [], small: [], horse: [], flag: [], water: [] };
+  const L = st.life = { flutter: [], tree: [], grass: [], bush: [], cloud: [], smoke: [], bird: [], person: [], small: [], horse: [], flag: [], water: [] };
   st.scene.traverse((o) => {
     if (o.userData.flag) L.flag.push(o); if (o.userData.water) L.water.push(o);
     if (!o.isSprite || !o.userData.key) return; const k = KINDS.find(([, re]) => re.test(o.userData.key)); if (!k) return;
@@ -30,6 +30,7 @@ export function tick(st, t) {
   for (const o of L.person) { const b = o.userData.b; o.position.y = b.y + Math.abs(Math.sin(t * 2.2 + b.ph)) * b.sy * 0.025; o.material.rotation = Math.sin(t * 1.3 + b.ph) * 0.035; o.scale.y = b.sy * (1 + Math.sin(t * 2.4 + b.ph) * 0.015); }
   for (const o of L.small) { const b = o.userData.b; o.position.x = b.x + Math.sin(t * 0.7 + b.ph) * 0.8; o.material.rotation = Math.max(0, Math.sin(t * 3 + b.ph)) * 0.35; }
   for (const o of L.horse) { const b = o.userData.b; o.material.rotation = Math.sin(t * 0.8 + b.ph) * 0.03; o.position.y = b.y + Math.abs(Math.sin(t * 1.1 + b.ph)) * 0.08; }
+  for (const o of L.flutter) { const b = o.userData.b, k = ((t * 0.18 + b.ph / 6.28) % 1); o.position.set(b.x + Math.sin(t * 1.3 + b.ph) * 2.5 + k * 6 * w, b.y + 8 - k * 16, b.z + Math.cos(t * 1.1 + b.ph) * 1.5); o.material.rotation = Math.sin(t * 3 + b.ph) * 1.2; o.scale.x = b.sx * Math.abs(Math.cos(t * 4 + b.ph)) + 0.05; }
   for (const o of L.flag) { o.userData.ry ??= o.rotation.y; o.rotation.y = o.userData.ry + Math.sin(t * 2.4 + o.position.x) * 0.22 * w; o.scale.x = 1 + Math.sin(t * 3.1 + o.position.z) * 0.06; }
   for (const o of L.water) { const m = o.material.map; if (m) m.offset.y = -t * 0.04; }
   SKY.update(st, t);
