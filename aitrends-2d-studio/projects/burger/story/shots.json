@@ -1,0 +1,377 @@
+{
+ "title": "Burger Code",
+ "duration": 65.354,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 7.43,
+   "line": "This guy took a hundred and fifty thousand dollars from a fast food giant... and it was completely legal.",
+   "scene": "sunset: a student in a beanie walks out of a burger restaurant toward us holding one paper cup, hundred-dollar bills fluttering around him, BURGERS pole sign glowing; a money counter races to $150,000",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/hit.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/kaching.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/riser.wav",
+     "gain": -12
+    },
+    {
+     "at": 4.5,
+     "name": "input/sfx/stamp.wav",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c002",
+   "start": 7.43,
+   "end": 14.674,
+   "line": "Meet Chris. A broke computer science student. His dream: one semester in Japan. His bank account: forty-two dollars.",
+   "scene": "a cosy dorm room at sunset: Chris types at his desk; the camera drifts to a JAPAN poster with Mt Fuji; his phone shows a balance of $42",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/typing.wav",
+     "gain": -14
+    },
+    {
+     "at": 4.4,
+     "name": "input/sfx/notify.wav",
+     "gain": -6
+    },
+    {
+     "at": 7.6,
+     "name": "input/sfx/sadhorn.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c004",
+   "start": 14.674,
+   "end": 20.7,
+   "line": "Then a burger chain launched a contest. Collect the codes on your cups... win up to a million dollars.",
+   "scene": "golden hour: the burger restaurant is packed, a line of people with cups out the door, a big yellow banner WIN $1,000,000, cars passing; the camera glides from the street up to the banner and pole sign",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/crowd.wav",
+     "gain": -14
+    },
+    {
+     "at": 0.3,
+     "name": "input/sfx/jingle.wav",
+     "gain": -6
+    },
+    {
+     "at": 2.0,
+     "name": "input/sfx/carpass.wav",
+     "gain": -14
+    },
+    {
+     "at": 4.0,
+     "name": "input/sfx/kaching.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c005",
+   "start": 20.7,
+   "end": 28.825,
+   "line": "Chris didn't buy a single burger. Instead, he went to the cleaners behind every restaurant in town... and offered to take their trash. For free.",
+   "scene": "sunset: Chris walks right past the queue without buying, rounds the corner into the back alley full of dumpsters and black trash bags, and offers two cleaners to take their trash \u2014 they shrug and hand it over",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/steps.wav",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/question.wav",
+     "gain": -8
+    },
+    {
+     "at": 3.6,
+     "name": "input/sfx/dumpster.wav",
+     "gain": -8
+    },
+    {
+     "at": 6.4,
+     "name": "input/sfx/bagdrop.wav",
+     "gain": -6
+    },
+    {
+     "at": 6.8,
+     "name": "input/sfx/laughsmall.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c008",
+   "start": 28.825,
+   "end": 32.318,
+   "line": "Night after night, he dragged home thousands of dirty cups.",
+   "scene": "night under street lamps: Chris drags three bulging black trash bags along the sidewalk past closed shops; moon and stars, a passing car",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/drag.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "input/sfx/crickets.wav",
+     "gain": -16
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/carpass.wav",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c009",
+   "start": 32.318,
+   "end": 40.245,
+   "line": "He typed every single code into a program he wrote himself. Days passed. Nothing. Then, at two a.m., his screen turned green.",
+   "scene": "night dorm buried in thousands of cups; Chris types codes into his own program, codes scroll red; days pass; at 2 a.m. the monitor turns bright green and he jumps up",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/typing.wav",
+     "gain": -8
+    },
+    {
+     "at": 1.8,
+     "name": "input/sfx/typing.wav",
+     "gain": -10
+    },
+    {
+     "at": 3.6,
+     "name": "input/sfx/tick.wav",
+     "gain": -10
+    },
+    {
+     "at": 4.6,
+     "name": "input/sfx/error.wav",
+     "gain": -12
+    },
+    {
+     "at": 5.15,
+     "name": "input/sfx/success.wav",
+     "gain": -2
+    },
+    {
+     "at": 4.2,
+     "name": "input/sfx/riser.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c012",
+   "start": 40.245,
+   "end": 45.606,
+   "line": "The codes weren't random. They followed a formula... based on the print date and the factory number.",
+   "scene": "tech-grid graphic: a giant cup turns, its code 0417-F23-8812 splits into parts: PRINT DATE and FACTORY # \u2014 glowing formula lines connect them",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/glitch.wav",
+     "gain": -8
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/pop.wav",
+     "gain": -8
+    },
+    {
+     "at": 2.4,
+     "name": "input/sfx/pop.wav",
+     "gain": -8
+    },
+    {
+     "at": 3.4,
+     "name": "input/sfx/success.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c014",
+   "start": 45.606,
+   "end": 50.166,
+   "line": "Chris could now predict which boxes, on which days, carried the big winners.",
+   "scene": "map graphic: from a factory, delivery trucks drive to restaurant pins; certain boxes light up gold with $$$ \u2014 BOX 14 \u00b7 TUESDAY",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/truck.wav",
+     "gain": -10
+    },
+    {
+     "at": 1.4,
+     "name": "input/sfx/pop.wav",
+     "gain": -8
+    },
+    {
+     "at": 2.0,
+     "name": "input/sfx/pop.wav",
+     "gain": -8
+    },
+    {
+     "at": 2.6,
+     "name": "input/sfx/pop.wav",
+     "gain": -8
+    },
+    {
+     "at": 3.4,
+     "name": "input/sfx/kaching.wav",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c015",
+   "start": 50.166,
+   "end": 54.03,
+   "line": "He drove to those restaurants... and bought one single cup each time.",
+   "scene": "sunset: Chris's car pulls into the burger lot; he walks out of the door with ONE cup raised, grinning",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/carpass.wav",
+     "gain": -8
+    },
+    {
+     "at": 1.4,
+     "name": "input/sfx/door.wav",
+     "gain": -10
+    },
+    {
+     "at": 2.6,
+     "name": "input/sfx/kaching.wav",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c016",
+   "start": 54.03,
+   "end": 57.268,
+   "line": "Two weeks later: a hundred and fifty thousand dollars.",
+   "scene": "golden sunset: hundred-dollar bills rain over the street, Chris jumps with joy in front of the burger sign \u2014 $150,000 in two weeks",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/kaching.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.3,
+     "name": "input/sfx/coins.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/crowd.wav",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "c017",
+   "start": 57.268,
+   "end": 65.354,
+   "line": "No rules broken. He just read the system... and booked his flight to Tokyo.",
+   "scene": "sunset over Tokyo: a jet glides past toward snowy Mt Fuji; cherry blossoms drift; Chris stands under a sakura tree with his backpack, smiling \u2014 NO RULES BROKEN",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/plane.wav",
+     "gain": -6
+    },
+    {
+     "at": 3.0,
+     "name": "input/sfx/chime.wav",
+     "gain": -8
+    },
+    {
+     "at": 2.5,
+     "name": "input/sfx/wind.wav",
+     "gain": -16
+    }
+   ]
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
