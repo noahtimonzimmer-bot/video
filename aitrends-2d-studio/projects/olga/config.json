@@ -13,7 +13,8 @@
  "fadeOut": 0.8,
  "music": {
   "enabled": true,
-  "gainDb": -17
+  "file": "input/sfx/score.wav",
+  "gainDb": -14
  },
  "sfx": {
   "enabled": true,

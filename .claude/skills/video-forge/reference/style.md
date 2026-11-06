@@ -16,7 +16,12 @@
 | Platz/Menge | Marktstände, Laternen, 2 Häuserreihen, 50+ Menschen in 2 Tiefenstaffeln |
 Faustregel: wenn man im Still leere Flächen > 20 % des Bildes sieht → mehr `scatter`.
 
-## Kamera & Schnitt
+## Kamera & Schnitt (Regel seit Olga-Short)
+- **Sequenzen statt Einzel-Shots**: 1 Shot = 2–4 Cues, Short ≈ 10–12 Shots. Ereignisse/Texte im Shot per `rel(c0, c)` (Cue-Zeit relativ zum Shot-Start). Muster: `examples/shots/olga_sequences.js`.
+- Kamera folgt der Hauptfigur (`L.glide` mit Keys an den Cue-Zeiten); große Flüge nur für Hook, Reveal, Finale.
+- Jede Außenszene: `SKY.stage(T, 'sunset'|'golden'|...)` — Sonne möglichst im Bild (az so wählen, dass sie hinter dem Motiv steht).
+- Jede 3D-Szene: `life.tick` — nichts steht still.
+- Kamera nie in Hügeln/Zelten: Kamerapfad frei halten (skip-Zonen für scatter/siegeCamp).
 - Jede Einstellung bewegt sich (`T.dolly` Start→Ende, leichter Push-in oder Drift). Short: Schnitt alle 1.5–3 s.
 - Erstes Bild = spektakulärstes Motiv (Hook). Letztes Bild = Loop-fähig zurück zum Anfang (Short).
 - 2D-Close-ups (`closeUp`) für Emotionen und Dokumente (Schuldschein, versiegelter Brief, Kalender) zwischen 3D-Totalen.

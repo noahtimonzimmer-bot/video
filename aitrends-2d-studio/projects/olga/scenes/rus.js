@@ -44,7 +44,7 @@ export function terem(st, x, y, z, s = 1) {
   st.add(T.box(16 * s, 8 * s, 12 * s, lm, x, y + 4 * s, z), T.box(12 * s, 6 * s, 9 * s, lm, x, y + 11 * s, z));
   st.add(gable(T, 16 * s, 12 * s, 2.5 * s, rm, x, y + 8 * s, z), gable(T, 12 * s, 9 * s, 7 * s, rm, x, y + 14 * s, z));
   for (const sx of [-1, 1]) { st.add(T.box(4 * s, 14 * s, 4 * s, lm, x + sx * 10 * s, y + 7 * s, z + 4 * s)); const c = new THREE.Mesh(new THREE.ConeGeometry(3.4 * s, 8 * s, 4), rm); c.rotation.y = Math.PI / 4; c.position.set(x + sx * 10 * s, y + 18 * s, z + 4 * s); c.castShadow = true; st.add(c); }
-  const b = T.plane(3 * s, 6 * s, T.mat('#ffffff', { map: tridentBanner(T), side: THREE.DoubleSide })); b.position.set(x, y + 10 * s, z + 6.1 * s); b.userData.noOutline = true; st.add(b);
+  const b = T.plane(3 * s, 6 * s, T.mat('#ffffff', { map: tridentBanner(T), side: THREE.DoubleSide })); b.position.set(x, y + 10 * s, z + 6.1 * s); b.userData.noOutline = true; b.userData.flag = true; st.add(b);
   for (let i = 0; i < 4; i++) { const wn = T.plane(1.6 * s, 1.6 * s, memo(T, 'win', () => T.mat('#ffffff', { map: carvedWin(T) }))); wn.position.set(x - 5 * s + i * 3.3 * s, y + 4.5 * s, z + 6.05 * s); wn.userData.noOutline = true; st.add(wn); }
 }
 // pointed-stake palisade ring with gate and towers
@@ -59,9 +59,15 @@ export function palisade(st, cx, cz, rad, o = {}) {
 // a fortified hill town: mound + palisade + rings of izbas + yards; returns roof anchors (for fires/birds)
 export function hillTown(st, cx, cz, o = {}) {
   const T = st.T, { THREE } = T, rad = o.rad || 40, hy = o.hill ?? 8, r = rng(o.seed || 11), roofs = [];
-  const hill = new THREE.Mesh(new THREE.SphereGeometry(1, 40, 20, 0, Math.PI * 2, 0, Math.PI / 2), T.mat('#ffffff', { map: o.rock ? A.rockTex(T, '#9a8a7a', [8, 4]) : W.grassTex(T, '#7aa04a', [12, 12]) }));
-  hill.scale.set(rad * 1.45, hy, rad * 1.45); hill.position.set(cx, -0.2, cz); hill.receiveShadow = true; hill.userData.noOutline = true; st.add(hill);
-  const top = T.ground(rad * 2.1, rad * 2.1, '#ffffff', earthTex(T, '#8a6a42', [10, 10])); top.position.set(cx, hy - 0.05, cz); top.userData.noOutline = true; st.add(top);
+  // natural plateau hill (lathe profile) — grass slopes, earth/grass top, granite boulders & cliffs when o.rock
+  const prof = [[0, hy], [rad * 1.06, hy], [rad * 1.18, hy * 0.86], [rad * 1.32, hy * 0.55], [rad * 1.5, hy * 0.22], [rad * 1.72, 0.02], [rad * 1.8, -0.4]].map(([x, y]) => new THREE.Vector2(x, y));
+  const hill = new THREE.Mesh(new THREE.LatheGeometry(prof, 64), T.mat('#ffffff', { map: W.grassTex(T, o.rock ? '#7a9448' : '#7aa04a', [14, 3]), side: THREE.DoubleSide })); hill.position.set(cx, 0, cz); hill.receiveShadow = true; hill.userData.noOutline = true; st.add(hill);
+  const top = new THREE.Mesh(new THREE.CircleGeometry(rad * 1.04, 64), T.mat('#ffffff', { map: earthTex(T, '#8a7048', [10, 10]) })); top.rotation.x = -Math.PI / 2; top.position.set(cx, hy + 0.04, cz); top.receiveShadow = true; top.userData.noOutline = true; st.add(top);
+  const slopeY = (d) => { for (let i = 1; i < prof.length; i++) if (d <= prof[i].x) { const a = prof[i - 1], b = prof[i], k = (d - a.x) / (b.x - a.x); return a.y + (b.y - a.y) * k; } return 0; };
+  if (o.rock) { const gm = T.mat('#a8a296', { flat: true }), geo = new THREE.IcosahedronGeometry(1, 0); for (let i = 0; i < 70; i++) { const a = r() * Math.PI * 2, d = rad * (1.1 + r() * 0.62); if (Math.abs(Math.atan2(Math.sin(a - (o.gate ?? Math.PI / 2)), Math.cos(a - (o.gate ?? Math.PI / 2)))) < 0.4) continue; const b = new THREE.Mesh(geo, gm), sc = 2 + r() * 4.5; b.scale.set(sc * (1 + r()), sc * (0.6 + r() * 0.7), sc * (1 + r() * 0.6)); b.rotation.set(r() * 3, r() * 3, r() * 3); b.position.set(cx + Math.cos(a) * d, slopeY(d) - sc * 0.2, cz + Math.sin(a) * d); b.castShadow = true; b.receiveShadow = true; st.add(b); }
+    for (let i = 0; i < 9; i++) { const a = (o.cliffAt ?? Math.PI / 2) + (i - 4) * 0.13, d = rad * 1.5, b = new THREE.Mesh(geo, gm), sc = 7 + r() * 5; b.scale.set(sc * 1.4, sc * 1.2, sc); b.rotation.set(r(), r() * 3, r()); b.position.set(cx + Math.cos(a) * d, sc * 0.4, cz + Math.sin(a) * d); b.castShadow = true; st.add(b); }
+    scatter(st, 'bush', 60, (rr) => { const a = rr() * 6.28, d = rad * (1.1 + rr() * 0.6); return [cx + Math.cos(a) * d, slopeY(d), cz + Math.sin(a) * d]; }, 4, { seed: 15 }); }
+  scatter(st, 'grass', 220, (rr) => { const a = rr() * 6.28, d = rad * (1.08 + rr() * 0.66); return [cx + Math.cos(a) * d, slopeY(d), cz + Math.sin(a) * d]; }, 2.4, { seed: 16 });
   palisade(st, cx, cz, rad, { y: hy - 0.4, h: o.wallH || 6, gate: o.gate ?? Math.PI / 2 });
   if (o.terem) terem(st, cx, hy, cz - rad * 0.3, o.terem);
   const n = o.houses || 40; for (let i = 0; i < n; i++) { const a = r() * Math.PI * 2, d = rad * (0.25 + Math.sqrt(r()) * 0.62), x = cx + Math.cos(a) * d, z = cz + Math.sin(a) * d; if (o.terem && Math.hypot(x - cx, z - (cz - rad * 0.3)) < 14) continue; const hb = izba(st, x, hy, z, 5 + r() * 3, 4.5 + r() * 2, 3.4 + r() * 1.4, { rot: Math.round(a / (Math.PI / 2)) * Math.PI / 2 + (r() - 0.5) * 0.3, roof: ['#c8a050', '#b8904a', '#d0b060'][i % 3], wall: ['#8a5a32', '#7a4e2a', '#9a6a3a'][i % 3] }); roofs.push(hb.roofTop); }
@@ -76,7 +82,7 @@ export function hillTown(st, cx, cz, o = {}) {
 // open countryside around a town: birch/pine forest, fields, river, rocks
 export function steppe(st, o = {}) {
   const T = st.T; A.flatGround(st, 2000, W.grassTex(T, o.grass || '#86a650', [120, 120]));
-  if (o.river) A.waterStrip(st, o.river, o.riverW || 40);
+  if (o.river) { const wm = A.waterStrip(st, o.river, o.riverW || 40); if (wm) wm.userData.water = true; }
   const fc = ['#c8b84a', '#9ac04a', '#e0c060', '#b8a840']; if (o.fields) for (const [fx, fz] of o.fields) for (let i = 0; i < 4; i++) { const p = T.plane(26, 18, T.mat('#ffffff', { map: W.fieldTex(T, fc[i % 4], i % 2 ? 'h' : 'v', i + fx) })); p.rotation.x = -Math.PI / 2; p.position.set(fx + (i % 2) * 28, 0.12, fz + Math.floor(i / 2) * 20); p.userData.noOutline = true; st.add(p); }
   const clear = o.clear || (() => false);
   A.addTrees(st, o.trees ?? 260, (r) => { const a = r() * Math.PI * 2, d = (o.forestIn || 160) + r() * 500, x = Math.cos(a) * d, z = Math.sin(a) * d; return clear(x, z) ? null : [x, 0, z]; }, { size: 12 });
@@ -114,7 +120,7 @@ export function campTent(st, x, z, s = 1, i = 0) { const T = st.T, { THREE } = T
 export function siegeCamp(st, cx, cz, rIn, rOut, o = {}) {
   const T = st.T, { THREE } = T, r = rng(o.seed || 21), fireAt = [];
   for (let i = 0; i < (o.tents || 60); i++) { const a = r() * Math.PI * 2, d = rIn + r() * (rOut - rIn); if (o.skip?.(a)) continue; campTent(st, cx + Math.cos(a) * d, cz + Math.sin(a) * d, 1.4 + r() * 0.8, i); if (i % 3 === 0) fireAt.push([cx + Math.cos(a + 0.05) * (d - 5), 0, cz + Math.sin(a + 0.05) * (d - 5)]); }
-  for (let i = 0; i < (o.banners || 10); i++) { const a = i / (o.banners || 10) * Math.PI * 2 + 0.2, d = rIn - 4; const px = cx + Math.cos(a) * d, pz = cz + Math.sin(a) * d; st.add(T.cyl(0.2, 0.2, 12, T.mat('#4a2e18'), px, 6, pz)); const b = T.plane(2.6, 5, T.mat('#ffffff', { map: memo(T, 'tb', () => tridentBanner(T)), side: THREE.DoubleSide })); b.position.set(px + 1.3, 9.2, pz); b.userData.noOutline = true; st.add(b); }
+  for (let i = 0; i < (o.banners || 10); i++) { const a = i / (o.banners || 10) * Math.PI * 2 + 0.2, d = rIn - 4; const px = cx + Math.cos(a) * d, pz = cz + Math.sin(a) * d; st.add(T.cyl(0.2, 0.2, 12, T.mat('#4a2e18'), px, 6, pz)); const b = T.plane(2.6, 5, T.mat('#ffffff', { map: memo(T, 'tb', () => tridentBanner(T)), side: THREE.DoubleSide })); b.position.set(px + 1.3, 9.2, pz); b.userData.noOutline = true; b.userData.flag = true; st.add(b); }
   const ring = (rr) => { const a = rr() * Math.PI * 2, d = rIn + rr() * (rOut - rIn); return o.skip?.(a) ? null : [cx + Math.cos(a) * d, 0, cz + Math.sin(a) * d]; };
   scatter(st, 'horse', o.horses || 30, ring, 4.2, { seed: 31 }); scatter(st, 'cart', 14, ring, 4.5, { seed: 32 }); scatter(st, 'spears', 24, ring, 3.4, { seed: 33 }); scatter(st, 'barrel', 30, ring, 1.5, { seed: 34 }); scatter(st, 'sack', 30, ring, 1.3, { seed: 35 }); scatter(st, 'logpile', 16, ring, 2.6, { seed: 36 });
   const fires = sharedFires(st, fireAt.slice(0, o.fires || 22), 2.4, 3.2, { light: o.night ? 3 : 0 });

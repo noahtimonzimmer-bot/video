@@ -7,7 +7,7 @@ dur = json.load(open(os.path.join(HERE, 'config.json')))['duration']
 shots = []
 for f in sorted(glob.glob(os.path.join(HERE, 'scenes/shots/*.js'))):
     src = open(f).read()
-    for m in re.finditer(r"\bS\('(\w+)',\s*", src):
+    for m in re.finditer(r"\bS3?\('(\w+)',\s*", src):
         i = m.end(); depth = 0; j = i
         while True:
             c = src[j]; depth += c == '{'; depth -= c == '}'; j += 1

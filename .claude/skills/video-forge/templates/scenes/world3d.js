@@ -110,7 +110,7 @@ export function sprite(T, key, w, h, fn, o = {}) {
   const { THREE } = T; let tex = _spriteCache.get(key);
   if (!tex) { const px = o.px || 256; tex = T.canvasTex(px, Math.round(px * h / w), (g, W, H) => fn(g, W, H)); _spriteCache.set(key, tex); }
   const m = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, alphaTest: 0.08, depthWrite: true, fog: o.fog ?? true }));
-  m.center.set(0.5, o.cy ?? 0); m.scale.set(w, h, 1); m.userData.noOutline = true; return m;
+  m.center.set(0.5, o.cy ?? 0); m.scale.set(w, h, 1); m.userData.noOutline = true; m.userData.key = key; return m;
 }
 // painted textures (repeatable)
 export const grassTex = (T, base = '#7ab84a', rep = [40, 40], seed = 1) => T.canvasTex(512, 512, (g, W, H) => { g.fillStyle = base; g.fillRect(0, 0, W, H); const r = rng(seed); for (let i = 0; i < 2600; i++) { const x = r() * W, y = r() * H, h = 4 + r() * 9; g.strokeStyle = ['#5a9a32', '#8ac85a', '#6aa83a', '#4a8a2a', '#9ad86a'][Math.floor(r() * 5)]; g.lineWidth = 1.5; g.beginPath(); g.moveTo(x, y); g.lineTo(x + (r() - 0.5) * 4, y - h); g.stroke(); } for (let i = 0; i < 60; i++) { g.fillStyle = ['#e04a3a', '#ffffff', '#4a7ae0', '#ffd84a'][i % 4]; g.beginPath(); g.arc(r() * W, r() * H, 2 + r() * 2, 0, 7); g.fill(); } }, rep);

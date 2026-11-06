@@ -12,7 +12,12 @@
 - "nicht an den details sparen, ich kann die selben scenen später noch brauchen" → Welten als wiederverwendbare Funktionen bauen, in `templates/` zurückführen.
 - "befor du renderst 3 mal so viele details … gras, bäume, sachen auf den tischen" → **Dichte-Budget** in `reference/style.md` ist Pflicht, BEVOR Stills gezeigt/gerendert werden. Tische nie leer, Böden nie kahl.
 - "verwende andere sounds anstelle deiner typischen wiedererkennbaren sounds" → pro Video eigenes synthetisiertes Sound-Kit + eigene Musik (`templates/sound/`).
+- **"mehr sonnenuntergänge, strahlender himmel (kann auch 2d sein)"** → jede Außenszene bekommt einen gemalten 2D-Himmel (`sky.js`: Sonne mit Strahlen, beleuchtete Wolken, Abendrot). Tageslicht-Blau ohne Stimmung = Fehler.
+- **"menschen sollen sich bewegen, wind weht, bäume wackeln, vögel fliegen … beim letzten video war das null"** → `life.js`: JEDE 3D-Szene lebt (Bäume/Gras/Büsche wiegen, Wolken ziehen, Rauch steigt, Vögel fliegen, Wasser glitzert, Fahnen wehen, Menschen atmen/gehen/gestikulieren). Kein Standbild-3D mehr.
+- **"zu viele kameraflüge … kamera folgt hauptfiguren, weniger schnitte, wie ein ganzes flüssiges video"** → Sequenzen statt Einzel-Shots: 1 Shot deckt 2–4 Cues ab (Short ≈ 10–12 Shots/min statt 25), Kamera folgt der Hauptfigur (Tracking), Flüge nur für Hook/Reveal/Finale. Texte/Ereignisse innerhalb des Shots per Cue-Zeit (`at(cue)`).
+- **Iskorosten-Hügel "stimmt nicht"** (braune Scheibe mit Stein-Textur) → Hügel/Felsen natürlich bauen: Gras-Hügel + 3D-Findlinge/Felsklippen, keine gestreckte Textur-Kuppel.
 - Hook muss "krass" sein: Satz 1 = Frage oder schockierende Behauptung, erstes Bild sofort spektakulär.
+- **Stimmen-Regel:** "die stimme des ersten shorts ist tabu" → `bm_george` (Friday-13-Short) NIE mehr verwenden. Lieblingsstimme: `am_michael` (Serpent-Video, "nimm die stimme aus dem schlangen bibel video") → Standard für neue Videos. Verfügbar: am_eric, am_echo, am_fenrir, am_adam, am_puck, am_liam, am_onyx, am_santa, bm_daniel, bm_lewis, bm_fable. Benutzte Stimme im Changelog notieren.
 - Stimme: Kokoro ("etwas mit k") statt RHVoice. Ersetzen ohne Neu-Render geht mit `retime_voice_kokoro.py` (hält Cue-Startzeiten).
 
 ## Harte technische Regeln

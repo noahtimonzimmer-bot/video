@@ -135,6 +135,14 @@ actor, closeUp, label (Titel-Text), rings, finish (Papierkorn).
 - `rings(g, x, y, t, col = '#ffffff')`
 - `label(g, t, str, x, y, o = {})`
 
+## life.js
+
+PFLICHT: L.tick(st, t) in jedem 3D-draw (oder S3-Wrapper) — Wind in Bäumen/Gras, Wolken, Rauch, Vögel, Menschen atmen, Fahnen, Wasser. L.glide(cam, t, keys) = flüssige Spline-Kamera ohne Stopps; L.follow().
+
+- `tick(st, t)`
+- `glide(cam, t, keys)`
+- `follow(cam, p, off = [0, 4, 14], lookOff = [0, 2.5, 0], fov = 52)`
+
 ## props.js
 
 Gezeichnete Props als Billboards: scatter(st, kind, n, place(r,i)->[x,y,z]|null, size, {seed,vars,fog}) und wallProp(st, kind, x,y,z, size, rotY, v).
@@ -142,7 +150,30 @@ Gezeichnete Props als Billboards: scatter(st, kind, n, place(r,i)->[x,y,z]|null,
 - `PROPS = {…}`
 - `scatter(st, kind, n, place, size, o = {})`
 - `wallProp(st, kind, x, y, z, size, rotY = 0, v = 0)`
-- Prop-Typen: grass, bush, rock, barrel, crate, sack, cart, stall, well, lantern, candle, goblet, bread, fruit, books, scroll, inkwell, coins, shield, swords, armor, shelf, straw, bucket, rat, chicken, dog, horse, smoke, bird, boat, tree, flowerbed
+- Prop-Typen: grass, bush, rock, barrel, crate, sack, cart, stall, well, lantern, candle, goblet, bread, fruit, books, scroll, inkwell, coins, shield, swords, armor, shelf, straw, bucket, rat, chicken, dog, horse, smoke, bird, boat, tree, haystack, fence, logpile, shovel, spears, fur, roast, jug, pigeon, sparrow, cage, birch, pine, flowerbed
+
+## rus.js
+
+Kiewer Rus / Wikinger-Holzwelt: izba, terem, palisade, hillTown (natürlicher Plateau-Hügel + Findlinge), steppe, kurgan, longboat, burialPit, banya, siegeCamp (gestreifte Zelte), logHall, sharedFires (billig, beliebig viele), flock (Vögel, auch brennend).
+
+- `logTex = (T, base = '#8a5a32', rep = [1, 1])`
+- `thatchTex = (T, base = '#c8a050', rep = [1, 1])`
+- `earthTex = (T, base = '#6a4a2e', rep = [6, 6])`
+- `tridentBanner = (T, col = '#a81a22')`
+- `izba(st, x, y, z, w = 7, d = 6, h = 4.2, o = {})`
+- `terem(st, x, y, z, s = 1)`
+- `palisade(st, cx, cz, rad, o = {})`
+- `hillTown(st, cx, cz, o = {})`
+- `steppe(st, o = {})`
+- `kurgan(st, x, z, rad = 16, h = 7)`
+- `longboat(st, x, y, z, s = 1, rot = 0, o = {})`
+- `burialPit(st, x, z, w = 22, d = 9, o = {})`
+- `banya(st, x, z, o = {})`
+- `campTent(st, x, z, s = 1, i = 0)`
+- `siegeCamp(st, cx, cz, rIn, rOut, o = {})`
+- `sharedFires(st, pts, w = 4, h = 5, o = {})`
+- `flock(st, n, path, o = {})`
+- `logHall(T, o = {})`
 
 ## sets/ill.js
 
@@ -177,6 +208,14 @@ Gemalte 2D-Hintergründe (Eden, Wüste, Ägypten, Himmelsthron, Tyrus, Patmos, G
 - `canaan(g, t, cam, o = {})`
 - `parlor(g, t, cam, o = {})`
 
+## sky.js
+
+PFLICHT für Außenszenen: SKY.stage(T, preset, {az}) statt A.stage — gemalter 2D-Himmel (sunset/golden/dusk/night/fire): Sonne mit Strahlen, beleuchtete Wolken, Sterne, Mond; driftet.
+
+- `PRESETS = {…}`
+- `stage(T, preset = 'sunset', o = {})`
+- `update(st, t)`
+
 ## toon.js
 
 2D-Figuren toonFigure + CAST, 2D-Wolke/Baum/Wiese/Burg, paper()-Textur.
@@ -188,7 +227,7 @@ Gemalte 2D-Hintergründe (Eden, Wüste, Ägypten, Himmelsthron, Tyrus, Patmos, G
 - `meadow(g, x0, x1, y0, y1, seed = 3, o = {})`
 - `castle(g, x, y, s = 1, o = {})`
 - `paper(g, t, a = 0.06)`
-- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, paul
+- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, olga, igor, mal, drevlian, drevlian2, rus, rus2, townsman, townswoman, paul
 
 ## world3d.js
 
