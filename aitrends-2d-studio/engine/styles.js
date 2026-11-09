@@ -72,5 +72,11 @@ export const STYLES = {
     grade: { contrast: 1.06, sat: 1.28, lift: [0.0, 0.0, 0.0], gamma: [1.06, 1.04, 1.0], gain: [1.08, 1.05, 1.0], vignette: 0.1, grain: 0.0, bloom: 0.75, tone: 'neutral', exposure: 1.3, paper: 0 },
     moods: {},
   },
+  cartoon: {
+    name: 'Cartoon 3D', desc: 'Cartoon-3D design: ink outlines (post pass), two-tone toon shading with cool shade, bean-head plum-ink characters, saturated day/golden skies, lens blur on close-ups, no grain.',
+    ink: '#f2c21a', inkFar: '#c4920c', feature: '#1a1206', rimWidth: 4, ui: { ...UI, gold: '#ffd47e', accent: '#ff5a3a', cream: '#fff1dc' },
+    grade: { contrast: 1.04, sat: 1.12, lift: [0.0, 0.0, 0.01], gamma: [1.0, 1.0, 1.0], gain: [1.02, 1.01, 1.0], vignette: 0.0, grain: 0.0, bloom: 0.5, tone: 'neutral', exposure: 1.0, paper: 0, ink: true },
+    moods: {},
+  },
 };
 export const STYLE_IDS = Object.keys(STYLES);

@@ -6,6 +6,8 @@ import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+import { BokehPass } from 'three/addons/postprocessing/BokehPass.js';
 import { E, S, mood, shade, rng, key, ease, clamp, lerp } from './core.js';
 import { POSES } from './rig2d.js';
 export { THREE };
@@ -39,11 +41,40 @@ export function stage(o = {}) {
   const w = Math.round(E.W * E.PX), h = Math.round(E.H * E.PX);
   const composer = new EffectComposer(R, new THREE.WebGLRenderTarget(w, h, { samples: 4, type: THREE.HalfFloatType }));
   composer.addPass(new RenderPass(scene, camera));
-  const bloom = new UnrealBloomPass(new THREE.Vector2(w, h), o.bloom ?? (st.grade.bloom ?? 0.55) * 0.7, 0.5, o.bloomThreshold ?? 0.88); composer.addPass(bloom); composer.addPass(new OutputPass());
+  // cartoon design: screen-space ink (silhouettes, depth jumps, creases) — sprites (characters/billboards) carry their own ink
+  let ink = null, bokeh = null;
+  if (st.grade?.ink) {
+    const nt = new THREE.WebGLRenderTarget(w, h, { type: THREE.HalfFloatType }); nt.depthTexture = new THREE.DepthTexture(w, h); nt.depthTexture.type = THREE.FloatType;
+    const nmat = new THREE.MeshNormalMaterial(); const k = h / 1920;
+    ink = new ShaderPass({ uniforms: { tDiffuse: { value: null }, tN: { value: nt.texture }, tD: { value: nt.depthTexture }, res: { value: new THREE.Vector2(w, h) }, near: { value: 0.1 }, far: { value: 600 }, wNear: { value: 5.1 * k * 0.5 }, wFar: { value: 3.3 * k * 0.5 }, inkCol: { value: new THREE.Color('#030303') } },
+      vertexShader: 'varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }',
+      fragmentShader: `uniform sampler2D tDiffuse, tN, tD; uniform vec2 res; uniform float near, far, wNear, wFar; uniform vec3 inkCol; varying vec2 vUv;
+        float lin(float d){ float z = d * 2.0 - 1.0; return 2.0 * near * far / (far + near - z * (far - near)); }
+        void main(){ vec4 col = texture2D(tDiffuse, vUv); float d0 = texture2D(tD, vUv).x; vec3 n0 = texture2D(tN, vUv).xyz; float z0 = lin(d0);
+          bool sky0 = d0 > 0.99999; bool spr0 = !sky0 && length(n0) < 0.05;
+          if (spr0) { gl_FragColor = col; return; }
+          float zz = sky0 ? 1e4 : z0; float r = mix(wNear, wFar, smoothstep(6.0, 90.0, zz)); float e = 0.0;
+          for (int i = 0; i < 8; i++) { float a = float(i) * 0.7853982; vec2 o = vec2(cos(a), sin(a)) * r / res; float d1 = texture2D(tD, vUv + o).x; vec3 n1 = texture2D(tN, vUv + o).xyz; bool sky1 = d1 > 0.99999; bool spr1 = !sky1 && length(n1) < 0.05; if (spr1) continue;
+            if (sky0 && sky1) continue; if (sky0 != sky1) { e = 1.0; break; }
+            float z1 = lin(d1); if (abs(z1 - z0) / min(z0, z1) > 0.06) { e = max(e, 1.0); }
+            vec3 a0 = normalize(n0 * 2.0 - 1.0), a1 = normalize(n1 * 2.0 - 1.0); if (dot(a0, a1) < 0.80) e = max(e, 0.9); }
+          float fogk = smoothstep(120.0, 380.0, zz); col.rgb = mix(col.rgb, inkCol, e * (1.0 - 0.7 * fogk)); gl_FragColor = col; }` });
+    ink.renderNormals = (renderer, sc, cam) => { const swaps = []; sc.traverse((m) => { if (m.isSprite) { if (m.visible) { swaps.push([m, 'spr', m.material.color.clone(), m.material.blending]); m.material.color.setRGB(0, 0, 0); m.material.blending = THREE.NormalBlending; } }
+        else if (m.isMesh && m.visible) { if (m.userData.noInk || (m.material && m.material.isMeshBasicMaterial && m.userData.noOutline && !m.userData.ink)) { swaps.push([m, 'hide']); m.visible = false; } else { swaps.push([m, 'mat', m.material]); m.material = nmat; } } });
+      const bg = sc.background, fog = sc.fog; sc.background = null; sc.fog = null; const prevRT = renderer.getRenderTarget(), cc = renderer.getClearColor(new THREE.Color()), ca = renderer.getClearAlpha(); renderer.setRenderTarget(nt); renderer.setClearColor(0x000000, 1); renderer.clear(); renderer.render(sc, cam);
+      renderer.setRenderTarget(prevRT); renderer.setClearColor(cc, ca); sc.background = bg; sc.fog = fog;
+      for (const [m, k2, v, b] of swaps) { if (k2 === 'spr') { m.material.color.copy(v); m.material.blending = b; } else if (k2 === 'hide') m.visible = true; else m.material = v; } };
+    composer.addPass(ink);
+    bokeh = new BokehPass(scene, camera, { focus: 10, aperture: 0.0, maxblur: 0.01 }); bokeh.enabled = false; composer.addPass(bokeh);
+  }
+  const bloom = new UnrealBloomPass(new THREE.Vector2(w, h), o.bloom ?? (st.grade.bloom ?? 0.55) * 0.7, 0.5, o.bloomThreshold ?? (st.grade?.ink ? 1.0 : 0.88)); composer.addPass(bloom); composer.addPass(new OutputPass());
   const api = {
     scene, camera, composer, sun, hemi, M, bloom,
     add: (...objs) => { objs.forEach(ob => scene.add(ob)); return objs[0]; },
-    render: () => composer.render(),
+    ink, bokeh,
+    // per-frame depth of field (cartoon): api.dof(focusDistance, blurPx@1080) — 0 disables
+    dof: (focus, px) => { if (!bokeh) return; bokeh.enabled = px > 0.01; if (!bokeh.enabled) return; bokeh.uniforms.focus.value = focus; bokeh.uniforms.aperture.value = 0.00002 * px; bokeh.uniforms.maxblur.value = 0.0012 * px; },
+    render: () => { if (ink) { ink.uniforms.near.value = camera.near; ink.uniforms.far.value = camera.far; ink.renderNormals(R, scene, camera); } composer.render(); },
     dispose: () => { scene.traverse(x => { x.geometry?.dispose(); [].concat(x.material || []).forEach(m => { m.map?.dispose(); m.dispose(); }); }); composer.renderTarget1?.dispose(); composer.renderTarget2?.dispose(); },
   };
   return api;

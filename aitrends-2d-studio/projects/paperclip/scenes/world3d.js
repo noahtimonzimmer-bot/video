@@ -1,7 +1,7 @@
 // world3d.js — detailed low-poly 3D landscapes (Three.js via the three-kit `T`): terrain with mountains,
 // patchwork fields, rivers, stone bridges, mud-brick houses, palms, fruit trees, ziggurat, ships, dunes.
 // 1 unit = 1 m. Everything is deterministic (rng/noise from core).
-import { rng, noise, shade, mix, alpha } from '/engine/core.js';
+import { E, rng, noise, shade, mix, alpha } from '/engine/core.js';
 
 // fractal noise
 const fbm = (x, z, seed = 1, oct = 4) => { let a = 0, amp = 1, f = 1, n = 0; for (let i = 0; i < oct; i++) { a += amp * (noise(x * f, seed + i * 13) + noise(z * f + 31.7, seed + i * 7)) * 0.5; n += amp; amp *= 0.5; f *= 2.03; } return a / n; };
@@ -124,8 +124,11 @@ export const plasterTex = (T, base = '#ead6b0') => T.canvasTex(256, 256, (g, W, 
 // soft painted lighting (Lambert) instead of hard toon steps; outlines stay on objects
 export function paintify(T, scene, o = {}) {
   const { THREE } = T, ink = new THREE.Color(o.ink || '#3a2a22'), hullMat = new THREE.MeshBasicMaterial({ color: ink, side: THREE.BackSide });
+  const toon = !!(E.style && E.style.grade && E.style.grade.ink); let grad = null;
+  if (toon) { const d = new Uint8Array([105, 105, 105, 255, 255, 255, 255, 255]); grad = new THREE.DataTexture(d, 2, 1, THREE.RedFormat); grad.minFilter = grad.magFilter = THREE.NearestFilter; grad.needsUpdate = true;
+    const dd = new Uint8Array([105, 255]); grad = new THREE.DataTexture(dd, 2, 1, THREE.RedFormat); grad.minFilter = grad.magFilter = THREE.NearestFilter; grad.needsUpdate = true; }
   const list = []; scene.traverse((m) => { if (m.isMesh) list.push(m); });
   for (const m of list) { const old = m.material; if (!old || Array.isArray(old) || !old.isMeshStandardMaterial) continue;
-    m.material = new THREE.MeshLambertMaterial({ color: old.color, map: old.map, vertexColors: old.vertexColors, emissive: old.emissive, emissiveIntensity: old.emissiveIntensity * 0.5, transparent: old.transparent, opacity: old.opacity, side: old.side }); old.dispose();
-    if (!m.userData.noOutline && o.outline !== false) { m.geometry.computeBoundingSphere(); const R = m.geometry.boundingSphere.radius; if (R < 40) { const h = new THREE.Mesh(m.geometry, hullMat); h.scale.setScalar(1 + 0.12 / Math.max(0.4, R)); h.castShadow = false; m.add(h); } } }
+    m.material = toon ? new THREE.MeshToonMaterial({ color: old.color, map: old.map, gradientMap: grad, vertexColors: old.vertexColors, emissive: old.emissive, emissiveIntensity: old.emissiveIntensity * 0.5, transparent: old.transparent, opacity: old.opacity, side: old.side }) : new THREE.MeshLambertMaterial({ color: old.color, map: old.map, vertexColors: old.vertexColors, emissive: old.emissive, emissiveIntensity: old.emissiveIntensity * 0.5, transparent: old.transparent, opacity: old.opacity, side: old.side }); old.dispose();
+    if (!toon && !m.userData.noOutline && o.outline !== false) { m.geometry.computeBoundingSphere(); const R = m.geometry.boundingSphere.radius; if (R < 40) { const h = new THREE.Mesh(m.geometry, hullMat); h.scale.setScalar(1 + 0.12 / Math.max(0.4, R)); h.castShadow = false; m.add(h); } } }
 }

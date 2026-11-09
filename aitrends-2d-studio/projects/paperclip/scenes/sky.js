@@ -6,6 +6,9 @@ import { rng, mix, alpha } from '/engine/core.js';
 import * as A from './aerial.js';
 
 export const PRESETS = {
+  // cartoon-3d design presets (values from the cartoon skill)
+  day: { stops: ['#3e7fd2', '#4c8ad6', '#62a0e0', '#86b8e8', '#a6c8ec', '#b8d0ec'], sun: '#ffffff', sunGlow: '#fff4d8', elev: 48, cloud: '#e6eef8', lit: '#ffffff', rim: '#ffffff', fog: '#b8d0ec', key: '#fff0dc', ki: 2.4, amb: '#a8bce8', ground: '#4a5a8a', a: 0.95, rays: 0, clouds: 38 },
+  goldenC: { stops: ['#6f6aa8', '#9a7aa8', '#d8909a', '#ffb07c', '#ffc47c', '#ffd08a'], sun: '#ffefd0', sunGlow: '#ffcf9e', elev: 7, cloud: '#c890a8', lit: '#ffd8a0', rim: '#fff0d0', fog: '#ffc898', key: '#ffb36b', ki: 2.3, amb: '#8a86d0', ground: '#444380', a: 1.0, rays: 0.1, clouds: 46 },
   sunset: { stops: ['#3a78e0', '#7a8ae8', '#f08ab0', '#ff9a6a', '#ffc470', '#fff2b0'], sun: '#fffbe8', sunGlow: '#ffc060', elev: 7, cloud: '#e88aa8', lit: '#ffd08a', rim: '#fff8dc', fog: '#ffc8a0', key: '#ffd0a0', ki: 2.2, amb: '#ffe0e8', a: 2.1, rays: 0.16, clouds: 60 },
   golden: { stops: ['#2a7ae8', '#5aa8f0', '#a8d8f8', '#ffe0a0', '#ffd890', '#fff6d0'], sun: '#ffffff', sunGlow: '#ffe080', elev: 16, cloud: '#f8e0e8', lit: '#fff4dc', rim: '#ffffff', fog: '#f8e8c8', key: '#fff0d0', ki: 2.4, amb: '#f8f4ff', a: 2.3, rays: 0.12, clouds: 45 },
   dusk: { stops: ['#0a0c2a', '#1e1a4a', '#4a2a5a', '#a03a4a', '#e8704a', '#ffb070'], sun: '#ffd8a0', sunGlow: '#ff7a3a', elev: -1, cloud: '#2a1a3a', lit: '#e8604a', rim: '#ffb080', fog: '#8a4a5a', key: '#ff9a70', ki: 1.2, amb: '#a07aa8', a: 1.3, rays: 0.08, clouds: 60, stars: 80 },
@@ -43,7 +46,7 @@ export function stage(T, preset = 'sunset', o = {}) {
   const P = { ...PRESETS[preset], ...(o.over || {}) }, az = o.az ?? Math.PI / 2, { THREE } = T;
   const el = (P.elev * Math.PI) / 180, dir = [Math.cos(az) * Math.cos(Math.max(el, 0.08)), Math.sin(Math.max(el, 0.08)), -Math.sin(az) * Math.cos(Math.max(el, 0.08))];
   const st = A.stage(T, { sky: P.stops.slice(0, 3), fogColor: P.fog, fog: o.fog || [240, 480], amb: P.amb, key: P.key, keyPos: dir.map((v) => v * 120), ki: P.ki, a: P.a, ss: o.ss });
-  st.camera.far = 600; st.camera.updateProjectionMatrix();
+  st.camera.far = 600; st.camera.updateProjectionMatrix(); if (P.ground) st.hemi.groundColor.set(P.ground);
   const tex = new THREE.CanvasTexture(paint(P, az, o.seed || 7)); tex.colorSpace = THREE.SRGBColorSpace; tex.wrapS = THREE.RepeatWrapping;
   const dome = new THREE.Mesh(new THREE.SphereGeometry(520, 48, 24), new THREE.MeshBasicMaterial({ map: tex, side: THREE.BackSide, fog: false, depthWrite: false, toneMapped: false })); dome.renderOrder = -10; dome.userData.noOutline = true; st.add(dome);
   const sun = new THREE.Sprite(new THREE.SpriteMaterial({ map: orb(T, P), transparent: true, depthWrite: false, fog: false, blending: THREE.AdditiveBlending, toneMapped: false })); const sz = P.moon ? 90 : 170; sun.scale.set(sz, sz, 1); sun.renderOrder = -9; sun.userData.noOutline = true; st.add(sun);
