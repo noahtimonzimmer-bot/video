@@ -68,7 +68,7 @@ export const TABLE: V3 = [-4.6, D0, 80];       // garden table in front of his h
 export const BOARD: V3 = [-1.6, D0, 81.6];     // easel board = "the website"
 export const PHOTO: V3 = [0, D0, 92];          // photo spot in the street
 export const TEAM_Z = 100;                     // shirt team walks toward -z from here
-export const SIGN: V3 = [-5.55, D0 + 2.55, 77.6]; // name sign on his house front
+export const SIGN: V3 = [-5.2, D0 + 2.5, 77.6]; // name sign on his house front
 
 export const shotAt = (f: number) => SHOTS.find((s) => f >= s.a && f < s.b) ?? SHOTS[SHOTS.length - 1];
 /** layers to draw at frame f: base shot, plus the next shot fading in during a crossfade */
@@ -144,24 +144,24 @@ export const snapEnd = (snap: number): V3 => {
 
 // ---- framings (f -> camera); each pushes in from the frame its key starts ----
 const J = JASON, TB = TABLE, BD = BOARD, PH = PHOTO;
-const S1a = (f: number) => dolly([0.9, D0 + 1.55, J[2] + 7.5], [0, D0 + 1.45, J[2]], pushK(f, 0, 0.0028), { fov: 42 });
-const S1b = (f: number) => dolly([0.5, D0 + 1.6, J[2] + 4.6], [0, D0 + 1.62, J[2]], pushK(f, 92, 0.003, 0.006, 30), { fov: 36, roll: -0.04 });
-const S2a = (f: number) => dolly([2.6, D0 + 1.55, TB[2] + 1.6], [TB[0] + 1.2, D0 + 1.25, TB[2]], pushK(f, 160, 0.0022), { fov: 42 });
-const S2b = (f: number) => dolly([0.4, D0 + 1.7, TB[2] + 1.2], [TB[0] + 1.3, D0 + 1.6, TB[2]], pushK(f, 270, 0.003, 0.006, 30), { fov: 38, roll: 0.04 });
-const S3a = (f: number) => dolly([2.2, D0 + 1.6, BD[2] + 5.4], [BD[0] - 0.6, D0 + 1.35, BD[2]], pushK(f, 350, 0.002), { fov: 42 });
-const S3b = (f: number) => dolly([0.4, D0 + 1.6, BD[2] + 4.4], [BD[0] - 0.55, D0 + 1.45, BD[2]], pushK(f, 480, 0.0025), { fov: 38 });
+const S1a = (f: number) => dolly([0.75, D0 + 0.5, J[2] + 3.6], [0, D0 + 1.35, J[2]], pushK(f, 0, 0.0028), { fov: 42 });
+const S1b = (f: number) => dolly([0.35, D0 + 0.85, J[2] + 2.3], [0, D0 + 1.55, J[2]], pushK(f, 92, 0.003, 0.006, 30), { fov: 38, roll: -0.06 });
+const S2a = (f: number) => dolly([-1.2, D0 + 0.6, TB[2] + 2.8], [TB[0] + 1.2, D0 + 1.2, TB[2]], pushK(f, 160, 0.0022), { fov: 42 });
+const S2b = (f: number) => dolly([-2.4, D0 + 1.15, TB[2] + 2.0], [TB[0] + 1.3, D0 + 1.55, TB[2]], pushK(f, 270, 0.003, 0.006, 30), { fov: 38, roll: 0.05 });
+const S3a = (f: number) => dolly([1.5, D0 + 0.7, BD[2] + 4.2], [BD[0] - 0.55, D0 + 1.35, BD[2]], pushK(f, 350, 0.002), { fov: 42 });
+const S3b = (f: number) => dolly([0.4, D0 + 1.2, BD[2] + 4.2], [BD[0] - 0.55, D0 + 1.45, BD[2]], pushK(f, 480, 0.0025), { fov: 38, roll: -0.03 });
 const S4a = (f: number) => dolly([-0.2, D0 + 1.15, BD[2] + 2.9], [BD[0] + 0.5, D0 + 0.9, BD[2]], pushK(f, 605, 0.002, 0.007, 30), { fov: 36, roll: -0.04 });
-const S5a = (f: number) => dolly([4.0, D0 + 1.75, PH[2] + 4.8], [PH[0] + 0.2, D0 + 1.45, PH[2]], pushK(f, 700, 0.002), { fov: 42 });
-const S5b = (f: number) => dolly([3.4, D0 + 1.7, PH[2] + 6.2], [PH[0] + 1.0, D0 + 1.35, PH[2] + 1.2], pushK(f, 800, 0.0025), { fov: 40, roll: 0.035 });
-const S6a = (f: number) => dolly([4.2, D0 + 2.6, TB[2] + 6.5], [TB[0] + 1.0, D0 + 1.1, TB[2]], pushK(f, 915, 0.0028), { fov: 44 });
-const S7a = (f: number) => dolly([6.5, D0 + 5.2, TB[2] + 14], [TB[0] + 2.5, D0 + 1.0, TB[2] + 2], pushK(f, 978, 0.002), { fov: 46, roll: -0.03 });
+const S5a = (f: number) => dolly([2.4, D0 + 0.55, PH[2] + 3.4], [PH[0] + 0.3, D0 + 1.4, PH[2]], pushK(f, 700, 0.002), { fov: 42, roll: 0.03 });
+const S5b = (f: number) => dolly([3.2, D0 + 0.9, PH[2] + 5.4], [PH[0] + 1.0, D0 + 1.35, PH[2] + 1.2], pushK(f, 800, 0.0025), { fov: 40, roll: -0.04 });
+const S6a = (f: number) => dolly([3.4, D0 + 1.4, TB[2] + 5.2], [TB[0] + 1.0, D0 + 1.2, TB[2]], pushK(f, 915, 0.0028), { fov: 44 });
+const S7a = (f: number) => dolly([5.0, D0 + 3.4, TB[2] + 11], [TB[0] + 2.5, D0 + 1.0, TB[2] + 2], pushK(f, 978, 0.002), { fov: 46, roll: -0.04 });
 const S8a = (f: number) => dolly([0.4, D0 + 1.45, BD[2] + 3.2], [BD[0], D0 + 1.3, BD[2]], pushK(f, 1077, 0.003, 0.007, 30), { fov: 36 });
-const S9a = (f: number) => dolly([0.4, D0 + 1.2, TEAM_Z - 12], [0, D0 + 1.2, TEAM_Z - 3], pushK(f, 1140, 0.0015), { fov: 42 });
-const S10a = (f: number) => dolly([0.6, D0 + 2.0, 97], [0, D0 + 1.7, 104], pushK(f, 1225, 0.0025), { fov: 44, roll: 0.03 });
+const S9a = (f: number) => dolly([0.3, D0 + 0.4, TEAM_Z - 7.2], [0, D0 + 1.25, TEAM_Z - 2], pushK(f, 1140, 0.0015), { fov: 44 });
+const S10a = (f: number) => dolly([0.6, D0 + 0.6, 99.5], [0, D0 + 1.8, 104], pushK(f, 1225, 0.0025), { fov: 44, roll: 0.04 });
 const S11a = (f: number) => dolly([0.7, D0 + 0.55, 99.6], [0, D0 + 2.0, 104], pushK(f, 1322, 0.0025, 0.006, 30), { fov: 38, roll: -0.04 });
-const S12a = (f: number) => dolly([1.4, D0 + 1.55, TB[2] + 4.2], [TB[0] + 0.4, D0 + 1.3, TB[2]], pushK(f, 1411, 0.0025), { fov: 40 });
-const S13a = (f: number) => dolly([0.4, D0 + 1.9, SIGN[2] + 3.6], [SIGN[0] + 0.9, D0 + 2.0, SIGN[2]], pushK(f, 1523, 0.002), { fov: 40 });
-const S13b = (f: number) => dolly([-1.2, D0 + 1.75, SIGN[2] + 4.2], [SIGN[0] + 0.55, D0 + 1.7, SIGN[2] + 0.6], pushK(f, 1580, 0.0025), { fov: 42, roll: 0.03 });
+const S12a = (f: number) => dolly([0.4, D0 + 0.7, TB[2] + 3.6], [TB[0] + 0.5, D0 + 1.3, TB[2]], pushK(f, 1411, 0.0025), { fov: 42, roll: -0.03 });
+const S13a = (f: number) => dolly([0.4, D0 + 0.7, SIGN[2] + 4.2], [SIGN[0] + 0.9, D0 + 1.9, SIGN[2]], pushK(f, 1523, 0.002), { fov: 42 });
+const S13b = (f: number) => dolly([-1.5, D0 + 1.55, SIGN[2] + 3.8], [SIGN[0] + 0.6, D0 + 2.0, SIGN[2] + 0.6], pushK(f, 1580, 0.0025), { fov: 42, roll: 0.05 });
 
 const CAMS: Record<number, Key[]> = {
   1: [{ f: 0, s: S1a }, { f: 92, dur: 30, s: S1b }],
@@ -216,17 +216,17 @@ export type Dof = { f: number; dur?: number; cInf: number; focus?: (f: number) =
 const eyes = (id: number) => (f: number): V3 => [0, D0 + 1.6, Fz(id, f)];
 const boots = (id: number) => (f: number): V3 => [0, D0 + 0.3, Fz(id, f)];
 export const DOF: Dof[] = [
-  { f: 0, cInf: 14, focus: () => [J[0], D0 + 1.6, J[2]] }, // hook MS: Jason sharp, street soft
-  { f: 160, cInf: 10, focus: () => [TB[0] + 1.3, D0 + 1.5, TB[2]] },
-  { f: 350, cInf: 8, focus: () => [BD[0], D0 + 1.3, BD[2]] },
-  { f: 605, cInf: 14 }, // Dec 31 insert
-  { f: 700, cInf: 10, focus: () => [PH[0], D0 + 1.6, PH[2]] },
-  { f: 915, cInf: 0 }, { f: 978, cInf: 0 }, // wides
-  { f: 1077, cInf: 13 }, // sold-out insert
-  { f: 1140, cInf: 0 }, // team walk (kept sharp)
-  { f: 1225, cInf: 6 }, { f: 1322, cInf: 5 },
-  { f: 1411, cInf: 10, focus: () => [TB[0] + 0.6, D0 + 1.5, TB[2]] },
-  { f: 1523, cInf: 9 }, { f: 1572, dur: 26, cInf: 13, focus: () => SIGN },
+  { f: 0, cInf: 22, focus: () => [J[0], D0 + 1.5, J[2]] }, // hook: low close, street very soft
+  { f: 160, cInf: 18, focus: () => [TB[0] + 1.3, D0 + 1.5, TB[2]] },
+  { f: 350, cInf: 14, focus: () => [BD[0], D0 + 1.3, BD[2]] },
+  { f: 605, cInf: 18 }, // Dec 31 insert
+  { f: 700, cInf: 18, focus: () => [PH[0], D0 + 1.5, PH[2]] },
+  { f: 915, cInf: 8 }, { f: 978, cInf: 5 },
+  { f: 1077, cInf: 16 }, // sold-out insert
+  { f: 1140, cInf: 14, focus: (f) => [0, D0 + 1.3, TEAM_Z - (f / 30 - 38.0) * 1.15] }, // team walk
+  { f: 1225, cInf: 16 }, { f: 1322, cInf: 14 },
+  { f: 1411, cInf: 18, focus: () => [TB[0] + 0.6, D0 + 1.5, TB[2]] },
+  { f: 1523, cInf: 14 }, { f: 1572, dur: 26, cInf: 18, focus: () => [SIGN[0] + 0.8, D0 + 1.8, SIGN[2] + 0.9] },
 ];
 export const dofAt = (f: number) => {
   let i = 0; while (i + 1 < DOF.length && f >= DOF[i + 1].f) i++;
