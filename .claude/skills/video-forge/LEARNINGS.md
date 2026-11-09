@@ -68,3 +68,11 @@
 - 2026-11 · Did People in the Bible Really Live 900 Years (16:9, `eden`) — Mesopotamien, Arche, Ararat, lifeChart, clayTablet, calendar.
 - 2026-11 · Friday the 13th (1307) Short (63 s, 9:16, `chronicle`, Captions) — props.js, timberHouse, cathedral, templeKeep, livePerson, liveFire, eigenes Mittelalter-Sound-Kit.
 - 2026-11 · Skill `video-forge` angelegt.
+
+## Remotion cartoon pipeline (Shirt Guy, 2026-11)
+- The REAL cartoon look comes only from the original Remotion bridge template (remotion-shorts/src/videos/bridge). For a new story copy that folder to src/videos/<name>, register it in src/Root.tsx and change only story.ts (SHOTS/CAMS/constants), cast.ts stage() per shot id, and a props.ts with Pen drawings (diegetic text only, no captions).
+- Stills check here: `REMOTION_TMP=/home/user/remotion-tmp COMP=<Id> node scripts/bridge-stills.mjs out/<name>/x_ 540,900 0.5` (~35-50 s per still on CPU). Never render the full video here: it is CPU-only (~25 s/frame). The user renders on their PC with `npm run render:<name>` (2K, --scale 1.3333, --gl angle). See remotion-shorts/RENDER_ON_PC.md.
+- Use light "day" for ALL shots. "golden" turned the town dim and violet (houses in shadow), which the user hates.
+- Group/walk shots: camera ~12 m in front of the group, people 0.9 m apart, otherwise the outer ones are cut off.
+- Sound: <project>/make_mix.py (voice + real BigSoundBank SFX + freepd CC0 track, music voice-13 dB ducked 9 dB) → mix.wav → public/<name>/mix.wav, `<Audio src={staticFile(...)} />` in the composition. Never the template's synthesized audio.
+- Final shot: keep the main character in frame together with the reveal prop.
