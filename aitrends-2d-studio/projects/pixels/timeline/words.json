@@ -1,0 +1,775 @@
+{
+ "source": "script:script.json",
+ "words": [
+  {
+   "word": "This",
+   "start": 0.9,
+   "end": 1.143
+  },
+  {
+   "word": "twenty-one-year-old",
+   "start": 1.164,
+   "end": 2.015
+  },
+  {
+   "word": "became",
+   "start": 2.089,
+   "end": 2.413
+  },
+  {
+   "word": "a",
+   "start": 2.441,
+   "end": 2.563
+  },
+  {
+   "word": "millionaire",
+   "start": 2.573,
+   "end": 3.1
+  },
+  {
+   "word": "with",
+   "start": 3.146,
+   "end": 3.389
+  },
+  {
+   "word": "just",
+   "start": 3.41,
+   "end": 3.653
+  },
+  {
+   "word": "one",
+   "start": 3.674,
+   "end": 3.877
+  },
+  {
+   "word": "website...",
+   "start": 3.895,
+   "end": 4.381
+  },
+  {
+   "word": "and",
+   "start": 4.973,
+   "end": 5.147
+  },
+  {
+   "word": "he",
+   "start": 5.162,
+   "end": 5.301
+  },
+  {
+   "word": "didn't",
+   "start": 5.313,
+   "end": 5.59
+  },
+  {
+   "word": "even",
+   "start": 5.615,
+   "end": 5.823
+  },
+  {
+   "word": "sell",
+   "start": 5.841,
+   "end": 6.049
+  },
+  {
+   "word": "a",
+   "start": 6.067,
+   "end": 6.172
+  },
+  {
+   "word": "single",
+   "start": 6.181,
+   "end": 6.458
+  },
+  {
+   "word": "product.",
+   "start": 6.483,
+   "end": 6.83
+  },
+  {
+   "word": "See,",
+   "start": 7.56,
+   "end": 7.823
+  },
+  {
+   "word": "Alex",
+   "start": 7.846,
+   "end": 8.109
+  },
+  {
+   "word": "Tew",
+   "start": 8.132,
+   "end": 8.351
+  },
+  {
+   "word": "was",
+   "start": 8.37,
+   "end": 8.59
+  },
+  {
+   "word": "a",
+   "start": 8.609,
+   "end": 8.74
+  },
+  {
+   "word": "broke",
+   "start": 8.752,
+   "end": 9.059
+  },
+  {
+   "word": "student",
+   "start": 9.085,
+   "end": 9.48
+  },
+  {
+   "word": "in",
+   "start": 9.514,
+   "end": 9.69
+  },
+  {
+   "word": "England",
+   "start": 9.705,
+   "end": 10.099
+  },
+  {
+   "word": "who",
+   "start": 10.134,
+   "end": 10.353
+  },
+  {
+   "word": "needed",
+   "start": 10.372,
+   "end": 10.723
+  },
+  {
+   "word": "money",
+   "start": 10.753,
+   "end": 11.06
+  },
+  {
+   "word": "for",
+   "start": 11.087,
+   "end": 11.306
+  },
+  {
+   "word": "university.",
+   "start": 11.325,
+   "end": 11.895
+  },
+  {
+   "word": "So",
+   "start": 12.125,
+   "end": 12.292
+  },
+  {
+   "word": "he",
+   "start": 12.306,
+   "end": 12.473
+  },
+  {
+   "word": "came",
+   "start": 12.487,
+   "end": 12.738
+  },
+  {
+   "word": "up",
+   "start": 12.759,
+   "end": 12.926
+  },
+  {
+   "word": "with",
+   "start": 12.941,
+   "end": 13.191
+  },
+  {
+   "word": "an",
+   "start": 13.212,
+   "end": 13.379
+  },
+  {
+   "word": "idea",
+   "start": 13.394,
+   "end": 13.644
+  },
+  {
+   "word": "that",
+   "start": 13.666,
+   "end": 13.916
+  },
+  {
+   "word": "sounded",
+   "start": 13.937,
+   "end": 14.313
+  },
+  {
+   "word": "completely",
+   "start": 14.345,
+   "end": 14.845
+  },
+  {
+   "word": "ridiculous.",
+   "start": 14.889,
+   "end": 15.431
+  },
+  {
+   "word": "He",
+   "start": 15.658,
+   "end": 15.824
+  },
+  {
+   "word": "built",
+   "start": 15.839,
+   "end": 16.13
+  },
+  {
+   "word": "a",
+   "start": 16.155,
+   "end": 16.28
+  },
+  {
+   "word": "website",
+   "start": 16.291,
+   "end": 16.666
+  },
+  {
+   "word": "with",
+   "start": 16.698,
+   "end": 16.948
+  },
+  {
+   "word": "exactly",
+   "start": 16.969,
+   "end": 17.344
+  },
+  {
+   "word": "one",
+   "start": 17.376,
+   "end": 17.584
+  },
+  {
+   "word": "million",
+   "start": 17.603,
+   "end": 17.977
+  },
+  {
+   "word": "pixels...",
+   "start": 18.01,
+   "end": 18.467
+  },
+  {
+   "word": "and",
+   "start": 19.057,
+   "end": 19.26
+  },
+  {
+   "word": "started",
+   "start": 19.278,
+   "end": 19.644
+  },
+  {
+   "word": "selling",
+   "start": 19.676,
+   "end": 20.042
+  },
+  {
+   "word": "them.",
+   "start": 20.073,
+   "end": 20.358
+  },
+  {
+   "word": "One",
+   "start": 20.383,
+   "end": 20.586
+  },
+  {
+   "word": "pixel,",
+   "start": 20.604,
+   "end": 20.929
+  },
+  {
+   "word": "one",
+   "start": 20.957,
+   "end": 21.161
+  },
+  {
+   "word": "dollar.",
+   "start": 21.178,
+   "end": 21.544
+  },
+  {
+   "word": "Businesses",
+   "start": 21.756,
+   "end": 22.13
+  },
+  {
+   "word": "could",
+   "start": 22.162,
+   "end": 22.38
+  },
+  {
+   "word": "buy",
+   "start": 22.399,
+   "end": 22.555
+  },
+  {
+   "word": "a",
+   "start": 22.569,
+   "end": 22.662
+  },
+  {
+   "word": "spot",
+   "start": 22.67,
+   "end": 22.857
+  },
+  {
+   "word": "and",
+   "start": 22.873,
+   "end": 23.029
+  },
+  {
+   "word": "put",
+   "start": 23.043,
+   "end": 23.198
+  },
+  {
+   "word": "their",
+   "start": 23.212,
+   "end": 23.43
+  },
+  {
+   "word": "ad",
+   "start": 23.449,
+   "end": 23.573
+  },
+  {
+   "word": "on",
+   "start": 23.584,
+   "end": 23.709
+  },
+  {
+   "word": "it.",
+   "start": 23.72,
+   "end": 23.875
+  },
+  {
+   "word": "At",
+   "start": 24.069,
+   "end": 24.22
+  },
+  {
+   "word": "first,",
+   "start": 24.233,
+   "end": 24.535
+  },
+  {
+   "word": "almost",
+   "start": 24.562,
+   "end": 24.864
+  },
+  {
+   "word": "nobody",
+   "start": 24.89,
+   "end": 25.192
+  },
+  {
+   "word": "cared.",
+   "start": 25.219,
+   "end": 25.521
+  },
+  {
+   "word": "But",
+   "start": 25.727,
+   "end": 25.887
+  },
+  {
+   "word": "then",
+   "start": 25.9,
+   "end": 26.092
+  },
+  {
+   "word": "the",
+   "start": 26.109,
+   "end": 26.268
+  },
+  {
+   "word": "newspapers",
+   "start": 26.282,
+   "end": 26.665
+  },
+  {
+   "word": "picked",
+   "start": 26.698,
+   "end": 26.954
+  },
+  {
+   "word": "up",
+   "start": 26.976,
+   "end": 27.104
+  },
+  {
+   "word": "the",
+   "start": 27.115,
+   "end": 27.274
+  },
+  {
+   "word": "story...",
+   "start": 27.288,
+   "end": 27.607
+  },
+  {
+   "word": "and",
+   "start": 28.185,
+   "end": 28.364
+  },
+  {
+   "word": "suddenly,",
+   "start": 28.38,
+   "end": 28.774
+  },
+  {
+   "word": "everyone",
+   "start": 28.809,
+   "end": 29.167
+  },
+  {
+   "word": "wanted",
+   "start": 29.199,
+   "end": 29.486
+  },
+  {
+   "word": "a",
+   "start": 29.51,
+   "end": 29.618
+  },
+  {
+   "word": "piece",
+   "start": 29.627,
+   "end": 29.878
+  },
+  {
+   "word": "of",
+   "start": 29.9,
+   "end": 30.044
+  },
+  {
+   "word": "his",
+   "start": 30.056,
+   "end": 30.236
+  },
+  {
+   "word": "website.",
+   "start": 30.251,
+   "end": 30.61
+  },
+  {
+   "word": "Pixels",
+   "start": 30.821,
+   "end": 31.105
+  },
+  {
+   "word": "were",
+   "start": 31.13,
+   "end": 31.343
+  },
+  {
+   "word": "selling",
+   "start": 31.361,
+   "end": 31.681
+  },
+  {
+   "word": "like",
+   "start": 31.709,
+   "end": 31.922
+  },
+  {
+   "word": "crazy.",
+   "start": 31.94,
+   "end": 32.224
+  },
+  {
+   "word": "When",
+   "start": 32.429,
+   "end": 32.646
+  },
+  {
+   "word": "only",
+   "start": 32.665,
+   "end": 32.882
+  },
+  {
+   "word": "the",
+   "start": 32.901,
+   "end": 33.082
+  },
+  {
+   "word": "last",
+   "start": 33.098,
+   "end": 33.315
+  },
+  {
+   "word": "thousand",
+   "start": 33.334,
+   "end": 33.696
+  },
+  {
+   "word": "were",
+   "start": 33.727,
+   "end": 33.944
+  },
+  {
+   "word": "left,",
+   "start": 33.963,
+   "end": 34.216
+  },
+  {
+   "word": "Alex",
+   "start": 34.238,
+   "end": 34.455
+  },
+  {
+   "word": "put",
+   "start": 34.474,
+   "end": 34.655
+  },
+  {
+   "word": "them",
+   "start": 34.671,
+   "end": 34.888
+  },
+  {
+   "word": "up",
+   "start": 34.907,
+   "end": 35.052
+  },
+  {
+   "word": "for",
+   "start": 35.064,
+   "end": 35.245
+  },
+  {
+   "word": "auction...",
+   "start": 35.261,
+   "end": 35.695
+  },
+  {
+   "word": "and",
+   "start": 36.283,
+   "end": 36.46
+  },
+  {
+   "word": "they",
+   "start": 36.475,
+   "end": 36.687
+  },
+  {
+   "word": "sold",
+   "start": 36.706,
+   "end": 36.918
+  },
+  {
+   "word": "for",
+   "start": 36.936,
+   "end": 37.113
+  },
+  {
+   "word": "thirty-eight",
+   "start": 37.128,
+   "end": 37.623
+  },
+  {
+   "word": "thousand",
+   "start": 37.666,
+   "end": 38.02
+  },
+  {
+   "word": "dollars.",
+   "start": 38.051,
+   "end": 38.404
+  },
+  {
+   "word": "In",
+   "start": 38.615,
+   "end": 38.779
+  },
+  {
+   "word": "just",
+   "start": 38.793,
+   "end": 39.038
+  },
+  {
+   "word": "a",
+   "start": 39.06,
+   "end": 39.183
+  },
+  {
+   "word": "few",
+   "start": 39.193,
+   "end": 39.398
+  },
+  {
+   "word": "months,",
+   "start": 39.416,
+   "end": 39.784
+  },
+  {
+   "word": "his",
+   "start": 39.816,
+   "end": 40.021
+  },
+  {
+   "word": "website",
+   "start": 40.038,
+   "end": 40.407
+  },
+  {
+   "word": "made",
+   "start": 40.439,
+   "end": 40.684
+  },
+  {
+   "word": "over",
+   "start": 40.706,
+   "end": 40.951
+  },
+  {
+   "word": "one",
+   "start": 40.972,
+   "end": 41.177
+  },
+  {
+   "word": "million",
+   "start": 41.195,
+   "end": 41.563
+  },
+  {
+   "word": "dollars.",
+   "start": 41.595,
+   "end": 42.004
+  },
+  {
+   "word": "And",
+   "start": 42.34,
+   "end": 42.535
+  },
+  {
+   "word": "the",
+   "start": 42.552,
+   "end": 42.746
+  },
+  {
+   "word": "craziest",
+   "start": 42.763,
+   "end": 43.153
+  },
+  {
+   "word": "part?",
+   "start": 43.187,
+   "end": 43.459
+  },
+  {
+   "word": "The",
+   "start": 43.483,
+   "end": 43.678
+  },
+  {
+   "word": "website",
+   "start": 43.695,
+   "end": 44.045
+  },
+  {
+   "word": "is",
+   "start": 44.076,
+   "end": 44.232
+  },
+  {
+   "word": "still",
+   "start": 44.245,
+   "end": 44.518
+  },
+  {
+   "word": "online",
+   "start": 44.542,
+   "end": 44.853
+  },
+  {
+   "word": "today.",
+   "start": 44.88,
+   "end": 45.192
+  },
+  {
+   "word": "He",
+   "start": 45.399,
+   "end": 45.532
+  },
+  {
+   "word": "didn't",
+   "start": 45.544,
+   "end": 45.81
+  },
+  {
+   "word": "invent",
+   "start": 45.833,
+   "end": 46.099
+  },
+  {
+   "word": "anything",
+   "start": 46.122,
+   "end": 46.454
+  },
+  {
+   "word": "new.",
+   "start": 46.483,
+   "end": 46.683
+  },
+  {
+   "word": "He",
+   "start": 46.88,
+   "end": 47.014
+  },
+  {
+   "word": "just",
+   "start": 47.026,
+   "end": 47.227
+  },
+  {
+   "word": "figured",
+   "start": 47.244,
+   "end": 47.546
+  },
+  {
+   "word": "out",
+   "start": 47.572,
+   "end": 47.74
+  },
+  {
+   "word": "how",
+   "start": 47.755,
+   "end": 47.922
+  },
+  {
+   "word": "to",
+   "start": 47.937,
+   "end": 48.071
+  },
+  {
+   "word": "turn",
+   "start": 48.082,
+   "end": 48.284
+  },
+  {
+   "word": "attention",
+   "start": 48.301,
+   "end": 48.67
+  },
+  {
+   "word": "into",
+   "start": 48.702,
+   "end": 48.903
+  },
+  {
+   "word": "money.",
+   "start": 48.921,
+   "end": 49.189
+  }
+ ]
+}

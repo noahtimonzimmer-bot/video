@@ -163,6 +163,16 @@ PFLICHT: L.tick(st, t) in jedem 3D-draw (oder S3-Wrapper) — Wind in Bäumen/Gr
 - `glide(cam, t, keys)`
 - `follow(cam, p, off = [0, 4, 14], lookOff = [0, 2.5, 0], fov = 52)`
 
+## pixelgrid.js
+
+Werbe-Pixel-Raster (Million Dollar Homepage): paintGrid (Füllgrad 0..1, Auktions-Feld), paintSite (Browserfenster), newspaper (Zeitungs-Schlagzeilen).
+
+- `RESERVED = {…}`
+- `blocks()`
+- `paintGrid(g, X, Y, S, fill, o = {})`
+- `paintSite(g, X, Y, W, fill, o = {})`
+- `newspaper(g, x, y, s, rot, head, sub, seed = 1)`
+
 ## props.js
 
 Gezeichnete Props als Billboards: scatter(st, kind, n, place(r,i)->[x,y,z]|null, size, {seed,vars,fog}) und wallProp(st, kind, x,y,z, size, rotY, v).
@@ -247,7 +257,7 @@ PFLICHT für Außenszenen: SKY.stage(T, preset, {az}) statt A.stage — gemalter
 - `meadow(g, x0, x1, y0, y1, seed = 3, o = {})`
 - `castle(g, x, y, s = 1, o = {})`
 - `paper(g, t, a = 0.06)`
-- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, olga, igor, mal, drevlian, drevlian2, rus, rus2, townsman, townswoman, chris, cleaner, cleaner2, cashier, guy, girl, dad, paul
+- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, olga, igor, mal, drevlian, drevlian2, rus, rus2, townsman, townswoman, chris, cleaner, cleaner2, cashier, guy, girl, dad, alex, reporter, paul
 
 ## world3d.js
 

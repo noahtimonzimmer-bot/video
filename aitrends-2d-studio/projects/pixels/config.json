@@ -1,0 +1,24 @@
+{
+ "title": "The Million Dollar Pixels",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "vivid",
+ "voiceover": "input/voiceover.wav",
+ "script": null,
+ "duration": 51.211875,
+ "captions": true,
+ "bars": null,
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "file": "input/sfx/score.wav",
+  "gainDb": -16
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}

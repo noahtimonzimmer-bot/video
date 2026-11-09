@@ -1,0 +1,290 @@
+{
+ "title": "The Million Dollar Pixels",
+ "duration": 52.712,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 7.44,
+   "line": "This twenty-one-year-old became a millionaire with just one website... and he didn't even sell a single product.",
+   "scene": "sunset town square: a young student stands in front of a giant billboard made of a million colourful ad pixels; bills flutter, a counter races to $1,000,000",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/whoosh.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.3,
+     "name": "input/sfx/coins.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/beep.wav",
+     "gain": -8
+    },
+    {
+     "at": 3.6,
+     "name": "input/sfx/cheer.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c002",
+   "start": 7.44,
+   "end": 15.538,
+   "line": "See, Alex Tew was a broke student in England who needed money for university. So he came up with an idea that sounded completely ridiculous.",
+   "scene": "a cosy student room in England at sunset, LONDON poster; Alex sits broke at his laptop, then a lightbulb idea flashes",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/street.wav",
+     "gain": -20
+    },
+    {
+     "at": 1.2,
+     "name": "input/sfx/click.wav",
+     "gain": -10
+    },
+    {
+     "at": 4.7,
+     "name": "input/sfx/idea.wav",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "c004",
+   "start": 15.538,
+   "end": 23.949,
+   "line": "He built a website with exactly one million pixels... and started selling them. One pixel, one dollar. Businesses could buy a spot and put their ad on it.",
+   "scene": "close on Alex's monitor: an empty white grid titled The Million Dollar Homepage \u2014 $1 per pixel; the first small colourful ads pop in",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/click.wav",
+     "gain": -8
+    },
+    {
+     "at": 3.6,
+     "name": "input/sfx/click.wav",
+     "gain": -8
+    },
+    {
+     "at": 6.4,
+     "name": "input/sfx/beep.wav",
+     "gain": -8
+    },
+    {
+     "at": 7.0,
+     "name": "input/sfx/beep.wav",
+     "gain": -10
+    },
+    {
+     "at": 7.5,
+     "name": "input/sfx/beep.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c007",
+   "start": 23.949,
+   "end": 25.607,
+   "line": "At first, almost nobody cared.",
+   "scene": "night in the dorm: Alex stares at a nearly empty pixel grid, crickets chirp",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/crickets.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c008",
+   "start": 25.607,
+   "end": 30.701,
+   "line": "But then the newspapers picked up the story... and suddenly, everyone wanted a piece of his website.",
+   "scene": "golden town square: newspapers with headlines spin in; reporters with cameras flash; crowds point at the giant pixel billboard",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/press.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/paper.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.9,
+     "name": "input/sfx/cameras.wav",
+     "gain": -6
+    },
+    {
+     "at": 2.4,
+     "name": "input/sfx/walla.wav",
+     "gain": -10
+    },
+    {
+     "at": 3.0,
+     "name": "input/sfx/message.wav",
+     "gain": -10
+    },
+    {
+     "at": 3.8,
+     "name": "input/sfx/message.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c010",
+   "start": 30.701,
+   "end": 38.495,
+   "line": "Pixels were selling like crazy. When only the last thousand were left, Alex put them up for auction... and they sold for thirty-eight thousand dollars.",
+   "scene": "the website fills at crazy speed with colourful ads; zoom on the last empty 1,000 pixels \u2014 AUCTION \u2014 gavel \u2014 $38,100",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/beep.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "input/sfx/beep.wav",
+     "gain": -9
+    },
+    {
+     "at": 0.5,
+     "name": "input/sfx/beep.wav",
+     "gain": -9
+    },
+    {
+     "at": 0.7,
+     "name": "input/sfx/beep.wav",
+     "gain": -10
+    },
+    {
+     "at": 0.9,
+     "name": "input/sfx/beep.wav",
+     "gain": -10
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/coins.wav",
+     "gain": -6
+    },
+    {
+     "at": 3.2,
+     "name": "input/sfx/gavel.wav",
+     "gain": -2
+    },
+    {
+     "at": 5.9,
+     "name": "input/sfx/gavel.wav",
+     "gain": -2
+    },
+    {
+     "at": 6.0,
+     "name": "input/sfx/applause.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c013",
+   "start": 38.495,
+   "end": 42.22,
+   "line": "In just a few months, his website made over one million dollars.",
+   "scene": "sunset dorm: Alex jumps for joy while hundred-dollar bills rain down; the counter passes one million dollars",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/coins.wav",
+     "gain": -2
+    },
+    {
+     "at": 0.2,
+     "name": "input/sfx/cheer.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.0,
+     "name": "input/sfx/beep.wav",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c014",
+   "start": 42.22,
+   "end": 52.712,
+   "line": "And the craziest part? The website is still online today. He didn't invent anything new. He just figured out how to turn attention into money.",
+   "scene": "the real Million Dollar Homepage (photo) in a clean browser frame, slow zoom across the ads \u2014 still online today; attention = money",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/click.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/message.wav",
+     "gain": -10
+    },
+    {
+     "at": 4.6,
+     "name": "input/sfx/idea.wav",
+     "gain": -8
+    }
+   ]
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

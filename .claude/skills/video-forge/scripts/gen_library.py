@@ -15,6 +15,7 @@ NOTES = {
  'sky.js': 'PFLICHT für Außenszenen: SKY.stage(T, preset, {az}) statt A.stage — gemalter 2D-Himmel (sunset/golden/dusk/night/fire): Sonne mit Strahlen, beleuchtete Wolken, Sterne, Mond; driftet.',
  'life.js': 'PFLICHT: L.tick(st, t) in jedem 3D-draw (oder S3-Wrapper) — Wind in Bäumen/Gras, Wolken, Rauch, Vögel, Menschen atmen, Fahnen, Wasser. L.glide(cam, t, keys) = flüssige Spline-Kamera ohne Stopps; L.follow().',
  'city.js': 'Moderne US-Kleinstadt: town() (Straßen, Gehwege, Fassaden, Burger-Laden mit BURGERS-Schild, Parkplatz, Gasse mit Containern, Verkehr), building, car, streetLamp, trafficLight, dumpster, dorm() Studentenzimmer + paintMonitor, japan() (Fuji, Tokio, Pagode, Sakura), plane3D.',
+ 'pixelgrid.js': 'Werbe-Pixel-Raster (Million Dollar Homepage): paintGrid (Füllgrad 0..1, Auktions-Feld), paintSite (Browserfenster), newspaper (Zeitungs-Schlagzeilen).',
  'rus.js': 'Kiewer Rus / Wikinger-Holzwelt: izba, terem, palisade, hillTown (natürlicher Plateau-Hügel + Findlinge), steppe, kurgan, longboat, burialPit, banya, siegeCamp (gestreifte Zelte), logHall, sharedFires (billig, beliebig viele), flock (Vögel, auch brennend).',
  'horror/cast.js': 'Horror-Cast (HERO mit rotem Hoodie, EMMA).',
  'horror/lib.js': 'Horror „My Shadow“: lebender Schatten an Wand/Boden, Messer, Riss-Grinsen.',
