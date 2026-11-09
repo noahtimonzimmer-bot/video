@@ -108,6 +108,12 @@ Moderne US-Kleinstadt: town() (Straßen, Gehwege, Fassaden, Burger-Laden mit BUR
 - `paintMonitor(m, t, phase = 'code', o = {})`
 - `japan(st, o = {})`
 - `plane3D(st, o = {})`
+- `familyHouse(st, x, z, o = {})`
+- `grainElevator(st, x, z, s = 1, o = {})`
+- `boxTruck(st, x, z, o = {})`
+- `suburb(st, o = {})`
+- `prairieTown(st, o = {})`
+- `snowRoad(st)`
 
 ## creatures.js
 
@@ -159,6 +165,7 @@ actor, closeUp, label (Titel-Text), rings, finish (Papierkorn).
 
 PFLICHT: L.tick(st, t) in jedem 3D-draw (oder S3-Wrapper) — Wind in Bäumen/Gras, Wolken, Rauch, Vögel, Menschen atmen, Fahnen, Wasser. L.glide(cam, t, keys) = flüssige Spline-Kamera ohne Stopps; L.follow().
 
+- `checkPeople(st, t)`
 - `tick(st, t)`
 - `glide(cam, t, keys)`
 - `follow(cam, p, off = [0, 4, 14], lookOff = [0, 2.5, 0], fov = 52)`
@@ -180,7 +187,7 @@ Gezeichnete Props als Billboards: scatter(st, kind, n, place(r,i)->[x,y,z]|null,
 - `PROPS = {…}`
 - `scatter(st, kind, n, place, size, o = {})`
 - `wallProp(st, kind, x, y, z, size, rotY = 0, v = 0)`
-- Prop-Typen: grass, bush, rock, barrel, crate, sack, cart, stall, well, lantern, candle, goblet, bread, fruit, books, scroll, inkwell, coins, shield, swords, armor, shelf, straw, bucket, rat, chicken, dog, horse, smoke, bird, boat, tree, haystack, fence, logpile, shovel, spears, fur, roast, jug, pigeon, sparrow, cage, birch, pine, trashbag, cup, hydrant, bench, cone, sakura, petals, bill, flowerbed
+- Prop-Typen: grass, bush, rock, barrel, crate, sack, cart, stall, well, lantern, candle, goblet, bread, fruit, books, scroll, inkwell, coins, shield, swords, armor, shelf, straw, bucket, rat, chicken, dog, horse, smoke, bird, boat, tree, haystack, fence, logpile, shovel, spears, fur, roast, jug, pigeon, sparrow, cage, birch, pine, trashbag, cup, hydrant, bench, cone, sakura, petals, bill, paperclip, fishpen, doorknob, stove, generator, snowmobile, ticket, vinyl, key, guitar, houseicon, picket, sign, flowerbed
 
 ## rus.js
 
@@ -257,7 +264,7 @@ PFLICHT für Außenszenen: SKY.stage(T, preset, {az}) statt A.stage — gemalter
 - `meadow(g, x0, x1, y0, y1, seed = 3, o = {})`
 - `castle(g, x, y, s = 1, o = {})`
 - `paper(g, t, a = 0.06)`
-- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, olga, igor, mal, drevlian, drevlian2, rus, rus2, townsman, townswoman, chris, cleaner, cleaner2, cashier, guy, girl, dad, alex, reporter, paul
+- CAST: adam, eve, moses, joseph, isaiah, king, john, methuselah, noah, enoch, abraham, sumer, jeanne, kid, philip, templar, molay, soldier, olga, igor, mal, drevlian, drevlian2, rus, rus2, townsman, townswoman, chris, cleaner, cleaner2, cashier, guy, girl, dad, alex, reporter, kyle, mayor, paul
 
 ## world3d.js
 

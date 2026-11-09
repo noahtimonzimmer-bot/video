@@ -103,6 +103,8 @@ export const CAST = {
   dad: { hair: 'short', hairColor: '#8a8a8a', beard: 'short', beardColor: '#8a8a8a', robe: '#8a5a3a', robe2: '#e8dcc4', short: true, hat: 'cap', hatColor: '#2a5aa8' },
   alex: { hair: 'short', hairColor: '#6a3a1a', robe: '#3a9a5a', robe2: '#f2e6d8', short: true },
   reporter: { hair: 'short', hairColor: '#2a1a10', robe: '#3a4a6a', robe2: '#f2f0ea', short: true, glasses: true },
+  kyle: { hair: 'short', hairColor: '#3a2418', beard: 'short', beardColor: '#3a2418', robe: '#c8302a', robe2: '#f2e6d8', short: true },
+  mayor: { hair: 'short', hairColor: '#b8b8c0', mustache: true, beardColor: '#b8b8c0', robe: '#2a3a6a', robe2: '#f2f0ea', short: true, glasses: true },
   paul: { hair: 'bald', beard: 'short', beardColor: '#5a4a3a', robe: '#4a7a5a', robe2: '#e8d0a0' },
 };
 

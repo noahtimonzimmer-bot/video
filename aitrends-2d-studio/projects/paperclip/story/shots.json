@@ -1,0 +1,306 @@
+{
+ "title": "One Red Paper Clip",
+ "duration": 63.151,
+ "shots": [
+  {
+   "id": "c000",
+   "start": 0.0,
+   "end": 6.622,
+   "line": "This guy traded a single paper clip... for an entire house. And no, this is not a joke.",
+   "scene": "golden sunset over a prairie village with a red grain elevator; Kyle stands in front of a white house holding up a giant red paper clip",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/whoosh.wav",
+     "gain": -4
+    },
+    {
+     "at": 0.4,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 2.4,
+     "name": "input/sfx/keyunlock.wav",
+     "gain": -6
+    },
+    {
+     "at": 3.8,
+     "name": "input/sfx/cheer.wav",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "c002",
+   "start": 6.622,
+   "end": 20.248,
+   "line": "See, Kyle MacDonald was sitting at his computer in two thousand five, with a red paper clip on his desk. And then he had a crazy idea. What if he kept trading that paper clip... for something just a little bit better? So he put it online.",
+   "scene": "a sunny apartment: Kyle at his computer, a red paper clip on the desk; lightbulb idea; he posts TRADE ME: ONE RED PAPER CLIP online",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "input/sfx/street.wav",
+     "gain": -22
+    },
+    {
+     "at": 1.0,
+     "name": "input/sfx/keyboard.wav",
+     "gain": -10
+    },
+    {
+     "at": 6.5,
+     "name": "input/sfx/idea.wav",
+     "gain": -4
+    },
+    {
+     "at": 11.0,
+     "name": "input/sfx/keyboard.wav",
+     "gain": -10
+    },
+    {
+     "at": 12.6,
+     "name": "input/sfx/click.wav",
+     "gain": -6
+    },
+    {
+     "at": 13.2,
+     "name": "input/sfx/message.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c006",
+   "start": 20.248,
+   "end": 30.29,
+   "line": "And two women actually traded him a pen shaped like a fish. Kyle traded the pen for a doorknob with a smiley face. The doorknob became a camping stove. The stove became a generator.",
+   "scene": "sunny suburban street: Kyle walks along the sidewalk; at each trader (two women, a man, a family, a guy in a garage) a puff of sparkle and the item in his hand becomes the next one",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 0.5,
+     "name": "input/sfx/pop.wav",
+     "gain": -8
+    },
+    {
+     "at": 3.6,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 3.7,
+     "name": "input/sfx/door.wav",
+     "gain": -12
+    },
+    {
+     "at": 6.6,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 6.7,
+     "name": "input/sfx/stove.wav",
+     "gain": -8
+    },
+    {
+     "at": 8.5,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 8.6,
+     "name": "input/sfx/generator.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c010",
+   "start": 30.29,
+   "end": 35.764,
+   "line": "And then the trades got bigger and bigger. A snowmobile. A trip into the mountains. Even a delivery truck.",
+   "scene": "bright snowy mountain road: Kyle zooms along on a red snowmobile, then a ticket pops up, then he drives a white delivery truck with TRADE ME! on the side",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "input/sfx/whoosh.wav",
+     "gain": -6
+    },
+    {
+     "at": 2.0,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 3.6,
+     "name": "input/sfx/chime.wav",
+     "gain": -8
+    },
+    {
+     "at": 4.4,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 4.4,
+     "name": "input/sfx/truck.wav",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "c012",
+   "start": 35.764,
+   "end": 44.987,
+   "line": "His story spread across the internet... and suddenly, everyone wanted to be part of it. A recording contract. A year of free rent. An afternoon with a rock star.",
+   "scene": "sunny suburb: Kyle stands on his parked TRADE ME! truck while neighbours crowd around filming with phones; notification bubbles pop; then cards fly in: record contract, a year of free rent, an afternoon with a rock star",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/message.wav",
+     "gain": -8
+    },
+    {
+     "at": 0.9,
+     "name": "input/sfx/message.wav",
+     "gain": -10
+    },
+    {
+     "at": 1.4,
+     "name": "input/sfx/paparazzi.wav",
+     "gain": -8
+    },
+    {
+     "at": 2.4,
+     "name": "input/sfx/applause.wav",
+     "gain": -10
+    },
+    {
+     "at": 5.0,
+     "name": "input/sfx/vinyl.wav",
+     "gain": -8
+    },
+    {
+     "at": 6.2,
+     "name": "input/sfx/keyunlock.wav",
+     "gain": -8
+    },
+    {
+     "at": 7.4,
+     "name": "input/sfx/cheer.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c015",
+   "start": 44.987,
+   "end": 55.424,
+   "line": "And after fourteen trades, the unbelievable happened. A small town in Canada offered him a real house. In return, the town got a role in a real movie... and held auditions for it.",
+   "scene": "sunset prairie village with a red grain elevator: Kyle walks up the road to a white house where the mayor hands him the key; townsfolk line up at an AUDITIONS sign",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "input/sfx/chime.wav",
+     "gain": -4
+    },
+    {
+     "at": 3.6,
+     "name": "input/sfx/keyunlock.wav",
+     "gain": -4
+    },
+    {
+     "at": 4.4,
+     "name": "input/sfx/applause.wav",
+     "gain": -8
+    },
+    {
+     "at": 6.4,
+     "name": "input/sfx/paparazzi.wav",
+     "gain": -10
+    },
+    {
+     "at": 7.6,
+     "name": "input/sfx/cheer.wav",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c018",
+   "start": 55.424,
+   "end": 63.151,
+   "line": "Kyle never bought that house. He traded his way there... one paper clip at a time.",
+   "scene": "golden hour: Kyle on the porch of his house holds up a tiny red paper clip and smiles; the camera pulls back as the whole trade chain appears in an arc in the sky",
+   "bars": "none",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "input/sfx/chime.wav",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "input/sfx/pop.wav",
+     "gain": -10
+    },
+    {
+     "at": 2.2,
+     "name": "input/sfx/pop.wav",
+     "gain": -10
+    },
+    {
+     "at": 2.8,
+     "name": "input/sfx/pop.wav",
+     "gain": -10
+    },
+    {
+     "at": 4.0,
+     "name": "input/sfx/applause.wav",
+     "gain": -10
+    }
+   ]
+  }
+ ],
+ "music": [],
+ "sfx": []
+}

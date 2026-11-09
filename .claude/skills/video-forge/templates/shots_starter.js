@@ -16,7 +16,7 @@ const CUE = [1.0];
 const st0 = (c) => (c === 0 ? 0 : CUE[c] - 0.12), rel = (c0, c) => CUE[c] - st0(c0);
 const big = (g, t, str, y, o = {}) => { if (o.dur !== undefined && t > (o.at ?? 0.15) + o.dur) return; label(g, t, str, E.W / 2, y ?? E.H * 0.2, { at: o.at ?? 0.15, size: o.size || 110, color: o.color || '#fff2c8', stroke: 18 }); };
 // jede 3D-Sequenz: Wind/Himmel/Vögel/Rauch/Leute leben automatisch
-const S3 = (id, meta, o) => S(id, meta, { ...o, kind: '3d', draw(s, t, info, T) { L.tick(s.stage, t); o.draw(s, t, info, T); } });
+const S3 = (id, meta, o) => S(id, meta, { ...o, kind: '3d', draw(s, t, info, T) { L.tick(s.stage, t); o.draw(s, t, info, T); L.checkPeople(s.stage, t); } });
 
 function world(T, o = {}) {
   const st = SKY.stage(T, o.sky || 'sunset', { az: o.az ?? Math.PI / 2 });   // Sonne vor der Kamera (Kamera schaut nach -z)
