@@ -43,16 +43,16 @@ S3('000', {"in": "cut", "bars": "none", "sfx": [["input/sfx/whoosh.wav", 0.0, -4
 
 // B · WHO (2–3): London dorm at sunset, Alex broke at his desk; the idea lights up
 S3('002', {"in": "dip", "bars": "none", "sfx": [["input/sfx/street.wav", 0.0, -20], ["input/sfx/click.wav", 1.2, -10], ["input/sfx/idea.wav", 4.7, -4]], "scene": "a cosy student room in England at sunset, LONDON poster; Alex sits broke at his laptop, then a lightbulb idea flashes"}, {
-  init(T) { const st = SKY.stage(T, 'sunset', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london' }); scatter(st, 'books', 4, (r, i) => [-6 + i * 1.3, 0, -5.6], 1.2); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(3.4, 0, -3.4); return { stage: A.finish(T, st), m, alex }; },
+  init(T) { const st = SKY.stage(T, 'sunset', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london' }); scatter(st, 'books', 4, (r, i) => [-6 + i * 1.3, 0, -5.6], 1.2); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(4.8, 0, -1.6); return { stage: A.finish(T, st), m, alex }; },
   draw(s, t, info, T) { const c3 = rel(2, 3); const g = s.m.mc.getContext('2d'); g.fillStyle = '#f4f6fa'; g.fillRect(0, 0, 512, 320); g.fillStyle = '#c8202a'; g.font = 'bold 34px sans-serif'; g.textAlign = 'center'; g.fillText('BALANCE: £0.00', 256, 150); g.fillStyle = '#5a5a6a'; g.font = '22px sans-serif'; g.fillText('University fees due', 256, 200); s.m.mtex.needsUpdate = true;
     s.alex.update(t, { pose: t < c3 ? breathe(POSES.facepalm, t) : breathe(POSES.pointUp, t, 1.4), facing: t < c3 ? -1 : 1, expr: t < c3 ? 'sad' : 'happy' });
-    L.glide(s.stage.camera, t, [[0, { pos: [7, 4.5, 5], look: [3.4, 3.6, -4], fov: 50 }], [c3, { pos: [5.5, 4.2, 2.6], look: [3.4, 4, -3.4], fov: 46 }], [info.dur, { pos: [4.6, 4.2, 1.6], look: [3.4, 4.6, -3.4], fov: 44 }]]); },
+    L.glide(s.stage.camera, t, [[0, { pos: [8, 4.6, 6], look: [3.8, 3.6, -3.5], fov: 50 }], [c3, { pos: [6.6, 4.2, 4], look: [4.6, 4, -1.6], fov: 46 }], [info.dur, { pos: [6, 4.2, 3], look: [4.7, 4.4, -1.6], fov: 44 }]]); },
   overlay: (g, t) => { const c3 = rel(2, 3); big(g, t, 'ALEX TEW', E.H * 0.12, { at: 0.2, size: 110, dur: c3 - 0.2 }); big(g, t, 'BROKE STUDENT · ENGLAND', E.H * 0.19, { at: 0.7, size: 56, color: GOLD, dur: c3 - 0.7 });
     if (t > c3 - 0.1) { const k = ease.outBack(clamp((t - c3) * 3)), x = E.W * 0.62, y = E.H * 0.33; glow(g, x, y, 240 * k, '#fff2a0', 0.8); g.save(); g.translate(x, y); g.scale(k * 1.6, k * 1.6); g.beginPath(); g.arc(0, 0, 40, Math.PI * 0.8, Math.PI * 2.2); g.lineTo(18, 46); g.lineTo(-18, 46); g.closePath(); g.fillStyle = '#ffe84a'; g.fill(); g.lineWidth = 6; g.strokeStyle = OL; g.stroke(); g.fillStyle = '#a8a8b8'; g.fillRect(-18, 46, 36, 18); g.strokeRect(-18, 46, 36, 18); g.restore(); big(g, t, 'A RIDICULOUS IDEA', E.H * 0.13, { at: c3 + 0.2, size: 76, color: GOLD }); } } });
 
 // C · THE WEBSITE (4–6): camera pushes into the laptop screen — 1,000,000 pixels, $1 each, the first ads appear
 S3('004', {"bars": "none", "sfx": [["input/sfx/click.wav", 0.2, -8], ["input/sfx/click.wav", 3.6, -8], ["input/sfx/beep.wav", 6.4, -8], ["input/sfx/beep.wav", 7.0, -10], ["input/sfx/beep.wav", 7.5, -10]], "scene": "close on Alex's monitor: an empty white grid titled The Million Dollar Homepage — $1 per pixel; the first small colourful ads pop in"}, {
-  init(T) { const st = SKY.stage(T, 'sunset', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london', mw: 1024, mh: 640 }); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(5.6, 0, -3); return { stage: A.finish(T, st), m, alex }; },
+  init(T) { const st = SKY.stage(T, 'sunset', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london', mw: 1024, mh: 640 }); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(6.6, 0, -1.4); return { stage: A.finish(T, st), m, alex }; },
   draw(s, t, info, T) { const c6 = rel(4, 6), g = s.m.mc.getContext('2d'); g.fillStyle = '#dde3ee'; g.fillRect(0, 0, 1024, 640); PG.paintSite(g, 262, 10, 500, t < c6 ? 0 : clamp((t - c6) * 0.012), { newest: true }); s.m.mtex.needsUpdate = true;
     s.alex.update(t, { pose: breathe(POSES.explain, t), facing: -1, expr: 'happy' });
     L.glide(s.stage.camera, t, [[0, { pos: [6, 5, 3], look: [3.5, 4.6, -6], fov: 50 }], [info.dur, { pos: [3.5, 4.35, -4.0], look: [3.5, 4.8, -6.1], fov: 40 }]]); },
@@ -60,9 +60,9 @@ S3('004', {"bars": "none", "sfx": [["input/sfx/click.wav", 0.2, -8], ["input/sfx
 
 // D · NOBODY CARED (7): night, crickets, almost empty grid
 S3('007', {"in": "dip", "bars": "none", "sfx": [["input/sfx/crickets.wav", 0.0, -8]], "scene": "night in the dorm: Alex stares at a nearly empty pixel grid, crickets chirp"}, {
-  init(T) { const st = SKY.stage(T, 'night', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london', night: true, mw: 1024, mh: 640 }); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(3.4, 0, -3.4); return { stage: A.finish(T, st), m, alex }; },
+  init(T) { const st = SKY.stage(T, 'night', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london', night: true, mw: 1024, mh: 640 }); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(4.8, 0, -1.6); return { stage: A.finish(T, st), m, alex }; },
   draw(s, t, info, T) { const g = s.m.mc.getContext('2d'); g.fillStyle = '#dde3ee'; g.fillRect(0, 0, 1024, 640); PG.paintSite(g, 262, 10, 500, 0.012); s.m.mtex.needsUpdate = true; s.alex.update(t, { pose: breathe(POSES.sad, t), facing: 1, expr: 'sad' });
-    L.glide(s.stage.camera, t, [[0, { pos: [6.5, 4.4, 2.4], look: [3.4, 3.8, -3.6], fov: 48 }], [info.dur, { pos: [6, 4.4, 1.6], look: [3.4, 3.8, -3.6], fov: 46 }]]); },
+    L.glide(s.stage.camera, t, [[0, { pos: [8, 4.4, 4.4], look: [4, 3.8, -3.2], fov: 48 }], [info.dur, { pos: [7.4, 4.4, 3.6], look: [4, 3.8, -3.2], fov: 46 }]]); },
   overlay: (g, t) => big(g, t, 'NOBODY CARED.', E.H * 0.13, { at: 0.1, size: 110, color: '#c8d4ff' }) });
 
 // E · THE PRESS (8–9): newspapers spin in over a busy street; everyone wants a piece
@@ -87,7 +87,7 @@ S('010', {"in": "fade", "bars": "none", "sfx": [["input/sfx/beep.wav", 0.1, -8],
 
 // G · THE MILLION (13): dorm at sunset, bills raining, Alex jumping — $1,000,000+
 S3('013', {"bars": "none", "sfx": [["input/sfx/coins.wav", 0.0, -2], ["input/sfx/cheer.wav", 0.2, -6], ["input/sfx/beep.wav", 1.0, -10]], "scene": "sunset dorm: Alex jumps for joy while hundred-dollar bills rain down; the counter passes one million dollars"}, {
-  init(T) { const st = SKY.stage(T, 'sunset', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london', mw: 1024, mh: 640 }); scatter(st, 'bill', 90, (r) => [-7 + r() * 14, 8 + r() * 2, -5 + r() * 10], 0.9, { seed: 21, fog: false }); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(2, 0, -2); return { stage: A.finish(T, st), m, alex }; },
+  init(T) { const st = SKY.stage(T, 'sunset', { az: Math.PI / 2 }); const m = C.dorm(st, { poster: 'london', mw: 1024, mh: 640 }); scatter(st, 'bill', 90, (r) => [-7 + r() * 14, 8 + r() * 2, -5 + r() * 10], 0.9, { seed: 21, fog: false }); const alex = A.livePerson(st, 3, 'alex'); alex.sprite.position.set(2.4, 0, -1.0); return { stage: A.finish(T, st), m, alex }; },
   draw(s, t, info, T) { const g = s.m.mc.getContext('2d'); g.fillStyle = '#dde3ee'; g.fillRect(0, 0, 1024, 640); PG.paintSite(g, 262, 10, 500, 1, { reservedFilled: true }); s.m.mtex.needsUpdate = true; s.alex.update(t, { pose: breathe(POSES.cheer, t, 2), facing: 1, expr: 'happy' }); s.alex.sprite.position.y = Math.abs(Math.sin(t * 6)) * 0.6;
     L.glide(s.stage.camera, t, [[0, { pos: [3, 4, 7], look: [2, 4, -2], fov: 50 }], [info.dur, { pos: [4, 5, 9], look: [2, 4.6, -3], fov: 54 }]]); },
   overlay: (g, t) => { big(g, t, 'A FEW MONTHS LATER', E.H * 0.1, { at: 0.05, size: 64 }); money(g, t, 0.3, 1037100, E.H * 0.17, { dur: 2.0, size: 130 }); } });

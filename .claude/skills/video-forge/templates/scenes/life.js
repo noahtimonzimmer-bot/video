@@ -18,6 +18,10 @@ function index(st) {
     L[k[0]].push(o);
   });
 }
+// collision check: warns (console.error -> render log 'error') when a live person stands inside solid geometry
+function solids(st) { const T = st.T, out = []; st.scene.updateMatrixWorld(true); st.scene.traverse((o) => { if (!o.isMesh || o.userData.noOutline || o.material?.side === T.THREE.BackSide) return; if (o.parent && o.parent.isMesh) return; const b = new T.THREE.Box3().setFromObject(o), sz = b.getSize(new T.THREE.Vector3()); if (b.max.y < 0.35 || Math.max(sz.x, sz.z) > 40 || Math.min(sz.x, sz.z) < 0.05) return; out.push(b); }); return out; }
+export function checkPeople(st, t) { if (!st._solids) st._solids = solids(st); st._warned ||= new Set(); const T = st.T;
+  st.scene.traverse((o) => { if (!o.isSprite || !o.userData.person || !o.visible || st._warned.has(o)) return; const r = o.userData.pw * 0.3, hs = o.userData.pw / 2.6; for (const y of [0.4, 1.2, 2.2, 3.0].map((v) => v * hs)) { const p = new T.THREE.Vector3(o.position.x, o.position.y + y, o.position.z); for (const b of st._solids) { const e = b, lo = b.max.y < 4.2 ? 0 : b.min.y; /* tops of tables/shelves occupy the space below them */ if (p.x > e.min.x - r && p.x < e.max.x + r && p.z > e.min.z - r && p.z < e.max.z + r && p.y > lo && p.y < e.max.y) { console.error(`ERROR COLLISION: person '${o.userData.person}' at (${o.position.x.toFixed(1)}, ${o.position.y.toFixed(1)}, ${o.position.z.toFixed(1)}) t=${t.toFixed(2)} inside box x[${b.min.x.toFixed(1)},${b.max.x.toFixed(1)}] y[${b.min.y.toFixed(1)},${b.max.y.toFixed(1)}] z[${b.min.z.toFixed(1)},${b.max.z.toFixed(1)}]`); st._warned.add(o); return; } } } }); }
 export function tick(st, t) {
   if (!st.life) index(st); const L = st.life, w = st.wind ?? 1;
   const gust = (x, z) => 0.6 + 0.4 * Math.sin(t * 0.9 - x * 0.025 - z * 0.012);
@@ -33,7 +37,7 @@ export function tick(st, t) {
   for (const o of L.flutter) { const b = o.userData.b, k = ((t * 0.18 + b.ph / 6.28) % 1); o.position.set(b.x + Math.sin(t * 1.3 + b.ph) * 2.5 + k * 6 * w, b.y + 8 - k * 16, b.z + Math.cos(t * 1.1 + b.ph) * 1.5); o.material.rotation = Math.sin(t * 3 + b.ph) * 1.2; o.scale.x = b.sx * Math.abs(Math.cos(t * 4 + b.ph)) + 0.05; }
   for (const o of L.flag) { o.userData.ry ??= o.rotation.y; o.rotation.y = o.userData.ry + Math.sin(t * 2.4 + o.position.x) * 0.22 * w; o.scale.x = 1 + Math.sin(t * 3.1 + o.position.z) * 0.06; }
   for (const o of L.water) { const m = o.material.map; if (m) m.offset.y = -t * 0.04; }
-  SKY.update(st, t);
+  SKY.update(st, t); checkPeople(st, t);
 }
 // ---------- camera helpers ----------
 // smooth spline through keyframes [[time, {pos, look, fov}]] without stopping at keys (Catmull-Rom on pos/look)

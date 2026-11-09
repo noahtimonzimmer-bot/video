@@ -24,6 +24,7 @@
 - **Musik:** echte CC0-Musik aus `github.com/SoundSafari/CC0-1.0-Music` (9000+ Stücke, u. a. freepd.com): `git clone --filter=blob:none --no-checkout --depth 1 …` dann `git checkout HEAD -- "freepd.com/<Titel>.mp3"`. Titel nach Stimmung wählen, auf Videolänge schneiden + ausblenden, Quelle in sfx_sources.txt.
 - **Echte Fotos/Screenshots der Nutzerin** (z. B. echte Webseite am Ende): als `input/*.jpg` ins Projekt, im Shot per top-level `await` laden (`const IMG = await loadImg('/project/input/x.jpg')`), Browserrahmen + langsamer Zoom.
 - **Bildschirme/Plakate in 3D** (MeshBasicMaterial mit Canvas): immer `toneMapped: false` + Farbe ~#c4c4c4, sonst überstrahlt der vivid-Look sie weiß.
+- **KOLLISIONS-REGEL: "er steht im tisch — kontrolliere, dass er nie durch wände läuft"** → `life.tick` prüft jede Live-Figur gegen alle festen Objekte (Tische/Regale zählen bis zum Boden) und meldet `ERROR COLLISION: person … inside box …` im Render-Log. Nach JEDEM Stills- und Final-Render `grep -i collision` → muss leer sein. Figuren mind. ~1.5 Einheiten vor Möbeln platzieren; Laufwege nie durch Wände/Häuser/Zelte.
 - **SKRIPT-MUSTER (von Lana als perfekt bestätigt, Burger-Short):**
   1. HOOK: 1–2 Sätze, direkt die krasse Behauptung, nichts davor ("This guy took $150,000 from a fast food giant… and it was completely legal.").
   2. Dann sofort "See, <Name> is a … who wants to …. But …" — erzählt wie ein Freund, Verbindungswörter (See / But / One day / Instead / So / And / After …).

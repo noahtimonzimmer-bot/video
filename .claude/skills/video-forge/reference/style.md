@@ -37,6 +37,7 @@ Faustregel: wenn man im Still leere Flächen > 20 % des Bildes sieht → mehr `s
 - Musik −14 dB unter Stimme, Mix −14 LUFS.
 
 ## QC-Checkliste vor dem Render
+- [ ] `grep -i collision` im Render-Output leer (keine Figur in Tisch/Wand/Objekt)
 - [ ] Dichte-Budget erfüllt in jeder 3D-Welt
 - [ ] Figuren erkennbar, nicht verdeckt, Gesichter zur Kamera
 - [ ] Labels/Captions frei und lesbar

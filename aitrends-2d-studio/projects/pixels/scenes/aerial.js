@@ -45,7 +45,7 @@ export function waterStrip(st, pts, width, o = {}) { const T = st.T, { THREE } =
 export function livePerson(st, w = 2.6, who = 'adam', o = {}) {
   const T = st.T, { THREE } = T, c = document.createElement('canvas'); c.width = o.px || 256; c.height = Math.round((o.px || 256) * 1.55);
   const tex = new THREE.CanvasTexture(c); tex.colorSpace = THREE.SRGBColorSpace;
-  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, alphaTest: 0.08, depthWrite: true, fog: o.fog ?? true })); sp.center.set(0.5, 0); sp.scale.set(w, w * 1.55, 1); st.add(sp);
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, alphaTest: 0.08, depthWrite: true, fog: o.fog ?? true })); sp.center.set(0.5, 0); sp.scale.set(w, w * 1.55, 1); sp.userData.person = who; sp.userData.pw = w; st.add(sp);
   const g = c.getContext('2d');
   const update = (t, q = {}) => { g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, c.width, c.height); g.save(); g.scale(c.width / 140, c.height / 217); toonFigure(g, { x: 70, y: 212, s: 0.7, facing: q.facing ?? 1, pose: q.pose || POSES.stand, who: CAST[q.who || who] || q.who || CAST[who], expr: q.expr || 'neutral', talk: q.talk || 0, blink: q.blink, shadow: false, prop: q.prop }); g.restore(); tex.needsUpdate = true; };
   update(0); return { sprite: sp, update };
