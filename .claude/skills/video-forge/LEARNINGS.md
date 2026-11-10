@@ -76,3 +76,11 @@
 - Group/walk shots: camera ~12 m in front of the group, people 0.9 m apart, otherwise the outer ones are cut off.
 - Sound: <project>/make_mix.py (voice + real BigSoundBank SFX + freepd CC0 track, music voice-13 dB ducked 9 dB) → mix.wav → public/<name>/mix.wav, `<Audio src={staticFile(...)} />` in the composition. Never the template's synthesized audio.
 - Final shot: keep the main character in frame together with the reveal prop.
+
+## Rendering the Remotion cartoon code without a GPU (2026-11-10)
+- Remotion `--scale` does NOT shrink the 3D render: R3F clamps dpr to >= 1, so the canvas is always 1080x1920. Pass inputProps `{"post":{"dpr":0.6667}}` together with scale 0.6667 for a real 720p render.
+- Measured here (4 CPUs, SwiftShader): 1080p ~37 s/frame, real 720p ~19 s/frame. Concurrency > 1 does not help (SwiftShader already uses all cores). msaa 0 renders an empty picture; msaa 2 is no faster.
+- Lens blur costs about half the frame time; inputProps post.lensq (0..1) reduces its taps.
+- `scripts/chunks.sh <Comp> <frames> <outDir> <mix.wav>` renders resumable 150-frame chunks (muted), concats them, upscales to 1080x1920 with lanczos and muxes the soundtrack. Run it with nohup/setsid and watch driver.log.
+- Camera dolly with a far look target (e.g. the tower) moves the lens metres forward and can pass the character; use zoom() for those pushes.
+- 2D fx cards draw over character cards: put a character who should be "inside" a prop (a train window) into the prop drawing.
