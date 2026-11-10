@@ -23,8 +23,8 @@ import { TOTAL, FLASH_AT, SHOTS, layersAt, dofAt } from "./story";
 export const BRIDGE_FRAMES = TOTAL;
 
 /** A/B switches for test stills only (Remotion inputProps `{ post: { ink: false, ... } }`); everything is on by default. */
-type PostToggles = { ink: boolean; lens: boolean; pre: boolean; bloom: boolean; grade: boolean; grain: boolean };
-const toggles = (): PostToggles => ({ ink: true, lens: true, pre: true, bloom: true, grade: true, grain: false, ...((getInputProps() as { post?: Partial<PostToggles> }).post ?? {}) });
+type PostToggles = { ink: boolean; lens: boolean; pre: boolean; bloom: boolean; grade: boolean; grain: boolean; msaa: number; shadows: boolean };
+const toggles = (): PostToggles => ({ ink: true, lens: true, pre: true, bloom: true, grade: true, grain: false, msaa: 4, shadows: true, ...((getInputProps() as { post?: Partial<PostToggles> }).post ?? {}) });
 
 /** Bloom for emissive sources only (depth.md 6.4). Its MIP chain always starts at 540x960 (half of 1080x1920),
  *  whatever the output size, so the glow keeps the same size relative to the frame (e-fold ~30 px at 1080p,
@@ -62,7 +62,7 @@ const Inner: React.FC<{ id: number; kit: Kit }> = ({ id, kit }) => {
   }), [camera, scene]);
   useEffect(() => () => fx.ink.dispose(), [fx]);
   const post = useMemo(() => (
-    <EffectComposer multisampling={4}>
+    <EffectComposer multisampling={on.msaa}>
       {on.ink ? <primitive object={fx.ink} dispose={null} /> : null}
       {on.lens && on.pre ? <primitive object={fx.lens.pre} dispose={null} /> : null}
       {on.lens ? <primitive object={fx.lens.main} dispose={null} /> : null}
