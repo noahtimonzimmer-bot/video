@@ -118,11 +118,23 @@ export const fxCafe = (p: Pen) => {
   p.poly([[110, 140], [170, 140], [180, 120], [100, 120]], "#e0b25a", 6);
 };
 /** a steam train seen from the side (1800 x 600): locomotive + carriage; puff 0..1 animates the smoke */
-export const fxTrain = (p: Pen, puff = 0) => {
+export const fxTrain = (p: Pen, puff = 0, wave: number | null = null) => {
   // carriage
   p.poly(rr(40, 150, 980, 470, 26), "#2f6a4a", 12);
   p.poly(rr(40, 120, 980, 170, 20), "#24543a", 10);
   for (let i = 0; i < 6; i++) p.poly(rr(90 + i * 148, 210, 200 + i * 148, 330, 14), "#cfe9ff", 9);
+  if (wave !== null) { // Victor in the last window: bean head, top hat, moustache, waving hand
+    const cx = 145 + 4 * 148, cy = 285;
+    p.poly(rr(cx - 34, cy - 28, cx + 34, cy + 60, 20), "#5b3fa0", 7);
+    p.ell(cx, cy - 40, 40, 38, "#ffe2c2", 7);
+    p.poly(rr(cx - 30, cy - 130, cx + 30, cy - 66, 4), "#1e2028", 7); p.poly(rr(cx - 46, cy - 72, cx + 46, cy - 60, 4), "#1e2028", 6);
+    p.poly(rr(cx - 30, cy - 84, cx + 30, cy - 72, 2), "#5b3fa0", 0);
+    p.arc(cx - 13, cy - 44, 7, 5, 200, 340, 5); p.arc(cx + 13, cy - 44, 7, 5, 200, 340, 5);
+    p.poly([[cx - 18, cy - 26], [cx, cy - 30], [cx + 18, cy - 26], [cx, cy - 22]], "#2a201a", 0);
+    p.arc(cx, cy - 18, 12, 8, 20, 160, 5);
+    const hx = cx + 70 + 12 * wave, hy = cy - 70;
+    p.stroke([[cx + 30, cy - 4], [hx, hy]], 16, INK); p.stroke([[cx + 30, cy - 4], [hx, hy]], 9, "#5b3fa0"); p.ell(hx, hy - 6, 14, 14, "#ffe2c2", 6);
+  }
   p.stroke([[40, 380], [980, 380]], 8, "#e0b25a");
   // locomotive
   p.poly(rr(1000, 220, 1640, 470, 30), "#2b2e36", 12);

@@ -545,9 +545,8 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       break; }
     case 9: { // the train out of Paris, Victor waving from the back platform
       const tx = -12 + (t - 36.3) * 5.2;
-      fx(out, `train${q(t % 1, 8)}`, 1800, 600, (p) => fxTrain(p, t % 1), tx, D0 + 2.0, TRAIN_Z, 12, 4);
-      stand(cam, t, out, V_, tx - 2.2, TRAIN_Z + 0.35, "laugh", { wave: q(Math.sin(t * 8), 30) }, 0.95, D0 + 0.45);
-      fx(out, "caseS", 500, 380, (p) => fxCase(p, 0), tx - 1.5, D0 + 0.85, TRAIN_Z + 0.4, 0.6, 0.45);
+      const wv = q(Math.sin(t * 8), 4);
+      fx(out, `train${q(t % 1, 8)}|${wv}`, 1800, 600, (p) => fxTrain(p, t % 1, wv), tx, D0 + 2.0, TRAIN_Z, 12, 4);
       folkAt(cam, t, out, [[-3.6, TRAIN_Z + 4.0], [3.8, TRAIN_Z + 4.4]], true, 340);
       break; }
     case 10: { // Andre, red-faced, walks past the police station
@@ -575,7 +574,7 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       if (t > COPS_T) fx(out, `lines${q(t % 0.5, 6)}`, 300, 200, (p) => fxLines(p, (t % 0.5) * 2), 0.6, D0 + 1.9, Math.max(DEAL2[2] + 1.2, 140 - (t - COPS_T) * 4.2) - 0.1, 0.5, 0.33);
       break; }
     case 13: { // never for sale, still standing: Victor smirks, tourists at the tower
-      stand(cam, t, out, V_, END_V[0], END_V[2], t < 53.2 ? "smile_closed" : "grin", { look: 0 });
+      stand(cam, t, out, V_, END_V[0] + 0.8, END_V[2], t < 53.2 ? "smile_closed" : "grin", { look: 0 });
       folkAt(cam, t, out, crowdSpots(16, 0, TOWER_P[2] - 24, 14, 6, 11), t > 54.5, 360);
       break; }
   }
