@@ -150,14 +150,14 @@ export const snapEnd = (snap: number): V3 => {
 };
 
 // ---- framings (f -> camera); low lenses, close, dutch tilts (reference grammar) ----
-const S1a = (f: number) => dolly([0.8, D0 + 0.45, HOOK_Z - 3.6], [0, D0 + 2.7, HOOK_Z], pushK(f, 0, 0.003), { fov: 50 });
-const S1b = (f: number) => dolly([0.5, D0 + 0.6, HOOK_Z - 2.6], [0, D0 + 2.4, HOOK_Z], pushK(f, 66, 0.003, 0.007, 30), { fov: 50, roll: -0.06 });
+const S1a = (f: number) => dolly([0.35, D0 + 0.5, HOOK_Z - 3.4], [0.35, D0 + 2.1, HOOK_Z], pushK(f, 0, 0.003), { fov: 52 });
+const S1b = (f: number) => dolly([0.3, D0 + 0.6, HOOK_Z - 2.6], [0.3, D0 + 2.0, HOOK_Z], pushK(f, 66, 0.003, 0.007, 30), { fov: 52, roll: -0.06 });
 const S2a = (f: number) => dolly([-1.0, D0 + 0.55, CAFE[2] + 3.2], [CAFE[0] + 0.9, D0 + 1.3, CAFE[2]], pushK(f, 112, 0.0025), { fov: 42 });
-const S3a = (f: number) => dolly([-2.3, D0 + 1.35, CAFE[2] + 2.2], [CAFE[0] + 0.95, D0 + 1.32, CAFE[2] + 0.6], pushK(f, 270, 0.002), { fov: 42, roll: 0.03 });
+const S3a = (f: number) => dolly([-2.3, D0 + 1.3, CAFE[2] + 2.6], [CAFE[0] + 0.95, D0 + 1.25, CAFE[2] + 0.6], pushK(f, 270, 0.002), { fov: 42, roll: 0.03 });
 const S4a = (f: number) => dolly([-1.3, D0 + 0.7, DESK[2] + 3.0], [DESK[0] + 1.0, D0 + 1.1, DESK[2]], pushK(f, 435, 0.0025), { fov: 42, roll: -0.03 });
-const S5a = (f: number) => dolly([-1.5, D0 + 0.5, HOTEL_SIGN[2] - 6], [3.6, D0 + 2.2, HOTEL_SIGN[2]], pushK(f, 555, 0.0022), { fov: 46 });
+const S5a = (f: number) => dolly([-1.6, D0 + 0.5, HOTEL_SIGN[2] - 8.5], [4.0, D0 + 1.9, HOTEL_SIGN[2] - 1], pushK(f, 555, 0.0022), { fov: 46 });
 const S6a = (f: number) => dolly([1.8, D0 + 0.9, TERR[2] - 7.6], [1.8, D0 + 1.4, TERR[2]], pushK(f, 665, 0.0022), { fov: 46 });
-const S6b = (f: number) => dolly([0.4, D0 + 1.1, PLAN[2] - 3.4], [PLAN[0] + 0.1, D0 + 1.4, PLAN[2]], pushK(f, 755, 0.003, 0.007, 30), { fov: 40, roll: 0.04 });
+const S6b = (f: number) => dolly([0.6, D0 + 1.0, PLAN[2] - 5.2], [PLAN[0] + 0.3, D0 + 1.45, PLAN[2]], pushK(f, 755, 0.003, 0.007, 30), { fov: 44, roll: 0.04 });
 const S7a = (f: number) => dolly([1.4, D0 + 0.9, TERR[2] - 2.8], [1.4, D0 + 1.7, TERR[2] + 0.4], pushK(f, 825, 0.003), { fov: 46, roll: -0.05 });
 const S8a = (f: number) => dolly([PAY[0] + 0.2, D0 + 0.6, PAY[2] - 3.2], [PAY[0], D0 + 1.3, PAY[2]], pushK(f, 905, 0.0025), { fov: 44 });
 const S8b = (f: number) => dolly([PAY[0] + 0.5, D0 + 0.9, PAY[2] - 2.0], [PAY[0] + 0.2, D0 + 1.2, PAY[2]], pushK(f, 1030, 0.003, 0.006, 25), { fov: 40, roll: 0.05 });

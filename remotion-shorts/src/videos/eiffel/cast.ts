@@ -496,12 +496,12 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
     case 2: { // the cafe: Victor at a little table, people stroll by
       fx(out, "cafe", 420, 380, fxCafe, CAFE[0], D0 + 0.52, CAFE[2], 1.1, 1.0);
       stand(cam, t, out, V_, CAFE[0] + 0.95, CAFE[2] + 0.25, t < 7.8 ? "smile_closed" : "neutral", { look: -1 });
-      if (t > 7.8) fx(out, "paperS", 700, 900, fxNewspaper, CAFE[0] + 0.95, D0 + 1.25, CAFE[2] + 0.62, 0.62, 0.8);
+      if (t > 7.8) fx(out, "paperS", 700, 900, fxNewspaper, CAFE[0] + 0.95, D0 + 0.98, CAFE[2] + 0.62, 0.62, 0.8);
       passers(cam, t, out, 108, 4);
       break; }
     case 3: { // newspaper close-up: Victor's eyes over the paper, a grin appears
       stand(cam, t, out, V_, CAFE[0] + 0.95, CAFE[2] + 0.25, t < 12.6 ? "neutral" : "grin", { look: 0 });
-      fx(out, "paperS", 700, 900, fxNewspaper, CAFE[0] + 0.95, D0 + 1.22, CAFE[2] + 0.62, 0.62, 0.8);
+      fx(out, "paperS", 700, 900, fxNewspaper, CAFE[0] + 0.95, D0 + 0.98, CAFE[2] + 0.62, 0.62, 0.8);
       burst(out, t, 12.6, CAFE[0] + 0.5, D0 + 1.55, CAFE[2] + 0.66, 0.5, "#ffd84a", 0.3);
       break; }
     case 4: { // forged letters fly off the desk
@@ -515,7 +515,7 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
     case 5: { // six dealers walk to the Grand Hotel with their letters
       hotelSign();
       for (let k = 0; k < 6; k++) {
-        const z = 62 + (t - 18.5) * 1.25 - k * 1.25; if (z > HOTEL_SIGN[2] - 0.6) continue;
+        const z = 64.5 + (t - 18.5) * 1.0 - k * 0.95; if (z > HOTEL_SIGN[2] - 0.6) continue;
         walk(cam, t, out, who(20 + k, dealer(k), `d${k}`), 3.4 + (k % 2) * 0.7, z, 1, k % 2 ? "smile" : "neutral");
       }
       passers(cam, t, out, 84, 3);
