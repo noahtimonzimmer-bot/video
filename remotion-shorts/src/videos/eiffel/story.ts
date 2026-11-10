@@ -74,7 +74,7 @@ export const PAY: V3 = [2.6, D0, 82];
 export const TRAIN_Z = 52;
 export const POL_SIGN: V3 = [-5.2, D0 + 2.9, 110];
 export const DEAL2: V3 = [1.3, D0, 123.2];
-export const END_V: V3 = [1.3, D0, 179.5];
+export const END_V: V3 = [1.2, D0, 140];
 export const TOWER_P: V3 = [0, D0, 215];
 
 export const shotAt = (f: number) => SHOTS.find((s) => f >= s.a && f < s.b) ?? SHOTS[SHOTS.length - 1];
@@ -159,14 +159,14 @@ const S5a = (f: number) => dolly([-1.6, D0 + 0.5, HOTEL_SIGN[2] - 8.5], [4.0, D0
 const S6a = (f: number) => dolly([1.8, D0 + 0.9, TERR[2] - 7.6], [1.8, D0 + 1.4, TERR[2]], pushK(f, 665, 0.0022), { fov: 46 });
 const S6b = (f: number) => dolly([0.6, D0 + 1.0, PLAN[2] - 5.2], [PLAN[0] + 0.3, D0 + 1.45, PLAN[2]], pushK(f, 755, 0.003, 0.007, 30), { fov: 44, roll: 0.04 });
 const S7a = (f: number) => dolly([1.4, D0 + 0.9, TERR[2] - 2.8], [1.4, D0 + 1.7, TERR[2] + 0.4], pushK(f, 825, 0.003), { fov: 46, roll: -0.05 });
-const S8a = (f: number) => dolly([PAY[0] + 0.2, D0 + 0.6, PAY[2] - 3.2], [PAY[0], D0 + 1.3, PAY[2]], pushK(f, 905, 0.0025), { fov: 44 });
-const S8b = (f: number) => dolly([PAY[0] + 0.5, D0 + 0.9, PAY[2] - 2.0], [PAY[0] + 0.2, D0 + 1.2, PAY[2]], pushK(f, 1030, 0.003, 0.006, 25), { fov: 40, roll: 0.05 });
-const S9a = (f: number) => dolly([0.6, D0 + 0.6, TRAIN_Z + 7.0], [0, D0 + 1.8, TRAIN_Z], pushK(f, 1088, 0.002), { fov: 48 });
+const S8a = (f: number) => dolly([PAY[0] + 0.2, D0 + 0.6, PAY[2] - 4.4], [PAY[0], D0 + 1.4, PAY[2]], pushK(f, 905, 0.0025), { fov: 44 });
+const S8b = (f: number) => dolly([PAY[0] + 0.5, D0 + 0.9, PAY[2] - 3.0], [PAY[0] + 0.1, D0 + 1.3, PAY[2]], pushK(f, 1030, 0.003, 0.006, 25), { fov: 40, roll: 0.05 });
+const S9a = (f: number) => dolly([0.6, D0 + 0.8, TRAIN_Z + 13.0], [0, D0 + 2.0, TRAIN_Z], pushK(f, 1088, 0.002), { fov: 50 });
 const S10a = (f: number) => dolly([-1.2, D0 + 0.6, POL_SIGN[2] - 5.4], [-3.6, D0 + 1.9, POL_SIGN[2] - 0.6], pushK(f, 1222, 0.0025), { fov: 44, roll: 0.04 });
 const S11a = (f: number) => dolly([0.4, D0 + 0.45, DEAL2[2] - 6.5], [0.3, D0 + 2.3, DEAL2[2]], pushK(f, 1312, 0.0025), { fov: 48 });
 const S12a = (f: number) => dolly([-0.6, D0 + 0.5, DEAL2[2] - 7.0], [0, D0 + 1.6, DEAL2[2]], pushK(f, 1432, 0.002), { fov: 48, roll: -0.05 });
-const S13a = (f: number) => dolly([2.6, D0 + 0.7, END_V[2] - 3.4], [0.6, D0 + 6, TOWER_P[2]], pushK(f, 1550, 0.0012), { fov: 52 });
-const S13b = (f: number) => dolly([2.4, D0 + 0.6, END_V[2] - 3.0], [0, D0 + 44, TOWER_P[2]], pushK(f, 1640, 0.0012), { fov: 54, roll: 0.03 });
+const S13a = (f: number) => dolly([2.4, D0 + 0.7, END_V[2] - 3.6], [0.4, D0 + 24, TOWER_P[2]], pushK(f, 1550, 0.0012), { fov: 58 });
+const S13b = (f: number) => dolly([2.4, D0 + 0.6, TOWER_P[2] - 38], [0, D0 + 44, TOWER_P[2]], pushK(f, 1640, 0.0012), { fov: 54, roll: 0.03 });
 
 const CAMS: Record<number, Key[]> = {
   1: [{ f: 0, s: S1a }, { f: 66, dur: 26, s: S1b }],

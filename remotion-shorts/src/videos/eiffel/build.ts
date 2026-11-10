@@ -575,8 +575,9 @@ const clockTex = () => ctex("clock", 256, 256, (g) => {
 });
 /** round 4: St George's cross (England, 1831): white field, red cross (the old red + yellow diamond read as Vietnam's flag) */
 export const flagTex = () => ctex("flagStGeorge", 256, 160, (g) => {
-  g.fillStyle = "#f4f0e6"; g.fillRect(0, 0, 256, 160);
-  g.fillStyle = "#c8323a"; g.fillRect(0, 62, 256, 36); g.fillRect(110, 0, 36, 160);
+  g.fillStyle = "#2a4fa8"; g.fillRect(0, 0, 86, 160);
+  g.fillStyle = "#f4f0e6"; g.fillRect(86, 0, 85, 160);
+  g.fillStyle = "#d8323a"; g.fillRect(171, 0, 85, 160);
   g.fillStyle = "rgba(120,100,90,0.10)"; g.fillRect(0, 150, 256, 10); // soft hem shade
 });
 
