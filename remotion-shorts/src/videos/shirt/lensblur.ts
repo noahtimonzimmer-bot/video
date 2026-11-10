@@ -94,9 +94,11 @@ export class LensBlurEffect extends Effect {
 export class LensBlur {
   readonly pre: LensBlurEffect;
   readonly main: LensBlurEffect;
-  constructor({ maxCoC = 24, nearScale = 1.2 } = {}) {
-    this.pre = new LensBlurEffect({ maxCoC, nearScale, stage: PRE });
-    this.main = new LensBlurEffect({ maxCoC, nearScale, stage: MAIN });
+  /** q < 1 = fewer gather taps (faster software renders); 1 = reference quality */
+  constructor({ maxCoC = 24, nearScale = 1.2, q = 1 } = {}) {
+    const k = (st: Stage): Stage => ({ ...st, taps: Math.max(4, Math.round(st.taps * q)), nearTaps: Math.round(st.nearTaps * q) });
+    this.pre = new LensBlurEffect({ maxCoC, nearScale, stage: k(PRE) });
+    this.main = new LensBlurEffect({ maxCoC, nearScale, stage: k(MAIN) });
   }
   set focus(v: number) { this.pre.focus = v; this.main.focus = v; }
   set cInf(v: number) { this.pre.cInf = v; this.main.cInf = v; }
