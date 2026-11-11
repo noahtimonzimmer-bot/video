@@ -60,7 +60,7 @@ const Inner: React.FC<{ id: number; kit: Kit }> = ({ id, kit }) => {
     grade: new GradeEffect(GRADES.day, GRADE_STRENGTH.day),
     grain: new GrainEffect({ amount: 0.025, cellPx: 1.5 }), // film grain, OFF by default (inputProps post.grain): the reference measures no grain and it quadruples the file size
   }), [camera, scene]);
-  useEffect(() => () => fx.ink.dispose(), [fx]);
+  useEffect(() => () => InkPass.prototype.dispose.call(fx.ink), [fx]); // R3F sets .dispose=null on primitives with dispose={null}, so call the class method
   const post = useMemo(() => (
     <EffectComposer multisampling={on.msaa}>
       {on.ink ? <primitive object={fx.ink} dispose={null} /> : null}
