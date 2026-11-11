@@ -10,7 +10,7 @@ import {
 } from "./toon";
 import {
   FPS, D0, FILES, ROW_GAP, COUNT, PARK, SHOTS, SNAP, DROP0, DROP1, DROP_H, V3, front, marchPhase, stomp, deckY, dropW, dropU, shapeZ,
-  smooth, clamp01, BridgeState, JASON, TABLE, BOARD, PHOTO, TEAM_Z, SIGN, STAMP_T,
+  smooth, clamp01, BridgeState, OFF, DRESS, JASON, TABLE, BOARD, PHOTO, TEAM_Z, SIGN, STAMP_T,
 } from "./story";
 import { SHIRTS, fxTable, fxBoard, fxTripod, fxRack, fxBulb, fxCoins, fxNameSign } from "./props";
 import { LIGHTS } from "./lights";
@@ -458,7 +458,15 @@ const crowdSpots = (n: number, cx: number, cz: number, rx: number, rz: number, s
   Array.from({ length: n }, (_, i) => [cx + (hh(i, seed) - 0.5) * 2 * rx, cz + (hh(i, seed + 3) - 0.5) * 2 * rz]);
 
 /** everything with a face in shot `id` at time t */
-export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Stage => {
+export const stage = (id: number, t: number, b: BridgeState, cam: CamInfo): Stage => {
+  const o = OFF[id];
+  if (!o) return stageAt(id, t, b, cam);
+  const out = stageAt(id, t, b, { ...cam, pos: cam.pos.clone().add(new THREE.Vector3(-o[0], 0, -o[1])) });
+  for (const p of out.places) { p.x += o[0]; p.z += o[1]; }
+  for (const p of out.fx) { p.x += o[0]; p.z += o[1]; }
+  return out;
+};
+const stageAt = (id: number, t: number, _b: BridgeState, cam: CamInfo): Stage => {
   const out: Stage = { places: [], fx: [] };
   const s = SHOTS[id - 1];
   LNAME = s.light;
@@ -473,8 +481,8 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       coins(out, t, 2.35, JASON[0], D0 + 2.6, JASON[2] - 0.6, 2.6);
       folkAt(cam, t, out, crowdSpots(8, 0, 58, 4.5, 6, 2), false);
       break; }
-    case 2: { // the idea
-      tb(); jason(cam, t, out, TABLE[0] + 1.3, TABLE[2] + 0.1, 0, t < 9.1 ? "neutral" : "grin", { look: -1 });
+    case 2: { // the idea (indoors: the 3D table is part of room A)
+      jason(cam, t, out, TABLE[0] + 1.3, TABLE[2] + 0.1, 0, t < 9.1 ? "neutral" : "grin", { look: -1 });
       const u = (t - 9.12) / 0.9; if (u >= 0 && u < 1) fx(out, `bulb${q(Math.min(1, u * 2), 20)}`, 300, 400, (p) => fxBulb(p, Math.min(1, u * 2)), TABLE[0] + 1.3, D0 + 2.3, TABLE[2] + 0.2, 0.5, 0.66);
       if (t > 9.4) for (let k = 0; k < 3; k++) { const x = 3 - ((t - 9.4) * 1.4 + k * 1.6) % 6; if (x < -1) continue; const who: Who = { i: 400 + k, o: wearer(k + 1), okey: `w${(k + 1) % 8}` };
         const so: SideOpts = { mode: "march", phase: q((t * 0.9 + k * 0.3) % 1, 120), expr: "smile", stomp: 0.5, stride: 0.8 };
@@ -494,7 +502,7 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       out.places.push(person(cam, ph, PHOTO[0] + 2.8, D0, PHOTO[2] + 1.3, { side: false, mirror: false }, { mode: "stand", expr: "grin", blink: lidAt(t, 501) }, {})); blob(out, PHOTO[0] + 2.8, D0, PHOTO[2] + 1.3);
       for (const b2 of beats) burst(out, t, b2, PHOTO[0] + 1.75, D0 + 0.85, PHOTO[2] + 1.5, 0.6, "#ffffff", 0.18);
       break; }
-    case 6: tb(); jason(cam, t, out, TABLE[0] + 1.3, TABLE[2] + 0.1, 4, "neutral", { look: 0 }); break;
+    case 6: jason(cam, t, out, TABLE[0] + 1.3, TABLE[2] + 0.1, 4, "neutral", { look: 0 }); break;
     case 7: { // the idea spread: neighbours gather, more and more
       tb(); jason(cam, t, out, TABLE[0] + 1.3, TABLE[2] + 0.1, 5, "grin");
       const n = Math.min(18, 4 + Math.floor((t - 32.6) * 6)); folkAt(cam, t, out, crowdSpots(n, -0.5, 84, 4.2, 4.5, 5), t > 33.6);
@@ -512,7 +520,7 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       for (const t0 of [40.95, 41.5, 42.1, 42.7]) coins(out, t, t0, (hh(t0 * 10) - 0.5) * 3, D0 + 2.8, 103.4, 2.4);
       break; }
     case 11: jason(cam, t, out, 0, 104, 2, "grin", { look: 0 }); break;
-    case 12: fx(out, "rack", 700, 520, fxRack, TABLE[0] - 0.2, D0 + 1.05, TABLE[2] + 0.1, 1.9, 1.41); jason(cam, t, out, TABLE[0] + 1.45, TABLE[2] + 0.35, Math.floor((t - 47.0) * 2.4), "smile"); break;
+    case 12: fx(out, "rack", 700, 520, fxRack, DRESS[0] - 0.2, D0 + 1.05, DRESS[2] + 0.1, 1.9, 1.41); jason(cam, t, out, DRESS[0] + 1.45, DRESS[2] + 0.35, Math.floor((t - 47.0) * 2.4), "smile"); break;
     case 13: {
       const st2 = Math.max(0, (t - STAMP_T) / 0.35), k = q(Math.min(1, st2), 20);
       fx(out, `namesign${k}`, 700, 330, (p) => fxNameSign(p, k), SIGN[0], SIGN[1], SIGN[2], 1.45, 0.68);

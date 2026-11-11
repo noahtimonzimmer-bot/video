@@ -66,7 +66,8 @@ export const FLASH_AT = 160;
 export const JASON: V3 = [0, D0, 72];          // hook
 export const TABLE: V3 = [-4.6, D0, 80];       // garden table in front of his house (west side)
 export const BOARD: V3 = [-1.6, D0, 81.6];     // easel board = "the website"
-export const PHOTO: V3 = [0, D0, 92];          // photo spot in the street
+export const PHOTO: V3 = [0, D0, 92];          // photo spot (studio, room B)
+export const DRESS: V3 = [-4.8, D0, 82.6];     // getting dressed: clothes rack by the wardrobe (room A)
 export const TEAM_Z = 100;                     // shirt team walks toward -z from here
 export const SIGN: V3 = [-5.2, D0 + 2.5, 77.6]; // name sign on his house front
 
@@ -151,7 +152,7 @@ const S2b = (f: number) => dolly([-2.4, D0 + 1.15, TB[2] + 2.0], [TB[0] + 1.3, D
 const S3a = (f: number) => dolly([1.5, D0 + 0.7, BD[2] + 4.2], [BD[0] - 0.55, D0 + 1.35, BD[2]], pushK(f, 350, 0.002), { fov: 42 });
 const S3b = (f: number) => dolly([0.4, D0 + 1.2, BD[2] + 4.2], [BD[0] - 0.55, D0 + 1.45, BD[2]], pushK(f, 480, 0.0025), { fov: 38, roll: -0.03 });
 const S4a = (f: number) => dolly([-0.2, D0 + 1.15, BD[2] + 2.9], [BD[0] + 0.5, D0 + 0.9, BD[2]], pushK(f, 605, 0.002, 0.007, 30), { fov: 36, roll: -0.04 });
-const S5a = (f: number) => dolly([2.4, D0 + 0.55, PH[2] + 3.4], [PH[0] + 0.3, D0 + 1.4, PH[2]], pushK(f, 700, 0.002), { fov: 42, roll: 0.03 });
+const S5a = (f: number) => dolly([3.4, D0 + 0.8, PH[2] + 5.2], [PH[0] + 0.4, D0 + 1.35, PH[2] - 0.3], pushK(f, 700, 0.002), { fov: 46, roll: 0.03 });
 const S5b = (f: number) => dolly([3.2, D0 + 0.9, PH[2] + 5.4], [PH[0] + 1.0, D0 + 1.35, PH[2] + 1.2], pushK(f, 800, 0.0025), { fov: 40, roll: -0.04 });
 const S6a = (f: number) => dolly([3.4, D0 + 1.4, TB[2] + 5.2], [TB[0] + 1.0, D0 + 1.2, TB[2]], pushK(f, 915, 0.0028), { fov: 44 });
 const S7a = (f: number) => dolly([5.0, D0 + 3.4, TB[2] + 11], [TB[0] + 2.5, D0 + 1.0, TB[2] + 2], pushK(f, 978, 0.002), { fov: 46, roll: -0.04 });
@@ -159,7 +160,7 @@ const S8a = (f: number) => dolly([0.4, D0 + 1.45, BD[2] + 3.2], [BD[0], D0 + 1.3
 const S9a = (f: number) => dolly([0.3, D0 + 0.4, TEAM_Z - 7.2], [0, D0 + 1.25, TEAM_Z - 2], pushK(f, 1140, 0.0015), { fov: 44 });
 const S10a = (f: number) => dolly([0.6, D0 + 0.6, 99.5], [0, D0 + 1.8, 104], pushK(f, 1225, 0.0025), { fov: 44, roll: 0.04 });
 const S11a = (f: number) => dolly([0.7, D0 + 0.55, 99.6], [0, D0 + 2.0, 104], pushK(f, 1322, 0.0025, 0.006, 30), { fov: 38, roll: -0.04 });
-const S12a = (f: number) => dolly([0.4, D0 + 0.7, TB[2] + 3.6], [TB[0] + 0.5, D0 + 1.3, TB[2]], pushK(f, 1411, 0.0025), { fov: 42, roll: -0.03 });
+const S12a = (f: number) => dolly([DRESS[0] + 5.0, D0 + 0.7, DRESS[2] + 3.4], [DRESS[0] + 0.5, D0 + 1.3, DRESS[2]], pushK(f, 1411, 0.0025), { fov: 42, roll: -0.03 });
 const S13a = (f: number) => dolly([0.4, D0 + 0.7, SIGN[2] + 4.2], [SIGN[0] + 0.9, D0 + 1.9, SIGN[2]], pushK(f, 1523, 0.002), { fov: 42 });
 const S13b = (f: number) => dolly([-1.5, D0 + 1.55, SIGN[2] + 3.8], [SIGN[0] + 0.6, D0 + 2.0, SIGN[2] + 0.6], pushK(f, 1580, 0.0025), { fov: 42, roll: 0.05 });
 
@@ -191,8 +192,12 @@ export const kickAt = (t: number) => {
   }
   return a;
 };
+/** indoor shots are staged in street coordinates and moved into their room (built over the river) by OFF */
+export const ROOM_A: [number, number] = [-89, -82], ROOM_B: [number, number] = [-113, -93.5];
+export const OFF: Record<number, [number, number]> = { 2: ROOM_A, 3: ROOM_A, 4: ROOM_A, 6: ROOM_A, 8: ROOM_A, 12: ROOM_A, 5: ROOM_B };
+const shiftV = (v: V3, o?: [number, number]): V3 => (o ? [v[0] + o[0], v[1], v[2] + o[1]] : v);
 export const camAt = (id: number, f: number): Cam => {
-  const c = run(CAMS[id], f), a = kickAt(T(f));
+  const c0 = run(CAMS[id], f), o = OFF[id], c = o ? { ...c0, pos: shiftV(c0.pos, o), look: shiftV(c0.look, o) } : c0, a = kickAt(T(f));
   if (!a) return c;
   const d: V3 = [c.look[0] - c.pos[0], c.look[1] - c.pos[1], c.look[2] - c.pos[2]];
   const L = Math.hypot(...d), h = Math.hypot(d[0], d[2]) || 1;
@@ -225,7 +230,7 @@ export const DOF: Dof[] = [
   { f: 1077, cInf: 16 }, // sold-out insert
   { f: 1140, cInf: 14, focus: (f) => [0, D0 + 1.3, TEAM_Z - (f / 30 - 38.0) * 1.15] }, // team walk
   { f: 1225, cInf: 16 }, { f: 1322, cInf: 14 },
-  { f: 1411, cInf: 18, focus: () => [TB[0] + 0.6, D0 + 1.5, TB[2]] },
+  { f: 1411, cInf: 18, focus: () => [DRESS[0] + 0.6, D0 + 1.5, DRESS[2]] },
   { f: 1523, cInf: 14 }, { f: 1572, dur: 26, cInf: 18, focus: () => [SIGN[0] + 0.8, D0 + 1.8, SIGN[2] + 0.9] },
 ];
 export const dofAt = (f: number) => {
@@ -237,7 +242,7 @@ export const dofAt = (f: number) => {
 /** what the lens focuses on (DOF): the DOF table's focus point, else the camera look point */
 export const focusAt = (id: number, f: number): V3 => {
   const d = dofAt(f);
-  return d.focus ? d.focus(f) : camAt(id, f).look;
+  return d.focus ? shiftV(d.focus(f), OFF[id]) : camAt(id, f).look;
 };
 
 /** near framing objects: visible while a <= f < b; kit = a GLB name accepted by build.ts prop() */

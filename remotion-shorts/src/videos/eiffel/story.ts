@@ -196,8 +196,12 @@ export const kickAt = (t: number) => {
   }
   return a;
 };
+/** indoor shots are staged in street coordinates and moved into their room (built over the river) by OFF */
+export const ROOM_S: [number, number] = [-89, -90.7], ROOM_H: [number, number] = [-115, -76];
+export const OFF: Record<number, [number, number]> = { 4: ROOM_S, 6: ROOM_H, 7: ROOM_H, 8: ROOM_H };
+const shiftV = (v: V3, o?: [number, number]): V3 => (o ? [v[0] + o[0], v[1], v[2] + o[1]] : v);
 export const camAt = (id: number, f: number): Cam => {
-  const c = run(CAMS[id], f), a = kickAt(T(f));
+  const c0 = run(CAMS[id], f), o = OFF[id], c = o ? { ...c0, pos: shiftV(c0.pos, o), look: shiftV(c0.look, o) } : c0, a = kickAt(T(f));
   if (!a) return c;
   const d: V3 = [c.look[0] - c.pos[0], c.look[1] - c.pos[1], c.look[2] - c.pos[2]];
   const L = Math.hypot(...d), h = Math.hypot(d[0], d[2]) || 1;
@@ -246,7 +250,7 @@ export const dofAt = (f: number) => {
 /** what the lens focuses on (DOF): the DOF table's focus point, else the camera look point */
 export const focusAt = (id: number, f: number): V3 => {
   const d = dofAt(f);
-  return d.focus ? d.focus(f) : camAt(id, f).look;
+  return d.focus ? shiftV(d.focus(f), OFF[id]) : camAt(id, f).look;
 };
 
 /** near framing objects: visible while a <= f < b; kit = a GLB name accepted by build.ts prop() */

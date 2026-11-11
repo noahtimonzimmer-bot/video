@@ -83,9 +83,9 @@ export const fxNameSign = (p: Pen, stamp = 0) => {
   for (const x of [130, 570]) p.stroke([[x, 10], [x, 70]], 8, "#5a5f6c");
   p.poly(rr(30, 60, 670, 300, 24), "#c99a5e", 12);
   p.poly(rr(50, 80, 650, 280, 16), "#d9ae72", 0);
-  txt(p, "SADLER", 350, 182, 110, "#3a2414", 900);
+  const g0 = p.g; g0.save(); g0.globalAlpha = 1 - 0.75 * Math.min(1, stamp * 3); txt(p, "SADLER", 350, 182, 110, "#3a2414", 900); g0.restore();
   if (stamp > 0) {
     const s = 1.6 - 0.6 * Math.min(1, stamp * 3), g = p.g; g.save(); g.translate(350, 180); g.rotate(-0.22); g.scale(s, s); g.globalAlpha = Math.min(1, stamp * 3);
-    g.strokeStyle = "#d42f2f"; g.lineWidth = 16; g.strokeRect(-230, -70, 460, 140); txt(p, "SOLD", 0, 4, 110, "#d42f2f", 900); g.restore();
+    g.fillStyle = "rgba(255,244,222,.92)"; g.fillRect(-230, -70, 460, 140); g.strokeStyle = "#d42f2f"; g.lineWidth = 16; g.strokeRect(-230, -70, 460, 140); txt(p, "SOLD", 0, 4, 110, "#d42f2f", 900); g.restore();
   }
 };

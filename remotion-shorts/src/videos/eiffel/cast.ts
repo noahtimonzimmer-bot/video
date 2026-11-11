@@ -11,7 +11,7 @@ import {
 import {
   FPS, D0, FILES, ROW_GAP, COUNT, PARK, SHOTS, SNAP, DROP0, DROP1, DROP_H, V3, front, marchPhase, stomp, deckY, dropW, dropU, shapeZ,
   smooth, clamp01, BridgeState, HOOK_Z, CAFE, DESK, HOTEL_SIGN, TERR, PLAN, PAY, TRAIN_Z, POL_SIGN, DEAL2, END_V, TOWER_P,
-  PAY_T, BRIBE_T, DEAL2_T, COPS_T,
+  PAY_T, BRIBE_T, DEAL2_T, COPS_T, OFF,
 } from "./story";
 import { fxNewspaper, fxDesk, fxLetter, fxHotelSign, fxPlan, fxRiot, fxCase, fxTerrace, fxCafe, fxTrain, fxPoliceSign, fxCoins, fxBang, fxLines } from "./props";
 import { LIGHTS } from "./lights";
@@ -476,7 +476,15 @@ const passers = (cam: CamInfo, t: number, out: Stage, z0: number, n = 4, base = 
 };
 
 /** everything with a face in shot `id` at time t */
-export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Stage => {
+export const stage = (id: number, t: number, b: BridgeState, cam: CamInfo): Stage => {
+  const o = OFF[id];
+  if (!o) return stageAt(id, t, b, cam);
+  const out = stageAt(id, t, b, { ...cam, pos: cam.pos.clone().add(new THREE.Vector3(-o[0], 0, -o[1])) });
+  for (const p of out.places) { p.x += o[0]; p.z += o[1]; }
+  for (const p of out.fx) { p.x += o[0]; p.z += o[1]; }
+  return out;
+};
+const stageAt = (id: number, t: number, _b: BridgeState, cam: CamInfo): Stage => {
   const out: Stage = { places: [], fx: [] };
   const s = SHOTS[id - 1];
   LNAME = s.light;
@@ -505,7 +513,6 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       burst(out, t, 12.6, CAFE[0] + 0.5, D0 + 1.55, CAFE[2] + 0.66, 0.5, "#ffd84a", 0.3);
       break; }
     case 4: { // forged letters fly off the desk
-      fx(out, "desk", 600, 420, fxDesk, DESK[0], D0 + 0.62, DESK[2], 1.5, 1.05);
       stand(cam, t, out, V_, DESK[0] + 1.25, DESK[2] + 0.35, t < 16.2 ? "smile_closed" : "grin", { look: -1 });
       for (let k = 0; k < 6; k++) {
         const u = (t - 16.3 - k * 0.32) / 1.3; if (u < 0 || u >= 1) continue;
@@ -521,14 +528,12 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       passers(cam, t, out, 84, 3);
       break; }
     case 6: { // the plan: 7,000 tons of scrap
-      terrace(); hotelSign();
       fx(out, `plan${t > 25.2 ? 1 : 0}`, 800, 900, (p) => fxPlan(p, t > 25.2 ? 1 : 0), PLAN[0], D0 + 1.32, PLAN[2], 1.95, 2.2);
       stand(cam, t, out, V_, 0.8, TERR[2], "grin", { look: -1, wave: t > 23.0 && t < 24.4 ? q(Math.sin(t * 6), 30) : undefined });
       dealers((i) => (t > 25.4 ? (i % 2 ? "shock" : "grin") : "neutral"));
       if (t > 25.3) burst(out, t, 25.3, PLAN[0] + 0.55, D0 + 1.7, PLAN[2] - 0.05, 0.9, "#ffd84a", 0.35);
       break; }
     case 7: { // secret, or the people riot
-      terrace();
       stand(cam, t, out, V_, 0.8, TERR[2], "whistle", { look: 1 });
       dealers((i) => (i % 3 === 0 ? "nervous" : "shock"), -1);
       const u = (t - 28.6) / 0.6; if (u >= 0) fx(out, `riot${q(Math.min(1, u), 12)}|${q(t % 1, 6)}`, 600, 460, (p) => fxRiot(p, Math.min(1, u)), 2.9, D0 + 2.9 + Math.sin(t * 9) * 0.03, TERR[2] + 1.2, 1.9, 1.46);
@@ -541,7 +546,6 @@ export const stage = (id: number, t: number, _b: BridgeState, cam: CamInfo): Sta
       coins(out, t, PAY_T + 0.2, PAY[0], D0 + 1.9, PAY[2] - 0.3, 2.0);
       if (t > BRIBE_T) fx(out, "bribe", 400, 280, (p) => fxLetter(p, "#d8f0c8"), PAY[0] + 0.1 - Math.min(1, (t - BRIBE_T) / 0.6) * 0.5, D0 + 1.35, PAY[2] - 0.35, 0.36, 0.25, 0.2);
       burst(out, t, BRIBE_T, PAY[0] - 0.3, D0 + 1.4, PAY[2] - 0.4, 0.6, "#ffd84a", 0.3);
-      folkAt(cam, t, out, crowdSpots(6, 0, 95, 4, 6, 7), false);
       break; }
     case 9: { // the train out of Paris, Victor waving from the back platform
       const tx = -12 + (t - 36.3) * 5.2;
