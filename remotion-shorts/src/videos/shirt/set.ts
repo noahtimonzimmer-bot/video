@@ -63,7 +63,7 @@ export const buildSets = (root: THREE.Object3D) => {
   // ---------------- room B: the photo studio (street coords x -3..5, z 89..98.5) ----------------
   {
     const [ox, oz] = ROOM_B, X = (x: number) => x + ox, Z = (z: number) => z + oz, y = D0;
-    const r = R.room(shell, { x0: X(-3.2), x1: X(5.2), z0: Z(88.6), z1: Z(98.6), y, h: 3.6, paper: R.wallpaper("studio", "#f4ead2", "#e6d6b8", "dots"),
+    const r = R.room(shell, { x0: X(-3.2), x1: X(5.2), z0: Z(88.6), z1: Z(98.6), y, h: 3.6, paper: R.wallpaper("studio", "#7cc8f0", "#5ab0e8", "stripe"),
       floor: "boards", floorCols: ["#b8794a", "#b8794a"], ceiling: "#fff4dc", trim: "#ffffff" });
     const s = R.wallM(r, "s", 0), e = R.wallM(r, "e", 0), w = R.wallM(r, "w", 0);
     R.backdrop(b, PHOTO[0] + ox, y, PHOTO[2] + oz - 2.0, 0, 3.0, "#ffd25a"); R.pendant(b, X(1.0), y + 3.6, Z(94.5), "#2a2a34");
@@ -74,8 +74,8 @@ export const buildSets = (root: THREE.Object3D) => {
     R.windowOn(b, e, Z(94.2), 1.0, 1.4, 1.7, R.viewTex("studio"), "#2f6fb5");
     R.poster(b, s, X(-2.3), 1.9, 0.6, 0.45, shirtPoster("#e8443a", "r")); R.poster(b, s, X(3.4), 1.9, 0.6, 0.45, shirtPoster("#3f8f4c", "g"));
     R.frame(b, w, Z(92.0), 1.9, 0.6, 0.8, R.picture("portrait")); R.frame(b, w, Z(96.5), 1.9, 0.8, 0.6, R.picture("city"));
-    R.table(b, X(3.8), y, Z(96.2), 1.2, 0.7, 0.76, Math.PI / 2, undefined, "#f4f0e4"); R.laptop(b, X(3.8), y + 0.78, Z(96.2), -Math.PI / 2, websiteScr());
-    R.cup(b, X(3.7), y + 0.78, Z(95.7), "#ffd25a"); R.chair(b, X(3.1), y, Z(96.2), Math.PI / 2, "#2a2a34", "#3a3a46");
+    R.table(b, X(-2.2), y, Z(97.4), 1.2, 0.7, 0.76, 0, undefined, "#f4f0e4"); R.laptop(b, X(-2.2), y + 0.78, Z(97.4), Math.PI, websiteScr());
+    R.cup(b, X(-1.8), y + 0.78, Z(97.3), "#ffd25a"); R.chair(b, X(-2.2), y, Z(96.7), Math.PI, "#2a2a34", "#3a3a46");
     R.rug(b, X(1.2), y, Z(94.8), 2.6, 1.8, R.rugTex("studio", "#e86ab0", "#ffffff", "#ffd25a", true));
   }
   // ---------------- street dressing (main street, fronts at |x| = 6, z 46..150) ----------------

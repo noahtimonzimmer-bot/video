@@ -46,7 +46,7 @@ export const buildSets = (root: THREE.Object3D) => {
   // ---------------- Grand Hotel salon (street coords x -3.6..6.6, z 67.6..84.6, back wall north) ----------------
   {
     const [ox, oz] = ROOM_H, X = (x: number) => x + ox, Z = (z: number) => z + oz, y = D0;
-    const r = R.room(shell, { x0: X(-3.6), x1: X(6.6), z0: Z(67.4), z1: Z(84.6), y, h: 3.9, paper: R.wallpaper("salon", "#c23a3f", "#a22a32", "damask", "#e0b25a"),
+    const r = R.room(shell, { x0: X(-3.6), x1: X(6.6), z0: Z(67.4), z1: Z(84.6), y, h: 3.9, paper: R.wallpaper("salon", "#f0c060", "#d8983a", "damask", "#c23a3f"),
       floor: "parquet", floorCols: ["#c98a52", "#a8693a"], wainscot: "#f4ead2", ceiling: "#fff4dc", trim: "#e0b25a" });
     const n = R.wallM(r, "n", 0), w = R.wallM(r, "w", 0), e = R.wallM(r, "e", 0), s = R.wallM(r, "s", 0);
     // north (back) wall: fireplace behind the payment, mirror, two tall windows with the tower, paintings

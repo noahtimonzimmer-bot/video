@@ -323,7 +323,7 @@ export const softbox = (b: Batch, x: number, y: number, z: number, yaw: number) 
 };
 /** seamless photo backdrop: paper hanging from a pole and curving onto the floor */
 export const backdrop = (b: Batch, x: number, y: number, z: number, yaw: number, w: number, c: string) => {
-  const m = M(x, y, z, yaw), pm = col(c);
+  const m = M(x, y, z, yaw), pm = lam("rbd" + c, () => ({ color: c, emissive: c, emissiveIntensity: 0.45 }));
   face(b, pm, m, 0, 1.45, 0, w, 2.5);
   b.add(quad(V(-w / 2, 0.01, 1.4), V(w / 2, 0.01, 1.4), V(w / 2, 0.2, 0), V(-w / 2, 0.2, 0)).rotateX(0), pm, m);
   cyl(b, col("#3a3a46"), m.clone().multiply(new THREE.Matrix4().makeRotationZ(Math.PI / 2)), 2.75, 0, 0, 0.06, 0.06, w + 0.3, 10);
