@@ -302,8 +302,7 @@ const buildCourt = (b: Batch) => {
   b.add(boxGeo(V(cx - 3.4, 9.6, dz - 0.8), V(cx + 3.4, 11, dz + 0.8), 2), M.stone());
   b.add(boxGeo(V(cx - 1.9, 0.35, dz - 0.18), V(cx + 1.9, 9.6, dz + 0.18), 0), M.door());
   // stone bench to the right of the door (camera side = west, -x)
-  for (const dx of [-7.0, -5.6]) b.add(boxGeo(V(cx + dx - 0.2, 0, cz + 5.05), V(cx + dx + 0.2, 0.36, cz + 5.55), 0), M.bench());
-  b.add(boxGeo(V(cx - 7.4, 0.36, cz + 4.95), V(cx - 5.2, 0.48, cz + 5.65), 0), M.bench());
+  // (the stone bench is drawn into the sitting Hollow card, so the card can never cut through it)
 };
 
 // ---------------- corridor kits ----------------

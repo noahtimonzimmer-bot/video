@@ -36,6 +36,10 @@ export const hollow = (p: Pen, o: HollowOpts = {}) => {
       legs.push([[hip, knee, ank, [ank[0] + 46, 975]], s]);
     }
   }
+  if (sit) { // stone bench under the Hollow: seat slab at 0.45 m (canvas y 830) and two blocks
+    for (const s of [-1, 1]) p.poly([[cx + s * 150 - 34, 845], [cx + s * 150 + 34, 845], [cx + s * 150 + 34, 975], [cx + s * 150 - 34, 975]], "#d6c3a0", 6);
+    p.poly([[cx - 230, 822], [cx + 230, 822], [cx + 236, 852], [cx - 236, 852]], "#ecd6a8", 6);
+  }
   for (const [pts] of legs) { p.stroke(pts, 20, INK); p.stroke(pts, 12, LIMB); }
   // coat: long, shoulders narrow, hem wide and ragged; empty dark collar
   const hem: P2[] = [];

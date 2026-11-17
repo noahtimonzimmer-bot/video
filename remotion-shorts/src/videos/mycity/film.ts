@@ -119,7 +119,7 @@ const flee = (i: number, x: number, z: number): { to: [number, number]; a: numbe
 };
 
 // ---------------- places ----------------
-const F = FOUNTAIN, STEP: V3 = [0, 0.36, STEPS_R - 0.3];
+const F = FOUNTAIN, STEP: V3 = [0, 0.36, STEPS_R - 0.65]; // on the upper step (r < 3.15), in front of the basin (r 2.7)
 const KD = doorOf("kettle"), PD = doorOf("pebble"), BD = doorOf("brass"), BAK = doorOf("bakery");
 const GN = GATES.n.pos, GE = GATES.e.pos;
 const ck = KIT.chalk, cr = KIT.cross, gd = KIT.garden, st = KIT.stairs, ty = KIT.tally, kt = KIT.kettle, wr = KIT.write;
@@ -160,7 +160,7 @@ export const SPECS: ShotSpec[] = [
   // ===== HOOK =====
   { cue: 1, light: "day", cam: aerial(190, 120, 210, 150, 25), act: () => {} },
   { cue: 2, light: "day", cam: C([3.2, 1.1, 8.4], [0.3, 0.9, STEP[2]], 30, 0.0016), dof: 16, focus: [0.3, 0.8, STEP[2]],
-    act: (c) => { newcomer(c, BUTTON, 31, (cc) => buttonProp(cc, STEP[0] - 0.55, STEP[2] + 0.1), c.u < 0.35 ? "dazed" : "nervous"); crowd(c, 4, 0, 13, 5, 2, 3, (i) => ({ expr: i % 2 ? "neutral" : "nervous" })); } },
+    act: (c) => { newcomer(c, BUTTON, 31, (cc) => buttonProp(cc, STEP[0] - 0.55, STEP[2]), c.u < 0.35 ? "dazed" : "nervous"); crowd(c, 4, 0, 13, 5, 2, 3, (i) => ({ expr: i % 2 ? "neutral" : "nervous" })); } },
   { cue: 3, light: "day", cam: OM(F, 8.8, 3.2, 160, 200, 40, 1.2), act: (c) => { crowd(c, 12, 0, 0, 9, 9, 7, (i) => ({ expr: (["nervous", "neutral", "shock", "nervous"] as Expr[])[i % 4], look: i % 3 - 1 })); P(c, KETTLE, 1, 4.8, 1.6, { expr: "nervous" }); } },
   // ===== WHO WE ARE =====
   { cue: 4, light: "day", cam: C([0, 2.2, 15], [0, 1.6, 4], 36, 0.0015), dof: 8, focus: [0, 1.4, 6], act: (c) => { P(c, KETTLE, 1, 0, 6, { expr: "grin", wave: c.u > 0.3 }); crowd(c, 5, 0, -6, 8, 3, 11, () => ({ expr: "smile" })); } },
@@ -177,8 +177,8 @@ export const SPECS: ShotSpec[] = [
   { cue: 12, light: "day", cam: C([0.4, 1.55, 9.2], [0, 1.55, 6], 28, 0.002), dof: 18, focus: [0, 1.5, 6], act: (c) => P(c, KETTLE, 1, 0, 6, { expr: "grin" }) },
   { cue: 13, light: "day", cam: C([-0.6, 1.5, 9.4], [0, 1.5, 6], 30, 0.0015), dof: 16, focus: [0, 1.5, 6], act: (c) => P(c, KETTLE, 1, 0, 6, { expr: "smile_closed", look: -1 }) },
   { cue: 14, light: "day", cam: C([1.8, 0.9, 6.6], [0.2, 0.7, STEP[2]], 30, 0.002), dof: 18, focus: [0.2, 0.7, STEP[2]],
-    act: (c) => { P(c, KETTLE, 1, 0.5, STEP[2], { mode: "sit", y: 0.36, expr: c.u < 0.5 ? "dazed" : "shock", scale: 0.85 }); kettle(c, -0.35, STEP[2] + 0.15, false, 0.42, 0.36); } },
-  { cue: 15, light: "day", cam: O(F, 7.5, 1.6, 15, 34), act: (c) => { newcomer(c, LANTERN, 32, (cc) => lanternProp(cc, -0.3, STEP[2] + 0.1), "nervous"); P(c, KETTLE, 1, 2.6, 4.6, { expr: "smile", look: -1 }); P(c, PEBBLE, 2, -2.4, 4.8, { expr: "smile" }); } },
+    act: (c) => { P(c, KETTLE, 1, 0.5, STEP[2], { mode: "sit", y: 0.36, expr: c.u < 0.5 ? "dazed" : "shock", scale: 0.85 }); kettle(c, -0.35, STEP[2], false, 0.42, 0.36); } },
+  { cue: 15, light: "day", cam: O(F, 7.5, 1.6, 15, 34), act: (c) => { newcomer(c, LANTERN, 32, (cc) => lanternProp(cc, -0.3, STEP[2]), "nervous"); P(c, KETTLE, 1, 2.6, 4.6, { expr: "smile", look: -1 }); P(c, PEBBLE, 2, -2.4, 4.8, { expr: "smile" }); } },
   { cue: 16, light: "day", cam: C([1.2, 1.5, 9.2], [-0.4, 1.4, 5.2], 32, 0.0018), dof: 14, focus: [-0.6, 1.4, 5.2],
     act: (c) => { P(c, PEBBLE, 2, -0.6, 5.2, { expr: "grin", wave: true }); P(c, KETTLE, 1, 0.9, 5.6, { expr: "smile", look: -1 }); } },
   { cue: 17, light: "day", cam: C([bak[0] - 1.2, 1.6, bak[2] + 2.6], [bak[0] - 0.4, 1.4, bak[2] - 0.8], 40, 0.0015),
@@ -236,11 +236,11 @@ export const SPECS: ShotSpec[] = [
     act: (c) => { P(c, KETTLE, 1, kt[0], kt[2] - 18.6, { expr: "nervous", scale: 0.85 }); kettle(c, kt[0] + 0.35, kt[2] - 18.4, true, 0.36, 0.9); } },
   // ===== THE NEW ONES =====
   { cue: 56, light: "day", cam: O(F, 9, 2.4, 0, 36), act: (c) => { newcomer(c, CITIZEN(17), 90, () => {}, "dazed"); crowd(c, 4, 0, 9, 5, 1.5, 41, () => ({ expr: "smile" })); } },
-  { cue: 57, light: "day", cam: C([1.6, 1.0, 6.4], [0.3, 0.8, STEP[2]], 30, 0.0016), act: (c) => newcomer(c, BUTTON, 31, (cc) => buttonProp(cc, -0.55, STEP[2] + 0.1), "dazed") },
-  { cue: 57, at: 1.6, light: "day", cam: C([-1.4, 1.0, 6.4], [0.3, 0.8, STEP[2]], 30, 0.0016), act: (c) => newcomer(c, LANTERN, 32, (cc) => lanternProp(cc, -0.3, STEP[2] + 0.1), "nervous") },
+  { cue: 57, light: "day", cam: C([1.6, 1.0, 6.4], [0.3, 0.8, STEP[2]], 30, 0.0016), act: (c) => newcomer(c, BUTTON, 31, (cc) => buttonProp(cc, -0.55, STEP[2]), "dazed") },
+  { cue: 57, at: 1.6, light: "day", cam: C([-1.4, 1.0, 6.4], [0.3, 0.8, STEP[2]], 30, 0.0016), act: (c) => newcomer(c, LANTERN, 32, (cc) => lanternProp(cc, -0.3, STEP[2]), "nervous") },
   { cue: 58, light: "day", cam: C([bak[0] + 0.6, 1.6, bak[2] + 2.6], [bak[0] - 0.4, 1.4, bak[2] - 0.8], 40, 0.0015),
     act: (c) => { P(c, UMBRELLA, 33, bak[0] - 0.2, bak[2] - 1.0, { expr: c.u < 0.4 ? "pained" : "grin" }); P(c, LADDER, 3, bak[0] - 1.8, bak[2] - 1.1, { expr: "grin" }); } },
-  { cue: 59, light: "day", cam: C([2.4, 1.3, 7.4], [0.2, 0.8, STEP[2]], 32, 0.0016), act: (c) => newcomer(c, CITIZEN(18), 91, (cc) => kettle(cc, -0.6, STEP[2] + 0.2, false, 0.0001), "dazed") },
+  { cue: 59, light: "day", cam: C([2.4, 1.3, 7.4], [0.2, 0.8, STEP[2]], 32, 0.0016), act: (c) => newcomer(c, CITIZEN(18), 91, (cc) => kettle(cc, -0.6, STEP[2], false, 0.0001), "dazed") },
   { cue: 60, light: "day", cam: C([0.6, 1.0, 5.6], [0.3, 0.95, STEP[2]], 24, 0.002), dof: 20, focus: [0.3, 0.9, STEP[2]], act: (c) => newcomer(c, CITIZEN(18), 91, () => {}, "nervous") },
   { cue: 61, light: "day", cam: C([1.4, 2.5, 5.0], [0, 1.1, -0.4], 36, 0.0016), act: (c) => P(c, CITIZEN(18), 91, 0.7, 3.4, { expr: "shock", look: -1, y: 0.18 }) },
   { cue: 62, light: "day", cam: C([bed[0] - 1.4, 1.5, bed[2] + 0.8], [bed[0] + 0.6, 1.5, bed[2] - 2.6], 34, 0.0015), act: (c) => P(c, KETTLE, 1, bed[0] + 0.6, bed[2] - 1.9, { expr: "nervous", look: 1 }) },
@@ -253,12 +253,12 @@ export const SPECS: ShotSpec[] = [
   { cue: 67, light: "day", cam: C([GE[0] - 12, 1.6, 2.4], [GE[0], 3, 0], 36, 0.0015), act: (c) => P(c, KETTLE, 1, GE[0] - 7, 1.2, { expr: "nervous", scale: 0.85 }) },
   { cue: 68, light: "day", cam: C([GE[0] - 10, 1.4, -1.4], [GE[0], 1.4, 0], 36, 0.0012), act: (c) => P(c, BUTTON, 31, GE[0] + 3, 0, { expr: "shock", walk: { to: [GE[0] - 4, 0], a: 0.1, b: 0.95 } }) },
   { cue: 69, light: "day", cam: C([GE[0] - 6.6, 1.1, 0.4], [GE[0] - 4, 1.0, 0], 26, 0.002), dof: 18, focus: [GE[0] - 4, 1.0, 0], act: (c) => P(c, BUTTON, 31, GE[0] - 4, 0, { expr: "shock" }) },
-  { cue: 70, light: "night", cam: C([bed[0] - 1.6, 1.4, bed[2] + 1.6], [bed[0] + 0.6, 1.6, bed[2] - 3], 36, 0.0012), act: (c) => P(c, KETTLE, 1, bed[0] + 0.3, bed[2] - 2.0, { expr: "nervous", mode: "sit", y: 0.45 }) },
+  { cue: 70, light: "night", cam: C([bed[0] - 1.6, 1.4, bed[2] + 1.6], [bed[0] + 0.6, 1.6, bed[2] - 3], 36, 0.0012), act: (c) => P(c, KETTLE, 1, bed[0] + 0.3, bed[2] - 2.0, { expr: "nervous" }) },
   { cue: 71, light: "night", cam: C([GE[0] - 18, 2, -2], [GE[0], 3.5, 0], 36, 0.003), act: () => {} },
   { cue: 72, light: "night", cam: C(add(nearDoor("kettle", 5.0, -2.6), [0, 0.8, 0]), add(nearDoor("kettle", 0.4, 1.4), [0, 3.6, 0]), 40, 0.0015), act: (c) => { const a = nearDoor("kettle", 1.0, -1.4), b = nearDoor("kettle", 0.7, 1.4); H(c, a[0], a[2], { walk: { to: [b[0], b[2]], a: 0, b: 0.5 }, tilt: -0.25 }); } },
   { cue: 73, light: "night", cam: C(add(nearDoor("kettle", 3.6, 1.6), [0, 2.9, 0]), add(nearDoor("kettle", 0.7, 1.4), [0, 2.5, 0]), 30, 0.003), dof: 20, focus: add(nearDoor("kettle", 0.7, 1.4), [0, 2.5, 0]), act: (c) => { const b = nearDoor("kettle", 0.7, 1.4); H(c, b[0], b[2], { tilt: -0.3 }); } },
-  { cue: 74, light: "night", cam: C([bed[0] + 0.6, 1.5, bed[2] - 0.6], [bed[0] + 0.3, 1.5, bed[2] - 2.0], 28, 0.0018), dof: 16, focus: [bed[0] + 0.3, 1.5, bed[2] - 2.0], act: (c) => P(c, KETTLE, 1, bed[0] + 0.3, bed[2] - 2.0, { expr: "pained", mode: "sit", y: 0.45 }) },
-  { cue: 75, light: "night", cam: C([bed[0] - 1.0, 1.5, bed[2] + 1.0], [bed[0] + 0.5, 1.6, bed[2] - 3], 34, 0.0015), act: (c) => P(c, KETTLE, 1, bed[0] + 0.3, bed[2] - 2.0, { expr: "stern", mode: "sit", y: 0.45 }) },
+  { cue: 74, light: "night", cam: C([bed[0] + 0.6, 1.5, bed[2] - 0.6], [bed[0] + 0.3, 1.5, bed[2] - 2.0], 28, 0.0018), dof: 16, focus: [bed[0] + 0.3, 1.5, bed[2] - 2.0], act: (c) => P(c, KETTLE, 1, bed[0] + 0.3, bed[2] - 2.0, { expr: "pained" }) },
+  { cue: 75, light: "night", cam: C([bed[0] - 1.0, 1.5, bed[2] + 1.0], [bed[0] + 0.5, 1.6, bed[2] - 3], 34, 0.0015), act: (c) => P(c, KETTLE, 1, bed[0] + 0.3, bed[2] - 2.0, { expr: "stern" }) },
   { cue: 76, light: "day", cam: C([GE[0] - 14, 1.8, 1.5], [GE[0] + 4, 1.8, 0], 36, 0.001), act: (c) => P(c, KETTLE, 1, GE[0] - 6, 0.4, { expr: "stern", scale: 0.85, walk: { to: [GE[0] + 5, 0.4], a: 0.05 } }) },
   { cue: 77, light: "day", cam: C([ck[0] + 0.6, 1.6, ck[2] - 2], [ck[0], 1.6, ck[2] - 20], 34, 0.0014),
     act: (c) => { for (let k = 0; k < 4; k++) arrow(c, k % 2 ? RW : LW, ck[2] - 6 - k * 6, k % 2 ? -Math.PI / 2 : Math.PI / 2, false, "r" + k); P(c, KETTLE, 1, ck[0], ck[2] - 6, { expr: "stern", scale: 0.85, walk: { to: [ck[0], ck[2] - 18] } }); } },
@@ -283,7 +283,7 @@ export const SPECS: ShotSpec[] = [
     act: (c) => H(c, Cc[0] - 6.3, Cc[2] + 5.75, { sit: true, y: 0.0, tilt: 0.35 * (1 - ease(c.u * 1.5)), look: 0.5 - ease(c.u * 1.5) * 0.5 }) },
   { cue: 94, light: "day", cam: C([Cc[0] - 7.4, 1.4, Cc[2] + 7.6], [Cc[0] - 5.9, 1.1, Cc[2] + 5.75], 26, 0.002), dof: 20, focus: [Cc[0] - 5.9, 1.1, Cc[2] + 5.75], act: (c) => H(c, Cc[0] - 6.3, Cc[2] + 5.75, { sit: true, y: 0.0, chalk: true }) },
   { cue: 95, light: "day", cam: O([Cc[0] - 7.5, 0, Cc[2] + 7.2], 6, 1.8, -60, 36), act: (c) => { H(c, Cc[0] - 6.3, Cc[2] + 5.75, { sit: true, y: 0.0, chalk: true }); P(c, KETTLE, 1, Cc[0] - 8.6, Cc[2] + 8.4, { expr: "shock", scale: 0.85 }); } },
-  { cue: 96, light: "day", cam: C([Cc[0] - 13, 5, Cc[2] + 10], [Cc[0] - 4, 2, Cc[2] + 4], 42, 0.001), act: (c) => { H(c, Cc[0] - 6.3, Cc[2] + 5.75, { sit: true, y: 0.0, chalk: true }); P(c, KETTLE, 1, Cc[0] - 7.6, Cc[2] + 7.4, { mode: "sit", y: 0.45, expr: "pained", scale: 0.85 }); } },
+  { cue: 96, light: "day", cam: C([Cc[0] - 13, 5, Cc[2] + 10], [Cc[0] - 4, 2, Cc[2] + 4], 42, 0.001), act: (c) => { H(c, Cc[0] - 6.3, Cc[2] + 5.75, { sit: true, y: 0.0, chalk: true }); P(c, KETTLE, 1, Cc[0] - 7.6, Cc[2] + 7.4, { mode: "sit", y: 0.02, expr: "pained", scale: 0.85 }); } },
   // ===== THE REVEAL =====
   { cue: 97, light: "day", cam: aerial(110, 95, 120, 110, 60), act: () => {} },
   { cue: 98, light: "day", cam: C([2.6, 1.0, 7.6], [0, 0.6, STEP[2]], 32, 0.0018), act: (c) => kettle(c, 0.4, STEP[2], false, 0.4, 0.36) },
@@ -294,8 +294,8 @@ export const SPECS: ShotSpec[] = [
   { cue: 103, light: "night", cam: aerial(48, 44, 80, 74, 120), act: (c) => { H(c, 0, -50, { walk: { to: [0, -78] }, scale: 1.6 }); H(c, 50, 0, { walk: { to: [80, 0] }, scale: 1.6 }); } },
   { cue: 104, light: "day", cam: O(F, 10, 2.5, 20, 36), act: () => {} },
   { cue: 105, light: "day", cam: C([2.2, 1.2, 7.2], [0.2, 0.8, STEP[2]], 30, 0.0016), act: (c) => newcomer(c, CITIZEN(22), 96, () => {}, "dazed") },
-  { cue: 106, light: "day", cam: C([1.6, 0.9, 6.2], [0, 0.7, STEP[2]], 28, 0.0018), act: (c) => newcomer(c, CITIZEN(22), 96, (cc) => umbrellaProp(cc, -0.6, STEP[2] + 0.1), "dazed") },
-  { cue: 107, light: "day", cam: C([-0.4, 0.8, 5.0], [-0.6, 0.7, STEP[2] + 0.1], 22, 0.002), dof: 20, focus: [-0.6, 0.7, STEP[2] + 0.1], act: (c) => umbrellaProp(c, -0.6, STEP[2] + 0.1) },
+  { cue: 106, light: "day", cam: C([1.6, 0.9, 6.2], [0, 0.7, STEP[2]], 28, 0.0018), act: (c) => newcomer(c, CITIZEN(22), 96, (cc) => umbrellaProp(cc, -0.6, STEP[2]), "dazed") },
+  { cue: 107, light: "day", cam: C([-0.4, 0.8, 5.0], [-0.6, 0.7, STEP[2]], 22, 0.002), dof: 20, focus: [-0.6, 0.7, STEP[2]], act: (c) => umbrellaProp(c, -0.6, STEP[2]) },
   { cue: 108, light: "day", cam: C([0.6, 1.3, -26], [0, 1.1, -30], 30, 0.0016), act: (c) => { P(c, BUTTON, 31, 0, -30, { expr: "neutral" }); chalkStick(c, 0.35, 0.75, -29.8); } },
   { cue: 109, light: "day", cam: C([bak[0] - 0.2, 1.5, bak[2] + 1.8], [bak[0] - 0.2, 1.4, bak[2] - 1.0], 30, 0.0016), act: (c) => P(c, UMBRELLA, 33, bak[0] - 0.2, bak[2] - 1.0, { expr: "smile_closed" }) },
   { cue: 110, light: "day", cam: aerial(70, 58, 64, 58, 250), act: () => {} },
@@ -312,10 +312,10 @@ export const SPECS: ShotSpec[] = [
   // ===== ENDING =====
   { cue: 120, light: "day", cam: aerial(40, 170, 50, 200, 25), act: () => {} },
   { cue: 121, light: "day", cam: O(F, 9, 1.4, 10, 34), act: (c) => newcomer(c, CITIZEN(24), 97, () => {}, "dazed") },
-  { cue: 122, light: "day", cam: C([0.8, 1.3, 7.6], [0, 1.1, STEP[2] + 0.2], 30, 0.0016), dof: 16, focus: [0, 1.1, STEP[2] + 0.2], act: (c) => P(c, KETTLE, 1, 0, STEP[2] + 0.2, { mode: "sit", y: 0.36, expr: "smile_closed", scale: 0.85 }) },
-  { cue: 123, light: "day", cam: C([0.8, 1.3, 7.6], [0, 1.1, STEP[2] + 0.2], 30, 0.0022), dof: 16, focus: [0, 1.1, STEP[2] + 0.2],
-    act: (c) => { P(c, KETTLE, 1, 0, STEP[2] + 0.2, { mode: "sit", y: 0.36, expr: "nervous", scale: 0.85 }); kettle(c, -0.8, STEP[2] + 0.3, false, 0.4, 0.36); } },
-  { cue: 124, light: "day", cam: C([1.6, 0.8, 6.4], [-0.6, 0.6, STEP[2] + 0.3], 30, 0.0016), dof: 18, focus: [-0.6, 0.6, STEP[2] + 0.3], act: (c) => kettle(c, -0.6, STEP[2] + 0.3, false, 0.42, 0.36) },
+  { cue: 122, light: "day", cam: C([0.8, 1.3, 7.6], [0, 1.1, STEP[2]], 30, 0.0016), dof: 16, focus: [0, 1.1, STEP[2]], act: (c) => P(c, KETTLE, 1, 0, STEP[2], { mode: "sit", y: 0.36, expr: "smile_closed", scale: 0.85 }) },
+  { cue: 123, light: "day", cam: C([0.8, 1.3, 7.6], [0, 1.1, STEP[2]], 30, 0.0022), dof: 16, focus: [0, 1.1, STEP[2]],
+    act: (c) => { P(c, KETTLE, 1, 0, STEP[2], { mode: "sit", y: 0.36, expr: "nervous", scale: 0.85 }); kettle(c, -0.6, STEP[2], false, 0.4, 0.36); } },
+  { cue: 124, light: "day", cam: C([1.6, 0.8, 6.4], [-0.6, 0.6, STEP[2]], 30, 0.0016), dof: 18, focus: [-0.6, 0.6, STEP[2]], act: (c) => kettle(c, -0.6, STEP[2], false, 0.42, 0.36) },
 ];
 void AIR; void add; void WALL_R; void SUNV; void tallyMarks; void PEBBLE; void GE;
 
