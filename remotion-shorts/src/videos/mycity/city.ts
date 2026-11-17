@@ -92,7 +92,7 @@ const waterTex = () => ctex("pool", 512, 512, (g, r) => {
 
 // ---------------- materials ----------------
 const M = {
-  ivyWall: () => lam("ivyWall", () => ({ map: ivyTex("wall", 1024, 2048, 0.75) })),
+  ivyWall: () => lam("ivyWall", () => ({ map: ivyTex("wall", 2048, 2048, 0.75) })),
   maze: () => lam("mazeWall", () => ({ map: ivyTex("maze", 1024, 1600, 0.6) })),
   tally: () => lam("tallyWall", () => ({ map: ivyTex("tally", 1024, 1600, 0.35, 1) })),
   top: () => lam("wallTop", () => ({ color: "#5fae4a" })),
@@ -115,8 +115,8 @@ const M = {
 const up = (x0: number, x1: number, z0: number, z1: number, y: number, u = 1, v = 1) =>
   quad(V(x0, y, z1), V(x1, y, z1), V(x1, y, z0), V(x0, y, z0), u, v);
 /** box of length len along direction a (rad, in xz), centred at (x, z), thickness t, from y0 to y1 */
-const segBox = (b: Batch, mat: THREE.Material, x: number, z: number, a: number, len: number, t: number, y0: number, y1: number) => {
-  const g = boxGeo(V(-len / 2, y0, -t / 2), V(len / 2, y1, t / 2), 0);
+const segBox = (b: Batch, mat: THREE.Material, x: number, z: number, a: number, len: number, t: number, y0: number, y1: number, tile = 0) => {
+  const g = boxGeo(V(-len / 2, y0, -t / 2), V(len / 2, y1, t / 2), tile);
   b.add(g, mat, new THREE.Matrix4().compose(V(x, 0, z), new THREE.Quaternion().setFromAxisAngle(V(0, 1, 0), -a), V(1, 1, 1)));
 };
 const bell = (b: Batch, x: number, y: number, z: number, s = 1) => {
@@ -198,8 +198,8 @@ const buildWall = (b: Batch) => {
   for (let k = 0; k < seg; k++) {
     const a = (k + 0.5) * (TAU / seg), len = (TAU * rm) / seg + 0.08;
     const x = Math.cos(a) * rm, z = Math.sin(a) * rm, ta = a + Math.PI / 2; // tangent direction
-    if (gateNear(a)) { segBox(b, M.ivyWall(), x, z, ta, len, WALL_T, GATE_H, WALL_H); continue; }
-    segBox(b, M.ivyWall(), x, z, ta, len, WALL_T, 0, WALL_H);
+    if (gateNear(a)) { segBox(b, M.ivyWall(), x, z, ta, len, WALL_T, GATE_H, WALL_H, WALL_H); continue; }
+    segBox(b, M.ivyWall(), x, z, ta, len, WALL_T, 0, WALL_H, WALL_H);
     segBox(b, M.top(), x, z, ta, len, WALL_T + 0.4, WALL_H, WALL_H + 0.6);
   }
   // gates: towers either side, open wooden doors, brass bell over the north gate

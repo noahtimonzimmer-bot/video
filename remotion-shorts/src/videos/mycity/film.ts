@@ -154,7 +154,7 @@ export const SPECS: ShotSpec[] = [
   { cue: 1, light: "day", cam: aerial(190, 120, 210, 150, 25), act: () => {} },
   { cue: 2, light: "day", cam: C([3.2, 1.1, 8.4], [0.3, 0.9, STEP[2]], 30, 0.0016), dof: 16, focus: [0.3, 0.8, STEP[2]],
     act: (c) => { newcomer(c, BUTTON, 31, (cc) => buttonProp(cc, STEP[0] - 0.55, STEP[2] + 0.1), c.u < 0.35 ? "dazed" : "nervous"); crowd(c, 4, 0, 13, 5, 2, 3, (i) => ({ expr: i % 2 ? "neutral" : "nervous" })); } },
-  { cue: 3, light: "day", cam: OM(F, 8.8, 3.2, 160, 200, 40, 1.2), act: (c) => { crowd(c, 12, 0, 0, 9, 9, 7, (i) => ({ expr: (["nervous", "neutral", "shock", "nervous"] as Expr[])[i % 4], look: i % 3 - 1 })); P(c, KETTLE, 1, 2.6, -5.6, { expr: "nervous" }); } },
+  { cue: 3, light: "day", cam: OM(F, 8.8, 3.2, 160, 200, 40, 1.2), act: (c) => { crowd(c, 12, 0, 0, 9, 9, 7, (i) => ({ expr: (["nervous", "neutral", "shock", "nervous"] as Expr[])[i % 4], look: i % 3 - 1 })); P(c, KETTLE, 1, 4.8, 1.6, { expr: "nervous" }); } },
   // ===== WHO WE ARE =====
   { cue: 4, light: "day", cam: C([0, 2.2, 15], [0, 1.6, 4], 36, 0.0015), dof: 8, focus: [0, 1.4, 6], act: (c) => { P(c, KETTLE, 1, 0, 6, { expr: "grin", wave: c.u > 0.3 }); crowd(c, 5, 0, -6, 8, 3, 11, () => ({ expr: "smile" })); } },
   { cue: 5, light: "day", cam: G([-30, 20, 22], [-12, 20, 32], [-10, 4, 0], [8, 4, 6], 38), act: (c) => crowd(c, 8, 0, 6, 10, 6, 13, (i) => ({ expr: "smile", walk: i % 2 ? { to: [hh(i, 2) * 8 - 4, 14] } : undefined })) },
