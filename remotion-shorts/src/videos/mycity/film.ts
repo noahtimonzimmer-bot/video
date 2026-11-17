@@ -6,7 +6,7 @@ import { Pen, Outfit, Expr, FrontOpts, SideOpts, fxBurst } from "./toon";
 import { CamInfo, Stage, person, blob, lidAt, viewOf, light2D, tier, Who, q, hh, setLight, findSun, SUNV } from "./cast";
 import { LightName } from "./lights";
 import { KETTLE, PEBBLE, LADDER, BRASS, BUTTON, LANTERN, UMBRELLA, CITIZEN, hollow, HollowOpts, kettleProp, chalkArrow, chalkText, tallyMarks } from "./people";
-import { houseSpots } from "./city";
+import { houseSpots, propSpots } from "./city";
 import { V3, FOUNTAIN, BELLTOWER, GATES, KIT, KIT_W, ROOM, COURT, WALL_R, doorOf, nearDoor, STEPS_R } from "./layout";
 
 export type Cam = { pos: V3; look: V3; fov: number; roll: number };
@@ -101,7 +101,7 @@ export const free = (x: number, z: number): [number, number] => {
   if (Math.abs(x) > 60 || Math.abs(z) > 60) return [x, z];
   const r = Math.hypot(x, z) || 1;
   if (r < 3.4) return [(x / r) * 3.4, (z / r) * 3.4];
-  if (r <= 9.6) return [x, z];
+  if (r <= 9.6) { for (const p of PROPS) if (Math.hypot(x - p.x, z - p.z) < p.rad + 0.5) return [x * 0.78, z * 0.78]; return [x, z]; }
   if (Math.abs(x) < 4.5 && r < 38) return [x, z];
   if (Math.abs(z) < 4.5 && r < 38) return [x, z];
   return [(x / r) * 9.6, (z / r) * 9.6];
@@ -111,10 +111,14 @@ const crowd = (c: Ctx, n: number, cx: number, cz: number, rx: number, rz: number
 };
 /** people running home: from their plaza spot to the front door of the nearest inner-ring house */
 let DOORS: [number, number][] | null = null;
+const PROPS = propSpots().filter((p) => p.kind !== "tree");
 const flee = (i: number, x: number, z: number): { to: [number, number]; a: number; b: number } => {
   if (!DOORS) DOORS = houseSpots().filter((h) => Math.hypot(h.x, h.z) < 16).map((h) => { const r = Math.hypot(h.x, h.z); return [h.x - (h.x / r) * 4.4, h.z - (h.z / r) * 4.4]; });
+  // nearest door whose straight path keeps 1.1 m clear of every lantern, bench, flower box and barrel
+  const clear = (d: [number, number]) => PROPS.every((p) => { const vx = d[0] - x, vz = d[1] - z, L = vx * vx + vz * vz || 1;
+    const k = Math.max(0, Math.min(1, ((p.x - x) * vx + (p.z - z) * vz) / L)); return Math.hypot(x + vx * k - p.x, z + vz * k - p.z) > p.rad + 0.5; });
   let best = DOORS[0], bd = 1e9;
-  for (const d of DOORS) { const e = Math.hypot(d[0] - x, d[1] - z); if (e < bd) { bd = e; best = d; } }
+  for (const d of DOORS) { const e = Math.hypot(d[0] - x, d[1] - z) + (clear(d) ? 0 : 1000); if (e < bd) { bd = e; best = d; } }
   return { to: best, a: 0.05 + hh(i, 2) * 0.2, b: 0.95 };
 };
 
@@ -161,13 +165,13 @@ export const SPECS: ShotSpec[] = [
   { cue: 1, light: "day", cam: aerial(190, 120, 210, 150, 25), act: () => {} },
   { cue: 2, light: "day", cam: C([3.2, 1.1, 8.4], [0.3, 0.9, STEP[2]], 30, 0.0016), dof: 16, focus: [0.3, 0.8, STEP[2]],
     act: (c) => { newcomer(c, BUTTON, 31, (cc) => buttonProp(cc, STEP[0] - 0.55, STEP[2]), c.u < 0.35 ? "dazed" : "nervous"); crowd(c, 4, 0, 13, 5, 2, 3, (i) => ({ expr: i % 2 ? "neutral" : "nervous" })); } },
-  { cue: 3, light: "day", cam: OM(F, 8.8, 3.2, 160, 200, 40, 1.2), act: (c) => { crowd(c, 12, 0, 0, 9, 9, 7, (i) => ({ expr: (["nervous", "neutral", "shock", "nervous"] as Expr[])[i % 4], look: i % 3 - 1 })); P(c, KETTLE, 1, 4.8, 1.6, { expr: "nervous" }); } },
+  { cue: 3, light: "day", cam: OM(F, 7.4, 3.2, 160, 200, 42, 1.2), act: (c) => { crowd(c, 12, 0, 0, 9, 9, 7, (i) => ({ expr: (["nervous", "neutral", "shock", "nervous"] as Expr[])[i % 4], look: i % 3 - 1 })); P(c, KETTLE, 1, 4.8, 1.6, { expr: "nervous" }); } },
   // ===== WHO WE ARE =====
   { cue: 4, light: "day", cam: C([0, 2.2, 15], [0, 1.6, 4], 36, 0.0015), dof: 8, focus: [0, 1.4, 6], act: (c) => { P(c, KETTLE, 1, 0, 6, { expr: "grin", wave: c.u > 0.3 }); crowd(c, 5, 0, -6, 8, 3, 11, () => ({ expr: "smile" })); } },
   { cue: 5, light: "day", cam: G([-30, 20, 22], [-12, 20, 32], [-10, 4, 0], [8, 4, 6], 38), act: (c) => crowd(c, 8, 0, 6, 10, 6, 13, (i) => ({ expr: "smile", walk: i % 2 ? { to: [hh(i, 2) * 8 - 4, 14] } : undefined })) },
   { cue: 5, at: 3.4, light: "day", cam: C([-2.6, 1.4, -3.4], [BELLTOWER[0], 10, BELLTOWER[2]], 44, 0.0012), act: () => {} },
   { cue: 6, light: "day", cam: G([0, 1.8, 10], [0, 1.8, 4], [0, 6, -30], [0, 18, -40], 40), act: (c) => P(c, PEBBLE, 2, 1.6, -12, { expr: "neutral" }) },
-  { cue: 7, light: "day", cam: C([10, 1.0, -16], [0, 13, -40], 44, 0.0010), act: () => {} },
+  { cue: 7, light: "day", cam: C([2.5, 1.0, -22], [0, 13, -40], 44, 0.0010), act: () => {} },
   { cue: 8, light: "day", cam: aerial(70, 62, 70, 60, 200), act: () => {} },
   { cue: 9, light: "day", cam: G([0, 1.7, -30], [0, 1.7, -46], [0, 3, -60], [0, 3, -80], 38), act: () => {} },
   { cue: 10, light: "day", cam: C([bed[0] - 1.2, 1.6, bed[2] + 2.6], [bed[0] + 3.4, 1.6, bed[2] + 0.2], 40, 0.0014),
@@ -185,7 +189,7 @@ export const SPECS: ShotSpec[] = [
     act: (c) => P(c, LADDER, 3, bak[0] - 0.6, bak[2] - 1.0, { expr: "grin" }) },
   { cue: 18, light: "day", cam: C([3, 1.2, -28], [0, 8, -40], 40, 0.0012), act: (c) => P(c, BRASS, 4, 1.2, -33, { expr: "stern", look: 0 }) },
   // ===== THE RULES =====
-  { cue: 19, light: "day", cam: O([0, 0, 6], 8.5, 1.8, 0, 36), act: (c) => { P(c, BRASS, 4, 0, 4.4, { expr: "stern" }); for (let i = 0; i < 4; i++) P(c, [BUTTON, LANTERN, UMBRELLA, CITIZEN(3)][i], 40 + i, -2.4 + i * 1.6, 8, { expr: "nervous" }); } },
+  { cue: 19, light: "day", cam: O([0, 0, 6], 8.5, 1.8, 0, 36), act: (c) => { P(c, BRASS, 4, 0, 4.4, { expr: "stern" }); for (let i = 0; i < 4; i++) P(c, [BUTTON, LANTERN, UMBRELLA, CITIZEN(3)][i], 40 + i, -2.4 + i * 1.6, 6.8, { expr: "nervous" }); } },
   { cue: 20, light: "day", cam: C([4, 12, -6], [BELLTOWER[0], 15.5, BELLTOWER[2]], 34, 0.002),
     act: (c) => rings(c, BELLTOWER[0], 15.5, BELLTOWER[2] + 2.8, c.t - c.u * 0 - 0.0) },
   { cue: 20, at: 2.6, light: "day", cam: O(F, 16, 4, 30, 40), act: (c) => { for (let i = 0; i < 10; i++) { const [x, z] = free((hh(i, 21) - 0.5) * 18, (hh(i, 24) - 0.5) * 18); P(c, CITIZEN(i + 21), 520 + i, x, z, { expr: "nervous", walk: flee(i, x, z) }); } } },

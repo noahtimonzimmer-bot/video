@@ -100,13 +100,13 @@ export class World {
     const t = f / FPS, s = SHOTS[id - 1], L = LIGHTS[s.light], K = LOOK[s.light];
     const c = camAt(id, f), { u, g } = shotU(id, f);
     cam.position.set(...c.pos); cam.up.set(0, 1, 0); cam.lookAt(...c.look); cam.rotateZ(c.roll);
-    cam.fov = c.fov; cam.near = 0.15; cam.far = 1500; cam.updateProjectionMatrix(); cam.updateMatrixWorld();
+    cam.fov = c.fov; cam.near = Math.max(0.15, c.pos[1] * 0.03); cam.far = 1500; cam.updateProjectionMatrix(); cam.updateMatrixWorld();
     const focus = V(...c.look), dist = cam.position.distanceTo(focus);
     cam.layers.enable(NOINK);
     const sunDir = this.shotSun(id, s, L);
     this.hemi.color.set(L.sky); this.hemi.groundColor.set(L.ground); this.hemi.intensity = L.hemiI;
     this.sun.color.set(L.sunCol); this.sun.intensity = L.sunI;
-    const Rr = THREE.MathUtils.clamp(dist * 1.15 + 9, 14, 110);
+    const Rr = THREE.MathUtils.clamp(dist * 1.15 + 9, 14, 320);
     this.sun.position.copy(focus).addScaledVector(sunDir, 260); this.sun.target.position.copy(focus);
     const sc = this.sun.shadow.camera;
     sc.left = -Rr; sc.right = Rr; sc.top = Rr; sc.bottom = -Rr; sc.near = 20; sc.far = 560; sc.updateProjectionMatrix();

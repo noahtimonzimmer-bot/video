@@ -44,7 +44,6 @@ export const ivyTex = (key: string, w: number, h: number, ivy = 0.55, tally = 0)
   const leaf = (x: number, y: number, s: number) => {
     const c = ["#2f8a3a", "#3f9e43", "#56b04a", "#2a7a3a", "#6cc152"][Math.floor(r() * 5)];
     g.fillStyle = c; g.beginPath(); g.ellipse(x, y, s, s * 0.8, r() * 3, 0, TAU); g.fill();
-    g.strokeStyle = "rgba(20,60,30,0.55)"; g.lineWidth = 2; g.stroke();
     g.fillStyle = "rgba(255,255,255,0.18)"; g.beginPath(); g.ellipse(x - s * 0.25, y - s * 0.25, s * 0.35, s * 0.25, 0, 0, TAU); g.fill();
   };
   const strands = Math.round((w / 26) * ivy * 2);
@@ -126,6 +125,26 @@ const bell = (b: Batch, x: number, y: number, z: number, s = 1) => {
 };
 
 // ---------------- Middle ----------------
+/** trees, lanterns, benches, flower boxes, barrels of the city (also used by the collision check): rad = footprint */
+export const propSpots = () => {
+  const r = rng(43), out: { kind: string; i: number; x: number; z: number; h: number; yaw: number; rad: number }[] = [];
+  for (let i = 0; i < 40; i++) {
+    const a = r() * TAU, rr = [20, 29.8, 38][i % 3] + (r() - 0.5) * 1.2, h = 5 + r() * 2;
+    const near = Math.min(...[0, Math.PI / 2, Math.PI, -Math.PI / 2].map((t) => Math.abs(Math.atan2(Math.sin(a - t), Math.cos(a - t)))));
+    if (near * rr < 4) continue;
+    out.push({ kind: "tree", i, x: Math.cos(a) * rr, z: Math.sin(a) * rr, h, yaw: 0, rad: 0.3 * h });
+  }
+  for (let i = 0; i < 12; i++) {
+    const a = (i + 0.5) * (TAU / 12), yaw = Math.atan2(-Math.cos(a), -Math.sin(a));
+    out.push({ kind: "lantern", i, x: Math.cos(a) * 8.6, z: Math.sin(a) * 8.6, h: 3.8, yaw: 0, rad: 0.25 });
+    if (i % 3 === 1) out.push({ kind: "bench", i, x: Math.cos(a + 0.13) * 8.2, z: Math.sin(a + 0.13) * 8.2, h: 1, yaw: yaw + Math.PI, rad: 0.85 });
+    if (i % 3 === 2) out.push({ kind: "flowers", i, x: Math.cos(a + 0.12) * 9.3, z: Math.sin(a + 0.12) * 9.3, h: 0.8, yaw, rad: 0.75 });
+  }
+  for (const [x, z] of [[5.2, 9.5], [-6.4, 8.4], [9.8, -3.6]] as const) out.push({ kind: "barrel", i: 0, x: x + 0.4, z: z + 0.15, h: 1, yaw: 0, rad: 0.85 });
+  // keep the ground in front of the named houses clear (scenes play at those doors)
+  const doors = Object.values(NAMED).map((n) => [Math.cos(n.a) * 9.5, Math.sin(n.a) * 9.5]);
+  return out.filter((p) => p.kind === "tree" || doors.every(([dx, dz]) => Math.hypot(p.x - dx, p.z - dz) > 4.2));
+};
 /** every house of the city: centre, yaw (front to the plaza), width, height, style */
 export const houseSpots = () => {
   const r = rng(41), out: { x: number; z: number; yaw: number; w: number; h: number; si: number }[] = [];
@@ -147,12 +166,11 @@ export const houseSpots = () => {
   return out;
 };
 const buildMiddle = (b: Batch, shell: Batch) => {
-  const r = rng(43);
   // ground: grass everywhere (maze floor is gravel strips, see maze), cobbles inside the wall
   const disc = new THREE.CircleGeometry(WALL_R + 1, 96); disc.rotateX(-Math.PI / 2);
   const uv = disc.attributes.uv as THREE.BufferAttribute, pos = disc.attributes.position as THREE.BufferAttribute;
   for (let i = 0; i < uv.count; i++) uv.setXY(i, pos.getX(i) / 6, pos.getZ(i) / 6);
-  b.add(disc, M.cobble(), new THREE.Matrix4().makeTranslation(0, 0.012, 0));
+  b.add(disc, M.cobble(), new THREE.Matrix4().makeTranslation(0, 0.0, 0));
   // fountain: two round steps, basin, pillar, top bowl, water
   for (const [rr, h] of [[STEPS_R, 0.18], [STEPS_R - 0.45, 0.36]] as const) b.add(new THREE.CylinderGeometry(rr, rr, h, 48).translate(0, h / 2, 0), M.bench());
   b.add(new THREE.CylinderGeometry(2.55, 2.7, 0.9, 48, 1, true).translate(0, 0.36 + 0.45, 0), M.sand());
@@ -174,19 +192,13 @@ const buildMiddle = (b: Batch, shell: Batch) => {
   b.add(boxGeo(V(bx0 - 0.9, 0, bz0 + 2.4), V(bx0 + 0.9, 2.6, bz0 + 2.5)), M.wood()); // door
   for (const hs of houseSpots()) house(b, hs.x, hs.z, hs.yaw, hs.w, 8, hs.h, hs.si);
   // trees between the rings, lanterns + benches + flower boxes around the plaza
-  for (let i = 0; i < 40; i++) {
-    const a = r() * TAU, rr = [20, 29.8, 38][i % 3] + (r() - 0.5) * 1.2;
-    const near = Math.min(...[0, Math.PI / 2, Math.PI, -Math.PI / 2].map((t) => Math.abs(Math.atan2(Math.sin(a - t), Math.cos(a - t)))));
-    if (near * rr < 4) continue;
-    addVeg(b, i % 4 ? "round" : "fat", Math.cos(a) * rr, 0, Math.sin(a) * rr, 5 + r() * 2, i * 77.1);
+  for (const t of propSpots()) {
+    if (t.kind === "tree") addVeg(b, t.i % 4 ? "round" : "fat", t.x, 0, t.z, t.h, t.i * 77.1);
+    else if (t.kind === "lantern") R.lantern(b, t.x, 0, t.z, 3.4);
+    else if (t.kind === "bench") R.bench(b, t.x, 0, t.z, t.yaw, ["#3f8f4c", "#2f6fb5", "#d9573f"][t.i % 3]);
+    else if (t.kind === "flowers") R.flowerBox(b, t.x, 0, t.z, t.yaw, 1.4);
   }
-  for (let i = 0; i < 12; i++) {
-    const a = (i + 0.5) * (TAU / 12), x = Math.cos(a) * 8.6, z = Math.sin(a) * 8.6;
-    R.lantern(b, x, 0, z, 3.4);
-    if (i % 3 === 1) R.bench(b, Math.cos(a + 0.13) * 8.2, 0, Math.sin(a + 0.13) * 8.2, Math.atan2(-Math.cos(a), -Math.sin(a)) + Math.PI, ["#3f8f4c", "#2f6fb5", "#d9573f"][i % 3]);
-    if (i % 3 === 2) R.flowerBox(b, Math.cos(a + 0.12) * 9.3, 0, Math.sin(a + 0.12) * 9.3, Math.atan2(-Math.cos(a), -Math.sin(a)), 1.4);
-  }
-  for (const [x, z] of [[5.2, 9.5], [-6.4, 8.4], [9.8, -3.6]] as const) { R.barrel(b, x, 0, z); R.crate(b, x + 0.8, 0, z + 0.3, 0.6, 0.3); }
+  for (const t of propSpots()) if (t.kind === "barrel") { R.barrel(b, t.x - 0.4, 0, t.z - 0.15); R.crate(b, t.x + 0.4, 0, t.z + 0.15, 0.6, 0.3); }
   void shell;
 };
 
@@ -278,8 +290,8 @@ const buildMaze = (b: Batch) => {
   }
   // floor: gravel over the whole labyrinth square (the city disc and the court sit on top)
   const S = (N * MAZE_CELL) / 2;
-  b.add(up(-S - 300, S + 300, -S - 300, S + 300, 0, (2 * S + 600) / 8, (2 * S + 600) / 8), M.grass());
-  b.add(up(-S, S, -S, S, 0.005, (2 * S) / 7, (2 * S) / 7), M.gravel());
+  b.add(up(-S - 300, S + 300, -S - 300, S + 300, -0.06, (2 * S + 600) / 8, (2 * S + 600) / 8), M.grass());
+  b.add(up(-S, S, -S, S, -0.025, (2 * S) / 7, (2 * S) / 7), M.gravel());
 };
 
 // ---------------- the courtyard and the door ----------------
@@ -288,7 +300,7 @@ const buildCourt = (b: Batch) => {
   const disc = new THREE.CircleGeometry(COURT_R, 64); disc.rotateX(-Math.PI / 2);
   const uv = disc.attributes.uv as THREE.BufferAttribute, pos = disc.attributes.position as THREE.BufferAttribute;
   for (let i = 0; i < uv.count; i++) uv.setXY(i, pos.getX(i) / 5, pos.getZ(i) / 5);
-  b.add(disc, M.flags(), new THREE.Matrix4().makeTranslation(cx, 0.015, cz));
+  b.add(disc, M.flags(), new THREE.Matrix4().makeTranslation(cx, 0.0, cz));
   for (let k = 0; k < seg; k++) {
     const a = (k + 0.5) * (TAU / seg);
     if (Math.abs(Math.atan2(Math.sin(a - Math.PI), Math.cos(a - Math.PI))) < 0.2) continue; // opening to the west

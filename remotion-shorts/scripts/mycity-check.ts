@@ -6,11 +6,11 @@ const stubCtx = new Proxy({}, { get: () => () => ({ addColorStop() {} }) });
 import * as THREE from "three";
 import { SHOTS, camAt, shotU } from "../src/videos/mycity/story";
 import { stageSpec } from "../src/videos/mycity/film";
-import { houseSpots, MAZE_WALLS, buildMazeOnly } from "../src/videos/mycity/city";
+import { houseSpots, propSpots, MAZE_WALLS, buildMazeOnly } from "../src/videos/mycity/city";
 import { Batch } from "../src/videos/mycity/build";
 import { WALL_R, WALL_T, GATE_W, GATE_H, MAZE_H, COURT, COURT_R, BELLTOWER, KIT, KIT_W, ROOM } from "../src/videos/mycity/layout";
 buildMazeOnly(new Batch());
-const houses = houseSpots();
+const houses = houseSpots(), props = propSpots();
 const GATE_A = [0, Math.PI / 2, Math.PI, -Math.PI / 2];
 const hit = (x: number, y: number, z: number, m: number): string | null => {
   for (const h of houses) {
@@ -18,9 +18,11 @@ const hit = (x: number, y: number, z: number, m: number): string | null => {
     const lx = dx * c - dz * s, lz = dx * s + dz * c; // local (x along front, z out of front)
     if (Math.abs(lx) < h.w / 2 + m && Math.abs(lz) < 4 + m && y < h.h + 4) return `house@${h.x.toFixed(1)},${h.z.toFixed(1)}`;
   }
+  for (const p of props) if (Math.hypot(x - p.x, z - p.z) < p.rad + m && y < p.h + (p.kind === "tree" ? 0 : 0.3) && y > (p.kind === "tree" ? 0.2 * p.h : -1)) return `${p.kind}@${p.x.toFixed(1)},${p.z.toFixed(1)}`;
+  for (const p of props) if (p.kind === "tree" && Math.hypot(x - p.x, z - p.z) < 0.3 + m) return "treetrunk";
   if (Math.abs(x - BELLTOWER[0]) < 2.7 + m && Math.abs(z - BELLTOWER[2]) < 2.7 + m && y < 22) return "belltower";
   const r = Math.hypot(x, z);
-  if (r < 2.75 + m && y < 4.2) return "fountain";
+  if (r < 2.7 + m * 0.4 && y < 4.2) return "fountain";
   if (r > WALL_R - m && r < WALL_R + WALL_T + m && y < 23) {
     const a = Math.atan2(z, x);
     const inGate = GATE_A.some((g) => Math.abs(Math.atan2(Math.sin(a - g), Math.cos(a - g))) * r < GATE_W / 2 - m) && y < GATE_H - 0.3;

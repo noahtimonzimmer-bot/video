@@ -50,9 +50,9 @@ const DEF: Required<InkOptions> = {
   // round 2 (reviewer: "world outlines ~1.5x thicker, pure black on every silhouette"): widths x1.5 (creases follow
   // via creaseScale), pure near-black, far opacity 0.75 -> 0.95; fog tint of the ink 0.6 -> 0.3 (compMat fogInk)
   color: "#030303", strength: 1.0,
-  widthNear: 5.1, widthFar: 3.3, distNear: 6, distFar: 90, creaseScale: 0.8, // round 3: creases 0.64 -> 0.8 (building corners)
+  widthNear: 5.1, widthFar: 2.4, distNear: 6, distFar: 90, creaseScale: 0.8, // round 3: creases 0.64 -> 0.8 (building corners)
   depthLo: 0.01, depthHi: 0.03, angleLo: 35, angleHi: 50, concaveGain: 0.7, // depth jumps from 1 %; creases from 35 deg (roof eaves)
-  farOpacity: 0.95, fadeNear: 150, fadeFar: 450,
+  farOpacity: 0.85, fadeNear: 140, fadeFar: 380,
 };
 
 const FS_VERT = /* glsl */ `
