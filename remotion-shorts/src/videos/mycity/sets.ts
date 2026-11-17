@@ -23,7 +23,8 @@ export const nightView = (key: string) => ctex("nview" + key, 256, 384, (g, r) =
   g.fillStyle = "rgba(255,210,90,0.25)"; g.beginPath(); g.arc(60, 290, 30, 0, TAU); g.fill();
 });
 const tallyWall = () => ctex("tallywall", 1024, 512, (g) => {
-  g.fillStyle = "rgba(0,0,0,0)"; g.clearRect(0, 0, 1024, 512);
+  g.fillStyle = "#f2dca8"; g.fillRect(0, 0, 1024, 512);
+  g.strokeStyle = "#c9a46e"; g.lineWidth = 10; g.strokeRect(5, 5, 1014, 502);
   tallyMarks(new Pen(g), 312, 3);
 });
 /** the giant chalk map: white chalk corridors on a dark slate floor, the round city in the middle, arrows, crossings out */
