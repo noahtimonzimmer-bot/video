@@ -24,12 +24,12 @@ type P2 = [number, number];
 export type HollowOpts = { phase?: number; reach?: number; sit?: boolean; tilt?: number; look?: number; chalk?: boolean; light?: number };
 export const hollow = (p: Pen, o: HollowOpts = {}) => {
   const ph = o.phase ?? 0, two = Math.PI * 2, walk = ph > 0 ? Math.sin(two * ph) : 0, sit = !!o.sit;
-  const cx = 300, hemY = sit ? 640 : 735, shY = 205, bob = ph > 0 ? 6 * Math.cos(2 * two * ph) : 0;
+  const cx = 300, hemY = sit ? 800 : 735, shY = 205, bob = ph > 0 ? 6 * Math.cos(2 * two * ph) : 0;
   // legs: thin, two joints each, long feet
   const legs: [P2[], number][] = [];
   for (const s of [-1, 1]) {
     const hip: P2 = [cx + s * 40, hemY - 40];
-    if (sit) legs.push([[hip, [cx + s * 70, 690], [cx + s * 82, 820], [cx + s * 74, 975], [cx + s * 74 + 40, 975]], s]);
+    if (sit) legs.push([[[cx + s * 50, 820], [cx + s * 110, 832], [cx + s * 118, 975], [cx + s * 118 + 40, 975]], s]);
     else {
       const sw = s * walk * 36;
       const knee: P2 = [cx + s * 46 + sw * 0.6, 860 + bob], ank: P2 = [cx + s * 40 + sw, 970];
@@ -62,7 +62,7 @@ export const hollow = (p: Pen, o: HollowOpts = {}) => {
       const seg = 108 - k * 6, bend = (k % 2 ? 1 : -1) * 0.38 * s;
       a += bend * (1 - lift * 0.6);
       x += Math.cos(a) * seg * (s > 0 && lift ? 1 : 1); y += Math.sin(a) * seg;
-      if (sit) y = Math.min(y, 690);
+      if (sit) y = Math.min(y, 790);
       pts.push([x, y]);
     }
     p.stroke(pts, 22, INK); p.stroke(pts, 13, COAT_D);
@@ -104,7 +104,7 @@ export const chalkText = (p: Pen, lines: string[], mess = 0) => {
   const g = (p as unknown as { g: CanvasRenderingContext2D }).g;
   g.save(); g.fillStyle = "#ffffff"; g.textBaseline = "top";
   lines.forEach((l, i) => {
-    g.save(); g.translate(30, 30 + i * 90); g.rotate((mess * (i % 2 ? 1 : -1) * 0.06)); g.font = `${700 - mess * 200} ${62 + mess * 10}px "Comic Sans MS", "Chalkboard", cursive`;
+    g.save(); g.translate(30, 30 + i * 90); g.rotate((mess * (i % 2 ? 1 : -1) * 0.06)); g.font = `900 ${66 + mess * 8}px sans-serif`;
     g.globalAlpha = 0.95 - mess * 0.15; g.fillText(l, 0, 0); g.restore();
   });
   g.restore();
