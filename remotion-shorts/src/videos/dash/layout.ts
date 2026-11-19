@@ -12,4 +12,4 @@ export const MAILBOX: V3 = [4.6, 0, -8];
 export const SQUARE: V3 = [0, 0, 6];
 export const BUSSTOP: V3 = [3.8, 0, 44];
 export const HEAD: V3 = [0, -40, -330];   // creature head centre
-export const EYE: V3 = [26, -18, -300];   // the eye (on the head's east side, facing the camera of the reveal)
+export const EYE: V3 = [44, -22, -318];   // the eye (on the head's east side, facing the camera of the reveal)

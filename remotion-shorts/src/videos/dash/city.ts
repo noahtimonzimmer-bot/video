@@ -10,11 +10,11 @@ import { STREET_HALF, TOWN_R, SCHOOL, BAKERY, MAILBOX, SQUARE, BUSSTOP, HEAD, EY
 const TAU = Math.PI * 2;
 /** teal scales with darker rims and a light sheen */
 const scaleTex = () => ctex("scales", 1024, 1024, (g, r) => {
-  g.fillStyle = "#1d6e6a"; g.fillRect(0, 0, 1024, 1024);
+  g.fillStyle = "#124a48"; g.fillRect(0, 0, 1024, 1024);
   const S = 64;
   for (let row = -1; row < 1024 / (S * 0.6) + 1; row++) for (let col = -1; col < 1024 / S + 1; col++) {
     const x = col * S + (row % 2 ? S / 2 : 0), y = row * S * 0.6;
-    const c = ["#2fa39a", "#35b0a2", "#2a958e", "#3cbcad"][Math.floor(r() * 4)];
+    const c = ["#1f7f6e", "#24907a", "#1a6f62", "#2a9a7f"][Math.floor(r() * 4)];
     g.fillStyle = c; g.beginPath(); g.ellipse(x, y, S * 0.52, S * 0.5, 0, 0, Math.PI); g.fill();
     g.strokeStyle = "#155a58"; g.lineWidth = 4; g.stroke();
     g.fillStyle = "rgba(255,255,255,0.18)"; g.beginPath(); g.ellipse(x - 8, y + 10, 12, 6, 0, 0, TAU); g.fill();

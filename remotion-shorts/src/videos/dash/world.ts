@@ -120,7 +120,7 @@ export class World {
     su.e.value.set(e[1], e[2], e[3], e[4]);
     this.sky.position.copy(cam.position);
     this.stars.visible = s.light === "night"; this.stars.position.copy(cam.position);
-    untone(L.fog, this.fog.color); this.fog.near = L.fogNear + c.pos[1] * 3; this.fog.far = L.fogFar + c.pos[1] * 9; // aerials see far
+    untone(L.fog, this.fog.color); this.fog.near = L.fogNear + Math.max(0, c.pos[1]) * 3 + (c.pos[1] < 0 ? 60 : 0); this.fog.far = L.fogFar + Math.max(0, c.pos[1]) * 9 + 400; // aerials see far
     scene.fog = this.fog; scene.background = null;
     for (let i = 0; i < this.clouds.length; i++) {
       const m = this.clouds[i], mat = m.material as THREE.MeshBasicMaterial;

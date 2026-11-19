@@ -71,12 +71,12 @@ const dog = (c: Ctx, key: string, x: number, z: number, col: string, flip: boole
   p.ell(200, 150, 100, 46, col, 7); p.ell(X(320), 110, 46, 40, col, 7); p.ell(X(352), 98, 16, 22, "#2a1f2b", 0); p.dot(X(330), 100, 7);
   p.ell(X(300), 76, 14, 26, col, 6, 0, 360, s * 20); p.stroke([[X(100), 130], [X(56), 96 + leg]], 12, col);
   p.poly([[X(340), 128], [X(372), 132], [X(352), 160]], "#e8443a", 4);
-}, x, 0.42, z, 0.85, 0.55);
+}, x, 0.6, z, 1.25, 0.8);
 const cake = (c: Ctx, x: number, y: number, z: number, rot: number) => B(c, "cake", 300, 300, (p) => {
   p.poly([[50, 160], [250, 160], [250, 250], [50, 250]], "#ffb6d5", 7); p.poly([[80, 90], [220, 90], [220, 160], [80, 160]], "#ffffff", 7);
   for (let k = 0; k < 3; k++) { p.stroke([[110 + k * 40, 90], [110 + k * 40, 50]], 8, "#7fd6d8"); p.ell(110 + k * 40, 40, 8, 14, "#ffd25a", 0); }
   for (let k = 0; k < 5; k++) p.dot(70 + k * 40, 205, 10, "#e8443a");
-}, x, y, z, 0.6, 0.6, rot);
+}, x, y, z, 0.9, 0.9, rot);
 const bouquet = (c: Ctx, x: number, y: number, z: number) => B(c, "bouquet", 200, 260, (p) => {
   p.poly([[80, 140], [120, 140], [108, 250], [92, 250]], "#3f8f4c", 5);
   for (const [a, b2, col] of [[70, 100, "#ff7ab8"], [130, 100, "#ffffff"], [100, 70, "#ffd25a"], [60, 140, "#ffffff"], [140, 140, "#ff7ab8"]] as const) p.ell(a, b2, 30, 30, col, 6);
@@ -105,7 +105,7 @@ export const SPECS: ShotSpec[] = [
   { cue: 5, light: "day", cam: C([3.8, 1.5, BK[2] + 8], [BK[0] + 1, 1.8, BK[2]], 46, 0.0015),
     act: (c) => { const [x, z] = P(c, BAKER, 3, BK[0] + 1.2, BK[2] + 0.4, { expr: "laugh", run: { to: [3.4, BK[2] + 9] } }); huffs(c, x, 1.7, z, hussAt(5)); runners(c, 4, 7, BK[2] - 10, BK[2] + 12, 1); } },
   { cue: 6, light: "day", cam: C([-2.4, 1.3, MB[2] + 7], [MB[0], 1.0, MB[2]], 44, 0.0015), act: (c) => P(c, GRANDMA, 4, -3, MB[2] + 9, { expr: "grin", run: { to: [MB[0] - 0.8, MB[2] + 0.6], a: 0, b: 0.9 } }) },
-  { cue: 6, at: 1.5, light: "day", cam: C([0, 0.7, 6], [0, 0.5, -2], 44, 0.001), act: (c) => {
+  { cue: 6, at: 1.5, light: "day", cam: C([0, 0.8, 2.6], [0, 0.6, -2], 44, 0.001), act: (c) => {
     const ph = (c.t * 3) % 1; dog(c, "a", -2.5 + c.u * 5, -1.5, "#c98a52", false, ph); dog(c, "b", -0.9 + c.u * 5, -1.7, "#f4f0e4", false, (ph + 0.5) % 1); } },
   { cue: 7, light: "day", cam: C([0, 1.5, S[2] + 9], [0, 1.6, S[2] - 2], 44, 0.0015),
     act: (c) => { const k = Math.min(1, c.u * 1.8); const [bx, bz] = P(c, BRIDE, 5, -3.6, S[2] + 2, { expr: "laugh", run: { to: [-0.8, S[2] - 1], a: 0, b: 0.5 } });
@@ -113,15 +113,15 @@ export const SPECS: ShotSpec[] = [
       if (k < 1) bouquet(c, bx + 0.35, 1.1, bz); else bouquet(c, 0.4 + 3.8 * Math.max(0, (c.u - 0.5) * 2) + 0.35, 1.2, S[2] - 1.5 - 3.5 * Math.max(0, (c.u - 0.5) * 2));
       for (let i = 0; i < 6; i++) P(c, CITIZEN(i + 20), 320 + i, -5 + (i % 2) * 10, S[2] - 6 + i * 1.2, { expr: "laugh", wave: true }); } },
   { cue: 7, at: 1.4, light: "day", cam: C([0.6, 1.0, 6], [0, 1.6, 0], 46, 0.0015),
-    act: (c) => { const u = c.u, x = -2 + 3 * u, y = 1.0 + 2.4 * Math.sin(Math.min(1, u * 1.2) * Math.PI) * (u < 0.83 ? 1 : 0.4); cake(c, x, Math.max(1.05, y), 0, u * 6);
+    act: (c) => { const u = c.u, x = -2 + 3 * u, y = 1.0 + 1.3 * Math.sin(Math.min(1, u * 1.2) * Math.PI) * (u < 0.83 ? 1 : 0.4); cake(c, x, Math.max(1.05, y), 0, u * 6);
       P(c, KID(5), 330, 2.4, 0.4, { expr: u > 0.8 ? "laugh" : "shock", run: { to: [1.0, 0.2], a: 0.4, b: 0.85 } }); } },
   { cue: 8, light: "day", cam: (u, g) => ({ pos: [2.2, 1.3, 10 - g * 0.12], look: [0, 1.3, 7.5 - g * 0.12], fov: 36, roll: 0 }), dof: 16,
-    act: (c) => { const z = 8 - c.g * 0.12; P(c, ME, 1, 0.3, z + 1.5, { expr: "neutral", scale: 0.85, side: true, mirror: false, run: { to: [0.3, z - 0.5] } }); } },
+    act: (c) => { const z = 8 - c.g * 0.12; P(c, ME, 1, 0.3, z - 1.0, { expr: "neutral", scale: 0.85, side: true, mirror: false, run: { to: [0.3, z - 3.0] } }); } },
   // THE NEW KID
-  { cue: 9, light: "day", cam: C([-3, 1.6, BS[2] - 12], [BS[0], 1.8, BS[2] + 1], 46, 0.0012), act: (c) => runners(c, 6, 9, BS[2] - 20, BS[2] + 4, -1) },
-  { cue: 10, light: "day", cam: C([-2.4, 1.3, BS[2] - 7], [BS[0] - 1.6, 1.2, BS[2] - 2.5], 42, 0.0015),
+  { cue: 9, light: "day", cam: C([-2, 2.2, BS[2] - 26], [BS[0], 1.8, BS[2] + 1], 46, 0.0012), act: (c) => runners(c, 6, 9, BS[2] - 20, BS[2] + 4, -1) },
+  { cue: 10, light: "day", cam: C([1.0, 1.3, BS[2] - 8], [BS[0] - 1.6, 1.2, BS[2] - 2.5], 42, 0.0015),
     act: (c) => { P(c, NEWKID, 50, BS[0] - 1.6, BS[2] - 2.6, { expr: "neutral", look: -1 }); for (let i = 0; i < 6; i++) P(c, CITIZEN(i + 30), 340 + i, -4 + i * 0.5, BS[2] - 14 - i * 3, { expr: "grin", run: { to: [-4 + i * 0.5, BS[2] + 12 - i * 3] } }); } },
-  { cue: 11, light: "day", cam: C([0, 0.9, BS[2] - 14], [BS[0] - 1.8, 1.0, BS[2] - 5], 40, 0.0018),
+  { cue: 11, light: "day", cam: C([1.0, 0.9, BS[2] - 9.5], [BS[0] - 1.8, 0.9, BS[2] - 5], 40, 0.0018),
     act: (c) => { const k = c.u; P(c, NEWKID, 50, BS[0] - 1.8, BS[2] - 3 - k * 2.5, { expr: "smile_closed", side: false }); } },
   { cue: 12, light: "day", cam: C([0, 2.4, 28], [0, 1.4, 14], 46, 0.001),
     act: (c) => { P(c, NEWKID, 50, 1.4, 31 - 0.3, { expr: "neutral" }); for (let i = 0; i < 14; i++) P(c, CITIZEN(i + 40), 360 + i, -4.4 + hh(i, 12) * 8.8, 4 + hh(i, 13) * 20, { expr: (["shock", "nervous", "shock"] as Expr[])[i % 3], look: 0 }); } },
@@ -129,8 +129,8 @@ export const SPECS: ShotSpec[] = [
     act: (c) => { for (let i = 0; i < 4; i++) P(c, CITIZEN(i + 40), 360 + i, -2 + i * 1.3, 6 + (i % 2) * 1.5, { expr: c.u > 0.3 ? "shock" : "nervous" }); P(c, ME, 1, 2.6, 9.4, { expr: "shock", scale: 0.85 }); } },
   { cue: 14, light: "day", cam: shake(G([0, 2, 22], [0, 30, 60], [0, 1.4, 6], [0, 0, -10], 46), 0.12), act: (c) => { for (let i = 0; i < 14; i++) P(c, CITIZEN(i + 40), 360 + i, -4.4 + hh(i, 12) * 8.8, 4 + hh(i, 13) * 20, { expr: "shock" }); } },
   // REVEAL
-  { cue: 15, light: "day", cam: shake(G([60, 90, 180], [180, 70, 260], [0, 0, 0], [0, -30, -120], 50), 0.4), act: () => {} },
-  { cue: 16, light: "day", cam: C([HEAD[0] + 120, HEAD[1] + 20, HEAD[2] + 40], [EYE[0], EYE[1], EYE[2]], 34, 0.0025), act: (c) => eye(c, 0.05 + 0.25 * Math.max(0, Math.sin(c.u * Math.PI * 1.5))) },
+  { cue: 15, light: "day", cam: shake(G([60, 70, 110], [190, 150, 260], [0, -20, -200], [0, -40, -230], 50), 0.4), act: () => {} },
+  { cue: 16, light: "day", cam: C([EYE[0] + 70, EYE[1] + 6, EYE[2] + 20], [EYE[0], EYE[1], EYE[2]], 34, 0.0025), act: (c) => eye(c, 0.04 + 0.6 * ease((c.u - 0.35) / 0.65)) },
   { cue: 17, light: "day", cam: C([2.6, 1.4, 38], [0, 1.4, 26], 44, 0.0015),
     act: (c) => { const [x, z] = P(c, NEWKID, 50, 1.4, 30.7, { expr: "stern", run: { to: [1.0, 18], a: 0.45 } }); huffs(c, x, 1.15, z, hussAt(17)); runners(c, 10, 17, 30, 8, -1); } },
 ];
