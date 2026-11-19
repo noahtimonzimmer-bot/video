@@ -3,10 +3,12 @@ import { Composition } from "remotion";
 import { BridgeShort, BRIDGE_FRAMES } from "./videos/bridge/Bridge";
 import { BridgeShort as ShirtShort, BRIDGE_FRAMES as SHIRT_FRAMES } from "./videos/shirt/Bridge";
 import { BridgeShort as MyCity, BRIDGE_FRAMES as MYCITY_FRAMES } from "./videos/mycity/Bridge";
+import { BridgeShort as DashShort, BRIDGE_FRAMES as DASH_FRAMES } from "./videos/dash/Bridge";
 import { BridgeShort as EiffelShort, BRIDGE_FRAMES as EIFFEL_FRAMES } from "./videos/eiffel/Bridge";
 export const Root: React.FC = () => (<>
   <Composition id="BridgeShort" component={BridgeShort} durationInFrames={BRIDGE_FRAMES} fps={30} width={1080} height={1920} />
   <Composition id="ShirtShort" component={ShirtShort} durationInFrames={SHIRT_FRAMES} fps={30} width={1080} height={1920} />
   <Composition id="EiffelShort" component={EiffelShort} durationInFrames={EIFFEL_FRAMES} fps={30} width={1080} height={1920} />
   <Composition id="MyCity" component={MyCity} durationInFrames={MYCITY_FRAMES} fps={30} width={1920} height={1080} />
+  <Composition id="DashShort" component={DashShort} durationInFrames={DASH_FRAMES} fps={30} width={1080} height={1920} />
 </>);

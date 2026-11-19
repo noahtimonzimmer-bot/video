@@ -1,0 +1,4 @@
+thunder.wav <- BigSoundBank #3114 https://bigsoundbank.com/s3114.html (CC0-like)
+breath.wav <- BigSoundBank #1103 https://bigsoundbank.com/s1103.html (CC0-like)
+m_cityrun.mp3 <- freepd.com 'City Run' (CC0, via github.com/SoundSafari/CC0-1.0-Music)
+m_nightvigil.mp3 <- freepd.com 'Night Vigil' (CC0, via github.com/SoundSafari/CC0-1.0-Music)
