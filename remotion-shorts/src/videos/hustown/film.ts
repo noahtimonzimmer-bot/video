@@ -98,13 +98,13 @@ export const SPECS: ShotSpec[] = [
   { cue: 4, light: "day", cam: (u) => ({ pos: [0, 1.52, 1.75 - 0.25 * u], look: [0, 1.52, 0.2], fov: 40, roll: 0 }),
     act: (c) => { const ts = hussAt(4), k = ts.filter((t) => c.t >= t).length; phoneCU(c, { mode: "play", score: 690 + k * 330, fold: k, label: k ? "PERFEKT" : undefined }, 0, 1.52, 0.2, 0.9); ts.forEach((t) => burst(c, t, 0, 1.5, 0.25, 0.7)); } },
   { cue: 5, light: "day", cam: O([0, 0, 0], 5.5, 1.6, -40, 30, 52), act: (c) => { K(c, ME, 1, 0, 0, { face: "grin", arms: "up", jump: Math.max(0, Math.sin(c.t * 7)) * 0.25 }); crowd(c, 8, 5, -12, -4); burst(c, CUES[4][0] + 0.2, 0, 2.6, 0, 2.4, "#ffd23a", 0.5); } },
-  { cue: 6, light: "night", cam: shake(C([2, 1.2, 12], [0, 7, -18], 60, 0.002), 0.08),
-    act: (c) => { K(c, MONSTER, 9, 0, -26, { face: "monster", scale: 6, to: [0, -17], a: 0, b: 1 }); crowd(c, 6, 7, 6, 12, "shock"); } },
+  { cue: 6, light: "night", cam: shake(C([4.4, 1.2, -6], [0, 7, -22], 60, 0.002), 0.08),
+    act: (c) => { K(c, MONSTER, 9, 0, -26, { face: "monster", scale: 6, to: [0, -17], a: 0, b: 1 }); crowd(c, 6, 7, -12, -8, "shock"); } },
   { cue: 7, light: "night", cam: C([3, 1.6, 6], [0, 1.4, 1.5], 46, 0.003),
     act: (c) => { const k = Math.max(0, (c.u - 0.45) / 0.3); if (k < 0.5) K(c, TOWNS(11), 60, 0, 1.5, { face: "shock", arms: "up" }); glow(c, 0, 1.4, 1.6, 4.5, Math.sin(Math.min(1, k) * Math.PI) * 1.2);
       K(c, TOWNS(12), 61, -1.8, 0.4, { face: "shock" }); K(c, TOWNS(13), 62, 1.9, 0.2, { face: "nervous" }); } },
   // ===== EVERYBODY PLAYS =====
-  { cue: 8, light: "day", cam: G([CR[0] + 3, 1.4, CR[2] - 0.2], [CR[0] + 2.2, 0.9, CR[2] - 0.6], [CR[0] + 2.6, 0.8, CR[2] - 2.0], [CR[0] + 2.6, 0.7, CR[2] - 2.0], 52),
+  { cue: 8, light: "day", cam: G([CR[0] + 0.6, 1.9, CR[2] + 0.6], [CR[0] + 1.2, 1.5, CR[2] - 0.4], [CR[0] + 2.6, 1.2, CR[2] - 2.8], [CR[0] + 2.6, 1.0, CR[2] - 2.8], 52),
     act: (c) => { K(c, TEACHER, 20, CR[0] + 2.6, CR[2] - 3.0, { face: "focus", arms: "tap", sit: true, scr: play(4105, c.t), yaw: 0 }); for (let k = 0; k < 3; k++) K(c, TOWNS(k + 2), 30 + k, CR[0] - 2.6 + k * 2.2, CR[2] + 1.0, { face: "focus", arms: "tap", sit: true, scr: play(900 * k, c.t + k), yaw: Math.PI, scale: 0.72 }); } },
   { cue: 9, light: "day", cam: C([BS[0] - 4.2, 1.7, BS[2] - 2.4], [BS[0] + 0.3, 1.5, BS[2] - 3.6], 50, 0.003),
     act: (c) => { K(c, GRANDMA, 21, BS[0] + 0.3, BS[2] - 3.6, { face: "focus", arms: "tap", scr: play(14200, c.t, 2.2) }); } },
@@ -137,7 +137,7 @@ export const SPECS: ShotSpec[] = [
     act: (c) => K(c, ME, 1, 0, 0, { face: "shock", arms: "phone", head: 0.05, scr: { mode: "scores" } }) },
   // ===== MIDNIGHT =====
   { cue: 25, light: "night", cam: shake(C([3.5, 1.0, -7], [0, 9, -28], 60, 0.0015), 0.1), act: (c) => K(c, MONSTER, 9, 0, -42, { face: "monster", scale: 6, to: [0, -18], a: 0, b: 1 }) },
-  { cue: 26, light: "night", cam: shake(G([2.4, 0.5, 9], [3.2, 0.4, 6.5], [0, 0.4, 2], [0, 0.4, 2], 50), 0.05), dof: 14, focus: [0, 0.4, 2],
+  { cue: 26, light: "night", cam: shake(G([3.5, 0.7, 13], [4.0, 0.6, 10], [0, 2.2, 2], [0, 1.6, 2], 56), 0.05), dof: 10, focus: [0, 0.6, 2],
     act: (c) => K(c, MONSTER, 9, 0, 2, { face: "monster", scale: 6, yaw: 0 }) },
   { cue: 27, light: "night", cam: C([MH[0] + 0.35, 1.8, MH[2]], [MH[0] - 4, 1.9, MH[2]], 50, 0.002),
     act: (c) => { K(c, GRANDMA, 21, MH[0] - 4.2, MH[2] + 0.1, { face: "sweet", arms: c.u > 0.6 ? "point" : "side", yaw: Math.PI / 2 }); K(c, MONSTER, 9, MH[0] - 9.5, MH[2] - 4, { face: "monster", scale: 6, yaw: Math.PI / 2 });
