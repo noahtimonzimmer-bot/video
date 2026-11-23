@@ -1,7 +1,7 @@
 // "HUS town" ad (9:16): 3D block people in a block town who all have to play HUS HUS HUS. One shot per narration cue
 // (1-based), some split with `at`. Fast, dynamic cameras (push-ins, orbits, whip glides).
 import * as THREE from "three";
-import { Pen, fxBurst } from "./toon";
+import { Pen } from "./toon";
 import { CamInfo, Stage, q, hh, setLight, findSun, SUNV } from "./cast";
 import { LightName } from "./lights";
 import { Look, Pose, Face } from "./blocky";
@@ -59,9 +59,15 @@ const glow = (c: Ctx, x: number, y: number, z: number, w: number, k: number, col
   B(c, `glow${col}${kk}`, 256, 256, (p) => { const g = (p as unknown as { g: CanvasRenderingContext2D }).g, gr = g.createRadialGradient(128, 128, 4, 128, 128, 126);
     gr.addColorStop(0, `rgba(255,255,255,${0.95 * kk})`); gr.addColorStop(0.35, `rgba(${col},${0.7 * kk})`); gr.addColorStop(1, `rgba(${col},0)`); g.fillStyle = gr; g.fillRect(0, 0, 256, 256); }, x, y, z, w, w, true);
 };
-const burst = (c: Ctx, t0: number, x: number, y: number, z: number, w = 1.6, col = "#b8ff3a", dur = 0.35) => {
+const burst = (c: Ctx, t0: number, x: number, y: number, z: number, w = 1.6, _col = "#b8ff3a", dur = 0.45) => {
   if (c.t < t0 || c.t >= t0 + dur) return; const u = q((c.t - t0) / dur, 30);
-  B(c, `burst${col}${u}`, 500, 500, (p) => fxBurst(p, u, col), x, y, z, w, w);
+  // the game's confetti pop: coloured squares flying out from the tap, with a soft green flash
+  glow(c, x, y, z, w * 0.8, (1 - u) * 0.8, "184,255,58");
+  B(c, `confetti${u}`, 400, 400, (p) => {
+    const g = (p as unknown as { g: CanvasRenderingContext2D }).g, cols = ["#b8ff3a", "#ffd23a", "#ff7a1a", "#ff5aa0", "#5ad0ff", "#ffffff"];
+    for (let i = 0; i < 26; i++) { const a = i * 2.39996, r = 30 + 160 * u * (0.6 + 0.4 * ((i * 37) % 10) / 10), s = 14 * (1 - u * 0.6);
+      g.save(); g.translate(200 + Math.cos(a) * r, 200 + Math.sin(a) * r + 60 * u * u); g.rotate(a + u * 6); g.globalAlpha = 1 - u * u; g.fillStyle = cols[i % 6]; g.fillRect(-s / 2, -s / 2, s, s); g.restore(); }
+  }, x, y, z, w, w);
 };
 /** big phone held up to the lens (close-ups of the game) */
 const phoneCU = (c: Ctx, s: Scr, x: number, y: number, z: number, h = 1.0) => B(c, "phone" + JSON.stringify(s), 400, 760, (p) => {
